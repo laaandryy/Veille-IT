@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T12:53:00Z",
+ "generated_at": "2026-11-09T20:01:34Z",
  "results": [
   {
    "name": "Discord",
@@ -17,6 +17,15 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcmpBeG5INEpIc1J3OUQzQXc0RExNOWxKUVpQU2sxYXhBSlRJQ0I0cWZYS285cm4xVWpaemxlUWtBM0FkWkE1Ym03azQzN2k0ZjRFbWtZOEpqVXZkMjBadFRlblR6azRITnVscU9kdzVITkpGelowTDJ1RWFFeFRWZS1jOHZhYXEwX2Y5SHJGZw?oc=5",
      "date": "2026-11-07T18:08:00Z",
      "source": "Softonic",
+     "summary": "",
+     "lang": "fr",
+     "new": false
+    },
+    {
+     "title": "Discord met trop de temps à s’ouvrir sur Android ? Voici ce qui va changer",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWlHajBTRFBzanhsUWx4bmFNN1NOQzU2N3A5M2tWT3Y4YUV0WE9EbWg1VEQ5LWM3UVJucmg1Z1NpZGpLSnU5WWdseHVTbkpIVmlfM1Mtc2d2Yy01SjNQekQ2MzYxcjBFYWk1cjZ5cXBlVHI0aHF4cHdwRW84UmZhNThhXzN4T0hON3J4NGtaVW5ZWEpqNHh5UA?oc=5",
+     "date": "2026-11-07T04:00:00Z",
+     "source": "Menow",
      "summary": "",
      "lang": "fr",
      "new": false
@@ -56,15 +65,6 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "Discord abandonne Electron et confirme l'app en Rust, 290 Mo de mémoire",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaHU2UHRmRlFiLTZmMkpnQXhLdTQtejlKTVU1akJ2bXpXSXZTWHI5OHRETlo3dk44VnJSQVlvTGJnbXppUGF1ekZKaTZqN3BEaXB5Wk56V2FjRjFFcXpCVXlVblZDb3N3WW5NMERFcno5SHVsQVcxOWxWSzBRQmVKRmUwajFKSTBoaDBJ?oc=5",
-     "date": "2026-11-05T15:57:39Z",
-     "source": "Pasquale Pillitteri",
-     "summary": "",
-     "lang": "fr",
-     "new": false
     }
    ],
    "news_count": 16,
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23185,
-    "pushed": "2026-11-09T12:26:40Z",
+    "stars": 23196,
+    "pushed": "2026-11-09T19:20:58Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -257,7 +257,7 @@
    "category": "Outils",
    "repo": "Regncreative/PulseDiagnostics",
    "repo_meta": {
-    "stars": 850,
+    "stars": 851,
     "pushed": "2026-10-28T07:57:30Z",
     "url": "https://github.com/Regncreative/PulseDiagnostics",
     "description": "Read-only Windows diagnostics: the Event Log in plain language, blue screens explained. Offline and open source."
@@ -309,7 +309,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5412,
+    "stars": 5413,
     "pushed": "2026-10-14T20:50:03Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -375,8 +375,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 186433,
-    "pushed": "2026-11-08T00:36:55Z",
+    "stars": 186441,
+    "pushed": "2026-11-09T19:09:45Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -484,8 +484,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156463,
-    "pushed": "2026-11-09T12:27:23Z",
+    "stars": 156478,
+    "pushed": "2026-11-09T19:59:53Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -634,7 +634,7 @@
    "repo": "moby/moby",
    "repo_meta": {
     "stars": 72362,
-    "pushed": "2026-11-06T02:17:38Z",
+    "pushed": "2026-11-09T19:08:53Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
    },
@@ -717,7 +717,7 @@
      "new": false
     }
    ],
-   "news_count": 13,
+   "news_count": 14,
    "links": [
     {
      "label": "Site officiel",
@@ -834,6 +834,24 @@
    ],
    "news": [
     {
+     "title": "Linus Torvalds suggests peak of Linux kernel patch deluge may be passing",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2NkNzhBOHZKWHMxMUMyY3E2OVRmeUxvR1VRaERydWdyZVlsSTJPTVhFTXgwS0dsVlp6LVBnV20tYjhpUEhKVFZTcHJfSi1RRTlxTG9QU1NMUGR0aXNrQlRYLVVSRUtwY1NGRVlFV2RVdGNpdFcwNVV2OEdRNVVtR05fVjFiY05hTnZHSmlPMFBQNzQxNVpFeFlUbkdkX0NGaTRPTA?oc=5",
+     "date": "2026-11-09T13:35:13Z",
+     "source": "SC Media",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "ChaCha AVX-512 Optimization For Linux 7.5 Yields Up To 99% Improvement On AMD Zen 5",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZQVE2ZDhIY2NyWXp5THpnNnFZVTh2U1RzNkZ0RjMwamxoYXJ4eFllLWRhbVdwR2lrYW9YalVjRDNKeXhRaUVTa21CRnNRaXFBWTFuX25YZnpNRGRpV3ZEY2Vka20?oc=5",
+     "date": "2026-11-09T12:35:00Z",
+     "source": "Phoronix",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLNVBqMWo5cEp3MEhHOEUwdmJaYXEzMmU1R1JjUzZYSDJUbDQ3VnFtcTQ0NXdKT09CeHphRE95bUpLdGk5NHgxVWNCcDdzbFFDdHlBeHJIV0RqLWo0WDVYa3lueEV6d2Y1cFpYZ2NLVktLQkdhc1pIc9IBfkFVX3lxTFBBTDFlZGNJSnZHbDFZQVItX3VDSWVwc25SNzdIaV8zN0xCUFdnbWpBbDVRR3JWZW5iVXRka0w0aXQwV0JzamF3UW9nYk9HVW5pSUJOUzZkbm4wZFZSRjVVcmttVk0xMmpNOXIzZURCM1p3MEdmeFdsWEd5bVY3dw?oc=5",
      "date": "2026-11-09T09:04:47Z",
@@ -852,6 +870,15 @@
      "new": true
     },
     {
+     "title": "IA et failles du noyau Linux : le bilan d’OpenAI",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3NTVWJhV1hHNzl3VUh5TnBvdEVjN1UzNDl5S0JTa2lITkw3TVBfWWpCZmxKclBrQ285T3NEWFFlR1hrVFNFeFpRLU0zMXhiMFhZZE9IcnRlU1FBRnMyR3JsOXNLR2Fjb19NMkFrTThFVVdXM0llcE5hM1UwQllIVWdMdVctWjAwdi1OUzRjbVU5TkxzQWFKWA?oc=5",
+     "date": "2026-11-08T12:37:16Z",
+     "source": "NeoTeo",
+     "summary": "",
+     "lang": "fr",
+     "new": true
+    },
+    {
      "title": "Docker isn't magic, it's these 5 Linux kernel features strapped together",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPREU5Z0M3ajlVRndDWmItVC1ONE8yQTIyRjc2V3JEZHJrM3JFUE5QVHFWbEtYd1lJQ0FYc21qWVdWT2RvNzhIQWdSdHVJM3l6V0RGSm9Rc1VfaTNkNGVkZzVOSlFlMUY5bDByZVNpUDNBS1dyNnNOZHN2R2UtM3VxMXcxZ0VHX0tkZV9Ca2ZlQzJjOEN5bVhkR1FuSC0?oc=5",
      "date": "2026-11-07T12:00:15Z",
@@ -859,43 +886,16 @@
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "​OpenAI Unveils GPT-6 Cyber Model Capable of Exploiting 948 Linux Kernel Flaws",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzNEa3gweHRxU0xscVIwTnBXc3VLMzRtTHdnMnNUckItaTNZMnFpSUNBRW8tR1dCT0o3VjdWRkZWN0lERzFKQ08xZjRLdm5WbnVaUWs5QzQ3VmpNTlBUcVU5ck5CbTZtZHQzYzNIbWE0dk9EVEw3ZksyNkV3enFkejRITDBrY2c2UHQxQjdWX1BTUzhCN0JIUWR6SDY?oc=5",
-     "date": "2026-11-07T04:41:48Z",
-     "source": "The 420.in",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "FEX Awaits The Linux Kernel To Align With Windows & macOS On ARM Register Usage",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PUUFlSVhrSS00YWJKOU9oczlXVmtFLTJvMWZCS0JPNTJaQ3NmVFQwVnVqRXJDaFQ4SktXVGIydk9JSkdHQ3lIZWdSa2MxdGMtOEFrQmJQTzdxRWM?oc=5",
-     "date": "2026-11-06T13:12:00Z",
-     "source": "Phoronix",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "OpenAI Pipeline Finds 948 Linux Kernel Flaws and Generates Patches",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NcG15WTdkZTJKcC1kclhFeTh3eU42OUdrelcyOW10X2Vscm9qa1hCYkFuV21hNzRqR2hCYmhsXzVzX2ZfMGp6QnV5MGY2WU9xWDFicVVkU3BHb0E?oc=5",
-     "date": "2026-11-05T23:42:48Z",
-     "source": "www.tokenpost.com",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 79,
+   "news_count": 80,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 2,
+   "new_count": 5,
    "cves": [
     {
      "status": "cna",
@@ -931,7 +931,7 @@
      "score": null,
      "exploited": false,
      "summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: hold a connection reference for each session channel ksmbd_session_unregister() removes a session from the global and per- connection tables before dropping the table reference. A…",
-     "new": true
+     "new": false
     },
     {
      "status": "cna",
@@ -943,7 +943,7 @@
      "score": null,
      "exploited": false,
      "summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: limit sessions on each connection The pending setup limit only counts InProgress sessions. A client can complete authentication repeatedly and retain an unbounded number of Valid…",
-     "new": true
+     "new": false
     },
     {
      "status": "cna",
@@ -955,7 +955,7 @@
      "score": null,
      "exploited": false,
      "summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: reclaim ended sessions on logoff and expiration LOGOFF and previous-session replacement leave sessions Expired with a zero credential expiry. Ended sessions can retain their memory…",
-     "new": true
+     "new": false
     }
    ],
    "cve_total": 895,
@@ -1106,7 +1106,7 @@
     {
      "title": "PwnEscape sur Ubuntu : l’état du suivi au 7 novembre",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT1hNSWlFNGJ6VkJnVkNPX0ZVWk9JN3dPTGdFbDJiZWJBVm5hMkplb1ktRTRKNzlBQjZ3aEotd0VCTXlSREVtNko1ZnYzYjdlSXA3T1JRckJjTndkYVpTendXSkU0YXRFSXJzbkdkUkRFbk9sN0ZQblg5M3dWa1FlZA?oc=5",
-     "date": "2026-11-08T10:19:31Z",
+     "date": "2026-11-08T10:03:23Z",
      "source": "NeoTeo",
      "summary": "",
      "lang": "fr",
@@ -1196,6 +1196,24 @@
    ],
    "news": [
     {
+     "title": "Alpine Linux SSH Flaw Lets Long Passwords Bypass Logins",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUWRBU0thMm9fa1o1MUhKMHdZakRvMF9JQTJSWXlVdmVKZFBjMmlHRVZMRjVSWC0zTldBQTJZblFpSE5YeXE1MTFGQU1uMm12djlka2tlVWpYclpOUEswejJEUFNpMlFfX1dUUUZaQ3FQMExOYlNjT0xSTmFCZy1VSGkyV1F4dmM1Rk9vbzZrM0pnb2dyV051MEloSnljUQ?oc=5",
+     "date": "2026-11-09T17:41:43Z",
+     "source": "eSecurity Planet",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "OpenSSH let anyone in with any password on Alpine Linux",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXFVMm9RempaNEhvVDdEVzRnRUtBVTJBeWJtVkpjTTVwcnhDejlUVUJFQjNNNmVIMGxXRWNDV2ZpSzhTeTVFOGpKNzg2ZTRQMVVuaDNWWThzeV90MUlDSGVUT0VvWjRjVnd5akVIUklXTlFBcDNuek5FVnlEZks3YjJrYmMyOHM?oc=5",
+     "date": "2026-11-09T14:20:39Z",
+     "source": "Korben",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Alpine Linux et OpenSSH corrigent une faille d'une gravité sans précédent",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0hUTmJBWF9JWjJMZC00NVVnOFpIUnFJeVJITE5Xcnd0QU9sWEdOZjRtd1hUc3dWSFFPSjlxbndoQjBuYTg2YURCbkdXc19pWXZ4bVpWeTd0RHBTSnp1VzBWZldLUktBVWRtclFydVJuOE9KcFhWdzN3OHc3SmVtVEg1b2VQU29yaGY1YXpOUTF0MEIwQzNLOUFzQm1Za1ZObk15bFV2V0t1YS03VDVLbEV4Y01EQQ?oc=5",
      "date": "2026-11-09T11:04:15Z",
@@ -1211,24 +1229,6 @@
      "source": "NeoTeo",
      "summary": "",
      "lang": "fr",
-     "new": false
-    },
-    {
-     "title": "Alpine OpenSSH Flaw Can Bypass Password Checks on Exposed Servers",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zWXhpRVhKTzlIOWNFdkJsSW1neUQxX3pWay1uTEhuSXg3eXhOU0VlMVdfdkV6SGhrMjJ3VVRxVkxCVHVFVEhDU2JlbF84dW9nemUxYmQ0aUVUeHM?oc=5",
-     "date": "2026-11-08T01:02:00Z",
-     "source": "TOKENPOST",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "CZ Urges Alpine Linux Users to Patch a Decade-Old OpenSSH Flaw",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWG45ZURYbTBTbThYOEF1cE5hZkw4ejhURC05S1JUR2tsZFZsUDZGYllwTmRUNm1VOUNZTnpVenBIbFd1SldxQ0NaWVlMaGxlZTMyTjVlTThHRVU?oc=5",
-     "date": "2026-11-08T01:00:00Z",
-     "source": "TOKENPOST",
-     "summary": "",
-     "lang": "en",
      "new": false
     },
     {
@@ -1250,14 +1250,14 @@
      "new": false
     }
    ],
-   "news_count": 41,
+   "news_count": 43,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://alpinelinux.org/posts/"
     }
    ],
-   "new_count": 1,
+   "new_count": 3,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1906,7 +1906,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27443,
+    "stars": 27448,
     "pushed": "2026-11-09T08:35:19Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1958,7 +1958,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11756,
+    "stars": 11759,
     "pushed": "2026-11-06T13:13:02Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -2088,8 +2088,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45504,
-    "pushed": "2026-11-09T09:22:15Z",
+    "stars": 45515,
+    "pushed": "2026-11-09T14:44:02Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -2140,8 +2140,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 38829,
-    "pushed": "2026-11-08T23:27:52Z",
+    "stars": 38846,
+    "pushed": "2026-11-09T19:48:35Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2349,31 +2349,31 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24156,
-    "pushed": "2026-11-09T12:34:03Z",
+    "stars": 24163,
+    "pushed": "2026-11-09T16:04:01Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
    "releases": [
     {
+     "version": "Nightly v1.101.37 (Chromium 158.0.8127.22) \n\n",
+     "tag": "v1.101.37",
+     "date": "2026-11-09T13:36:43Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.37",
+     "new": true
+    },
+    {
+     "version": "Nightly v1.101.36 (Chromium 158.0.8127.22) \n\n",
+     "tag": "v1.101.36",
+     "date": "2026-11-09T13:22:15Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.36",
+     "new": true
+    },
+    {
      "version": "Nightly v1.101.32 (Chromium 157.0.8103.39) \n\n",
      "tag": "v1.101.32",
      "date": "2026-11-06T13:24:58Z",
      "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.32",
-     "new": false
-    },
-    {
-     "version": "Nightly v1.101.31 (Chromium 157.0.8103.39) \n\n",
-     "tag": "v1.101.31",
-     "date": "2026-11-06T01:19:27Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.31",
-     "new": false
-    },
-    {
-     "version": "Nightly v1.101.28 (Chromium 157.0.8103.39) \n\n",
-     "tag": "v1.101.28",
-     "date": "2026-11-05T13:49:06Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.28",
      "new": false
     }
    ],
@@ -2444,7 +2444,7 @@
      "url": "https://github.com/brave/brave-browser"
     }
    ],
-   "new_count": 0,
+   "new_count": 2,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2460,8 +2460,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7762,
-    "pushed": "2026-11-09T12:21:23Z",
+    "stars": 7763,
+    "pushed": "2026-11-09T19:24:01Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2535,8 +2535,8 @@
   "cves_affecting": 0,
   "cves_critical": 24,
   "news": 92,
-  "new": 9,
-  "releases_week": 8
+  "new": 16,
+  "releases_week": 7
  },
  "history": {
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tOFNBWFhYQXZqOXgybnhfa2FTU1h2aU5XdEVjX25wTkdEVTA1R3ZOWk1UNmFVSkNETlEtWkhzNUVtTFRaQnBLLUc1TzY2N2JvSENXVzhHMkVldw?oc=5": "2026-11-04",
@@ -2894,6 +2894,13 @@
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkw1ZTVibXJEMVF0eXhDb0VzMmpsdUptaGlYd3VMeDl0VTFKRktOUmRiR2JCN3Y4R3FTbUNWcjlsVlZ5b2hrZk01cHZael9NYzFXUUtDQ3ZGS3RBeWFVelQ1ZW9aLTM5eHhnSFk4aGlKb1dfT1JKWlphUXAwSl9weUlqcWM1MlRYTmtOdWxlc2pvVURXUGNqc1NhcUZBdVAwQ0YwdlAwTzVzams0T2c?oc=5": "2026-11-09",
   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV2cxSzNGSmFtNmRYYTlzbnhHQmVjdVhaLVFIUVRZb1IwUkpJQ00tQkdyaS13TW1hbEtjWGF0UldrTzNPZDhuamlOd3VSd3Zlam9NS010T3Q1RmZCRklMZVBvbEoxcS1oRnZLOEJoM0RnNjBPV2ZMdF9RaVRCZHVkSWRiVTNQUEVMT0EyYURnM2dYeTdiRF9CblFpbkw0UzQ0WmFIY09lbjZQZEtvZENzWHlqb3N1SjBQOU1xbll6am05bzA?oc=5": "2026-11-09",
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2lOQjBaVjFoVTdPNE1tLVZsX1hqUmpmOVc2YUtzOFpUbmkyaDFrYXhiaFFPVmpIZnRRN0JUbkNuM3BqVC04YzM4d2ZOb2IxQjYxSGR2SlNNT0JNRk5hM1NmeVlpeUhPU0ZzdGEzNW51Sk5PZmd4MV9rUEs4U0l6VFFhQWdwdmVPem04VGJBaTBsSDVqQ1NUMzl0RDBwUWM?oc=5": "2026-11-09",
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb29TalQydDloMXc4d0J6LWpDVUttaFFFUHhYRExrdXhmbDNGYnhQVk1ST3RtcWh6ZXgzdE5uMDRnMzhqRDBJQzRhMlhzSnc2blhhSGtyTkk0aEFUMlBlbDAwMWVOQVI3MGpoRlJQR3lKVEFIWUhlT2FQcWVoN3JNRExnb19pTGxValAyZEZBSENSOGlW?oc=5": "2026-11-09"
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb29TalQydDloMXc4d0J6LWpDVUttaFFFUHhYRExrdXhmbDNGYnhQVk1ST3RtcWh6ZXgzdE5uMDRnMzhqRDBJQzRhMlhzSnc2blhhSGtyTkk0aEFUMlBlbDAwMWVOQVI3MGpoRlJQR3lKVEFIWUhlT2FQcWVoN3JNRExnb19pTGxValAyZEZBSENSOGlW?oc=5": "2026-11-09",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2NkNzhBOHZKWHMxMUMyY3E2OVRmeUxvR1VRaERydWdyZVlsSTJPTVhFTXgwS0dsVlp6LVBnV20tYjhpUEhKVFZTcHJfSi1RRTlxTG9QU1NMUGR0aXNrQlRYLVVSRUtwY1NGRVlFV2RVdGNpdFcwNVV2OEdRNVVtR05fVjFiY05hTnZHSmlPMFBQNzQxNVpFeFlUbkdkX0NGaTRPTA?oc=5": "2026-11-09",
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZQVE2ZDhIY2NyWXp5THpnNnFZVTh2U1RzNkZ0RjMwamxoYXJ4eFllLWRhbVdwR2lrYW9YalVjRDNKeXhRaUVTa21CRnNRaXFBWTFuX25YZnpNRGRpV3ZEY2Vka20?oc=5": "2026-11-09",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3NTVWJhV1hHNzl3VUh5TnBvdEVjN1UzNDl5S0JTa2lITkw3TVBfWWpCZmxKclBrQ285T3NEWFFlR1hrVFNFeFpRLU0zMXhiMFhZZE9IcnRlU1FBRnMyR3JsOXNLR2Fjb19NMkFrTThFVVdXM0llcE5hM1UwQllIVWdMdVctWjAwdi1OUzRjbVU5TkxzQWFKWA?oc=5": "2026-11-09",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxQUWRBU0thMm9fa1o1MUhKMHdZakRvMF9JQTJSWXlVdmVKZFBjMmlHRVZMRjVSWC0zTldBQTJZblFpSE5YeXE1MTFGQU1uMm12djlka2tlVWpYclpOUEswejJEUFNpMlFfX1dUUUZaQ3FQMExOYlNjT0xSTmFCZy1VSGkyV1F4dmM1Rk9vbzZrM0pnb2dyV051MEloSnljUQ?oc=5": "2026-11-09",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXFVMm9RempaNEhvVDdEVzRnRUtBVTJBeWJtVkpjTTVwcnhDejlUVUJFQjNNNmVIMGxXRWNDV2ZpSzhTeTVFOGpKNzg2ZTRQMVVuaDNWWThzeV90MUlDSGVUT0VvWjRjVnd5akVIUklXTlFBcDNuek5FVnlEZks3YjJrYmMyOHM?oc=5": "2026-11-09",
+  "https://github.com/brave/brave-browser/releases/tag/v1.101.37": "2026-11-09",
+  "https://github.com/brave/brave-browser/releases/tag/v1.101.36": "2026-11-09"
  }
 }
