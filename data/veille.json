@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T11:53:02Z",
+ "generated_at": "2026-11-11T17:25:56Z",
  "results": [
   {
    "name": "Discord",
@@ -49,15 +49,6 @@
      "new": false
     },
     {
-     "title": "Discord passe à Rust : une refonte majeure pour réduire la mémoire et accélérer le lancement",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MQ0E0eTZIaDg2dDVWVzR6bHZkOEZDdlZIYkY2b0V2bnUxZFMySlBXUUl6Wjdza2RrRGktUzUwYmlnSExaLTJVS0JMVFo0ZnBqbWg3TTFZSkNEWW1zTHNWN2oxblYzTDRPTjA2VXRKd3hBOHdfMVpUWEhWOEd0UQ?oc=5",
-     "date": "2026-11-06T12:12:32Z",
-     "source": "big-n.fr",
-     "summary": "",
-     "lang": "fr",
-     "new": false
-    },
-    {
      "title": "Discord abandonne Electron et confirme l'app en Rust, 290 Mo de mémoire",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaHU2UHRmRlFiLTZmMkpnQXhLdTQtejlKTVU1akJ2bXpXSXZTWHI5OHRETlo3dk44VnJSQVlvTGJnbXppUGF1ekZKaTZqN3BEaXB5Wk56V2FjRjFFcXpCVXlVblZDb3N3WW5NMERFcno5SHVsQVcxOWxWSzBRQmVKRmUwajFKSTBoaDBJ?oc=5",
      "date": "2026-11-05T15:57:39Z",
@@ -65,16 +56,25 @@
      "summary": "",
      "lang": "fr",
      "new": false
+    },
+    {
+     "title": "Discord va bientôt être moins gourmand en RAM : fini Electron !",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2bnhNTXM4S3FieHlEV3ZvbGhDbTNYSzAzbWFjVHphemtGdUFieW5OanpELW5maFh0bkVlbVc1bGItbDA4VTUzWXFZb0QzbzRRT0tNRWJmQWhIZFFSYjM0aFRtbmxiVTh2bmF1QnZVeW9rN0RVY3FzdnFpRXk?oc=5",
+     "date": "2026-11-05T12:01:58Z",
+     "source": "JustGeek",
+     "summary": "",
+     "lang": "fr",
+     "new": true
     }
    ],
-   "news_count": 16,
+   "news_count": 15,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://discord.com/blog"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23276,
-    "pushed": "2026-11-11T10:20:51Z",
+    "stars": 23192,
+    "pushed": "2026-11-11T17:20:41Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -309,7 +309,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5418,
+    "stars": 5419,
     "pushed": "2026-11-10T18:20:50Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -375,8 +375,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 186640,
-    "pushed": "2026-11-11T00:39:33Z",
+    "stars": 186663,
+    "pushed": "2026-11-11T16:32:47Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -456,24 +456,12 @@
      "exploited": false,
      "summary": "Nuxt Ollama integrates the official Ollama JavaScript library into Nuxt applications. Prior to 1.3.1, `src/module.ts` unconditionally merges all module options, including a configured cloud `api_key`, into `runtimeConfig.public.ollama`. Nuxt serializes this…",
      "new": false
-    },
-    {
-     "status": "cna",
-     "affects": null,
-     "id": "CVE-2026-108836",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108836",
-     "date": "2026-10-12T13:17:27Z",
-     "severity": "MEDIUM",
-     "score": 5.5,
-     "exploited": false,
-     "summary": "A vulnerability has been found in Ollama up to 0.34.1. The affected element is the function IsValid of the file types/model/name.go of the component Pull API. The manipulation leads to server-side request forgery. It is possible to initiate the attack…",
-     "new": false
     }
    ],
-   "cve_total": 2,
+   "cve_total": 1,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 2
+   "cves_cna": 1
   },
   {
    "name": "Langflow",
@@ -484,8 +472,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156523,
-    "pushed": "2026-11-11T06:04:00Z",
+    "stars": 156540,
+    "pushed": "2026-11-11T17:08:45Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -633,7 +621,7 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72369,
+    "stars": 72263,
     "pushed": "2026-11-11T11:52:20Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
@@ -834,6 +822,15 @@
    ],
    "news": [
     {
+     "title": "Tails 7.17 Privacy-Focused Linux Distro Updates Tor Browser and Linux Kernel",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXZNRHdSbF84aFZsWWQyd0NXNWdCT28zNUJTUTBsT2s3WmVQTUhMRUxuai1sZnR6VWpmYzdVR2hqV01uTkRpZkZSS0tqX0l5eUw5V2JuZDVTcTg3YU5XQW54bFkya0lHRXh4Rll4SUctdk1ZcEJ3ZkZ4WXRZRElySHYtUFdsV3ZKX2ZQTXdiM2ROWHVnYXRUMXZuU3NDLXc?oc=5",
+     "date": "2026-11-11T12:34:43Z",
+     "source": "Linuxiac",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Amnezia warns self-hosted Xray servers need a Linux kernel update",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcDBTUlVTWXF5NGxqQXYyaGdGWl83UHdVYmtuME1zR2hkemY0MkNhaVhTX3BwbmZzSFltWXo1T0RtNlEzcVVDSXdMLXJ3ajZLNlRpTHYxSHY2cVFQUHRsakU1M1kyekFTT3pPNExJNXQ2azU3UkFuQ1hjbWZ5aXAxNVRXR2QzZTB6OHZkUA?oc=5",
      "date": "2026-11-11T07:50:35Z",
@@ -877,25 +874,16 @@
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "OpenAI Says GPT-6 Cyber Found 2,308 Linux Kernel Flaws",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RWS1U2d2hyREctdXctRHBhWDRuZUdOYXgyd2VNVUI3eFN6aE45ZGVmRTNmNEZGSzVXNmpCUjFJaDA2VmJ5WVFpUXpkVFFkdHdGNUlwSk1nQWluRWhNRHR3LTFEWGVSbkVDMkRMeHptbVktc2xFVjdlc1ozQzhBbFNuT2lJNzY0UjU3Wk5NU0hQdw?oc=5",
-     "date": "2026-11-10T08:42:28Z",
-     "source": "Dataconomy",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 81,
+   "news_count": 79,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 6,
+   "new_count": 7,
    "cves": [
     {
      "status": "cna",
@@ -1104,6 +1092,15 @@
    ],
    "news": [
     {
+     "title": "Canonical web services get stage fright ahead of Ubuntu Summit",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcWtsbTZ5aUVicTdMdWx3cjZqVTg0WWd5b3dpcGdCMW9qbXl0aFpVNEYwOTZmLVh3YVlhWUVUVFpsN3hpWExETEpJbl90elBXbjJaZFE0eGk0Yms3Q1pVbEFzN1VwRVZtaXFXSnNKcHNMT2FhY1dmY2RiREJBQ2lybWxGeXZXdmQ5b0xIaUlmRHFFWmhXdXVJNjhTTEJYcEZuQ2NlUWZRU3BHMG9fWlBuVnhtSE4xbHB5UUVjX3BoUQ?oc=5",
+     "date": "2026-11-11T16:38:00Z",
+     "source": "The Register",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Ubuntu certificate revocation checks arrive in curl, OpenSSL is next",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT2hmNGt1YjktTi1QWDdtWjNDMzViYUpWUGlLTG1jaDhMQkZKMy1kR1BDTnNiSnl5ZGFscUFOdTdWaUIzUGRwd1gxemhoS2RqeU5KMy1XVjZyX0JqWWtlX1NIZjNGZzZGN0J4RzU5U1FZSjV6eHVROWxXLWpCNTZzclhjckhrVjZ2Tkt1Qi1qNA?oc=5",
      "date": "2026-11-11T09:46:23Z",
@@ -1119,15 +1116,6 @@
      "source": "OMG! Ubuntu",
      "summary": "",
      "lang": "en",
-     "new": true
-    },
-    {
-     "title": "What if your Virtual Data Room (VDR) was Android™ based?",
-     "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
-     "date": "2026-11-11T08:00:00Z",
-     "source": "ubuntu.com",
-     "summary": "When working through merger and acquisitions, one needs to follow a proper due diligence process, in which lawyers, financial advisors, and potential buyers will need access to highly confidential documents, often…",
-     "official": true,
      "new": true
     },
     {
@@ -1149,16 +1137,16 @@
      "new": true
     },
     {
-     "title": "Ubuntu Summit 26.10: Less than a week away!",
-     "url": "https://ubuntu.com//blog/ubuntu-summit-26-10-less-than-a-week-away",
-     "date": "2026-11-06T16:43:41Z",
-     "source": "ubuntu.com",
-     "summary": "Ubuntu Summit 26.10: Less than a week away! Here in London, the long summer has stepped aside for cooler nights and damp, misty mornings. The trees are turning amber and the sunlight is low on the horizon, which can…",
-     "official": true,
+     "title": "Ubuntu users blast Canonical for slow kernel security fix",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzQVNXUTRld3YyZkZnRnZhMUFyT3hKN3JoZGNLMnp2SjZjU0x6TjBfcl9rTTk2SnN4WWlUVjB6b1hMVWM5bUpKWVR6TC1jTlB3NktYTG9ueFVkSlVyLS1qLVhubmw4ak80OENQVWNCSjhyUdIBd0FVX3lxTE5QLUhyZlNUZ3hXWWh4bWoxbm1wOE9aM2MxUGxsSHFpZjVqNUlJQWhqTTVaVGZBNUtYQ2Vabm5zVXhpYkxNOElSU1FjNGF4X3h6aUtuZnI4M3VCcWJ5S1Zpeml2ZXZwbm5zZHJURGxoV0I5aDJMeEVR?oc=5",
+     "date": "2026-11-10T08:00:00Z",
+     "source": "OMG! Ubuntu",
+     "summary": "",
+     "lang": "en",
      "new": false
     }
    ],
-   "news_count": 50,
+   "news_count": 38,
    "links": [
     {
      "label": "Site officiel",
@@ -1285,15 +1273,6 @@
      "new": false
     },
     {
-     "title": "Paru 2.2 arrive sur Arch Linux avec le support de Pacman 7.1 et Rust 1.88",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTktRd21wLWNMNlBIb18xaDc4dlhFLU5UZkhra3V1ejBJRG0tY3MxLS1kbVA3R0hrN0xZdWUxemRmbWdmZXJrUDZhZHBPRm00d2I4NzNvcEVSby0wNk5NcVNoMF94UF95WkYwbkZ2U2tOTU1VMFF5TkNRdUpDY2NtSE9ZU3N6SHA0YlFNTy1CT2tXcTFkd2dzT2lJdFRPZnRkTjU1X2Rkdkh2Zw?oc=5",
-     "date": "2026-11-03T08:00:00Z",
-     "source": "Foro3D",
-     "summary": "",
-     "lang": "fr",
-     "new": false
-    },
-    {
      "title": "Arch Linux November 2026 ISO Released with Kernel 7.2.11, systemd 262.1",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON01FU2ItR2NvNk1BVkFTWnQ0aUtuMVlJVWNxS0lLSGp1MzgtalczSWxvYlJ6NGtVX3hiTkZidUhmNVg5NVNtakx6QlRzSzRNWlFvX0hhWmZ0YWFyMGtDSDZHaXZ4Y0JxUFlydklPYzg3RERJSElENU9ldGhGSXJaZlNndm0?oc=5",
      "date": "2026-11-01T09:52:36Z",
@@ -1306,6 +1285,15 @@
      "title": "Shelly 3.1.10 Arch Linux Package Manager Improves AUR Builds",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTdNVTc0WG9ta2xqekVNdFJfaGNkVlRRc1I1WFE0Y3FHZFV0Z3pscDZha1p1dERFUlh6M0pBd2RKRXpESmpkVUh5Snl5M25ZNGJ0V0prazhsbG5mZHZ4aktSNzJZR2Q2MWtIU0FId1M4TjhIMFJxS09aelhBdDZwMW5Ja2hrOWhvRlE?oc=5",
      "date": "2026-10-30T14:42:27Z",
+     "source": "Linuxiac",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
+     "title": "Shelly 3.1.9 Arch Linux Package Manager Adds File Migration Support",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjBUVTFvc29NMkNDdHV4TkZYZXk3NmdUNW42UXpaX0p2cG5uYmRpNFoyWEY0Mjl1WERHcm9KZ3gyckxwZ1lkX19mUUNmajNmZC01RlZSS2JKRUpSZ205UzlqdERXWFk4eVROT0lsNDktM1dGWWRsRmo5X253WHI3Mkg4Q0Ffa0JCdGo3TGpRY1Fxcjg?oc=5",
+     "date": "2026-10-23T07:00:00Z",
      "source": "Linuxiac",
      "summary": "",
      "lang": "en",
@@ -1330,7 +1318,7 @@
      "new": false
     }
    ],
-   "news_count": 14,
+   "news_count": 13,
    "links": [
     {
      "label": "Site officiel",
@@ -1471,7 +1459,7 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9499,
+    "stars": 9501,
     "pushed": "2026-11-10T23:05:14Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
@@ -1499,8 +1487,18 @@
      "new": false
     }
    ],
-   "news": [],
-   "news_count": 0,
+   "news": [
+    {
+     "title": "Git for Windows v2.56.1 Released, Fixes Six Vulnerabilities Including Arbitrary Code Execution via Recursive Clone",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHMUF2UkgtQjBFUm1QRlJJREQzdHQ5R2U3a0ZVZkZhbmYzMmJfNGZ1dEREU0pObS1IRGk2Nm52cHktdU9TcVZyTVhuMklVU2JSQkR2THEtaV8wSXFUTnBNdHY5N0lwdTBhWFlpQWItQ21ITnpuanc?oc=5",
+     "date": "2026-11-11T07:36:00Z",
+     "source": "BigGo Finance",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    }
+   ],
+   "news_count": 1,
    "links": [
     {
      "label": "Site officiel",
@@ -1511,7 +1509,7 @@
      "url": "https://github.com/git-for-windows/git"
     }
    ],
-   "new_count": 1,
+   "new_count": 2,
    "cves": [
     {
      "status": "cna",
@@ -1879,7 +1877,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27462,
+    "stars": 27467,
     "pushed": "2026-11-09T08:35:19Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1931,7 +1929,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11768,
+    "stars": 11771,
     "pushed": "2026-11-06T13:13:02Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -2061,8 +2059,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45578,
-    "pushed": "2026-11-11T11:19:30Z",
+    "stars": 45586,
+    "pushed": "2026-11-11T17:12:35Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -2113,8 +2111,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 38922,
-    "pushed": "2026-11-11T07:01:58Z",
+    "stars": 38934,
+    "pushed": "2026-11-11T16:59:16Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2322,8 +2320,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24178,
-    "pushed": "2026-11-11T04:03:48Z",
+    "stars": 24184,
+    "pushed": "2026-11-11T16:03:52Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -2433,8 +2431,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7767,
-    "pushed": "2026-11-11T11:49:11Z",
+    "stars": 7769,
+    "pushed": "2026-11-11T17:13:25Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2502,13 +2500,13 @@
  ],
  "stats": {
   "technologies": 26,
-  "cves": 46,
+  "cves": 45,
   "to_update": 0,
   "eol_ended": 0,
   "cves_affecting": 0,
   "cves_critical": 20,
-  "news": 89,
-  "new": 17,
+  "news": 90,
+  "new": 20,
   "releases_week": 7
  },
  "history": {
@@ -2911,6 +2909,10 @@
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTXhXUjZXTEo5aHVHRm41SkxFNDFmTko3cldHQmlGU2xIMTVtWTZtQlZTWEpjM2dCcW9fUGRKelJhWHFPLUlYbVI5NlpjMXBhRkR3b283d1VobzJGMzNxWVl1bDVUS290aDNoQktZUEN4RFYzcUF1UTVNZFRXMTQxbEtBWmc?oc=5": "2026-11-11",
   "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY3prUFRfaTM4dDYtSGtkaWdmbXZURzM5TDFfZnJScGtXaDhaVzV0MlZiR3YyVi1NaE9wSnQwRmYtSjZLQUJFc3YzbzREY3VpN3FMYlZwb0NuWVRDTkVqc2c1VEJtMF83WTF3SVIycThFRmdDdk5Dd0huUzE0VE0wU3B3SmJjN0lWb2JNTGJDSXgtakFoc2hEWmQwc2hCUDhiUmpzbF9HV3Ywcm1sbEhOampWNVhBWWlya09FMzg1OWw4RHZfYWdtdXFVZVhLY0V5dHBvRE9KVdIB3AFBVV95cUxORjNUeUJIM00xT3NZejM0ay03V0tvaTI4X1ZlWTZtRUYxLXl6Z29QQ1k0eldReXhMUXRkQ2FrQjlNd19nVTJ3bHotcDl3RHUtaWNMU3cwUkNEYU9WMzR6UjZONlF1c1lfb2Z3SmpYckRZbDB1LWVsWlVtdGE3NHdneFhJaEpNLTRHZXZBZ18td3BvQnJ0cllEQmVKdTBBeU5PRzdaTW5Ea3FkbEJWdHUzVHZOUUN0b2UtckZBNU5reWFIeHNVLVI0U0RBMkYzRmxVTXdsSzY0eGxXWDhj?oc=5": "2026-11-11",
   "https://github.com/git-for-windows/git/releases/tag/v2.56.1.windows.1": "2026-11-11",
-  "https://github.com/tailscale/tailscale/releases/tag/v1.104.6": "2026-11-11"
+  "https://github.com/tailscale/tailscale/releases/tag/v1.104.6": "2026-11-11",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2bnhNTXM4S3FieHlEV3ZvbGhDbTNYSzAzbWFjVHphemtGdUFieW5OanpELW5maFh0bkVlbVc1bGItbDA4VTUzWXFZb0QzbzRRT0tNRWJmQWhIZFFSYjM0aFRtbmxiVTh2bmF1QnZVeW9rN0RVY3FzdnFpRXk?oc=5": "2026-11-11",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXZNRHdSbF84aFZsWWQyd0NXNWdCT28zNUJTUTBsT2s3WmVQTUhMRUxuai1sZnR6VWpmYzdVR2hqV01uTkRpZkZSS0tqX0l5eUw5V2JuZDVTcTg3YU5XQW54bFkya0lHRXh4Rll4SUctdk1ZcEJ3ZkZ4WXRZRElySHYtUFdsV3ZKX2ZQTXdiM2ROWHVnYXRUMXZuU3NDLXc?oc=5": "2026-11-11",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcWtsbTZ5aUVicTdMdWx3cjZqVTg0WWd5b3dpcGdCMW9qbXl0aFpVNEYwOTZmLVh3YVlhWUVUVFpsN3hpWExETEpJbl90elBXbjJaZFE0eGk0Yms3Q1pVbEFzN1VwRVZtaXFXSnNKcHNMT2FhY1dmY2RiREJBQ2lybWxGeXZXdmQ5b0xIaUlmRHFFWmhXdXVJNjhTTEJYcEZuQ2NlUWZRU3BHMG9fWlBuVnhtSE4xbHB5UUVjX3BoUQ?oc=5": "2026-11-11",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHMUF2UkgtQjBFUm1QRlJJREQzdHQ5R2U3a0ZVZkZhbmYzMmJfNGZ1dEREU0pObS1IRGk2Nm52cHktdU9TcVZyTVhuMklVU2JSQkR2THEtaV8wSXFUTnBNdHY5N0lwdTBhWFlpQWItQ21ITnpuanc?oc=5": "2026-11-11"
  }
 }
