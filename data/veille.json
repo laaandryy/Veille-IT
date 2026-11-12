@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T12:43:29Z",
+ "generated_at": "2026-11-12T17:43:24Z",
  "results": [
   {
    "name": "Discord",
@@ -90,12 +90,19 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23217,
-    "pushed": "2026-11-12T12:27:08Z",
+    "stars": 23223,
+    "pushed": "2026-11-12T16:22:22Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
    "releases": [
+    {
+     "version": "1.15.1",
+     "tag": "v1.15.1",
+     "date": "2026-11-12T15:43:18Z",
+     "url": "https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.15.1",
+     "new": true
+    },
     {
      "version": "1.15.0",
      "tag": "v1.15.0",
@@ -108,13 +115,6 @@
      "tag": "v1.14.5",
      "date": "2026-10-22T21:19:14Z",
      "url": "https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.14.5",
-     "new": false
-    },
-    {
-     "version": "1.14.4",
-     "tag": "v1.14.4",
-     "date": "2026-10-05T17:03:28Z",
-     "url": "https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.14.4",
      "new": false
     }
    ],
@@ -171,7 +171,7 @@
      "url": null
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -196,36 +196,12 @@
      "exploited": false,
      "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.13.0 until 1.31.4, on a Streamable HTTP deployment with `auth.jwtSecret` configured and a 2026-07-28-era client declaring `elicitation.form` support, a…",
      "new": false
-    },
-    {
-     "status": "cna",
-     "affects": null,
-     "id": "CVE-2026-77361",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77361",
-     "date": "2026-10-13T14:17:42Z",
-     "severity": "MEDIUM",
-     "score": 4.7,
-     "exploited": false,
-     "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. Prior to 1.3.1, read access-control list (ACL) checks use a lexical vault-relative path while containment checks use the resolved path. An in-vault symlink under an…",
-     "new": false
-    },
-    {
-     "status": "cna",
-     "affects": null,
-     "id": "CVE-2026-77362",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77362",
-     "date": "2026-10-13T14:17:42Z",
-     "severity": "MEDIUM",
-     "score": 4.3,
-     "exploited": false,
-     "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. Prior to 1.3.1, bridge tools do not consistently apply the read access-control list (ACL) to every returned field. The tasks_filter tool exposes group counts derived…",
-     "new": false
     }
    ],
-   "cve_total": 4,
+   "cve_total": 2,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 4
+   "cves_cna": 2
   },
   {
    "name": "Pulse Diagnostics",
@@ -288,7 +264,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5420,
+    "stars": 5422,
     "pushed": "2026-11-10T18:20:50Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -354,7 +330,7 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 186755,
+    "stars": 186789,
     "pushed": "2026-11-12T03:21:12Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
@@ -451,8 +427,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156564,
-    "pushed": "2026-11-12T06:02:45Z",
+    "stars": 156572,
+    "pushed": "2026-11-12T17:39:38Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -601,7 +577,7 @@
    "repo": "moby/moby",
    "repo_meta": {
     "stars": 72267,
-    "pushed": "2026-11-12T11:09:22Z",
+    "pushed": "2026-11-12T17:09:28Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
    },
@@ -700,6 +676,30 @@
     {
      "status": "cna",
      "affects": null,
+     "id": "CVE-2026-126329",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126329",
+     "date": "2026-11-12T16:19:04Z",
+     "severity": "HIGH",
+     "score": 7.3,
+     "exploited": false,
+     "summary": "Docker Sandboxes reuses existing state and configuration directories without verifying their ownership. If sbx or sandboxd is run as root with HOME or, on Linux, XDG_STATE_HOME pointing to an attacker-controlled location, a local unprivileged user can…",
+     "new": true
+    },
+    {
+     "status": "cna",
+     "affects": null,
+     "id": "CVE-2026-126330",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126330",
+     "date": "2026-11-12T16:19:04Z",
+     "severity": "LOW",
+     "score": 2.4,
+     "exploited": false,
+     "summary": "Docker Sandboxes can silently republish a sandbox service after an operator removes its automatically assigned host-port mapping. The daemon removes the active binding but retains the original publication request, allowing a later port change or sandbox…",
+     "new": true
+    },
+    {
+     "status": "cna",
+     "affects": null,
      "id": "CVE-2026-115538",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115538",
      "date": "2026-11-10T20:18:03Z",
@@ -719,7 +719,7 @@
      "score": 9.4,
      "exploited": false,
      "summary": "mailcow: dockerized before 2026-11 contains a server-side template injection vulnerability that allows domain administrators to execute commands in the shared rspamd container by storing a malicious domain-wide footer. Attackers can embed a Jinja macro with…",
-     "new": true
+     "new": false
     },
     {
      "status": "cna",
@@ -731,37 +731,13 @@
      "score": 5.7,
      "exploited": false,
      "summary": "Docker Desktop before version 4.94.0 could write the signed-in user's Docker Hub access token (a JWT) in cleartext to application logs and diagnostics bundles. IPC payloads that were bare JSON strings or arrays were not redacted before logging, and a Docker…",
-     "new": true
-    },
-    {
-     "status": "cna",
-     "affects": null,
-     "id": "CVE-2026-121541",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121541",
-     "date": "2026-11-03T22:19:46Z",
-     "severity": "MEDIUM",
-     "score": 5.6,
-     "exploited": false,
-     "summary": "In Docker Buildx versions v0.19.0 through v0.38.0, an untrusted Bake definition that builds multiple targets together may expose files accessible to the Buildx client without the expected fs.read approval. Under certain conditions, filesystem paths from some…",
-     "new": false
-    },
-    {
-     "status": "cna",
-     "affects": null,
-     "id": "CVE-2026-121542",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121542",
-     "date": "2026-11-03T22:19:46Z",
-     "severity": "LOW",
-     "score": 1.8,
-     "exploited": false,
-     "summary": "In Docker Buildx versions v0.19.0 through v0.38.0, an untrusted Bake definition may expose files accessible to the Buildx client without the expected fs.read approval. Under certain conditions, paths under the same parent directory as the current working…",
      "new": false
     }
    ],
-   "cve_total": 14,
+   "cve_total": 16,
    "cves_affecting": 0,
    "cves_pending": 1,
-   "cves_cna": 13
+   "cves_cna": 15
   },
   {
    "name": "Kernel Linux",
@@ -855,7 +831,7 @@
      "new": false
     }
    ],
-   "news_count": 74,
+   "news_count": 75,
    "links": [
     {
      "label": "Site officiel",
@@ -990,10 +966,10 @@
      "new": false
     },
     {
-     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUzhMRVZybl9KSmp0dUwtVFZ1ZGU0cHlsZlhtVkZzckx6U0Jfc0tvMzVuUkp4blBWdnZ4UHJMa1ZuSDRmM2pqOU9EQkRMZnl2bGc2aEhReFpOQXhQZmZUZmtzcEhGUk8yTldiSnp6X2U0YnA4cW1TX1RNS0dSbHFiTQ?oc=5",
-     "date": "2026-11-04T16:49:34Z",
-     "source": "The Hacker News",
+     "title": "APT bug CVE-2026-109518 hits Debian and Ubuntu, a fake package can get root",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY1A0ZVFRcWtSU1R2NFM0WlEzOHJnNVdLeDZFaDB0bWZBTGxYSGh5cnpRcnc0bXY5aHlGaFVfU09vRkhja2FWc2x0eXA4VG5jeE9IckNsSzRKUDRaUDZ6c3Rha0dYVW85R2xTc1ZURXJRaktJZ2VyRkdKNEg0eDQxckIxMTFyZkNRSlNqaWJxSnZsVFJRdGtyajJtejA2d3g1?oc=5",
+     "date": "2026-11-05T06:36:41Z",
+     "source": "Pasquale Pillitteri",
      "summary": "",
      "lang": "en",
      "new": false
@@ -1008,7 +984,7 @@
      "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
@@ -1089,15 +1065,6 @@
      "new": false
     },
     {
-     "title": "Canonical web services outage disrupts Ubuntu login and patching ahead of Ubuntu Summit",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMFNDekZQa3dyNWVHOEptckdEUkZxZFAwa0ozcHI0YjE0YWM0NXlnNVA0Q0hmUVlmeFNOZjNHbnFXR2NXa095VDh5dVQ2VWdWTFRPVkNQSHBCekNhR2IzWHAtMUV5WUlsNW1FY0hEMzZZTTloMlZwajdNRGRYeWJCUllheVkzeWExX0tJU2Q1T3FLWDhkZE0yTlFpQmVWSTY0czM1RDAzNGZSSkpLamc3QkpyUzF2VEE?oc=5",
-     "date": "2026-11-11T20:26:42Z",
-     "source": "news.lavx.hu",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
      "title": "Ubuntu 26.10 Adds New Security Protection to curl, Blocking Revoked SSL Certificates",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TSk5FWE9VLS1WOVNXbGlBMnl6UTZrdjNvejlRbmNKcElpUVYzcGh1enMzSmtkMFZhN0JrRkprNmZoR18tN0oybm9xNDlTMWswT1RkbVAwMV9xNW5EOV8wVEFJbFpNZ1poT0lKaTJ5TEZWUDdXUFHSAXtBVV95cUxOdGVYaFZiV0Frenh0RVRTclpZQXFsRkZsNVlYaXdxZGd4b2Rob3N4ODlYelNweHo0RGJOY3VuNU9vV0VjTVo0b0thd0dqSDNGcTFMS3dZZlMzUWpUUVcxbXpCaFF6X3phNHRTZ1ZHeGlobXhKSTd1ZThDQVE?oc=5",
      "date": "2026-11-11T18:11:06Z",
@@ -1105,6 +1072,15 @@
      "summary": "",
      "lang": "en",
      "new": true
+    },
+    {
+     "title": "Ubuntu certificate revocation checks arrive in curl, OpenSSL is next",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT2hmNGt1YjktTi1QWDdtWjNDMzViYUpWUGlLTG1jaDhMQkZKMy1kR1BDTnNiSnl5ZGFscUFOdTdWaUIzUGRwd1gxemhoS2RqeU5KMy1XVjZyX0JqWWtlX1NIZjNGZzZGN0J4RzU5U1FZSjV6eHVROWxXLWpCNTZzclhjckhrVjZ2Tkt1Qi1qNA?oc=5",
+     "date": "2026-11-11T09:46:23Z",
+     "source": "Help Net Security",
+     "summary": "",
+     "lang": "en",
+     "new": false
     },
     {
      "title": "What if your Virtual Data Room (VDR) was Android™ based?",
@@ -1125,14 +1101,14 @@
      "new": false
     }
    ],
-   "news_count": 47,
+   "news_count": 45,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://ubuntu.com/blog"
     }
    ],
-   "new_count": 3,
+   "new_count": 2,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1217,7 +1193,7 @@
      "new": false
     }
    ],
-   "news_count": 47,
+   "news_count": 46,
    "links": [
     {
      "label": "Site officiel",
@@ -1324,12 +1300,12 @@
    "news": [
     {
      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcUtFbWwzX3hyZEpuNVAtUkQ4RkJuc0JJTWxpWS1ibHZjcE1EYWtRRlVLSnE0RUUxRUQ5cHRhejJnUlh3WVZ4TmExRXFJZlNBYzl2M0R1WDRVb1h1VENSc0Y0S0xqMDhTYlBGZXlOc2YxTXZVUGluNUo3bzlVOTQ1YmMtY0FSVFBLazFfc0YwVXRib01wZS1lMUo0S1pSR0t4REtkdWZuOGFPeFdUaWxLdkkyN3MtVXMzQ25rMzk0S015alZsTHVrTmNyR0JsYVl4LXBTbg?oc=5",
-     "date": "2026-11-10T12:01:03Z",
-     "source": "Cybersecurity Insiders",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGhnUUU1cE5yWlFCVXg2NC1CdXNxQzlVeW84X1ZobWFKX0FTYndKZVdVdzZuQXJzV1JtT0JRS0VON0czVndqQ1pEM2hlbDVsNHFGMllzOXVqMDhRNlFMOFVLUkxIeVdIanlNWXRrRm5IZHRnMkhNUTcwbWRyR2ljVkxjSkVlR25QNXllZWZzcms1RDdsYW9rQ0JqT191MG4tY1pmWkliWFVjckNRZ1BzeEhTYm9lUnNyU3NnNQ?oc=5",
+     "date": "2026-11-10T12:04:57Z",
+     "source": "Hackread",
      "summary": "",
      "lang": "en",
-     "new": true
+     "new": false
     },
     {
      "title": "Kali Linux 2026.1: BackTrack Mode & MetasploitMCP Update",
@@ -1359,12 +1335,12 @@
      "new": false
     },
     {
-     "title": "Kali Linux 2026.3 : installation plus simple, UX améliorée, nouveaux outils",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGhiNnAtdjF3VVhwa01fU0hOWDRNUm00aGRqNm92Z2otT3pIQmZ6TVhFX3J3M3hIS1ppXzFFb0pPZ2xaNWNRNUFPRXlCQk83aV9EWC1fcXNjWHByaWNvMnJ6UTZXWXdsWTZobkFnS1Q0S1lLMUV3XzBXU2ItdUxLVGxaWnBScEpXcHA0cFMxSFpQZ2tkSG1BT0VYM2hBR1NQRVdDQkE3M0loRGdlZzJGdmZIVXc?oc=5",
-     "date": "2026-10-26T14:49:03Z",
-     "source": "Programmez!",
+     "title": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3NzSlJBa1hZaDdXTGZUQUZPWGFod1I4UjM3LWhJNVk2cjJtUG5jY0lSVml0QWxOMnJDUXFzV1Q0Smd5cGxvSmpwUmlHVFBac1dwY0NTMHpybWlPUWxNUU9oTENfOUNRektDY3pha0d6QUdEcnhwRzZKdXdQLV9USzg5S09KRVVrd09Td3FmMzRMaERfZU1v?oc=5",
+     "date": "2026-10-26T07:00:00Z",
+     "source": "9to5Linux",
      "summary": "",
-     "lang": "fr",
+     "lang": "en",
      "new": false
     },
     {
@@ -1377,14 +1353,14 @@
      "new": false
     }
    ],
-   "news_count": 14,
+   "news_count": 13,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kali.org/blog/"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1438,7 +1414,7 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9505,
+    "stars": 9506,
     "pushed": "2026-11-12T10:02:55Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
@@ -1874,7 +1850,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27478,
+    "stars": 27481,
     "pushed": "2026-11-09T08:35:19Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1926,7 +1902,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11772,
+    "stars": 11774,
     "pushed": "2026-11-12T10:04:24Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -2056,8 +2032,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45627,
-    "pushed": "2026-11-12T09:38:06Z",
+    "stars": 45633,
+    "pushed": "2026-11-12T15:58:41Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -2108,8 +2084,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 38989,
-    "pushed": "2026-11-12T12:43:32Z",
+    "stars": 39005,
+    "pushed": "2026-11-12T17:32:29Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2192,7 +2168,7 @@
      "new": false
     }
    ],
-   "news_count": 25,
+   "news_count": 23,
    "links": [
     {
      "label": "Site officiel",
@@ -2317,32 +2293,32 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24188,
-    "pushed": "2026-11-12T12:33:59Z",
+    "stars": 24187,
+    "pushed": "2026-11-12T16:41:55Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
    "releases": [
+    {
+     "version": "Nightly v1.102.3 (Chromium 158.0.8127.22) \n\n",
+     "tag": "v1.102.3",
+     "date": "2026-11-12T13:38:43Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.3",
+     "new": true
+    },
+    {
+     "version": "Nightly v1.102.2 (Chromium 158.0.8127.22) \n\n",
+     "tag": "v1.102.2",
+     "date": "2026-11-12T13:23:36Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.2",
+     "new": true
+    },
     {
      "version": "Nightly v1.102.1 (Chromium 158.0.8127.22) \n\n",
      "tag": "v1.102.1",
      "date": "2026-11-12T01:30:24Z",
      "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.1",
      "new": true
-    },
-    {
-     "version": "Beta v1.101.47 (Chromium 158.0.8127.22) \n\n",
-     "tag": "v1.101.47",
-     "date": "2026-11-12T05:08:45Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.47",
-     "new": true
-    },
-    {
-     "version": "Nightly v1.101.40 (Chromium 158.0.8127.22) \n\n",
-     "tag": "v1.101.40",
-     "date": "2026-11-10T13:21:26Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.40",
-     "new": false
     }
    ],
    "news": [
@@ -2412,7 +2388,7 @@
      "url": "https://github.com/brave/brave-browser"
     }
    ],
-   "new_count": 3,
+   "new_count": 4,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2428,8 +2404,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7774,
-    "pushed": "2026-11-12T12:43:12Z",
+    "stars": 7772,
+    "pushed": "2026-11-12T16:35:28Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2497,14 +2473,14 @@
  ],
  "stats": {
   "technologies": 26,
-  "cves": 44,
+  "cves": 42,
   "to_update": 0,
   "eol_ended": 0,
   "cves_affecting": 0,
-  "cves_critical": 19,
+  "cves_critical": 20,
   "news": 91,
   "new": 17,
-  "releases_week": 7
+  "releases_week": 8
  },
  "history": {
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tOFNBWFhYQXZqOXgybnhfa2FTU1h2aU5XdEVjX25wTkdEVTA1R3ZOWk1UNmFVSkNETlEtWkhzNUVtTFRaQnBLLUc1TzY2N2JvSENXVzhHMkVldw?oc=5": "2026-11-04",
@@ -2926,6 +2902,9 @@
   "https://github.com/pi-hole/docker-pi-hole/releases/tag/2026.11.0": "2026-11-12",
   "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX0lzWG95Y0ZsLUp3X1YwUmZKZUNLdVk1SmZxRXVoNlVybllrQ3VjVGltTEtidjV2cVV1emJwN0Mzb3dEVGZySW9naUhHTkdCQVJ4YXNhbFFPLTJaU1JRN2NRX2djQ2xzQmRmNmdjc3psSF9tZjlENld6TFB2MkJoZFNGb0t5VjRWaVg1bUZJWHU0M1N6anYwRzhhZmU5Y29tRHhtXzF4blBQOWhvNV82Ml9RR3NtUDJwb3ozdzJtblZ2TzNP?oc=5": "2026-11-12",
   "https://github.com/brave/brave-browser/releases/tag/v1.102.1": "2026-11-12",
-  "https://github.com/brave/brave-browser/releases/tag/v1.101.47": "2026-11-12"
+  "https://github.com/brave/brave-browser/releases/tag/v1.101.47": "2026-11-12",
+  "https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.15.1": "2026-11-12",
+  "https://github.com/brave/brave-browser/releases/tag/v1.102.3": "2026-11-12",
+  "https://github.com/brave/brave-browser/releases/tag/v1.102.2": "2026-11-12"
  }
 }
