@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T12:14:04Z",
+ "generated_at": "2026-11-13T17:21:57Z",
  "results": [
   {
    "name": "Discord",
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23246,
-    "pushed": "2026-11-13T11:21:03Z",
+    "stars": 23251,
+    "pushed": "2026-11-13T17:20:05Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -131,7 +131,7 @@
     {
      "title": "Using Notion felt like a second job, so I replaced it with this Notion-Obsidian hybrid app",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOUE4WU9tQURScWJmT3d6WTU5RExTUDE1dXI4aTNyMFFTNWpzY2hHRlFqT0h2cW9ZelFwMTB6OERpeEdHUEpWTXZSRWFHbE56Ync0RjFYVXh1UGx2OS1xUnJqT09yZWJobEkzYmVVbHVHc3QwYU1PRF9hUE5EcGxWZjRUWTdOZHVUOVJYOG5YSXhIQjhDbzZJSDRBSkVLWUszVmtnakZta0hUbW4xN04w?oc=5",
-     "date": "2026-11-04T22:00:15Z",
+     "date": "2026-11-04T08:00:00Z",
      "source": "How-To Geek",
      "summary": "",
      "lang": "en",
@@ -264,7 +264,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5423,
+    "stars": 5425,
     "pushed": "2026-11-10T18:20:50Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -330,8 +330,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 186868,
-    "pushed": "2026-11-13T00:02:20Z",
+    "stars": 186898,
+    "pushed": "2026-11-13T16:39:49Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -427,8 +427,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156593,
-    "pushed": "2026-11-13T00:25:20Z",
+    "stars": 156603,
+    "pushed": "2026-11-13T16:57:48Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -576,31 +576,31 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72263,
-    "pushed": "2026-11-13T11:57:51Z",
+    "stars": 72264,
+    "pushed": "2026-11-13T13:32:00Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
    },
    "releases": [
     {
+     "version": "client/v0.6.3",
+     "tag": "client/v0.6.3",
+     "date": "2026-11-13T13:20:22Z",
+     "url": "https://github.com/moby/moby/releases/tag/client/v0.6.3",
+     "new": true
+    },
+    {
+     "version": "api/v1.57.0",
+     "tag": "api/v1.57.0",
+     "date": "2026-11-13T13:05:59Z",
+     "url": "https://github.com/moby/moby/releases/tag/api/v1.57.0",
+     "new": true
+    },
+    {
      "version": "v29.9.3",
      "tag": "docker-v29.9.3",
      "date": "2026-11-03T22:37:18Z",
      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.3",
-     "new": false
-    },
-    {
-     "version": "v29.9.2",
-     "tag": "docker-v29.9.2",
-     "date": "2026-10-20T20:51:17Z",
-     "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.2",
-     "new": false
-    },
-    {
-     "version": "v29.9.1",
-     "tag": "docker-v29.9.1",
-     "date": "2026-10-14T19:28:37Z",
-     "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.1",
      "new": false
     }
    ],
@@ -671,7 +671,7 @@
      "url": "https://github.com/moby/moby"
     }
    ],
-   "new_count": 0,
+   "new_count": 2,
    "cves": [
     {
      "status": "cna",
@@ -777,19 +777,28 @@
    ],
    "news": [
     {
-     "title": "Long-Time Linux Kernel Maintainer Inundated With AI-Generated Submissions Steps Down",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc0czMUZfek1ubXlobnBkelhQdXdYT2hyLUpabTNFR2dxdFRvMDZGbHRoLWNkblZnTG1FVFlaX0s3YXd1Q1VZZTYtWXRxTzhLekZpSUxnZW9qRnJ1YW1ZNVUtNHdwQkxDd3JJc2lxaXZRU0RoS1FYM2tSUnRPMHhreTl6WEs2c2VJeG11a1dOczNBZ0J3YjdIa250d2M0enN5VDVWQmItNVY5QlRuYWg3V2VDN1BLTkpHY2NV0gHAAUFVX3lxTFBpLTB5Z1RrZWdQbzdrWjU5NTNRcDlxWGpqeExRZVg5UUtVWmNETzJ0RXVDQkgyQWoxVThYUHFVS3NmXzVrbmZPazRmN09XZzFURldZdjh1Zy1Gb09mX3RJZDBsRGtIazhwRGRqT0daMFJIUnQxMXhQaURTRTRVVEUxSGY5WjdQdEg3ZmlLVm9UOVRZckx5SWl3SVlXUldoQTNxeTVLOVdCMzFxX3A4b1RoZThkRUpoY2xyeGtCOFFxNw?oc=5",
-     "date": "2026-11-13T03:56:24Z",
-     "source": "TechPowerUp",
+     "title": "Another Linux kernel developer steps back from some duties due to overload",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX2JRZ0NvSXo4Q0thc3B2OGw2b2czNDE2b3c4eFhIeFVxc2cwdmg4SzBFbEs0WXJCcFRBNDN0MlBPTGxBQ2hxTXY1MzJqcVI4b1NSS3RTWHJGSkU0ZTRuQl95RXU2VU5PQlQ1U1RBQWtvN2xBeGdpY3Q3RmNmSE9JaU5jVG5nRmxMaUtiOXRiWldyQWFYU1ZkSjI2c2FIY0s4WTVtVU91UHdDRlB4RkxHWVBBbVp1Z1NGVnU5M1dFb0Y2SHNNQTQwS1lMbw?oc=5",
+     "date": "2026-11-13T15:28:00Z",
+     "source": "The Register",
      "summary": "",
      "lang": "en",
      "new": true
     },
     {
-     "title": "Linux kernel flaws, spyware, and AI-driven attacks dominate a crowded threat landscape",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVTJuWEJCZ3ZIQ1d2X2NQUzN1OXFMLVhFcFZWcGVEeVRua0FyTXhXcWJKNWxncVVZb3VjWEVZaUhnTmRLZ1c2NEl5YU04ek1QOFFvX1puc0dGSkE5dHdZYXIyYUQyNVhXWW1jUzdIQkxhVFpwdF8xeE9PczE2ZU91cWZwTXYtdzlXMWd4b1BHaVdOTXdIRXdPbmEzRkhKMzFLWUY5VWZuaEI0X0wwZkNCSFFVRQ?oc=5",
-     "date": "2026-11-12T20:32:21Z",
-     "source": "news.lavx.hu",
+     "title": "Linus Torvalds Says AI-Assisted Linux Kernel Fixes Are Becoming the Norm",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVhyREZLc2Y3Y1l2eVVzMXpybXRiTHpUbkMySHE0SjdiR0p6SmV5dEFBT2oxYlpPYi1lVC1nQldLc0c2dTlXWkd3S2FMTV9sZG9hOHFobWlUVFY5WGdDUHFfODZRZzlNYTlXM0dtUmtWWWdpd0dEZ3lVWXR0eENhLUtYaDZDY2VhZG50Qnd4bG1mZVh3Qmxoa3V3?oc=5",
+     "date": "2026-11-13T12:48:14Z",
+     "source": "Linuxiac",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Long-Time Linux Kernel Maintainer Inundated With AI-Generated Submissions Steps Down",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc0czMUZfek1ubXlobnBkelhQdXdYT2hyLUpabTNFR2dxdFRvMDZGbHRoLWNkblZnTG1FVFlaX0s3YXd1Q1VZZTYtWXRxTzhLekZpSUxnZW9qRnJ1YW1ZNVUtNHdwQkxDd3JJc2lxaXZRU0RoS1FYM2tSUnRPMHhreTl6WEs2c2VJeG11a1dOczNBZ0J3YjdIa250d2M0enN5VDVWQmItNVY5QlRuYWg3V2VDN1BLTkpHY2NV0gHAAUFVX3lxTFBpLTB5Z1RrZWdQbzdrWjU5NTNRcDlxWGpqeExRZVg5UUtVWmNETzJ0RXVDQkgyQWoxVThYUHFVS3NmXzVrbmZPazRmN09XZzFURldZdjh1Zy1Gb09mX3RJZDBsRGtIazhwRGRqT0daMFJIUnQxMXhQaURTRTRVVEUxSGY5WjdQdEg3ZmlLVm9UOVRZckx5SWl3SVlXUldoQTNxeTVLOVdCMzFxX3A4b1RoZThkRUpoY2xyeGtCOFFxNw?oc=5",
+     "date": "2026-11-13T03:56:24Z",
+     "source": "TechPowerUp",
      "summary": "",
      "lang": "en",
      "new": true
@@ -820,18 +829,9 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "Linux Kernel Developer Lorenzo Stoakes Steps Down as Reviewer in 5 Areas as AI-Generated Patches Surge",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGTGg1dkRDY0Jxakc4Y2lpVTRBV3Q1N3ExcXBSQ2FWZzZzUzlsVnRwaUlYdE41OUxndk9VWFJDRkh6UnFaTlZOUzBOZGtRNG1NdUl6ZUNvT01YN2Vhd3AtSXZjYnFIUkkycmw2a3NvSQ?oc=5",
-     "date": "2026-11-12T05:15:03Z",
-     "source": "XenoSpectrum",
-     "summary": "",
-     "lang": "en",
-     "new": true
     }
    ],
-   "news_count": 70,
+   "news_count": 68,
    "links": [
     {
      "label": "Site officiel",
@@ -901,9 +901,9 @@
      "new": false
     }
    ],
-   "cve_total": 897,
+   "cve_total": 851,
    "cves_affecting": 0,
-   "cves_pending": 748,
+   "cves_pending": 702,
    "cves_cna": 148
   },
   {
@@ -948,6 +948,15 @@
      "new": false
     },
     {
+     "title": "TUXEDO OS Enters Final Beta Testing Ahead of Debian-Based Release",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS1U5SjFHSGNOTVJTY3JiazBXdVREcDNPdEMwVTAtQmo4SUdwSUJ5MlJrUC1YWTZmZmdxX2NpWWJYUXdMX0JoTnpZd3dEVnd6cHlpOW1Dd21mUThpcGEyX3NON29Oa0o1cmNpbG9pc2RRU0R3SHBkNDlPenVfWHRlUXZyOXE3WEEwZkJUNlVJTVI?oc=5",
+     "date": "2026-11-07T10:47:55Z",
+     "source": "Linuxiac",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Faille APT CVE-2026-109518 sur Debian et Ubuntu, un paquet piégé obtient les droits root",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjMtRHhocFRzSmlDeTlpcUl0NWQyX1FpRG5RNmVwY0Y0eXB0TlJ6Wk1mekRraWhEc2VPTzFmcnI1bUpfVHhMRUl3S1MtRWlzWGdGcGJqcUtjbklHdHJQU3o1WEp1SnNaRGljWTZSWkNiR0Rfa0VUaTM4aG1xUjNnXzg0Q3p1TWR6ZlRsUFlpalRJUkFSSlhDWk5PYmRXZmY1aTdv?oc=5",
      "date": "2026-11-05T08:00:00Z",
@@ -973,18 +982,9 @@
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUzhMRVZybl9KSmp0dUwtVFZ1ZGU0cHlsZlhtVkZzckx6U0Jfc0tvMzVuUkp4blBWdnZ4UHJMa1ZuSDRmM2pqOU9EQkRMZnl2bGc2aEhReFpOQXhQZmZUZmtzcEhGUk8yTldiSnp6X2U0YnA4cW1TX1RNS0dSbHFiTQ?oc=5",
-     "date": "2026-11-04T08:00:00Z",
-     "source": "The Hacker News",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 10,
+   "news_count": 11,
    "links": [
     {
      "label": "Site officiel",
@@ -1056,21 +1056,21 @@
      "new": true
     },
     {
+     "title": "Running Android apps on Ubuntu is now surprisingly easy",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TMGJKTTFjNjNXbTFHTkpmRzJJb0ZmQ3BTRnJ3b3VlU0RpZGNNcVp6bHdFWFBpN1hNcUdTaW45VEZIdXk4cTYydXVpamlIVUZCVGtPV09wQk1OYjhTbUhrLWtPcUw5dEJJWkVRX2ZBYWFIVmsyS1HSAXtBVV95cUxOVTNYSUtSallVd2FsTWhCeDNEQVRFNERCdWRhRnI0VFZJR19UQW82d0Y0d2lkM0dYdXBLRTRVX3Q3WDRWT3JJUmFucktZWl8tdENGZHZRNks0dEZ1VEtiMDB5djFJLVlLOWt5dGxSQTd1UUpWaUtlWFFWNTQ?oc=5",
+     "date": "2026-11-13T10:11:19Z",
+     "source": "OMG! Ubuntu",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "From desktop to cloud to road",
      "url": "https://ubuntu.com//blog/from-desktop-to-cloud-to-road",
      "date": "2026-11-13T09:31:00Z",
      "source": "ubuntu.com",
      "summary": "In an era where software defines vehicle value, engineering teams face a friction bottleneck. They spend hours fighting dependency conflicts, toolchain mismatches, and integration failures instead of writing vehicle…",
      "official": true,
-     "new": true
-    },
-    {
-     "title": "Running Android apps on Ubuntu is now surprisingly easy",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TMGJKTTFjNjNXbTFHTkpmRzJJb0ZmQ3BTRnJ3b3VlU0RpZGNNcVp6bHdFWFBpN1hNcUdTaW45VEZIdXk4cTYydXVpamlIVUZCVGtPV09wQk1OYjhTbUhrLWtPcUw5dEJJWkVRX2ZBYWFIVmsyS1HSAXtBVV95cUxOVTNYSUtSallVd2FsTWhCeDNEQVRFNERCdWRhRnI0VFZJR19UQW82d0Y0d2lkM0dYdXBLRTRVX3Q3WDRWT3JJUmFucktZWl8tdENGZHZRNks0dEZ1VEtiMDB5djFJLVlLOWt5dGxSQTd1UUpWaUtlWFFWNTQ?oc=5",
-     "date": "2026-11-13T02:28:28Z",
-     "source": "OMG! Ubuntu",
-     "summary": "",
-     "lang": "en",
      "new": true
     },
     {
@@ -1101,7 +1101,7 @@
      "new": false
     }
    ],
-   "news_count": 47,
+   "news_count": 48,
    "links": [
     {
      "label": "Site officiel",
@@ -1193,7 +1193,7 @@
      "new": false
     }
    ],
-   "news_count": 45,
+   "news_count": 44,
    "links": [
     {
      "label": "Site officiel",
@@ -1300,12 +1300,12 @@
    "news": [
     {
      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGhnUUU1cE5yWlFCVXg2NC1CdXNxQzlVeW84X1ZobWFKX0FTYndKZVdVdzZuQXJzV1JtT0JRS0VON0czVndqQ1pEM2hlbDVsNHFGMllzOXVqMDhRNlFMOFVLUkxIeVdIanlNWXRrRm5IZHRnMkhNUTcwbWRyR2ljVkxjSkVlR25QNXllZWZzcms1RDdsYW9rQ0JqT191MG4tY1pmWkliWFVjckNRZ1BzeEhTYm9lUnNyU3NnNQ?oc=5",
-     "date": "2026-11-10T12:04:57Z",
-     "source": "Hackread",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNQTcybGE4bDBhUm56R2lUc1F3Q0RzdjVLODdQV01LM3ZvQ3RCa0NpYzhQN3g3Y05tTnIzVzliUWtWaHU1ekhHbVNNRHhUOWRBbTl3M1ZmdUV6d0s3NWp6Mng3aHdfeXMtVGhXNW9qZVZZQWd5ckVhVUhKUFloeWt0enRMOEltSGotWTAxNjh4cHVGVUdfcEVqTElMNlc5V1ZHYTlJNHFpczRmQnk3YTNSMF9IaldmLTdUYTVjRC1qUHZLX052VktjbXcwWTA2N29mWWxGOFB2QWp4NUF2d1dwU2dxUDJ6YmxUUi1SeUtZd21BWnJwakRSY1VCTlBIMHF6WXdkTXVCSTduXy1NYmJLNVRIazRvdUdfNTJ3TEtMak8?oc=5",
+     "date": "2026-11-10T12:00:00Z",
+     "source": "WBOC TV",
      "summary": "",
      "lang": "en",
-     "new": false
+     "new": true
     },
     {
      "title": "Kali Linux 2026.1: BackTrack Mode & MetasploitMCP Update",
@@ -1360,7 +1360,7 @@
      "url": "https://www.kali.org/blog/"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1414,8 +1414,8 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9505,
-    "pushed": "2026-11-13T05:17:43Z",
+    "stars": 9506,
+    "pushed": "2026-11-13T16:17:17Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
    },
@@ -2032,7 +2032,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45660,
+    "stars": 45665,
     "pushed": "2026-11-13T04:47:16Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -2084,8 +2084,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39043,
-    "pushed": "2026-11-13T02:00:41Z",
+    "stars": 39057,
+    "pushed": "2026-11-13T16:20:03Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2293,12 +2293,19 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24201,
-    "pushed": "2026-11-13T12:04:29Z",
+    "stars": 24207,
+    "pushed": "2026-11-13T16:03:55Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
    "releases": [
+    {
+     "version": "Nightly v1.102.6 (Chromium 158.0.8127.37) \n\n",
+     "tag": "v1.102.6",
+     "date": "2026-11-13T13:25:44Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.6",
+     "new": true
+    },
     {
      "version": "Nightly v1.102.3 (Chromium 158.0.8127.22) \n\n",
      "tag": "v1.102.3",
@@ -2312,19 +2319,12 @@
      "date": "2026-11-12T13:23:36Z",
      "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.2",
      "new": false
-    },
-    {
-     "version": "Nightly v1.102.1 (Chromium 158.0.8127.22) \n\n",
-     "tag": "v1.102.1",
-     "date": "2026-11-12T01:30:24Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.1",
-     "new": false
     }
    ],
    "news": [
     {
      "title": "What the Tech: Brave browser | What the Tech? | 2news.com",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSzh6NHlQaHFzUXpVSTduNXFOMWM1Y2JOa0tkVTJOcm5KTVdvcmU1d09CSE1ER1FibUxGT2tTVk00T1B6YklReGt3dEJFVDk2Mmp4dnktN0RGaGpGRExEY3h6S1ZPSzkwOU4yNEV2MFppNlV5RWxvc252TWxaczhnRzU2YTZNRUdURTI0YzlmRG9rN1FDN0FmTTQ0S2dwY1ZaM296enNwNGoxVVRFb3B1Z0VXNWtTQ1dhRHc?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNci04c0ZiNE9lQXNQc2R4ZUx4UnZxbXJRdEtYd0FBRzBJVlBheURwanBsUFRlY1hGTm9ESXdrX1JPek9GNG9KQ2U0Y29Tb0JMVmNJaF9PZl9sSVI1NUJiOGFqVDJPWl9VMEliU1lVeHRXdkV1c1dlenR0c0M4SC1NRXZlb292bklEcThjQmNXZUlRT2oyWkRiaTI2RDlUUGlnZ2hvZk1nUWxRUXhBY2tfQUo0RDAxTkRDVndPVw?oc=5",
      "date": "2026-11-13T01:04:00Z",
      "source": "KTVN",
      "summary": "",
@@ -2377,7 +2377,7 @@
      "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
@@ -2388,7 +2388,7 @@
      "url": "https://github.com/brave/brave-browser"
     }
    ],
-   "new_count": 2,
+   "new_count": 3,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2404,8 +2404,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7772,
-    "pushed": "2026-11-13T12:06:46Z",
+    "stars": 7774,
+    "pushed": "2026-11-13T16:59:05Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2479,8 +2479,8 @@
   "cves_affecting": 0,
   "cves_critical": 20,
   "news": 91,
-  "new": 12,
-  "releases_week": 8
+  "new": 16,
+  "releases_week": 9
  },
  "history": {
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tOFNBWFhYQXZqOXgybnhfa2FTU1h2aU5XdEVjX25wTkdEVTA1R3ZOWk1UNmFVSkNETlEtWkhzNUVtTFRaQnBLLUc1TzY2N2JvSENXVzhHMkVldw?oc=5": "2026-11-04",
@@ -2917,6 +2917,13 @@
   "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTSVBnZjRSZldtVkdNZnJqRFUyV2Z1cXR4ZG1RY2Njbl91aHQ2VTV3SzFaZjFBYlBMbFI1enR3MmdpYXc2dVRpa2JicFRsN0xsbWVJNGd5TjUyNnVwRldLUWo4bDVKUVJWOUtpVDZydw?oc=5": "2026-11-13",
   "https://github.com/tailscale/tailscale/releases/tag/v1.104.7": "2026-11-13",
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSzh6NHlQaHFzUXpVSTduNXFOMWM1Y2JOa0tkVTJOcm5KTVdvcmU1d09CSE1ER1FibUxGT2tTVk00T1B6YklReGt3dEJFVDk2Mmp4dnktN0RGaGpGRExEY3h6S1ZPSzkwOU4yNEV2MFppNlV5RWxvc252TWxaczhnRzU2YTZNRUdURTI0YzlmRG9rN1FDN0FmTTQ0S2dwY1ZaM296enNwNGoxVVRFb3B1Z0VXNWtTQ1dhRHc?oc=5": "2026-11-13",
-  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TWkhLbnh2SldULWN4ZWhqWmt0MjVVOVZ5NDlrOVU1M2J1ZmtKdENucVB3LTF2Mk5ReWg5MV9GRXdLMEtGVzI2a284Qy1qSktDd0dxZWwwWG5tbzRNdVJHX3pHczZhVGEzNWFOam5YSQ?oc=5": "2026-11-13"
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TWkhLbnh2SldULWN4ZWhqWmt0MjVVOVZ5NDlrOVU1M2J1ZmtKdENucVB3LTF2Mk5ReWg5MV9GRXdLMEtGVzI2a284Qy1qSktDd0dxZWwwWG5tbzRNdVJHX3pHczZhVGEzNWFOam5YSQ?oc=5": "2026-11-13",
+  "https://github.com/moby/moby/releases/tag/client/v0.6.3": "2026-11-13",
+  "https://github.com/moby/moby/releases/tag/api/v1.57.0": "2026-11-13",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX2JRZ0NvSXo4Q0thc3B2OGw2b2czNDE2b3c4eFhIeFVxc2cwdmg4SzBFbEs0WXJCcFRBNDN0MlBPTGxBQ2hxTXY1MzJqcVI4b1NSS3RTWHJGSkU0ZTRuQl95RXU2VU5PQlQ1U1RBQWtvN2xBeGdpY3Q3RmNmSE9JaU5jVG5nRmxMaUtiOXRiWldyQWFYU1ZkSjI2c2FIY0s4WTVtVU91UHdDRlB4RkxHWVBBbVp1Z1NGVnU5M1dFb0Y2SHNNQTQwS1lMbw?oc=5": "2026-11-13",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVhyREZLc2Y3Y1l2eVVzMXpybXRiTHpUbkMySHE0SjdiR0p6SmV5dEFBT2oxYlpPYi1lVC1nQldLc0c2dTlXWkd3S2FMTV9sZG9hOHFobWlUVFY5WGdDUHFfODZRZzlNYTlXM0dtUmtWWWdpd0dEZ3lVWXR0eENhLUtYaDZDY2VhZG50Qnd4bG1mZVh3Qmxoa3V3?oc=5": "2026-11-13",
+  "https://news.google.com/rss/articles/CBMioAJBVV95cUxNQTcybGE4bDBhUm56R2lUc1F3Q0RzdjVLODdQV01LM3ZvQ3RCa0NpYzhQN3g3Y05tTnIzVzliUWtWaHU1ekhHbVNNRHhUOWRBbTl3M1ZmdUV6d0s3NWp6Mng3aHdfeXMtVGhXNW9qZVZZQWd5ckVhVUhKUFloeWt0enRMOEltSGotWTAxNjh4cHVGVUdfcEVqTElMNlc5V1ZHYTlJNHFpczRmQnk3YTNSMF9IaldmLTdUYTVjRC1qUHZLX052VktjbXcwWTA2N29mWWxGOFB2QWp4NUF2d1dwU2dxUDJ6YmxUUi1SeUtZd21BWnJwakRSY1VCTlBIMHF6WXdkTXVCSTduXy1NYmJLNVRIazRvdUdfNTJ3TEtMak8?oc=5": "2026-11-13",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNci04c0ZiNE9lQXNQc2R4ZUx4UnZxbXJRdEtYd0FBRzBJVlBheURwanBsUFRlY1hGTm9ESXdrX1JPek9GNG9KQ2U0Y29Tb0JMVmNJaF9PZl9sSVI1NUJiOGFqVDJPWl9VMEliU1lVeHRXdkV1c1dlenR0c0M4SC1NRXZlb292bklEcThjQmNXZUlRT2oyWkRiaTI2RDlUUGlnZ2hvZk1nUWxRUXhBY2tfQUo0RDAxTkRDVndPVw?oc=5": "2026-11-13",
+  "https://github.com/brave/brave-browser/releases/tag/v1.102.6": "2026-11-13"
  }
 }
