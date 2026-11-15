@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:57:28Z",
+ "generated_at": "2026-11-15T16:33:34Z",
  "results": [
   {
    "name": "Discord",
@@ -12,15 +12,6 @@
    "repo_meta": null,
    "releases": [],
    "news": [
-    {
-     "title": "Filtration : Discord étudierait pour donner un ordre de streaming",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNjZOUHl1dUVuNmM4blh2UGR3R05BWk44enpjRTZNV1N1Z2pEUHFybW5DNXhnTm8yYThSZHVRZ21pSTBoSExpd1NCQVFXRGhlYUZMM0RPVG9yUWhiWFFUeHFiWEUtSXNiNndFY3B3MEFjRU5aaTJ3SHVybnZOcnNDV1FDcE9mUThESWNrRVJ4dGRBNEk?oc=5",
-     "date": "2026-11-12T02:33:51Z",
-     "source": "Anmo Sugoi",
-     "summary": "",
-     "lang": "fr",
-     "new": true
-    },
     {
      "title": "Discord lance sa quête GTA 6: jusqu’à 240 Orbs gratuits",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcmpBeG5INEpIc1J3OUQzQXc0RExNOWxKUVpQU2sxYXhBSlRJQ0I0cWZYS285cm4xVWpaemxlUWtBM0FkWkE1Ym03azQzN2k0ZjRFbWtZOEpqVXZkMjBadFRlblR6azRITnVscU9kdzVITkpGelowTDJ1RWFFeFRWZS1jOHZhYXEwX2Y5SHJGZw?oc=5",
@@ -65,16 +56,25 @@
      "summary": "",
      "lang": "fr",
      "new": false
+    },
+    {
+     "title": "Discord abandonne Electron et confirme l'app en Rust, 290 Mo de mémoire",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaHU2UHRmRlFiLTZmMkpnQXhLdTQtejlKTVU1akJ2bXpXSXZTWHI5OHRETlo3dk44VnJSQVlvTGJnbXppUGF1ekZKaTZqN3BEaXB5Wk56V2FjRjFFcXpCVXlVblZDb3N3WW5NMERFcno5SHVsQVcxOWxWSzBRQmVKRmUwajFKSTBoaDBJ?oc=5",
+     "date": "2026-11-05T08:00:00Z",
+     "source": "Pasquale Pillitteri",
+     "summary": "",
+     "lang": "fr",
+     "new": false
     }
    ],
-   "news_count": 14,
+   "news_count": 13,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://discord.com/blog"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23283,
-    "pushed": "2026-11-15T11:20:30Z",
+    "stars": 23294,
+    "pushed": "2026-11-15T16:20:13Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -149,7 +149,7 @@
     {
      "title": "Tutoriel : comment créer un second cerveau pour Claude Code avec Obsidian",
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMFgtcUl0dFJDVks2M2Eya0Q5amJIWXBHcmcxc0RWa3V5b3NyTUxOS3p1M3pJUmoyRTVpWmlUS2stLUhfSkRtRDhoNkRPX0YxTzlkMUNUbERXbE5mZlgxNmRLdXdyRzQyWVNfdTZFRU5rOWJ4SEdmRUppVl9NdjRrU3k0a0l5RDdhUVpHM3pOdTF6WGRCc0FPSVhSbXN3TDNfSC1tTFhZQWx0SkdQVWlNdGJlcDRFel9QRFRsU1c4cFVCVXNXbXY4ZGxBTTd6UEJZ?oc=5",
-     "date": "2026-10-28T09:50:28Z",
+     "date": "2026-10-28T07:00:00Z",
      "source": "JDN",
      "summary": "",
      "lang": "fr",
@@ -264,7 +264,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5428,
+    "stars": 5429,
     "pushed": "2026-11-10T18:20:50Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -330,7 +330,7 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 187030,
+    "stars": 187057,
     "pushed": "2026-11-14T00:00:10Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
@@ -360,6 +360,15 @@
    ],
    "news": [
     {
+     "title": "Coder avec une IA locale gratuite : Qwen, Ollama et OpenCode peuvent-ils remplacer Claude Code",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUNQTi1yQmFnX083b3lNTHZzTUhoeE9jSWFHY25WVzBpYXkxS2prSGd4ckxrTUNHR1ljVjBaYVk5aWdVY05GX3VVNWlTX1RmTmIxN3ZLU2w4dUtjOXhIMGRTNThPUWdXckdRbllqamVhOXVoeTZyLU9teWJ3NXh0T19VTUxnN3FPQmVaNlp0Y055NE5rd0JmOTc0ZTZLd2VNa3gwNGZlSkVBc3Z4RndSa3VYVGxtc1YxME9SSnFoOWxIWng0UlVQdU5ja2c?oc=5",
+     "date": "2026-11-15T13:01:57Z",
+     "source": "ZDNET",
+     "summary": "",
+     "lang": "fr",
+     "new": true
+    },
+    {
      "title": "Prise en main d'Ollama 0.40.11 : Exécution de modules linguistiques locaux sous Windows",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdFdLRUJEcWdGaUJCal9HMTFkN3lSWVdqRDdjSm5fWnoxOEdZcmZzcXJjVHRzbkl3QUVFZVN1ZTBoYjlRQVRib1REZzhBdDZNZHBGeVVTLWZobHZEcHJDeW02bkhyUWtMNEM1Zzk5aHNwbVB1SmZSZlZHbmJ0M0xWa1JpWFhTY3BlRFl0SVdrZm0xTDQwWHlBMdIBngFBVV95cUxOVVZNR1liV0VMSHM0R0o4Z3gzWFp1ZmpsX2xPUkZlRE1uNElVWVBFQUVKUzNSWGRoU1JvMnVVTjhhUzhxN2IzMHl4X1M2dzU4VjlXQi0telA3QUVpSlRJVzFBUGhxZkdOY3owejNnVVNmdWtuVFdqVmxJODc2RzJhT1pBZ1dFYnVYSlR2YmJuODN3WVBMdVhoNnVKNWMxUQ?oc=5",
      "date": "2026-10-28T07:00:00Z",
@@ -387,7 +396,7 @@
      "new": false
     }
    ],
-   "news_count": 3,
+   "news_count": 4,
    "links": [
     {
      "label": "Site officiel",
@@ -398,7 +407,7 @@
      "url": "https://github.com/ollama/ollama"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -427,7 +436,7 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156660,
+    "stars": 156671,
     "pushed": "2026-11-15T04:52:17Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
@@ -567,7 +576,7 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72267,
+    "stars": 72266,
     "pushed": "2026-11-13T13:32:00Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
@@ -768,6 +777,15 @@
    ],
    "news": [
     {
+     "title": "Unpatched Linux Kernel Keyring Flaw Gives Local Root",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQjUtV3BvRjM3Szd4ODVwN0hNc3FNdkxpWTlqRjJVRTdaMzQ5SHZSMTBfNzBDc21FVlc2eXYwbDlXTmc2Rlh5dHhlSXJwbm1oVmJUX2duaVNpRHg1a0hRelRqcnpsR0I4S2xNVFV1QktJX2xGZE4xVWpyYS02THY3dzRKUExRR0tJSkQ1Y0o2bw?oc=5",
+     "date": "2026-11-15T15:36:45Z",
+     "source": "Cyber Kendra",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Intel defines identifiers for Coral Rapids and Razor Lake in the Linux kernel",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0doQ0syNGQzd1NhaGR2UFpneHo4eU9PbHFtV0xRVTlYbXgtTjdHekdRSVdHVzVRRkVLTXFPLWZhTEZpaFE2ZGJZcFNWTXFCXzVBeFptM0dLMDZfWVY4R0RVdFZsc29VN1R6SWpHekJ5aVFlUzI0eWpCdjBrbDc4UHN6SEZmakJDdUZEa2d5Q01OVHdsSXF3TXlDUTRVUW1tUm9LNmhUODBQQURWbjRyTjJR?oc=5",
      "date": "2026-11-15T11:43:08Z",
@@ -811,25 +829,16 @@
      "summary": "",
      "lang": "en",
      "new": true
-    },
-    {
-     "title": "Another Linux kernel developer steps back from some duties due to overload",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX2JRZ0NvSXo4Q0thc3B2OGw2b2czNDE2b3c4eFhIeFVxc2cwdmg4SzBFbEs0WXJCcFRBNDN0MlBPTGxBQ2hxTXY1MzJqcVI4b1NSS3RTWHJGSkU0ZTRuQl95RXU2VU5PQlQ1U1RBQWtvN2xBeGdpY3Q3RmNmSE9JaU5jVG5nRmxMaUtiOXRiWldyQWFYU1ZkSjI2c2FIY0s4WTVtVU91UHdDRlB4RkxHWVBBbVp1Z1NGVnU5M1dFb0Y2SHNNQTQwS1lMbw?oc=5",
-     "date": "2026-11-13T15:28:00Z",
-     "source": "The Register",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 63,
+   "news_count": 57,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 5,
+   "new_count": 6,
    "cves": [
     {
      "status": "cna",
@@ -941,7 +950,7 @@
     {
      "title": "TUXEDO OS Enters Final Beta Testing Ahead of Debian-Based Release",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS1U5SjFHSGNOTVJTY3JiazBXdVREcDNPdEMwVTAtQmo4SUdwSUJ5MlJrUC1YWTZmZmdxX2NpWWJYUXdMX0JoTnpZd3dEVnd6cHlpOW1Dd21mUThpcGEyX3NON29Oa0o1cmNpbG9pc2RRU0R3SHBkNDlPenVfWHRlUXZyOXE3WEEwZkJUNlVJTVI?oc=5",
-     "date": "2026-11-07T10:47:55Z",
+     "date": "2026-11-07T08:00:00Z",
      "source": "Linuxiac",
      "summary": "",
      "lang": "en",
@@ -1092,7 +1101,7 @@
      "new": false
     }
    ],
-   "news_count": 43,
+   "news_count": 42,
    "links": [
     {
      "label": "Site officiel",
@@ -1102,7 +1111,9 @@
    "new_count": 2,
    "cves": [],
    "cve_total": 0,
-   "cve_stale": true
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
   },
   {
    "name": "Alpine Linux",
@@ -1182,7 +1193,7 @@
      "new": false
     }
    ],
-   "news_count": 43,
+   "news_count": 42,
    "links": [
     {
      "label": "Site officiel",
@@ -1403,7 +1414,7 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9508,
+    "stars": 9509,
     "pushed": "2026-11-15T04:46:59Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
@@ -1773,7 +1784,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27494,
+    "stars": 27496,
     "pushed": "2026-11-09T08:35:19Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1825,7 +1836,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11780,
+    "stars": 11779,
     "pushed": "2026-11-14T14:36:00Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -1946,7 +1957,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45722,
+    "stars": 45731,
     "pushed": "2026-11-15T04:49:45Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -1998,8 +2009,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39147,
-    "pushed": "2026-11-15T05:24:25Z",
+    "stars": 39152,
+    "pushed": "2026-11-15T15:58:54Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2082,7 +2093,7 @@
      "new": false
     }
    ],
-   "news_count": 21,
+   "news_count": 20,
    "links": [
     {
      "label": "Site officiel",
@@ -2207,7 +2218,7 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24220,
+    "stars": 24221,
     "pushed": "2026-11-14T00:35:44Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
@@ -2318,8 +2329,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7780,
-    "pushed": "2026-11-15T11:47:26Z",
+    "stars": 7781,
+    "pushed": "2026-11-15T14:59:45Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2392,8 +2403,8 @@
   "eol_ended": 0,
   "cves_affecting": 0,
   "cves_critical": 19,
-  "news": 87,
-  "new": 10,
+  "news": 88,
+  "new": 11,
   "releases_week": 9
  },
  "history": {
@@ -2852,6 +2863,8 @@
   "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKZ2VWZ3NtSTlmeUNMTjM5STVxRFpHODFXSzZHUnJiRTh0TUlKdGxaOWpFMU51QnhhdmVkbk50dXI1bWRSODRXUlJjR2NkU0swa241SnJtMXhRVHczOTlmY2xzS1ViUkVtMFJZ?oc=5": "2026-11-15",
   "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzYzY2bXUzVUNlVEpPZkU0SHZ4WDhTMHR4VXJCclFnRkVtTWNLdm9YWTNFT1ZwSkFuRWhoUkJ0VUhRN1piNEVZOFNsdHVUdm5EVnllRmhFODZlbEJEU1VZdzQtTVoxdEFCY1dYQThVbVdBSWZa0gF6QVVfeXFMTXBWTVIwWEhJT2MzMHAzcmZKV2NPM0ZTUHZ4N3JYTFlnVVJ5SnB0dkxQU29aZE1VVXExVm5QMFZyUUktZHF6QUp4Tm5RQVlYVFE4aXJCSmhlMDJVNUdVazNDdlJib0tGbExfVmYxMm16Z3p0TnFEWTB3Rmc?oc=5": "2026-11-15",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEhJSkZnYVpNTkxLUFZiUWwtM3JBSDlkc0lLaWtOMDUzV3lqOWxlLXhWd01Ca21RamNGM2xsaUhfZnE0RkgtWV82Z0NYZlZ0bVJLR1NaSWk4eGVnTjNtTU80Q2JBSWd5b3pNd0pWSi1iQmQ0RnFrQXZqS1VyUDZWbzA2WUdTVld4ZFU4YTFJRXZpcWlqd1E?oc=5": "2026-11-15",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0VPbm1yR2VlcVVpdjdNZTF2MUc5aVVKOGFVSU44aEhGZlFSbFZabzYtRVEyUXdJN1VLS1I2Rl9rN0g4akp2WHRmbE9aWTFpMk9xQ2dPendKUnY0RkIybDZUTktWSHM0SjhrS2lwSDBwQVZNRlY1N2dqODd4cC10cVM1cFQzTkxvckI2TTByRk4wT1o2ekpJbWtXcGg3UFlKMk9FMGVxZDN3bHVXSl9VVGdNZlRSaTBfbUpNWkhDT1pJSDlvTHc?oc=5": "2026-11-15"
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0VPbm1yR2VlcVVpdjdNZTF2MUc5aVVKOGFVSU44aEhGZlFSbFZabzYtRVEyUXdJN1VLS1I2Rl9rN0g4akp2WHRmbE9aWTFpMk9xQ2dPendKUnY0RkIybDZUTktWSHM0SjhrS2lwSDBwQVZNRlY1N2dqODd4cC10cVM1cFQzTkxvckI2TTByRk4wT1o2ekpJbWtXcGg3UFlKMk9FMGVxZDN3bHVXSl9VVGdNZlRSaTBfbUpNWkhDT1pJSDlvTHc?oc=5": "2026-11-15",
+  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUNQTi1yQmFnX083b3lNTHZzTUhoeE9jSWFHY25WVzBpYXkxS2prSGd4ckxrTUNHR1ljVjBaYVk5aWdVY05GX3VVNWlTX1RmTmIxN3ZLU2w4dUtjOXhIMGRTNThPUWdXckdRbllqamVhOXVoeTZyLU9teWJ3NXh0T19VTUxnN3FPQmVaNlp0Y055NE5rd0JmOTc0ZTZLd2VNa3gwNGZlSkVBc3Z4RndSa3VYVGxtc1YxME9SSnFoOWxIWng0UlVQdU5ja2c?oc=5": "2026-11-15",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQjUtV3BvRjM3Szd4ODVwN0hNc3FNdkxpWTlqRjJVRTdaMzQ5SHZSMTBfNzBDc21FVlc2eXYwbDlXTmc2Rlh5dHhlSXJwbm1oVmJUX2duaVNpRHg1a0hRelRqcnpsR0I4S2xNVFV1QktJX2xGZE4xVWpyYS02THY3dzRKUExRR0tJSkQ1Y0o2bw?oc=5": "2026-11-15"
  }
 }
