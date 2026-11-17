@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:27:41Z",
+ "generated_at": "2026-11-17T18:44:35Z",
  "results": [
   {
    "name": "Discord",
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23343,
-    "pushed": "2026-11-17T13:21:07Z",
+    "stars": 23355,
+    "pushed": "2026-11-17T17:20:41Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -321,8 +321,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 187350,
-    "pushed": "2026-11-17T04:54:35Z",
+    "stars": 187405,
+    "pushed": "2026-11-17T18:32:28Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -369,15 +369,6 @@
      "new": false
     },
     {
-     "title": "Télécharger LocalMind: Ollama LM Studio 1.9.1 pour Android",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQRTBhdkltdDl5TzNiZjY1bWVlczVFUmFYY0h1STJfdWduT3BvTVhqci1lS0dPY0xONlNPWi11RFJrTVE3NU1WdkNJc1RTd1REWFk1NlJIOU93NnkydkMxbTN1QmRyTkhuQ09vVTV6ZWJwYUk1MU12Uw?oc=5",
-     "date": "2026-10-28T07:00:00Z",
-     "source": "FileHippo",
-     "summary": "",
-     "lang": "fr",
-     "new": false
-    },
-    {
      "title": "Ollama 0.40.11 Hands-On: Running Local LLMs on Windows",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjY0WDFmTGtfeG5EcTJpUl8zbXdSNm5TeFdxSTg0Rmo4cExRaUE4eXhxM1owRTAzeVF0dGtjUVIxMnp2Q3VQR2ZPRWhjSlhIUUduVTFkQWtsX3JGc1pHdUEyU19IbndGS2xhdTFGQU82XzloMURGTnY4Wmt6UUdVSHFRZWdMUkRpaWlmVWJVYk9hQXZL0gGaAUFVX3lxTE5UODJRM0VPU2ZORHJjYW1MbmNyV0Z0MHNyUXI4SzJyNkhKQjdUVU9SNENpY28tSXVnZlY4enFQNkdmSGQ3TFJiTUhYWXl5Wk9MWU1DZzItSjlvYkROUVFPRWhzbXJIVVNxS09CU245Q1VpMUF2cDN1WDFid2tTYVlsTGJsYmNxZ1R5cjZOVTZleXJSVVBSNjlHTEE?oc=5",
      "date": "2026-10-28T07:00:00Z",
@@ -387,7 +378,7 @@
      "new": false
     }
    ],
-   "news_count": 4,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
@@ -427,8 +418,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156718,
-    "pushed": "2026-11-17T06:14:45Z",
+    "stars": 156723,
+    "pushed": "2026-11-17T18:33:03Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -576,7 +567,7 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72271,
+    "stars": 72274,
     "pushed": "2026-11-17T13:20:02Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
@@ -777,6 +768,15 @@
    ],
    "news": [
     {
+     "title": "Warning: NoisyTCP Linux Kernel Vulnerability, Patch Immediately!",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmJNRWFOY0lfUzdjM19MWV91NXQwN01wa3RvbDU5d0pEZUs3cmlMQVdPaFZyZWtXcFFXM1p1cV9mcmZnTlJfSEgzQXJReEpuYXZ4V25OU1EtY25NSF90clVxOUFmTExPNWRpWWlUa0hCdGk0em90R2NydjBLZ2Zaa0RFWTdFRER2SloxdWl2dGpHS0VYVkNvOW1EYw?oc=5",
+     "date": "2026-11-17T16:15:25Z",
+     "source": "CCB Belgium",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "NoisyTCP, an 11-year-old Linux kernel bug, crashes Linux servers",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5",
      "date": "2026-11-17T07:19:31Z",
@@ -820,15 +820,6 @@
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "Solana Foundation Urges Validators to Patch Linux Kernel Flaw",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hdnFzMHFvSkxjVE9VanBWblN4RGhEb05MeGdXYk0zS3FDN2dZM2lfVUZPYjhocW9zNV9FQUpjeElaR0tDLTN4bjZKUXZ4UHVGZkNpT2NHVjY0Ums?oc=5",
-     "date": "2026-11-16T16:15:58Z",
-     "source": "www.tokenpost.com",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
    "news_count": 65,
@@ -838,7 +829,7 @@
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 7,
+   "new_count": 8,
    "cves": [
     {
      "status": "cna",
@@ -901,9 +892,9 @@
      "new": true
     }
    ],
-   "cve_total": 872,
+   "cve_total": 437,
    "cves_affecting": 0,
-   "cves_pending": 724,
+   "cves_pending": 289,
    "cves_cna": 148
   },
   {
@@ -996,6 +987,18 @@
     {
      "status": "cna",
      "affects": null,
+     "id": "CVE-2026-129246",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129246",
+     "date": "2026-11-17T17:18:02Z",
+     "severity": "HIGH",
+     "score": 7.8,
+     "exploited": false,
+     "summary": "Due to a Debian-specific patch, the directory used to share data between the LightDM and the users logging in was writable by the lightdm user of the unprivileged greeter process. A process running under the lightdm identity could leverage write access to…",
+     "new": true
+    },
+    {
+     "status": "cna",
+     "affects": null,
      "id": "CVE-2026-123962",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123962",
      "date": "2026-11-06T17:17:25Z",
@@ -1018,10 +1021,10 @@
      "new": false
     }
    ],
-   "cve_total": 2,
+   "cve_total": 3,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 2
+   "cves_cna": 3
   },
   {
    "name": "Ubuntu",
@@ -1083,32 +1086,32 @@
      "new": false
     },
     {
-     "title": "Ubuntu Linux Kernel Multiple Vulnerabilities",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPekFac1FWeXlQdUpXcU5Fc1Y3blpvY3pBVkIzZnFMMnp6VzM4RDlaWXc4S2pQVFVTVS1MVjd5SW9rOGNOWEtOcHVJT0FjWFl5eTcwSEtvS2VZVXo0NXpNNnRvY0cwQTczUVAxSWFmZE9WWFgwMjBTMGladXhWMzZFczB2M0thYnRaZW5ybGotLVc0VlNlTTlIOWln?oc=5",
-     "date": "2026-11-13T02:46:54Z",
-     "source": "Hong Kong Computer Emergency Response Team Coordination Centre",
-     "summary": "",
-     "lang": "en",
-     "new": true
+     "title": "From desktop to cloud to road",
+     "url": "https://ubuntu.com//blog/from-desktop-to-cloud-to-road",
+     "date": "2026-11-13T09:31:00Z",
+     "source": "ubuntu.com",
+     "summary": "In an era where software defines vehicle value, engineering teams face a friction bottleneck. They spend hours fighting dependency conflicts, toolchain mismatches, and integration failures instead of writing vehicle…",
+     "official": true,
+     "new": false
     },
     {
-     "title": "Fedora 45 is here, but does it still have an edge over Ubuntu?",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbEt6bUZBVVhXZ1BleUVYWkpHckxRbkptbVFyS3pIUWQtY2lidXlVMWhoc29KVVFqTlpMUFFpcXlDbHZ1b0QtdDdYQmpYNGwySldXWUhRUkw4Ynpqd2NyXzdodkRzNzJSdkpLWUVWUWZuOWREOExpaXk3TERKTFdscUJ0bmlRWTdqMy1hSy12UEo?oc=5",
-     "date": "2026-11-12T21:00:15Z",
-     "source": "How-To Geek",
-     "summary": "",
-     "lang": "en",
+     "title": "What if your Virtual Data Room (VDR) was Android™ based?",
+     "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
+     "date": "2026-11-11T08:00:00Z",
+     "source": "ubuntu.com",
+     "summary": "When working through merger and acquisitions, one needs to follow a proper due diligence process, in which lawyers, financial advisors, and potential buyers will need access to highly confidential documents, often…",
+     "official": true,
      "new": false
     }
    ],
-   "news_count": 31,
+   "news_count": 40,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://ubuntu.com/blog"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1193,7 +1196,7 @@
      "new": false
     }
    ],
-   "news_count": 43,
+   "news_count": 44,
    "links": [
     {
      "label": "Site officiel",
@@ -1353,7 +1356,7 @@
      "new": false
     }
    ],
-   "news_count": 13,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
@@ -1414,7 +1417,7 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9513,
+    "stars": 9515,
     "pushed": "2026-11-17T01:43:19Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
@@ -1774,7 +1777,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27504,
+    "stars": 27503,
     "pushed": "2026-11-16T07:51:51Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1947,7 +1950,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45800,
+    "stars": 45807,
     "pushed": "2026-11-17T11:21:56Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -1999,8 +2002,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39226,
-    "pushed": "2026-11-17T05:55:28Z",
+    "stars": 39238,
+    "pushed": "2026-11-17T18:40:15Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2029,20 +2032,20 @@
    ],
    "news": [
     {
+     "title": "Netmap caching: keeping Tailscale up on iffy connections",
+     "url": "https://tailscale.com/blog/netmap-caching",
+     "date": "2026-11-17T16:45:00Z",
+     "source": "tailscale.com",
+     "summary": "Tailscale can now start from a saved copy of your tailnet map, speeding everybody's startup times and mitigating some rough connections.",
+     "official": true,
+     "new": true
+    },
+    {
      "title": "Share skills across users, teams, and agents with Aperture",
      "url": "https://tailscale.com/blog/skill-sharing-with-aperture",
      "date": "2026-11-10T15:00:00Z",
      "source": "tailscale.com",
      "summary": "Aperture keeps your team’s agent skills in one place, ready for both users and agents.",
-     "official": true,
-     "new": false
-    },
-    {
-     "title": "Grok Bot has a Tailscale integration—and now you can, too",
-     "url": "https://tailscale.com/blog/oauth-apps-ga",
-     "date": "2026-11-09T20:30:00Z",
-     "source": "tailscale.com",
-     "summary": "Agent access without exposing your network — Tailscale OAuth apps are now GA.",
      "official": true,
      "new": false
     },
@@ -2083,7 +2086,7 @@
      "new": false
     }
    ],
-   "news_count": 19,
+   "news_count": 20,
    "links": [
     {
      "label": "Site officiel",
@@ -2094,7 +2097,7 @@
      "url": "https://github.com/tailscale/tailscale"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2208,8 +2211,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24241,
-    "pushed": "2026-11-17T12:34:00Z",
+    "stars": 24249,
+    "pushed": "2026-11-17T16:03:55Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -2237,6 +2240,15 @@
     }
    ],
    "news": [
+    {
+     "title": "Brave update removes hidden identifiers from Facebook and Instagram photos",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0VPbm1yR2VlcVVpdjdNZTF2MUc5aVVKOGFVSU44aEhGZlFSbFZabzYtRVEyUXdJN1VLS1I2Rl9rN0g4akp2WHRmbE9aWTFpMk9xQ2dPendKUnY0RkIybDZUTktWSHM0SjhrS2lwSDBwQVZNRlY1N2dqODd4cC10cVM1cFQzTkxvckI2TTByRk4wT1o2ekpJbWtXcGg3UFlKMk9FMGVxZDN3bHVXSl9VVGdNZlRSaTBfbUpNWkhDT1pJSDlvTHc?oc=5",
+     "date": "2026-11-17T17:03:18Z",
+     "source": "The Daily Star",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
     {
      "title": "What the Tech: Brave browser | What the Tech? | 2news.com",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNci04c0ZiNE9lQXNQc2R4ZUx4UnZxbXJRdEtYd0FBRzBJVlBheURwanBsUFRlY1hGTm9ESXdrX1JPek9GNG9KQ2U0Y29Tb0JMVmNJaF9PZl9sSVI1NUJiOGFqVDJPWl9VMEliU1lVeHRXdkV1c1dlenR0c0M4SC1NRXZlb292bklEcThjQmNXZUlRT2oyWkRiaTI2RDlUUGlnZ2hvZk1nUWxRUXhBY2tfQUo0RDAxTkRDVndPVw?oc=5",
@@ -2281,18 +2293,9 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "N.Y. Times and major publishers sue Brave browser over alleged AI copyright violations",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd3lNYXJpbi1GamNtSHcyQ29KeDRkN3FZTUdtZWgxQjlSckx2RnpLSExlNXdFZUlYWDVLN05XNjc4UXdHU29Pamd3OVRud2l5RnpsOEVHSEdya1Job19GdTlzak9mR3Q5bHNnR1NVQzIwUGV6bERhenEzU2FzUDJnMzRCQXFJUmlQZGJ2QzZSV2p0MUstbXpmM0dxMVg4SDZUMXRfTUlnOXZrMWt4LUEwZjB5VmZybFRDVzRqWkJENF9KUWtkNWc?oc=5",
-     "date": "2026-11-04T08:00:00Z",
-     "source": "SILive.com",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
@@ -2319,8 +2322,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7788,
-    "pushed": "2026-11-17T13:17:28Z",
+    "stars": 7789,
+    "pushed": "2026-11-17T18:24:56Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2397,13 +2400,13 @@
  ],
  "stats": {
   "technologies": 26,
-  "cves": 38,
+  "cves": 39,
   "to_update": 0,
   "eol_ended": 0,
   "cves_affecting": 0,
-  "cves_critical": 19,
-  "news": 88,
-  "new": 12,
+  "cves_critical": 20,
+  "news": 87,
+  "new": 13,
   "releases_week": 8
  },
  "history": {
@@ -2888,6 +2891,8 @@
   "https://news.google.com/rss/articles/CBMimgFBVV95cUxPekFac1FWeXlQdUpXcU5Fc1Y3blpvY3pBVkIzZnFMMnp6VzM4RDlaWXc4S2pQVFVTVS1MVjd5SW9rOGNOWEtOcHVJT0FjWFl5eTcwSEtvS2VZVXo0NXpNNnRvY0cwQTczUVAxSWFmZE9WWFgwMjBTMGladXhWMzZFczB2M0thYnRaZW5ybGotLVc0VlNlTTlIOWln?oc=5": "2026-11-17",
   "https://github.com/brave/brave-browser/releases/tag/v1.101.50": "2026-11-17",
   "https://github.com/brave/brave-browser/releases/tag/v1.102.12": "2026-11-17",
-  "https://www.mullvad.net/en/blog/2026/11/17/quad9-will-withdraw-their-service-from-france/": "2026-11-17"
+  "https://www.mullvad.net/en/blog/2026/11/17/quad9-will-withdraw-their-service-from-france/": "2026-11-17",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmJNRWFOY0lfUzdjM19MWV91NXQwN01wa3RvbDU5d0pEZUs3cmlMQVdPaFZyZWtXcFFXM1p1cV9mcmZnTlJfSEgzQXJReEpuYXZ4V25OU1EtY25NSF90clVxOUFmTExPNWRpWWlUa0hCdGk0em90R2NydjBLZ2Zaa0RFWTdFRER2SloxdWl2dGpHS0VYVkNvOW1EYw?oc=5": "2026-11-17",
+  "https://tailscale.com/blog/netmap-caching": "2026-11-17"
  }
 }
