@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:22:32Z",
+ "generated_at": "2026-11-19T08:30:44Z",
  "results": [
   {
    "name": "Discord",
@@ -72,6 +72,10 @@
     {
      "label": "Site officiel",
      "url": "https://discord.com/blog"
+    },
+    {
+     "label": "Note : latest",
+     "url": null
     }
    ],
    "new_count": 0,
@@ -90,8 +94,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23370,
-    "pushed": "2026-11-18T18:21:39Z",
+    "stars": 23391,
+    "pushed": "2026-11-19T07:21:47Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -167,6 +171,18 @@
     {
      "status": "cna",
      "affects": null,
+     "id": "CVE-2026-77283",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77283",
+     "date": "2026-11-18T23:17:21Z",
+     "severity": "HIGH",
+     "score": 8.8,
+     "exploited": false,
+     "summary": "obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults. Prior to 0.5.7, deployments running without MCP_AUTH_TOKEN install no serverOptions.authenticate check for the HTTP /mcp endpoint, so requests are dispatched without…",
+     "new": true
+    },
+    {
+     "status": "cna",
+     "affects": null,
      "id": "CVE-2026-115478",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115478",
      "date": "2026-10-23T15:17:30Z",
@@ -189,10 +205,10 @@
      "new": false
     }
    ],
-   "cve_total": 2,
+   "cve_total": 3,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 2
+   "cves_cna": 3
   },
   {
    "name": "Pulse Diagnostics",
@@ -312,8 +328,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 187565,
-    "pushed": "2026-11-18T16:30:00Z",
+    "stars": 187576,
+    "pushed": "2026-11-18T22:53:05Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -409,8 +425,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156746,
-    "pushed": "2026-11-18T18:16:03Z",
+    "stars": 156769,
+    "pushed": "2026-11-19T03:10:15Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -420,7 +436,7 @@
      "tag": "v1.13.3",
      "date": "2026-11-17T21:22:27Z",
      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.3",
-     "new": true
+     "new": false
     },
     {
      "version": "1.13.2",
@@ -439,6 +455,15 @@
    ],
    "news": [
     {
+     "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJcm9uUjY2VkxLdzNYVlNtdHlyVUxBUWRjLVFiNnRJVEZxNUNqa0hGS0ZUS3RIZGNGbDhwYXVIS3EtQ2RSV2ZraS0zT2pIWHdRdklnc1QtTFJMeFd4azRndjdiQzMtNFloSkFtNlNERVVaTlhtcUxSMnFtbWs?oc=5",
+     "date": "2026-11-02T08:00:00Z",
+     "source": "The Hacker News",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Critical Langflow Vulnerabilities Allow Unauthenticated Code Execution",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNV9sSHc3d0hsdXk4Q2tEOXlMd205blY5cmJqV21heXBjU0Ywb0NZOUJ1THpFSmd2UWJrV01kWHBDVUVnSTFHR053NWczSEpGa3psTHl2OW5vU2FVbTYwckVicTYyTFFEOVR2SzFuNVQ3bHhvMHZlbVpHUzg5c1lua2phQ3hCWXQwTHhF?oc=5",
      "date": "2026-11-02T08:00:00Z",
@@ -446,6 +471,15 @@
      "summary": "",
      "lang": "en",
      "new": false
+    },
+    {
+     "title": "Warning: Multiple Vulnerabilities Affecting IBM Langflow, Patch Immediately!",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeWhFTDUySHowMS0tVVNMYlg2V21XRVN6aHhXU0xhZ0lUU0pCTkgyNG1aN0NGU1NKSUFkODNFSmQ0djR2Mm5VRmdNalZER2lFMnZVR09WQ0p3R0t0REN0SGgtdXNxaUtvTUg4azk1NEdiTWlBODdVLThnYlpQYzdMMlREbnpjaWRPMmFWcVJWR0FWTUFRSU9zYnpXa2VyRnpOMFJJdWNpNTJRd3M?oc=5",
+     "date": "2026-10-30T19:08:50Z",
+     "source": "CCB Belgium",
+     "summary": "",
+     "lang": "en",
+     "new": true
     },
     {
      "title": "Langflow sous attaque : 1 423 tentatives d'exploitation sur des serveurs exposés",
@@ -466,7 +500,7 @@
      "new": false
     }
    ],
-   "news_count": 3,
+   "news_count": 5,
    "links": [
     {
      "label": "Site officiel",
@@ -540,7 +574,7 @@
      "new": false
     }
    ],
-   "cve_total": 35,
+   "cve_total": 34,
    "cves_affecting": 0,
    "cves_pending": 0,
    "cves_cna": 0
@@ -588,13 +622,22 @@
    ],
    "news": [
     {
+     "title": "Docker Hub, une étude dévoile que des clés cloud sont volées en huit secondes",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOam9QQzZiS2NBTG9IcVhwVTlSZnRwV3JZbVhtd3FQNXA4U3RVbzVoZjh3azl6ZE5uQ2w3czBnWlZuX3ZMRnRLVTFpSmdORk5mOTl3VkJQcjd1X1NYcWxMQWgwVWRNNHdmSG5MOHdRbTlDRlRXZ18xZk44MXlRSHBrV20wc1dqS2ozSERlSVNteFhURGY1RGJB?oc=5",
+     "date": "2026-11-19T07:39:12Z",
+     "source": "Pasquale Pillitteri",
+     "summary": "",
+     "lang": "fr",
+     "new": true
+    },
+    {
      "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
      "url": "https://www.docker.com/blog/agentic-ai-security-docker-governance/",
      "date": "2026-11-18T14:00:00Z",
      "source": "docker.com",
      "summary": "Learn how Docker AI Governance secures agentic AI with sandbox policies, MCP tool governance, and audit visibility to support controlled AI agent workflows.",
      "official": true,
-     "new": true
+     "new": false
     },
     {
      "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
@@ -628,15 +671,6 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rUGxzRWRHVU5pRjQ2QlpsNmFqUTFlRWJrWVIyZm5BbWF6cVZMU0ZoNVdYeGllVEdqcWVnNGpVU0g2VU5JV0xHYTlBTFZsbWtCMkRHckNrR3VZaUdsaVFSdkxhU1l4XzVYbmc?oc=5",
      "date": "2026-10-28T07:00:00Z",
      "source": "Coursera",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "This free Docker management tool replaced 5 of my most essential containers",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdDVPZFgxM3l4OXQzTDhCbTRzdmQxZ1dzSTZNRmswcFJmeG9MMThQVVhFY2NINERvbG9BSU85Zloxb25lcXp6aDd5Y1V5WmVhVzlrRHpxS3ZyYTN0TkVvTllLSDZXM3FKNkl4SUtObWRwQUVHeml6YTNFZ094TG5XdktLSWdKRS1WMjEydFcwbTZ2b0RfVWttMWpQaUtvUnRNNHFkNQ?oc=5",
-     "date": "2026-10-21T07:00:00Z",
-     "source": "How-To Geek",
      "summary": "",
      "lang": "en",
      "new": false
@@ -759,22 +793,13 @@
    ],
    "news": [
     {
-     "title": "NoisyTCP: 11-Year-Old Linux Kernel Flaw Can Crash Servers Remotely",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSUNDWUs1NnJGaDVlcUh6aHk5SzVKOUtnMFAwQmJ6bFBMNlo1QzItUDd1dlFtc28ySnAwRzlXMGx6NVlyRmtWenJyWDJDdkhUV2c1U2szRGoydzVVS2pvME5fNDdHRDA?oc=5",
-     "date": "2026-11-17T23:12:29Z",
-     "source": "THE ELEC, Korea Electronics Industry Media",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
      "title": "CVE-2026-99288: NoisyTCP Linux Kernel DoS",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDlxSDZwNENob3lmMkVVc19qZUc3VE8yVkwxZnN2RDk2NTkyVE1qOTk5ckU3SS03UEdlZnY2LUdlaHotT3dORnYzN1pGaVFFNDZUTUo3OHZCQmJPUXFabGZLTGpnMkR5bm1kYjBjSU9QUkY5MGVyUkZhYjl3ZDd5WEtEaUEwWUc4ckhSVXV6djhZdkx0SEZzWDg3aW8zTlU?oc=5",
      "date": "2026-11-17T16:18:27Z",
      "source": "SOC Prime",
      "summary": "",
      "lang": "en",
-     "new": true
+     "new": false
     },
     {
      "title": "Warning: NoisyTCP Linux Kernel Vulnerability, Patch Immediately!",
@@ -786,13 +811,13 @@
      "new": false
     },
     {
-     "title": "NoisyTCP, an 11-year-old Linux kernel bug, crashes Linux servers",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5",
-     "date": "2026-11-17T07:19:31Z",
-     "source": "Pasquale Pillitteri",
+     "title": "Rust-Powered RAM Disks Move Closer to the Linux Kernel With New rbrd Driver",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNREFEY0tCZjZERGNUU3VpNFpJSzJGblZET3lURlBmRXNSaDNwRDNVWERXUzJrLWRPVnA2WkN1dng2XzRmR1FGV01YRlZHcURLNV9nUThKRUdlTFZnSnVjTXc3am9tOXEyYmhMNTJ2NlBLaVR2MDlReGp4Q2pCRmY0bHBOajR2U1ZocFNMNFhuRThBYVB4Y3hVRjRmcFdBWG9Ga2c?oc=5",
+     "date": "2026-11-17T08:00:00Z",
+     "source": "Linux Journal",
      "summary": "",
      "lang": "en",
-     "new": false
+     "new": true
     },
     {
      "title": "Security researcher identifies critical NoisyTCP vulnerability in Linux kernel",
@@ -811,16 +836,25 @@
      "summary": "",
      "lang": "en",
      "new": false
+    },
+    {
+     "title": "NoisyTCP Linux Kernel Bug: Patch Status and Mitigations",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93ZkFHc2ZULThxT3RPSVg0dEd3NmRnWFBCNFJVOGh5X1ppNjhEeW5pbmdqZnZ5MlpWNUVrM1F1MWpocXFDUXJlS3dPcw?oc=5",
+     "date": "2026-11-16T18:22:09Z",
+     "source": "ShiftDelete.Net",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 63,
+   "news_count": 61,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 2,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -890,7 +924,7 @@
   },
   {
    "name": "Debian",
-   "installed": "",
+   "installed": "Trixie",
    "latest_version": null,
    "version_status": null,
    "eol": {
@@ -911,6 +945,15 @@
     }
    ],
    "news": [
+    {
+     "title": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb3NoM3dzU1paUHRQSnlUOWk2TzFFUFh5QnBEcXFFTzVFaTkweUZQOEd1NlVGMXV0eFl4NXoxTlB1RVRjcUtBSkRjY2F0dzZmSDZWLXB5R19MclRWTVkta2IyYl9VNUVNMkpVeV9maEFrVVRyUGZzNW1kQjBZWTdrNndzZDhOQ1RycXh1eXR6UQ?oc=5",
+     "date": "2026-11-18T19:02:15Z",
+     "source": "9to5Linux",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
     {
      "title": "Debian 12 Kernel 6.1.0-55 Freeze: ext4 Bug and Fix",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeTYwZ2haNEZtc3U0WElhWEk2Rm56TElqdFFmd0dRM1NGQ2pkUEFKbnA4X0F4UTFKVkZVMzFRVTRIM0R5NGFyUGxfeEJRY21CLTZySzIxZlNiTE1nS0JPOWtoZU5lby1wRk5mdlBOV1lUT2p6QWxzaXlmc2oxZnc4NUVCWmN0TWt5RFE?oc=5",
@@ -955,25 +998,16 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "APT bug CVE-2026-109518 hits Debian and Ubuntu, a fake package can get root",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY1A0ZVFRcWtSU1R2NFM0WlEzOHJnNVdLeDZFaDB0bWZBTGxYSGh5cnpRcnc0bXY5aHlGaFVfU09vRkhja2FWc2x0eXA4VG5jeE9IckNsSzRKUDRaUDZ6c3Rha0dYVW85R2xTc1ZURXJRaktJZ2VyRkdKNEg0eDQxckIxMTFyZkNRSlNqaWJxSnZsVFJRdGtyajJtejA2d3g1?oc=5",
-     "date": "2026-11-05T08:00:00Z",
-     "source": "Pasquale Pillitteri",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 13,
+   "news_count": 14,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.debian.org/News/"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -1041,13 +1075,31 @@
    ],
    "news": [
     {
+     "title": "Automating bare metal infrastructure in FIPS-regulated environments with MAAS",
+     "url": "https://ubuntu.com//blog/automating-bare-metal-infrastructure-in-fips-regulated-environments-with-maas",
+     "date": "2026-11-18T22:26:26Z",
+     "source": "ubuntu.com",
+     "summary": "Organizations operating sensitive infrastructure, particularly in the government, defense, and financial services sectors, often face strict security and compliance requirements. These requirements extend beyond…",
+     "official": true,
+     "new": true
+    },
+    {
+     "title": "Protect Ubuntu and Debian servers from nginx2root before the patch",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTGIwNFpFY3RaWDNNeTdVZmxBbEMxWXFnUGp3QUdrUnFfUHN6dThxQVhMVm02OFRWTW5hT2RPSDc5eEwxWkV3OTIwSjRZVGJZWXQwSFJHZzhCanpBSHhvdzZkNUhwcXVhSnd2dFlrZmtUY01XTU1RZlhwbUJYbnctd1U4anNES3VIRjREclM5bi05SHBLZU9rdUlvREM3eXNCakE?oc=5",
+     "date": "2026-11-18T21:05:26Z",
+     "source": "Pasquale Pillitteri",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "What makes Fedora feel snappier when Ubuntu keeps up in a speed test",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0pNS3hDaWxKVHBLWXY2cmFxN0VCRWkxOThrVWptOEpjcEYtY1BmeDE5aTNzSFMzYlhVTXFrMFhZNUhGaHFlaHpfSnVadzQyMnhVSGJtWkhvbnFTQnpNWGI3RXJEbC1MOThveUpoWGlpODhuQ3lwMXZfY2JuRDdMakNLcnVXRDFSTFdDTTVTbmE0N3lQcDNQczNIcw?oc=5",
      "date": "2026-11-18T17:31:16Z",
      "source": "How-To Geek",
      "summary": "",
      "lang": "en",
-     "new": true
+     "new": false
     },
     {
      "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
@@ -1056,22 +1108,13 @@
      "source": "Help Net Security",
      "summary": "",
      "lang": "en",
-     "new": true
+     "new": false
     },
     {
      "title": "Ubuntu gets AI-generated security fixes for those feeling brave",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQODJ0dF8wREQwVjJyS0x5MjRiWWhzclRfRlNMOXhlUFA1TDl2QU1DMVlQUVozanBNN2ZjNllZUnZEV0ozRUF3ZkU5WGxrMUtDMzJPYXZ0elZNTkZ5UHBOanV6RDdoamRZQThwT2t5YjVTZGhhRmhTUFh6dS1JR0xXbWprRFVLYk16YXZoLWxzejhwMHpFS25NLXplZnVTV0FMZ3A2cXMzaFVOVTFLOVRyS040LTFMZFZLTV91Z1d5UHc?oc=5",
      "date": "2026-11-16T18:01:00Z",
      "source": "The Register",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "Ubuntu Pro users can get early access to AI-written security fixes",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzYzY2bXUzVUNlVEpPZkU0SHZ4WDhTMHR4VXJCclFnRkVtTWNLdm9YWTNFT1ZwSkFuRWhoUkJ0VUhRN1piNEVZOFNsdHVUdm5EVnllRmhFODZlbEJEU1VZdzQtTVoxdEFCY1dYQThVbVdBSWZa0gF6QVVfeXFMTXBWTVIwWEhJT2MzMHAzcmZKV2NPM0ZTUHZ4N3JYTFlnVVJ5SnB0dkxQU29aZE1VVXExVm5QMFZyUUktZHF6QUp4Tm5RQVlYVFE4aXJCSmhlMDJVNUdVazNDdlJib0tGbExfVmYxMm16Z3p0TnFEWTB3Rmc?oc=5",
-     "date": "2026-11-15T07:41:33Z",
-     "source": "OMG! Ubuntu",
      "summary": "",
      "lang": "en",
      "new": false
@@ -1084,18 +1127,9 @@
      "summary": "In an era where software defines vehicle value, engineering teams face a friction bottleneck. They spend hours fighting dependency conflicts, toolchain mismatches, and integration failures instead of writing vehicle…",
      "official": true,
      "new": false
-    },
-    {
-     "title": "What if your Virtual Data Room (VDR) was Android™ based?",
-     "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
-     "date": "2026-11-11T08:00:00Z",
-     "source": "ubuntu.com",
-     "summary": "When working through merger and acquisitions, one needs to follow a proper due diligence process, in which lawyers, financial advisors, and potential buyers will need access to highly confidential documents, often…",
-     "official": true,
-     "new": false
     }
    ],
-   "news_count": 41,
+   "news_count": 49,
    "links": [
     {
      "label": "Site officiel",
@@ -1139,7 +1173,7 @@
      "source": "news.lavx.hu",
      "summary": "",
      "lang": "fr",
-     "new": true
+     "new": false
     },
     {
      "title": "Beelink Me Pro Modular NAS, Alpine Linux For The Kindle Paperwhite, and an ultra slim Panther Lake PC: Liliputing News Roundup",
@@ -1151,19 +1185,19 @@
      "new": false
     },
     {
-     "title": "Alpine Linux SSH Flaw: Long Passwords Can Bypass Authentication",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUWRBU0thMm9fa1o1MUhKMHdZakRvMF9JQTJSWXlVdmVKZFBjMmlHRVZMRjVSWC0zTldBQTJZblFpSE5YeXE1MTFGQU1uMm12djlka2tlVWpYclpOUEswejJEUFNpMlFfX1dUUUZaQ3FQMExOYlNjT0xSTmFCZy1VSGkyV1F4dmM1Rk9vbzZrM0pnb2dyV051MEloSnljUQ?oc=5",
-     "date": "2026-11-09T22:42:26Z",
-     "source": "eSecurity Planet",
+     "title": "Alpine Linux et OpenSSH corrigent une faille d'une gravité sans précédent",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0hUTmJBWF9JWjJMZC00NVVnOFpIUnFJeVJITE5Xcnd0QU9sWEdOZjRtd1hUc3dWSFFPSjlxbndoQjBuYTg2YURCbkdXc19pWXZ4bVpWeTd0RHBTSnp1VzBWZldLUktBVWRtclFydVJuOE9KcFhWdzN3OHc3SmVtVEg1b2VQU29yaGY1YXpOUTF0MEIwQzNLOUFzQm1Za1ZObk15bFV2V0t1YS03VDVLbEV4Y01EQQ?oc=5",
+     "date": "2026-11-09T08:00:00Z",
+     "source": "ZDNET",
      "summary": "",
-     "lang": "en",
+     "lang": "fr",
      "new": false
     },
     {
-     "title": "Attackers Exploit Alpine SSH Password-Bypass Flaw",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95SWxPME9MWmxzNUdKb2JrRzVBa3JhV1FMVnFPR3Vfak4zZ2pDdEMyeUVJclRWTDBBVGdKMGNoclhtUHVYOF9zbmtDTjFYaHRNcEdFLVZwVEFSZw?oc=5",
-     "date": "2026-11-09T20:59:06Z",
-     "source": "Cryptonews.net",
+     "title": "OpenSSH let anyone in with any password on Alpine Linux",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXFVMm9RempaNEhvVDdEVzRnRUtBVTJBeWJtVkpjTTVwcnhDejlUVUJFQjNNNmVIMGxXRWNDV2ZpSzhTeTVFOGpKNzg2ZTRQMVVuaDNWWThzeV90MUlDSGVUT0VvWjRjVnd5akVIUklXTlFBcDNuek5FVnlEZks3YjJrYmMyOHM?oc=5",
+     "date": "2026-11-09T08:00:00Z",
+     "source": "Korben",
      "summary": "",
      "lang": "en",
      "new": false
@@ -1194,7 +1228,7 @@
      "url": "https://alpinelinux.org/posts/"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1213,13 +1247,13 @@
    "releases": [],
    "news": [
     {
-     "title": "Arch Linux-Based Devario OS Sees First Stable Release",
+     "title": "Arch Linux-Inspired Devario OS Sees First Stable Release",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTGd6U3lZcGpIajc0VU1vRUpUUkdPekN1T0VfakV5OExEZ2NyS1psWHZ5Z20xUDgyY0JXVzdtNTN1eHNhVE56OUV5UUd1ZFMwQWkxQndYWjZ6ZDJGRUl4MFkxbF9JaXVXZDhSSnNMbEp5MVF2T2JUSERoUzZIZXNnUw?oc=5",
      "date": "2026-11-18T13:05:49Z",
      "source": "9to5Linux",
      "summary": "",
      "lang": "en",
-     "new": true
+     "new": false
     },
     {
      "title": "Shelly 3.3 Arch Linux Package Manager Gets a Redesigned Interface",
@@ -1267,14 +1301,14 @@
      "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 10,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://archlinux.org/news/"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1311,15 +1345,6 @@
      "new": false
     },
     {
-     "title": "Kali Linux 2026.3 improves custom image builds, adds smartwatch wardriving",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSlQ4M211b2E0ck5GVFRYeU1BYTBiT0RQUUc1VDF2SW9WLV9HWmhoX2JvM3p1RVdEVzNINm9FVXh6eU1iZnVULTlsV2pGQnpyYlJzNFR2bmVIT1lKeFFvNWJwc0twWWMza0gxeXVHQlNLUDctQlJuN25ZaDZUYnFHS0NnRVQzQXNnUEhqNmhxNnVqLVN3Q0JsWGhJd0lXdXktYjJLVE1RVndoMnA3eU9kSjJzbWM5Q2c?oc=5",
-     "date": "2026-10-27T07:00:00Z",
-     "source": "heise online",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
      "title": "Kali Linux 2 026,3 ajoute 6 outils et met à jour son environnement de bureau",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSHF3c3lsLVdqTTlsSVVFaWNqWDhJcXZPUlBfam9qRzV4bG1STnRVNk5VTk1UUWtwX0s5c2ZGWkpGWGZxYl9YUVZPODR4RHF5ZmJUX3BmZmZiVVZxTi1uUThGOUhjSVpjZWcwYk5ZWTcxOXNUMFppM19RSTZFZXBJZ2hRdkQxSzM2bHFB?oc=5",
      "date": "2026-10-26T07:00:00Z",
@@ -1338,6 +1363,15 @@
      "new": false
     },
     {
+     "title": "Kali Linux 2026.3 ships kernel 7.1.5, brings wardriving to the TicWatch Pro 3",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PLXJnQnVCZ2xzdlNSYlhHMWtMVGxoQ2FsWG9IaXdYR2JNd3UzeW1pWXcxZEZHb2FzU0M3aXI5d2JrTC1FMzN0QWtyRGFfeGlwZTNIR0U1Uk1lS0NwZHJRRlFCSzNqbWlEUTVLV19zNzZjMDZ3RGhCWEFB?oc=5",
+     "date": "2026-10-26T07:00:00Z",
+     "source": "Help Net Security",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Kali Linux 2026.3 Release (Build-Scripts Refresh)",
      "url": "https://www.kali.org/blog/kali-linux-2026-3-release/",
      "date": "2026-10-26T00:00:00Z",
@@ -1347,7 +1381,7 @@
      "new": false
     }
    ],
-   "news_count": 12,
+   "news_count": 11,
    "links": [
     {
      "label": "Site officiel",
@@ -1395,8 +1429,8 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9516,
-    "pushed": "2026-11-18T00:34:33Z",
+    "stars": 9517,
+    "pushed": "2026-11-19T00:04:05Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
    },
@@ -1569,6 +1603,10 @@
     {
      "label": "Site officiel",
      "url": "https://www.proxmox.com/en/about/company-details/press-releases"
+    },
+    {
+     "label": "Note : 9.0.11",
+     "url": null
     }
    ],
    "new_count": 0,
@@ -1588,18 +1626,8 @@
    "repo": null,
    "repo_meta": null,
    "releases": [],
-   "news": [
-    {
-     "title": "Hypervisor Market Size, Share, Trends 2036",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTSVBnZjRSZldtVkdNZnJqRFUyV2Z1cXR4ZG1RY2Njbl91aHQ2VTV3SzFaZjFBYlBMbFI1enR3MmdpYXc2dVRpa2JicFRsN0xsbWVJNGd5TjUyNnVwRldLUWo4bDVKUVJWOUtpVDZydw?oc=5",
-     "date": "2026-11-02T08:00:00Z",
-     "source": "Future Market Insights",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    }
-   ],
-   "news_count": 1,
+   "news": [],
+   "news_count": 0,
    "links": [
     {
      "label": "Site officiel",
@@ -1675,27 +1703,22 @@
    "cves_cna": 16
   },
   {
-   "name": "Pfsens",
+   "name": "Pfsense",
    "installed": "",
    "latest_version": null,
    "version_status": null,
    "eol": null,
-   "category": "Réseau & sécurité",
+   "category": "Autres",
    "repo": null,
    "repo_meta": null,
    "releases": [],
    "news": [],
    "news_count": 0,
-   "links": [
-    {
-     "label": "Site officiel",
-     "url": "https://docs.netgate.com/pfsense/en/latest/releases/"
-    }
-   ],
+   "links": [],
    "new_count": 0,
    "cves": [
     {
-     "status": "cna",
+     "status": "keyword",
      "affects": null,
      "id": "CVE-2026-92182",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92182",
@@ -1707,7 +1730,7 @@
      "new": true
     },
     {
-     "status": "cna",
+     "status": "keyword",
      "affects": null,
      "id": "CVE-2026-113779",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113779",
@@ -1722,7 +1745,7 @@
    "cve_total": 2,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 2
+   "cves_cna": 0
   },
   {
    "name": "Wireguard",
@@ -1799,7 +1822,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27509,
+    "stars": 27514,
     "pushed": "2026-11-18T10:10:34Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -1851,7 +1874,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11791,
+    "stars": 11793,
     "pushed": "2026-11-14T14:36:00Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -1972,8 +1995,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45857,
-    "pushed": "2026-11-18T04:53:00Z",
+    "stars": 45874,
+    "pushed": "2026-11-19T04:51:44Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -2024,8 +2047,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39295,
-    "pushed": "2026-11-18T17:58:06Z",
+    "stars": 39312,
+    "pushed": "2026-11-19T08:29:14Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2233,32 +2256,32 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24255,
-    "pushed": "2026-11-18T16:03:57Z",
+    "stars": 24254,
+    "pushed": "2026-11-19T04:03:55Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
    "releases": [
     {
+     "version": "Beta v1.101.52 (Chromium 158.0.8127.42) \n\n",
+     "tag": "v1.101.52",
+     "date": "2026-11-19T05:08:21Z",
+     "url": "https://github.com/brave/brave-browser/releases/tag/v1.101.52",
+     "new": true
+    },
+    {
      "version": "Nightly v1.102.18 (Chromium 158.0.8127.42) \n\n",
      "tag": "v1.102.18",
      "date": "2026-11-18T13:25:26Z",
      "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.18",
-     "new": true
+     "new": false
     },
     {
      "version": "Nightly v1.102.17 (Chromium 158.0.8127.37) \n\n",
      "tag": "v1.102.17",
      "date": "2026-11-18T01:13:32Z",
      "url": "https://github.com/brave/brave-browser/releases/tag/v1.102.17",
-     "new": true
-    },
-    {
-     "version": "Release v1.100.58 (Chromium 158.0.8127.42) \n\n",
-     "tag": "v1.100.58",
-     "date": "2026-11-18T05:20:44Z",
-     "url": "https://github.com/brave/brave-browser/releases/tag/v1.100.58",
-     "new": true
+     "new": false
     }
    ],
    "news": [
@@ -2290,15 +2313,6 @@
      "new": false
     },
     {
-     "title": "The New York Times attaque le navigateur Brave en justice sur l’IA",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HYTVKNDdCQmgtaE82cjI4d1VydGpFQUJOMm1tNUpkM3hEU2VuZ1AwcGl3dk5HbUtNMFZGVDVudk9Za0ZDYVRIaHFBM2p1bWhFUTY5eDhFaFB3S1FPVGpkQkd6OF8wY2NaYjRUVWV2VQ?oc=5",
-     "date": "2026-11-06T13:28:02Z",
-     "source": "Linformatique.org",
-     "summary": "",
-     "lang": "fr",
-     "new": false
-    },
-    {
      "title": "Télécharger Brave Browser 1.98.63 pour Android",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tUF9GanNnZ2ZyTW5ZbXFEVGtSUmRLOHlZMllabEhGQUxHbTZrMEt4cnVxaGJoLWhocm9Xb2JHUC0xYXp5T3ZteXNSWXNoZjFsZHdKcjluWkhqNi1RM015T0Y3YUV3RTg?oc=5",
      "date": "2026-11-05T00:00:00Z",
@@ -2315,9 +2329,18 @@
      "summary": "",
      "lang": "en",
      "new": false
+    },
+    {
+     "title": "New York Times Lawsuit Accuses Brave Browser of Scraping Paywalled Journalism for Major AI Companies",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHRBM0pCUVNaVmZuRjN1M0dxWlVPUkU2OHdhRncyU185MC1FS2h6Yk5OeUttdm1Cc2ZyUUJCM3pTcWIzWEYxUWoxOGtzVy1FTXpqdkNQcU9GZTdBYkswUWE2d0JMOW0xS0VySmhrU3FpeVZxN1ppZU5Ua3hrUUhUd3lId1VDdHA5Q3RzZ0d6ald3dTV6Mjc4akZMQndLVkFTc1RMTmQtcmZ3TjBwcnJ2WnBOc1p3TlhUS3JqRXMzV0FaYXVabFpPNTlJVHNMMnF1Wm9vNkhISDYwQXRFNmU4?oc=5",
+     "date": "2026-11-03T13:28:34Z",
+     "source": "Perspectify",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 10,
+   "news_count": 9,
    "links": [
     {
      "label": "Site officiel",
@@ -2326,9 +2349,13 @@
     {
      "label": "GitHub",
      "url": "https://github.com/brave/brave-browser"
+    },
+    {
+     "label": "Note : lastest",
+     "url": null
     }
    ],
-   "new_count": 3,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2344,8 +2371,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7789,
-    "pushed": "2026-11-18T17:42:05Z",
+    "stars": 7790,
+    "pushed": "2026-11-19T08:27:23Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2418,18 +2445,312 @@
    "cves_affecting": 0,
    "cves_pending": 0,
    "cves_cna": 0
+  },
+  {
+   "name": "Donut",
+   "installed": "",
+   "latest_version": null,
+   "version_status": null,
+   "eol": null,
+   "category": "Autres",
+   "repo": "donutbrowser/donutbrowser",
+   "repo_meta": {
+    "stars": 4339,
+    "pushed": "2026-11-14T01:16:30Z",
+    "url": "https://github.com/donutbrowser/donutbrowser",
+    "description": "The Most Private Anti-Detect Browser 🍩"
+   },
+   "releases": [
+    {
+     "version": "Donut Browser v0.36.0",
+     "tag": "v0.36.0",
+     "date": "2026-11-01T10:56:53Z",
+     "url": "https://github.com/donutbrowser/donutbrowser/releases/tag/v0.36.0",
+     "new": true
+    }
+   ],
+   "news": [
+    {
+     "title": "OKC man faces up to 15 years in prison for alleged armed robbery at OKC donut shop",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcjh1ZnpDUEN5bVd5Vk03SlBMXzVDVVd3c08wSFVxZlJSR2tCZXl2MHFWaExZaUhPbmN1MG5MYXd3OURwSnYxdjJxZF9wRngyUklENW5NZHhidGxDbVN0MXVsNFZCTEVYdGE0TWF4U3RlelZQZTBHTGdhREpUNEtEUm96Y3lyWFVnb2VrUGs2RFZERk1QQzgxWGNqc2FscXEtS0ZGTFozVHhnTVkzN0ZxTDZn?oc=5",
+     "date": "2026-11-19T02:55:24Z",
+     "source": "KOKH",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Lace up for a cause: LISD Police preparing for Donut Dash 5K",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd3k4WHViR0xTeVo5X2lubkZYZFhRRmJ3dmEyQnIwc3VIOE1DbDNTUktxYkZ6TGhYNW5HMldlRnFQajBhZW9HOFJsTkM2ZzVhamtDaXhrUzNjVUtsV3hIUVQ3TFQyT3EzaGxVM3lrVUVMMmRBRFpKR29iVVA3TzY1dDkyUlFLLXVGR2k2MGVleXc?oc=5",
+     "date": "2026-11-18T17:23:27Z",
+     "source": "KGNS",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Le Donut en action – Retour d’expérience dans l’espace francophone (replay webinaire)",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBT0xyTUpKRWpQelBuNE5KSEltQ1hlY0JFSjhZaGNtdlJNQUJyVnl5YmNXYUUzc1ljZllYdDdoazZyS1dMUHhsOS1sdkpIa3Uyd05RWm9DSXA1eWlBYU5pV1ByX29YbWc?oc=5",
+     "date": "2026-11-18T15:07:45Z",
+     "source": "Union des Villes et Communes de Wallonie",
+     "summary": "",
+     "lang": "fr",
+     "new": true
+    },
+    {
+     "title": "Baby born in Dunkin' Donuts parking lot gets donut-themed nickname",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNi1sOU9jVmtmSVVZS204cFlIbEY3cFBxQldLb1hOdTZlMmFiaGNsWjREWHNqUloxXzFrNEpXbmlLMDhxRVRTRnZvcExRWUk5NXUtMG9VOGhUME92amtWZFptZXJhcmVjSWkzdG8ySS00S3NHY0hSbU9BRENzYzlETm1B?oc=5",
+     "date": "2026-11-18T14:50:01Z",
+     "source": "Live Action",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "The Blogs: Can you handle a Hanukkah donut? | Yonina Bendheim Jacobson",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sU1JTMm1NMHFiZWZXam9hMGVOdmhUQ2pyR09IOVZhNmdWakNGMEFxVHlPTmZ5OS16UFBDaFRFVmptR3VRQkxTOGtDTGhOY3hjSEtKWWF1R3JFS05iSHZ1d3VXZVMxNWdtWnNMelVSbXdTZw?oc=5",
+     "date": "2026-11-18T12:52:00Z",
+     "source": "The Times of Israel",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "ATEEZ And “I’m donut ?” Bring Limited-Edition Donut And Merch To KL",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLUl1ZGlNUHR4MGY5Vm0yUVY1MmpfUkNxRGNVenYySGpreUpWNkFrNmdFWWFTNy1HWU5KR2JtRWNFUjZJQmRKM1A2amNfTFluYUtFbjJSV1JCOUxrMWFkSTZDbkVPTExDTFU5R1dVc0hGX0dSRV9TMF9FQ1dqZGJhbXJ5SzFLNERlLXlNY204OV9nYkFMRnE4SVJWRlBvazVaMzJIRDRoa1dOVVdlZ01RSA?oc=5",
+     "date": "2026-11-18T09:08:04Z",
+     "source": "TRP | The Rakyat Post",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    }
+   ],
+   "news_count": 53,
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/donutbrowser/donutbrowser"
+    }
+   ],
+   "new_count": 7,
+   "cves": [],
+   "cve_total": 0,
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
+  },
+  {
+   "name": "Steam,latest",
+   "installed": "",
+   "latest_version": null,
+   "version_status": null,
+   "eol": null,
+   "category": "Autres",
+   "repo": null,
+   "repo_meta": null,
+   "releases": [],
+   "news": [],
+   "news_count": 0,
+   "links": [],
+   "new_count": 0,
+   "cves": [],
+   "cve_total": 0,
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
+  },
+  {
+   "name": "Apache Guacamole",
+   "installed": "",
+   "latest_version": null,
+   "version_status": null,
+   "eol": null,
+   "category": "Autres",
+   "repo": null,
+   "repo_meta": null,
+   "releases": [],
+   "news": [],
+   "news_count": 0,
+   "links": [],
+   "new_count": 0,
+   "cves": [],
+   "cve_total": 0,
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
+  },
+  {
+   "name": "Pi-Hole",
+   "installed": "",
+   "latest_version": null,
+   "version_status": null,
+   "eol": null,
+   "category": "Autres",
+   "repo": null,
+   "repo_meta": null,
+   "releases": [],
+   "news": [
+    {
+     "title": "A dual Pi-hole setup keeps ads off my network, and this tool makes it easy to manage",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2lOQjBaVjFoVTdPNE1tLVZsX1hqUmpmOVc2YUtzOFpUbmkyaDFrYXhiaFFPVmpIZnRRN0JUbkNuM3BqVC04YzM4d2ZOb2IxQjYxSGR2SlNNT0JNRk5hM1NmeVlpeUhPU0ZzdGEzNW51Sk5PZmd4MV9rUEs4U0l6VFFhQWdwdmVPem04VGJBaTBsSDVqQ1NUMzl0RDBwUWM?oc=5",
+     "date": "2026-11-09T08:00:00Z",
+     "source": "How-To Geek",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
+     "title": "Docker Compose turned my fragile Pi-hole setup into a rock-solid DNS fortress",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmsxSDhFbmJBWng3ZUlFQXM3YVkzdmJQbzVhaTZKejlMMGdnc0xmQ3ZIWm1MMmRXTTl2X3phTVl4eGVCT1RzYWwzYUJkNFFLQl96RGpLRjN4TFpMeUNwcFIyMTQ2c2NQUjBYWlcyQ2Q5emx6OFpjMUJJZU8xaVYyY2R5SUJwMjNVQlJjZGxyZXBhdGRQNGZGOHRxNzJDVVJBNTZPZkNqRQ?oc=5",
+     "date": "2026-11-02T08:00:00Z",
+     "source": "How-To Geek",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
+     "title": "These 6 mistakes can turn Pi-hole into the least secure part of your home network",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGwzQU5JVjRhRW1tOGpiUDVjWGFIOHdkVzZzNUFxcnFtNzZwVUFaU3VBdkVWMWg5OXFHZktEd2RqM0h6cmozcXMtU1dBWEhYTDUzY0k5SHdtY2I2WmZTVGhkWXpvMXBFeXEzUzlYVFJFZzc0NlpNZEgyTUlqWnNPSXNUdXREVk14YnBNQTYtUG5tNC1TdjJ5LXhMeFZmeThC?oc=5",
+     "date": "2026-10-28T07:00:00Z",
+     "source": "How-To Geek",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    }
+   ],
+   "news_count": 3,
+   "links": [],
+   "new_count": 0,
+   "cves": [
+    {
+     "status": "keyword",
+     "affects": null,
+     "id": "CVE-2026-71304",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71304",
+     "date": "2026-11-17T21:18:12Z",
+     "severity": "HIGH",
+     "score": 8.8,
+     "exploited": false,
+     "summary": "Pi-hole FTL is the core engine of the Pi-hole network-level advertisement and tracker blocker. From 6.0 until 6.7, check_client_auth() in src/api/auth.c detects that a matching session identifier has passed valid_until but still assigns user_id before the…",
+     "new": true
+    },
+    {
+     "status": "keyword",
+     "affects": null,
+     "id": "CVE-2026-65963",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65963",
+     "date": "2026-11-17T21:18:11Z",
+     "severity": "HIGH",
+     "score": 7.2,
+     "exploited": false,
+     "summary": "Pi-hole FTL is the core engine of the Pi-hole network-level advertisement and tracker blocker. From 6.6.2 until 6.7, PATCH /api/config accepts unfiltered CivetWeb lua_* options through webserver.advancedOpts, while POST /api/teleporter writes…",
+     "new": true
+    },
+    {
+     "status": "keyword",
+     "affects": null,
+     "id": "CVE-2026-65964",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65964",
+     "date": "2026-11-17T21:18:11Z",
+     "severity": "MEDIUM",
+     "score": 6.6,
+     "exploited": false,
+     "summary": "Pi-hole FTL is the core engine of the Pi-hole network-level advertisement and tracker blocker. Prior to 6.7, log_http_access in src/webserver/webserver.c writes attacker-controlled User-Agent content to the access log without output neutralization when…",
+     "new": true
+    },
+    {
+     "status": "keyword",
+     "affects": null,
+     "id": "CVE-2026-65966",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65966",
+     "date": "2026-11-17T21:18:11Z",
+     "severity": "LOW",
+     "score": 3.5,
+     "exploited": false,
+     "summary": "Pi-hole FTL is the core engine of the Pi-hole network-level advertisement and tracker blocker. From 6.0 until 6.7, validation in src/api/list.c permits spaces for GRAVITY_GROUPS and consequently skips carriage-return and line-feed validation for group names…",
+     "new": true
+    },
+    {
+     "status": "keyword",
+     "affects": null,
+     "id": "CVE-2025-62165",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62165",
+     "date": "2026-11-17T21:17:34Z",
+     "severity": "CRITICAL",
+     "score": 9.2,
+     "exploited": false,
+     "summary": "Pi-hole FTL is the core engine of the Pi-hole network-level advertisement and tracker blocker. From 6.0 until 6.7, CivetWeb permits unauthenticated clients to flood the WebUI login page and API invalid paths without connection or request-rate limits.…",
+     "new": true
+    }
+   ],
+   "cve_total": 8,
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
+  },
+  {
+   "name": "HeadScale",
+   "installed": "",
+   "latest_version": null,
+   "version_status": null,
+   "eol": null,
+   "category": "Réseau & sécurité",
+   "repo": "juanfont/headscale",
+   "repo_meta": {
+    "stars": 45874,
+    "pushed": "2026-11-19T04:51:44Z",
+    "url": "https://github.com/juanfont/headscale",
+    "description": "An open source, self-hosted implementation of the Tailscale control server"
+   },
+   "releases": [
+    {
+     "version": "v0.29.7",
+     "tag": "v0.29.7",
+     "date": "2026-10-30T09:55:40Z",
+     "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.7",
+     "new": false
+    },
+    {
+     "version": "v0.29.6",
+     "tag": "v0.29.6",
+     "date": "2026-10-24T10:29:04Z",
+     "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.6",
+     "new": false
+    },
+    {
+     "version": "v0.29.5",
+     "tag": "v0.29.5",
+     "date": "2026-10-13T13:05:15Z",
+     "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.5",
+     "new": false
+    }
+   ],
+   "news": [],
+   "news_count": 0,
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/juanfont/headscale"
+    }
+   ],
+   "new_count": 0,
+   "cves": [],
+   "cve_total": 0,
+   "cves_affecting": 0,
+   "cves_pending": 0,
+   "cves_cna": 0
   }
  ],
  "stats": {
-  "technologies": 26,
-  "cves": 40,
+  "technologies": 31,
+  "cves": 46,
   "to_update": 0,
   "eol_ended": 0,
   "cves_affecting": 0,
-  "cves_critical": 21,
-  "news": 88,
-  "new": 11,
-  "releases_week": 7
+  "cves_critical": 25,
+  "news": 98,
+  "new": 14,
+  "releases_week": 6
  },
  "history": {
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tOFNBWFhYQXZqOXgybnhfa2FTU1h2aU5XdEVjX25wTkdEVTA1R3ZOWk1UNmFVSkNETlEtWkhzNUVtTFRaQnBLLUc1TzY2N2JvSENXVzhHMkVldw?oc=5": "2026-11-04",
@@ -2928,6 +3249,20 @@
   "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0pNS3hDaWxKVHBLWXY2cmFxN0VCRWkxOThrVWptOEpjcEYtY1BmeDE5aTNzSFMzYlhVTXFrMFhZNUhGaHFlaHpfSnVadzQyMnhVSGJtWkhvbnFTQnpNWGI3RXJEbC1MOThveUpoWGlpODhuQ3lwMXZfY2JuRDdMakNLcnVXRDFSTFdDTTVTbmE0N3lQcDNQczNIcw?oc=5": "2026-11-18",
   "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTGd6U3lZcGpIajc0VU1vRUpUUkdPekN1T0VfakV5OExEZ2NyS1psWHZ5Z20xUDgyY0JXVzdtNTN1eHNhVE56OUV5UUd1ZFMwQWkxQndYWjZ6ZDJGRUl4MFkxbF9JaXVXZDhSSnNMbEp5MVF2T2JUSERoUzZIZXNnUw?oc=5": "2026-11-18",
   "https://github.com/brave/brave-browser/releases/tag/v1.102.18": "2026-11-18",
-  "https://github.com/brave/brave-browser/releases/tag/v1.100.58": "2026-11-18"
+  "https://github.com/brave/brave-browser/releases/tag/v1.100.58": "2026-11-18",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeWhFTDUySHowMS0tVVNMYlg2V21XRVN6aHhXU0xhZ0lUU0pCTkgyNG1aN0NGU1NKSUFkODNFSmQ0djR2Mm5VRmdNalZER2lFMnZVR09WQ0p3R0t0REN0SGgtdXNxaUtvTUg4azk1NEdiTWlBODdVLThnYlpQYzdMMlREbnpjaWRPMmFWcVJWR0FWTUFRSU9zYnpXa2VyRnpOMFJJdWNpNTJRd3M?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxOam9QQzZiS2NBTG9IcVhwVTlSZnRwV3JZbVhtd3FQNXA4U3RVbzVoZjh3azl6ZE5uQ2w3czBnWlZuX3ZMRnRLVTFpSmdORk5mOTl3VkJQcjd1X1NYcWxMQWgwVWRNNHdmSG5MOHdRbTlDRlRXZ18xZk44MXlRSHBrV20wc1dqS2ozSERlSVNteFhURGY1RGJB?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNREFEY0tCZjZERGNUU3VpNFpJSzJGblZET3lURlBmRXNSaDNwRDNVWERXUzJrLWRPVnA2WkN1dng2XzRmR1FGV01YRlZHcURLNV9nUThKRUdlTFZnSnVjTXc3am9tOXEyYmhMNTJ2NlBLaVR2MDlReGp4Q2pCRmY0bHBOajR2U1ZocFNMNFhuRThBYVB4Y3hVRjRmcFdBWG9Ga2c?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb3NoM3dzU1paUHRQSnlUOWk2TzFFUFh5QnBEcXFFTzVFaTkweUZQOEd1NlVGMXV0eFl4NXoxTlB1RVRjcUtBSkRjY2F0dzZmSDZWLXB5R19MclRWTVkta2IyYl9VNUVNMkpVeV9maEFrVVRyUGZzNW1kQjBZWTdrNndzZDhOQ1RycXh1eXR6UQ?oc=5": "2026-11-19",
+  "https://ubuntu.com//blog/automating-bare-metal-infrastructure-in-fips-regulated-environments-with-maas": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTGIwNFpFY3RaWDNNeTdVZmxBbEMxWXFnUGp3QUdrUnFfUHN6dThxQVhMVm02OFRWTW5hT2RPSDc5eEwxWkV3OTIwSjRZVGJZWXQwSFJHZzhCanpBSHhvdzZkNUhwcXVhSnd2dFlrZmtUY01XTU1RZlhwbUJYbnctd1U4anNES3VIRjREclM5bi05SHBLZU9rdUlvREM3eXNCakE?oc=5": "2026-11-19",
+  "https://github.com/brave/brave-browser/releases/tag/v1.101.52": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcjh1ZnpDUEN5bVd5Vk03SlBMXzVDVVd3c08wSFVxZlJSR2tCZXl2MHFWaExZaUhPbmN1MG5MYXd3OURwSnYxdjJxZF9wRngyUklENW5NZHhidGxDbVN0MXVsNFZCTEVYdGE0TWF4U3RlelZQZTBHTGdhREpUNEtEUm96Y3lyWFVnb2VrUGs2RFZERk1QQzgxWGNqc2FscXEtS0ZGTFozVHhnTVkzN0ZxTDZn?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd3k4WHViR0xTeVo5X2lubkZYZFhRRmJ3dmEyQnIwc3VIOE1DbDNTUktxYkZ6TGhYNW5HMldlRnFQajBhZW9HOFJsTkM2ZzVhamtDaXhrUzNjVUtsV3hIUVQ3TFQyT3EzaGxVM3lrVUVMMmRBRFpKR29iVVA3TzY1dDkyUlFLLXVGR2k2MGVleXc?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBT0xyTUpKRWpQelBuNE5KSEltQ1hlY0JFSjhZaGNtdlJNQUJyVnl5YmNXYUUzc1ljZllYdDdoazZyS1dMUHhsOS1sdkpIa3Uyd05RWm9DSXA1eWlBYU5pV1ByX29YbWc?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNi1sOU9jVmtmSVVZS204cFlIbEY3cFBxQldLb1hOdTZlMmFiaGNsWjREWHNqUloxXzFrNEpXbmlLMDhxRVRTRnZvcExRWUk5NXUtMG9VOGhUME92amtWZFptZXJhcmVjSWkzdG8ySS00S3NHY0hSbU9BRENzYzlETm1B?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE1sU1JTMm1NMHFiZWZXam9hMGVOdmhUQ2pyR09IOVZhNmdWakNGMEFxVHlPTmZ5OS16UFBDaFRFVmptR3VRQkxTOGtDTGhOY3hjSEtKWWF1R3JFS05iSHZ1d3VXZVMxNWdtWnNMelVSbXdTZw?oc=5": "2026-11-19",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLUl1ZGlNUHR4MGY5Vm0yUVY1MmpfUkNxRGNVenYySGpreUpWNkFrNmdFWWFTNy1HWU5KR2JtRWNFUjZJQmRKM1A2amNfTFluYUtFbjJSV1JCOUxrMWFkSTZDbkVPTExDTFU5R1dVc0hGX0dSRV9TMF9FQ1dqZGJhbXJ5SzFLNERlLXlNY204OV9nYkFMRnE4SVJWRlBvazVaMzJIRDRoa1dOVVdlZ01RSA?oc=5": "2026-11-19",
+  "https://github.com/donutbrowser/donutbrowser/releases/tag/v0.36.0": "2026-11-19"
  }
 }
