@@ -1,5 +1,5 @@
 Logiciel/OS/Technologies;Informations complémentaires;Version installée
-Discord;latest;
+Discord;;latest
 Obsidian;obisidan.md;
 Pulse Diagnostics;https://github.com/Regncreative/PulseDiagnostics;
 LM Studio;;
@@ -7,14 +7,14 @@ Ollama;;
 Langflow;;
 Docker;;
 Kernel Linux;;
-Debian;; Trixie
+Debian;;Trixie
 Ubuntu;;
 Alpine Linux;;
 Arch Linux;;
 Kali Linux;;
-MobaXterm;;
+MobaXterm;;latest
 Git for windows;;
-Proxmox; 9.0.11;
+Proxmox;;9.0.11
 HyperV;;
 Pfsense;;
 Wireguard;;
@@ -23,9 +23,9 @@ Pi Hole;https://github.com/pi-hole/docker-pi-hole;
 Headscale;https://github.com/juanfont/headscale;
 TailScale;;
 Virtualbox;;
-Brave;lastest;
+Brave;;lastest
 Mullvad;;
-Donut;https://github.com/donutbrowser/donutbrowser;
+Donut Web Browser;https://github.com/donutbrowser/donutbrowser;
 Steam,latest;
 Apache Guacamole;;
 Pi-Hole;;
