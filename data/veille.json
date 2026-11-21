@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:39:50Z",
+ "generated_at": "2026-11-21T16:55:57Z",
  "results": [
   {
    "name": "Discord",
@@ -20,6 +20,15 @@
      "summary": "",
      "lang": "fr",
      "new": true
+    },
+    {
+     "title": "Discord, Steam, Twitch : comment les plateformes ont transformé les communautés de joueurs ?",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON0YwTGlDRG9POUpiUXVNLXhST3pzNTBsYjdoLTlaaVdWdjYyR3RFXzlaMUpfY0h5V29VeWpuQURUS3l3aXJsT0dzbDZXWTJWdm5LZmJCNHBMdUpGZTFVblJqVUNkM2JqOFoxVWgtRzNpMVg3ZFBMV0QydUh5dzczY2JCUF9RMlVZUTZYMlZkZ09fWXpEQktJWlZleTdNSi1jTnN6SGhDQV9xTFpURUUzUGExQ1Y5Wk9TMmZtYm0yTGtzaXM3c0ZZ?oc=5",
+     "date": "2026-11-19T13:27:00Z",
+     "source": "GameHope.com",
+     "summary": "",
+     "lang": "fr",
+     "new": false
     },
     {
      "title": "Discord lance sa quête GTA 6: jusqu’à 240 Orbs gratuits",
@@ -56,18 +65,9 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "Discord abandonne Electron et confirme l'app en Rust, 290 Mo de mémoire",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaHU2UHRmRlFiLTZmMkpnQXhLdTQtejlKTVU1akJ2bXpXSXZTWHI5OHRETlo3dk44VnJSQVlvTGJnbXppUGF1ekZKaTZqN3BEaXB5Wk56V2FjRjFFcXpCVXlVblZDb3N3WW5NMERFcno5SHVsQVcxOWxWSzBRQmVKRmUwajFKSTBoaDBJ?oc=5",
-     "date": "2026-11-05T08:00:00Z",
-     "source": "Pasquale Pillitteri",
-     "summary": "",
-     "lang": "fr",
-     "new": false
     }
    ],
-   "news_count": 7,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
@@ -90,8 +90,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23431,
-    "pushed": "2026-11-21T12:24:17Z",
+    "stars": 23437,
+    "pushed": "2026-11-21T16:20:28Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -333,7 +333,7 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 187812,
+    "stars": 187830,
     "pushed": "2026-11-21T04:05:50Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
@@ -439,8 +439,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156817,
-    "pushed": "2026-11-21T04:39:50Z",
+    "stars": 156825,
+    "pushed": "2026-11-21T15:46:47Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -588,7 +588,7 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72304,
+    "stars": 72305,
     "pushed": "2026-11-20T21:32:39Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
@@ -807,15 +807,6 @@
      "new": true
     },
     {
-     "title": "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42Rjk5Rm55d2VXZDNNT1J4eTVjXzVGZFM2cFBCal80cnZQM1BVakpJUTBtTUtXTjUtZjcyc1dMR2w5UVdBQ2pRNm5XNVp4NUNlYzF2WFd2N2UxYnBvR3N1dDg0bnkxVm9tNnc?oc=5",
-     "date": "2026-11-21T09:44:47Z",
-     "source": "infoq.com",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
      "title": "AMD sends its AI Engine driver to the Linux kernel",
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNS0Y2THFWak5EcXF5OXFCYnhrMEVxdnY5c29USkJaa0pVZDNQS0NRSFVzTnc3TVg3LW5VUElwbWtaU3RLa1JPazVrTi1PS2RaODlNYVpnRExMTGVWSFd1bjJIaDZ6Z1FVTFJjVFNjUFAxOWh2R1owdkVTZjBxNk9GR1FR?oc=5",
      "date": "2026-11-20T13:00:00Z",
@@ -841,16 +832,25 @@
      "summary": "",
      "lang": "en",
      "new": false
+    },
+    {
+     "title": "Rust-Powered RAM Disks Move Closer to the Linux Kernel With New rbrd Driver",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNREFEY0tCZjZERGNUU3VpNFpJSzJGblZET3lURlBmRXNSaDNwRDNVWERXUzJrLWRPVnA2WkN1dng2XzRmR1FGV01YRlZHcURLNV9nUThKRUdlTFZnSnVjTXc3am9tOXEyYmhMNTJ2NlBLaVR2MDlReGp4Q2pCRmY0bHBOajR2U1ZocFNMNFhuRThBYVB4Y3hVRjRmcFdBWG9Ga2c?oc=5",
+     "date": "2026-11-17T08:00:00Z",
+     "source": "Linux Journal",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 53,
+   "news_count": 51,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 4,
+   "new_count": 3,
    "cves": [
     {
      "status": "cna",
@@ -942,10 +942,28 @@
    ],
    "news": [
     {
+     "title": "Debian 13.8 Released With 122 Bug Fixes",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWhjYVBJLVJBd2R4SDVwTU5mRElIVkVnV0xtV0diMU5RZzRqa24yQ1M2X2NXczRNei00QzdoTmpDNlVLSmlhaWMwTUhwb3daQTk5OXBraVZYOHNTZlhxWENkUmNDQ2tRUTRSQnZpazdjZEhrRFRUanBfV3FtYnhsRE41eTBrbXAxM0ZIQXRsRQ?oc=5",
+     "date": "2026-11-21T15:40:41Z",
+     "source": "Wisevoter",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "Debian 13.8 Released With 150+ Security Updates",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nM3dsR1E1Z25CWU9oMnA3RFgxNzE5QUlQblVUWDRxVV9VcDhpTFNNTWdrM0lIT1d3X2ktcHBRRmhyTFNqaWswMVdQbGtjM1dOcGtXVld5OUxwdEFkSzU4?oc=5",
      "date": "2026-11-21T11:20:00Z",
      "source": "Phoronix",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Debian 13.8 Released with 150 Security Updates and 122 Bug Fixes",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5",
+     "date": "2026-11-21T11:12:50Z",
+     "source": "Linuxiac",
      "summary": "",
      "lang": "en",
      "new": true
@@ -976,34 +994,16 @@
      "summary": "",
      "lang": "en",
      "new": true
-    },
-    {
-     "title": "Android Developer Verification enforcement begins in January, Debian explores handheld gaming, a NAS for 3.5 inch floppies: Liliputing News Roundup",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNT2lZZW5Ic0xZejdhd0ZNY1RRWGFKMEdHOWJPdVRuR1dLR0pXZmNXaVEwalVMd0lmdTFfRzlUd3BHS0VHbkhPN3NFUkwzX0JObE0zZ0NBV1dGUEZlTGxTWVJvWDNUWHhqak9EanRGeEZoZ3dEYWhYakRrNmFhWVctS2tVa05VY0tJVWpUUE5aQ2YzcFBGbDhXTkpheXdWWnRnb3pRX2lvWkxCS1BBempLb2d6cC1Qb1pkZ2RaVE0wOEVDTVBLQkxrZ2xEemY5VDNFUlNUdW5PLWZlUUJRN2tpaHFnVE9keWV5Y1BwUlZuRHFacTlJMlVnR3dDZTA?oc=5",
-     "date": "2026-11-20T19:40:58Z",
-     "source": "Liliputing",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
-     "title": "Debian Launches Gaming Hardware Team to Test Handhelds and Consoles",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsbDRHQTBCWE9ORE81TUEySEJ2TWRsWk10Yms2U0hkbmVFZjNPWDhRWnhrQU9Yc3pYSkRsN0hOTFNHSnJsalNoRW1mM0JSb21kSWpDNWhqdUFhMDNmRFZFaVpOME5iVEE?oc=5",
-     "date": "2026-11-20T07:21:58Z",
-     "source": "XenoSpectrum",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 19,
+   "news_count": 21,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.debian.org/News/"
     }
    ],
-   "new_count": 5,
+   "new_count": 6,
    "cves": [
     {
      "status": "cna",
@@ -1252,15 +1252,6 @@
      "new": false
     },
     {
-     "title": "Shelly 3.4 Arch Linux Package Manager Adds Firmware Update Support",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWJ2THJaSGRYX0hIdjBPZGtxc0NJMTg5cDBhXzF0UGp0WWFnODZpY2pPV2JETFZmVk9UUVJyY1NWTk1JQnNaYVl4c3NtMnJycllRWmpOMlVuNnRvbDMycC1CUFpPdlpEQVo3bHJCQlN3LUFsRGFjRTktMnVRSTNpNkFzNllUU3c3VVM0aXIwVXBHdw?oc=5",
-     "date": "2026-11-19T21:07:26Z",
-     "source": "Linuxiac",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
      "title": "Shelly 3.3.1 Arch Linux Package Manager Improves AppImage Updates",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaFJOSEVzb0Q1TlRhcW9NTDg3dkpINUVjVGtSd0U3T1E2WG8wdGc2UjFtcGt6aENMV2JmUHluQS1rZWxwZk5rS05wUmxRUGxFQ2dkOXBXMTlpOVdTZkpjbFNucDhEbUVtc0lLTFdETkJLY0h0MWo5ZXo5WjU2ZHpxVGlISDN3eHB3SVRkdzdrZi0?oc=5",
      "date": "2026-11-19T08:34:48Z",
@@ -1295,9 +1286,18 @@
      "summary": "",
      "lang": "en",
      "new": false
+    },
+    {
+     "title": "Shelly 3.2 Arch Linux Package Manager Adds Multi-Package Downgrades",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU2swYTRDckpGNUlqbUd0NHIteFFPa3ZIb1VKUGpJQWRZVlhCb0JYUTBZOERVaW5CVWhhRzQ4SzhKVHdKXzNESTQ4VEFkdTVwaFhVYmtQS2h2d0I5TWlmS24zN1FFaFVLZFB4NE5WT0RGa0VSNU1lbG5QZWtiYXFZSUtmRHpSWTcwZ2JFUVczS3hSUUU?oc=5",
+     "date": "2026-11-05T08:00:00Z",
+     "source": "Linuxiac",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 10,
+   "news_count": 9,
    "links": [
     {
      "label": "Site officiel",
@@ -1425,7 +1425,7 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9522,
+    "stars": 9521,
     "pushed": "2026-11-21T05:36:54Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
@@ -1841,7 +1841,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27538,
+    "stars": 27540,
     "pushed": "2026-11-20T10:24:20Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -2014,7 +2014,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45952,
+    "stars": 45957,
     "pushed": "2026-11-21T04:51:07Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -2066,8 +2066,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39418,
-    "pushed": "2026-11-21T00:09:55Z",
+    "stars": 39428,
+    "pushed": "2026-11-21T16:45:31Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2275,7 +2275,7 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24267,
+    "stars": 24268,
     "pushed": "2026-11-20T16:03:59Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
@@ -2350,16 +2350,16 @@
      "new": false
     },
     {
-     "title": "Brave’s New Crypto Rewards Card Attracts 232,000 Waitlist",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VaVFuWkpQVFVra2N5UHZNY042V3VKUktmZ0RTLWNKVWFMMnpKQ3VQTjdFMEZRVGlCaFg4VFhENzNvMDlsSUpmZ0Y5TTA1aXl3c0lLcEJWck5TZw?oc=5",
+     "title": "News Publishers Sue Brave Browser For Allegedly Sharing Copyrighted Content With Anthropic",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWmNUbGhSSWJDZTV6OUdaeGhmVHJhVFpwVnVhMDlzb3J6cFA3NkRabVhwUWZYZ1RKSHE1WTZ5cGt6QlBrV1c5bmpIemlhSXdqS18wZmdzcmFnUVljczV2bEs5WGZBV2FtYlU1dWRUZWhoVm5NSEVqNmhKSS1xbkl5S294V0VRUE40QjZRNThlN04wVHdpTkQyZVRjZDdpU3kxc3Q4U1NkU0RCRjN3aFJyUGlDVGhrUS1fRlJLWVpRVDJoRTZZWF9BNE5YbGczRVZvdWlZTkU1SmxsY1VjQmZnREZfN3ZDOU54T29FeNIB8gFBVV95cUxPOHExZmJHSFMtdzJKQ2JHNEpXT0lpM1FfbFhyQXVUNXFrZ2NKTktMNVhUci12Y283Q25QamVRREI5d093T0Z4UmY0OWFwRWczeTBxdk5Mdm8wb3R1UVFNbkZWYkt5S0N3Y3l3Wm5ScXY2M2xPMGRlQ2FxbFAyVmlFckxqUklhZXFhUDZ5bzgtNHBPRkpJWjhqenNDeVdKQjFnT2xWdDZkbkphVnh2ZjR5TllzT1V3ZXlockdaZVc4MThnVlNSanlkWGM3ZEJEQ0tvNHI2M2hueG1YX0t2VHZRaFV5bnJGWFltNVlfUXZURjJIUQ?oc=5",
      "date": "2026-11-03T08:00:00Z",
-     "source": "Cryptonews.net",
+     "source": "Times Now",
      "summary": "",
      "lang": "en",
      "new": false
     }
    ],
-   "news_count": 9,
+   "news_count": 8,
    "links": [
     {
      "label": "Site officiel",
@@ -2387,7 +2387,7 @@
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
     "stars": 7805,
-    "pushed": "2026-11-21T12:28:35Z",
+    "pushed": "2026-11-21T14:42:16Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2470,7 +2470,7 @@
    "category": "Autres",
    "repo": "donutbrowser/donutbrowser",
    "repo_meta": {
-    "stars": 4356,
+    "stars": 4358,
     "pushed": "2026-11-20T23:19:04Z",
     "url": "https://github.com/donutbrowser/donutbrowser",
     "description": "The Most Private Anti-Detect Browser 🍩"
@@ -2657,7 +2657,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 45952,
+    "stars": 45957,
     "pushed": "2026-11-21T04:51:07Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -3264,6 +3264,8 @@
   "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRDdyb205OHZ0MjdWTVJrNzJteE5KM0pBRDhGUzRQQ2lJeXFvOUdkZ1NRLUlaOGx5ZW1ORFNLR1FfM1JBNnRMelNqbUVDWDM0eFZxNXQ5elNRamFvOEd6aU15TzBMczdLM3NSWUU1U0RQWlFhTmlfN3pseW5LbEZ3bHNOeVk3R3VEWWtEb3ZZcmZMaHpmc2UtZlg3VllUT3Nhd2M5YW5oNkZHX1E2R2RyTlpR?oc=5": "2026-11-21",
   "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNT2lZZW5Ic0xZejdhd0ZNY1RRWGFKMEdHOWJPdVRuR1dLR0pXZmNXaVEwalVMd0lmdTFfRzlUd3BHS0VHbkhPN3NFUkwzX0JObE0zZ0NBV1dGUEZlTGxTWVJvWDNUWHhqak9EanRGeEZoZ3dEYWhYakRrNmFhWVctS2tVa05VY0tJVWpUUE5aQ2YzcFBGbDhXTkpheXdWWnRnb3pRX2lvWkxCS1BBempLb2d6cC1Qb1pkZ2RaVE0wOEVDTVBLQkxrZ2xEemY5VDNFUlNUdW5PLWZlUUJRN2tpaHFnVE9keWV5Y1BwUlZuRHFacTlJMlVnR3dDZTA?oc=5": "2026-11-21",
   "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WUEpaaG8tV0FOR1Zsb3NRWmNxcXFSRFppM3VPeGlxTWNrQzhNb21ONmlGWnZ0c2ZYUnZqMEQwYndob0ktLVhCWFJVN2daRHNUMUlRbEVETWlndEd3NU54UWpyRW4tNENpOGc?oc=5": "2026-11-21",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0VOUi1xUm5Jd1ZzdXdKRzE2UHpMV0JVWFBMRDNTSlZ5RmtSZmdVTTJLa2Fib2Rlenl0bFRqRUE5Z21fRnpiRmNROGs5TVRrYnpMNDN0NHhBaEVwbGVDU0hEUGd2R3ZPWlZBSFRkcDl1UWJ4U01peEphdzAwU1VwNmlyNUhtVkRwdE0tS0Zxdzc2dklFNWtjUzRBa1k2YzBTd3BVN0ZYMnQzN3NlTHJ5bkhBVDVMOTdWV2F3N0VHMm5sMmd5TndnOVZzX2M?oc=5": "2026-11-21"
+  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0VOUi1xUm5Jd1ZzdXdKRzE2UHpMV0JVWFBMRDNTSlZ5RmtSZmdVTTJLa2Fib2Rlenl0bFRqRUE5Z21fRnpiRmNROGs5TVRrYnpMNDN0NHhBaEVwbGVDU0hEUGd2R3ZPWlZBSFRkcDl1UWJ4U01peEphdzAwU1VwNmlyNUhtVkRwdE0tS0Zxdzc2dklFNWtjUzRBa1k2YzBTd3BVN0ZYMnQzN3NlTHJ5bkhBVDVMOTdWV2F3N0VHMm5sMmd5TndnOVZzX2M?oc=5": "2026-11-21",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWhjYVBJLVJBd2R4SDVwTU5mRElIVkVnV0xtV0diMU5RZzRqa24yQ1M2X2NXczRNei00QzdoTmpDNlVLSmlhaWMwTUhwb3daQTk5OXBraVZYOHNTZlhxWENkUmNDQ2tRUTRSQnZpazdjZEhrRFRUanBfV3FtYnhsRE41eTBrbXAxM0ZIQXRsRQ?oc=5": "2026-11-21",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5": "2026-11-21"
  }
 }
