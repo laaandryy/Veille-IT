@@ -1,7 +1,84 @@
 {
- "generated_at": "2026-11-26T13:54:26Z",
+ "generated_at": "2026-11-26T19:15:32Z",
  "threats": {
   "posts": [
+   {
+    "title": "GoDaddy",
+    "group": "inception",
+    "date": "2026-11-26T19:16:21Z",
+    "url": "https://www.ransomlook.io/group/inception",
+    "france": false
+   },
+   {
+    "title": "Sweet Darling Sales",
+    "group": "qilin",
+    "date": "2026-11-26T18:28:26Z",
+    "url": "https://www.ransomlook.io/site/blog?uuid=2d9aecd6-2aff-4be3-9b09-965bd8f7da63",
+    "france": false
+   },
+   {
+    "title": "AIM Consulting SA",
+    "group": "aurora",
+    "date": "2026-11-26T17:26:38Z",
+    "url": "https://www.ransomlook.io/blog/aim-consulting-sa-15680bb0",
+    "france": false
+   },
+   {
+    "title": "Nelson Jewellery Arts",
+    "group": "orova",
+    "date": "2026-11-26T16:23:41Z",
+    "url": "http://maa2yprc5pldyr5hjn246hw7i66wdhglnostqgqkcbuh4vyyeos4xxyd.onion/new/mkxqzvnrtewajpsdlu",
+    "france": false
+   },
+   {
+    "title": "HealthMetrics Sdn Bhd",
+    "group": "orova",
+    "date": "2026-11-26T16:23:40Z",
+    "url": "https://www.ransomlook.io/group/orova",
+    "france": false
+   },
+   {
+    "title": "Paramount",
+    "group": "inception",
+    "date": "2026-11-26T16:23:19Z",
+    "url": "https://www.ransomlook.io/group/inception",
+    "france": false
+   },
+   {
+    "title": "Verisk",
+    "group": "inception",
+    "date": "2026-11-26T16:23:18Z",
+    "url": "https://www.ransomlook.io/group/inception",
+    "france": false
+   },
+   {
+    "title": "McDonald's",
+    "group": "inception",
+    "date": "2026-11-26T16:23:17Z",
+    "url": "https://www.ransomlook.io/group/inception",
+    "france": false
+   },
+   {
+    "title": "Mattel",
+    "group": "inception",
+    "date": "2026-11-26T16:23:16Z",
+    "url": "https://www.ransomlook.io/group/inception",
+    "france": false
+   },
+   {
+    "title": "Arlberger Bergbahnen AG",
+    "group": "aurora",
+    "date": "2026-11-26T16:23:09Z",
+    "url": "https://www.ransomlook.io/blog/arlberger-bergbahnen-ag-210ba639",
+    "france": false
+   },
+   {
+    "title": "Exceptional Healthcare Inc.",
+    "group": "metaencryptor",
+    "date": "2026-11-26T15:19:49Z",
+    "url": "https://www.ransomlook.io/0AFC:67536ebcecdb9da3f18b83df37129064fd6648a64a00a6e7040323455e03dcf6/0AFC:fd0af0f09b1368ba171065904a5011044ab8e58f08bf8d28419dae57917a0d37644cd7c0ec3c65dbd0bf10d5c96570a4",
+    "france": false
+   },
    {
     "title": "Technology Investment Joint Stock CompanyTACORP",
     "group": "orova",
@@ -134,83 +211,6 @@
     "date": "2026-11-26T00:17:44Z",
     "url": "#Reflex%20Electromechanical%20%26%20Trade%20Co.%20Ltd.%20%28Nablus%20pumps%20and%20elevators%20engineering%20house%29",
     "france": false
-   },
-   {
-    "title": "Restaurant Brands International, Inc.",
-    "group": "inception",
-    "date": "2026-11-25T23:23:12Z",
-    "url": "https://www.ransomlook.io/group/inception",
-    "france": false
-   },
-   {
-    "title": "Pumptech",
-    "group": "dark project",
-    "date": "2026-11-25T23:23:09Z",
-    "url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=pumptech",
-    "france": false
-   },
-   {
-    "title": "NADDIC GAMES",
-    "group": "the gentlemen",
-    "date": "2026-11-25T23:00:31Z",
-    "url": "https://www.ransomlook.io/group/the%20gentlemen",
-    "france": false
-   },
-   {
-    "title": "Leffman Law Firm",
-    "group": "the gentlemen",
-    "date": "2026-11-25T22:48:30Z",
-    "url": "https://www.ransomlook.io/group/the%20gentlemen",
-    "france": false
-   },
-   {
-    "title": "Reliable Parts",
-    "group": "qilin",
-    "date": "2026-11-25T22:18:40Z",
-    "url": "https://www.ransomlook.io/site/blog?uuid=b6e8a241-33b3-4730-ab2e-73b5bef37db3",
-    "france": false
-   },
-   {
-    "title": "York Building Products",
-    "group": "payoutsking",
-    "date": "2026-11-25T22:18:38Z",
-    "url": "https://www.ransomlook.io/group/payoutsking",
-    "france": false
-   },
-   {
-    "title": "Uplight, Inc.",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:36Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "Torrid",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:35Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "The Diamond Store",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:34Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "Signet Pacific Insurance Services",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:33Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "Scrapbook.com",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:32Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
    }
   ],
   "week_total": 100,
@@ -223,31 +223,31 @@
    },
    {
     "name": "the gentlemen",
-    "count": 19
+    "count": 8
+   },
+   {
+    "name": "inception",
+    "count": 6
+   },
+   {
+    "name": "aurora",
+    "count": 6
    },
    {
     "name": "pixelleaks",
     "count": 6
    },
    {
+    "name": "orova",
+    "count": 5
+   },
+   {
     "name": "rhysida",
     "count": 5
    },
    {
-    "name": "aurora",
+    "name": "qilin",
     "count": 4
-   },
-   {
-    "name": "space bears",
-    "count": 4
-   },
-   {
-    "name": "orova",
-    "count": 3
-   },
-   {
-    "name": "dark project",
-    "count": 3
    }
   ],
   "france": [],
@@ -298,6 +298,69 @@
     "ref_kind": "cyber"
    },
    {
+    "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans les produits Veeam (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur fournit également une mesure de contournement…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+    "date": "2026-11-26T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Airwave. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
     "title": "1Password : un hacker infiltre ses systèmes internes et vole des données clients",
     "url": "https://www.cyberattaque.org/1password-un-hacker-infiltre-ses-systemes-internes-et-vole-des-donnees-clients/",
     "date": "2026-11-25T20:50:37Z",
@@ -321,69 +384,6 @@
     "date": "2026-11-25T15:48:58Z",
     "source": "Cyberattaque.org",
     "summary": "La Ligue nationale de basket (LNB) est visée par une nouvelle revendication de cyberattaque particulièrement inquiétante. Le 25... L’article Ligue nationale de basket : un hacker revendique 40 000 comptes et diffuse…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "WP Connect : un hacker piège 6 extensions WordPress de l’éditeur français et menace 3 600 sites",
-    "url": "https://www.cyberattaque.org/wp-connect-un-hacker-piege-six-extensions-wordpress-de-lediteur-francais-et-menace-3-600-sites/",
-    "date": "2026-11-25T15:08:03Z",
-    "source": "Cyberattaque.org",
-    "summary": "Six extensions WordPress développées par l’éditeur français WP Connect ont été piégées par un cybercriminel le 22 novembre... L’article WP Connect : un hacker piège 6 extensions WordPress de l’éditeur français et…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Cyberattaque chez Septeo : l’éditeur français de logiciels professionnels victime d’un vol de données",
-    "url": "https://www.cyberattaque.org/cyberattaque-chez-septeo-lediteur-francais-de-logiciels-professionnels-victime-dun-vol-de-donnees/",
-    "date": "2026-11-25T14:06:41Z",
-    "source": "Cyberattaque.org",
-    "summary": "Septeo, l’un des principaux éditeurs français de logiciels professionnels, est touché par une cyberattaque visant sa filiale Septeo... L’article Cyberattaque chez Septeo : l’éditeur français de logiciels professionnels…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Fail2Install : une faille critique de Drupal permet aux hackers de prendre le contrôle des sites web",
-    "url": "https://www.cyberattaque.org/fail2install-une-faille-critique-de-drupal-permet-aux-hackers-de-prendre-le-controle-des-sites-web/",
-    "date": "2026-11-25T12:17:51Z",
-    "source": "Cyberattaque.org",
-    "summary": "Une vulnérabilité critique de Drupal, l’un des systèmes de gestion de contenu les plus utilisés pour les sites... L’article Fail2Install : une faille critique de Drupal permet aux hackers de prendre le contrôle des…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Banques françaises, paris sportifs et cryptomonnaies : un hacker utilise DeepSeek pour lancer ses cyberattaques",
-    "url": "https://www.cyberattaque.org/banques-francaises-paris-sportifs-et-cryptomonnaies-un-hacker-utilise-deepseek-pour-lancer-ses-cyberattaques/",
-    "date": "2026-11-25T11:26:25Z",
-    "source": "Cyberattaque.org",
-    "summary": "Un hacker francophone a utilisé l’intelligence artificielle chinoise DeepSeek pour mener une vaste campagne de cyberattaques visant une... L’article Banques françaises, paris sportifs et cryptomonnaies : un hacker…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "ARTEX : enquête sur l’intelligence artificielle qui automatise les cyberattaques",
-    "url": "https://www.cyberattaque.org/artex-enquete-sur-lintelligence-artificielle-qui-automatise-les-cyberattaques/",
-    "date": "2026-11-25T06:32:58Z",
-    "source": "Cyberattaque.org",
-    "summary": "ARTEX est un outil de cybersécurité reposant sur l’intelligence artificielle, capable d’automatiser une grande partie des étapes d’une... L’article ARTEX : enquête sur l’intelligence artificielle qui automatise les…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Recommandations de sécurisation des liaisons inter-sites (25 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
-    "date": "2026-11-25T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "Objet : Recommandations de sécurisation des liaisons inter-sites, à destination des clients de ces offres. Annexe : Liens et références Depuis plusieurs années, l’Agence nationale de la sécurité des systèmes…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
-    "date": "2026-11-25T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
     "reference": true,
     "ref_kind": "cyber"
    }
@@ -472,8 +472,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23643,
-    "pushed": "2026-11-26T13:21:54Z",
+    "stars": 23650,
+    "pushed": "2026-11-26T18:23:46Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -618,7 +618,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5447,
+    "stars": 5449,
     "pushed": "2026-11-17T21:55:01Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -676,7 +676,7 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 188201,
+    "stars": 188221,
     "pushed": "2026-11-26T06:27:01Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
@@ -706,12 +706,12 @@
    ],
    "news": [
     {
-     "title": "gBench Tutorial: How to Benchmark Your vLLM or Ollama Endpoint",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wd1MwbXlfU2lzUnlTTWlwNTA4RnBqMm13a2gySXBnMGU1ZDZQRW4tLXo5end3dTJBU0NYSUhVVVh0OF9XejB0bDBXQy11Sldib2syY2dfcHQ3YWM?oc=5",
-     "date": "2026-11-23T16:00:00Z",
-     "source": "GitHub",
+     "title": "Coder avec une IA locale gratuite : Qwen, Ollama et OpenCode peuvent-ils remplacer Claude Code",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUNQTi1yQmFnX083b3lNTHZzTUhoeE9jSWFHY25WVzBpYXkxS2prSGd4ckxrTUNHR1ljVjBaYVk5aWdVY05GX3VVNWlTX1RmTmIxN3ZLU2w4dUtjOXhIMGRTNThPUWdXckdRbllqamVhOXVoeTZyLU9teWJ3NXh0T19VTUxnN3FPQmVaNlp0Y055NE5rd0JmOTc0ZTZLd2VNa3gwNGZlSkVBc3Z4RndSa3VYVGxtc1YxME9SSnFoOWxIWng0UlVQdU5ja2c?oc=5",
+     "date": "2026-11-24T08:00:00Z",
+     "source": "ZDNET",
      "summary": "",
-     "lang": "en",
+     "lang": "fr",
      "new": false
     },
     {
@@ -724,15 +724,6 @@
      "new": false
     },
     {
-     "title": "What I Did with Hermes Agent, Ollama & Local Models",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82T3ZSMkVrVHNvaGNYTXlIdGZ4ZU4wQ0w3WW5xdENJWGI4VkNzMy0wNVlqRU5oNV9XNW9NVGpxazFIY1V1b3hFOUdCWTVDN0V3VnRQQktLcEhiaDgyMURVNTVZRlRlTl9obW5mU2xyekJrUWlHS2o2R09zMHNYUHc?oc=5",
-     "date": "2026-11-05T08:00:00Z",
-     "source": "KDnuggets",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
      "title": "Ollama 0.40.11 Hands-On: Running Local LLMs on Windows",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjY0WDFmTGtfeG5EcTJpUl8zbXdSNm5TeFdxSTg0Rmo4cExRaUE4eXhxM1owRTAzeVF0dGtjUVIxMnp2Q3VQR2ZPRWhjSlhIUUduVTFkQWtsX3JGc1pHdUEyU19IbndGS2xhdTFGQU82XzloMURGTnY4Wmt6UUdVSHFRZWdMUkRpaWlmVWJVYk9hQXZL0gGaAUFVX3lxTE5UODJRM0VPU2ZORHJjYW1MbmNyV0Z0MHNyUXI4SzJyNkhKQjdUVU9SNENpY28tSXVnZlY4enFQNkdmSGQ3TFJiTUhYWXl5Wk9MWU1DZzItSjlvYkROUVFPRWhzbXJIVVNxS09CU245Q1VpMUF2cDN1WDFid2tTYVlsTGJsYmNxZ1R5cjZOVTZleXJSVVBSNjlHTEE?oc=5",
      "date": "2026-10-28T07:00:00Z",
@@ -742,7 +733,7 @@
      "new": false
     }
    ],
-   "news_count": 4,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
@@ -783,8 +774,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156969,
-    "pushed": "2026-11-26T13:17:34Z",
+    "stars": 156972,
+    "pushed": "2026-11-26T19:14:53Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -1017,7 +1008,7 @@
      "new": false
     }
    ],
-   "news_count": 15,
+   "news_count": 17,
    "links": [
     {
      "label": "Site officiel",
@@ -1153,11 +1144,11 @@
      "new": false
     },
     {
-     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
-     "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
+     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
+     "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
      "date": "2026-11-20T00:00:00Z",
      "source": "CERT-FR",
-     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de…",
      "reference": true,
      "ref_kind": "cyber",
      "new": true
@@ -1190,7 +1181,7 @@
      "new": false
     }
    ],
-   "news_count": 67,
+   "news_count": 84,
    "links": [
     {
      "label": "Site officiel",
@@ -1296,30 +1287,30 @@
    ],
    "news": [
     {
+     "title": "Debian wakes up wearing Windows XP's actual skin",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTk1SQW01blZNb2h1THp3OV9tRlJ5MjVJbkJYZ3AtMUtlRnM4X1NGQzktVHBsZ1ZHN0paXzFsNGxndE9XRko2NWpBT0lTU1FYcnY1RE80a0UtUXdzb1JCOTF6dDR4cWN1cldwQVgtVTZPLVh1enlSekFPV3JST0k5S2ZvX2JMZXBZeS1ZTVVYU05GRXR2MnVWenpyek82TUY3NnRuRWlDUXdBVnc?oc=5",
+     "date": "2026-11-25T13:23:32Z",
+     "source": "The Register",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
+     "title": "Debian 13.8 updates its ISOs with more than 150 security advisories fixed",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0tORGRVczVHdDViSTM3emdscF85SEJUYUwwTG5kUWpiQ0Q2S1lZRjVHNXZwc2ZCcFNjTHBwYmpsTk1OVzZvaks5V0tVUjB5M3JsMUxQX0xqY1NWOTgtNDNEc3lUd2Y1ZnRqU2taNVl2TGlmSnhzUHhXRXJvMjR2bE54bDkxeFAydEY4RlZiVUNrcWpBcDN4UkNmTGZ4UldtNHE4YTNMdm5uX0RFSUpCNTR3?oc=5",
+     "date": "2026-11-25T00:06:13Z",
+     "source": "Foro3D",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Debian 13.8 met à jour ses ISO avec plus de cent cinquante avis de sécurité corrigés",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5",
      "date": "2026-11-24T23:09:36Z",
      "source": "Foro3D",
      "summary": "",
      "lang": "fr",
-     "new": false
-    },
-    {
-     "title": "Debian 13.8 Released with 150 Security Updates and 122 Bug Fixes",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5",
-     "date": "2026-11-21T11:12:50Z",
-     "source": "Linuxiac",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVBCaTA5QzRqVmFnSzNNaHlVckU4MUtKV2RtMG5KNWkyMFVVWHNPZ0V5aFM5d1d5SDN1YW5RRW9yLU9oTlpKQ0tZSENQYjd2TTdKWmhsSnpYWWN6TjFmVVlvWElmOHV1cGIzWGVvZmxnZmM5blJNbTRYbkVjSnlid2IwNXZDVzg1YkVLa2VvWE5rTV9icG0tWg?oc=5",
-     "date": "2026-11-21T10:51:08Z",
-     "source": "9to5Linux",
-     "summary": "",
-     "lang": "en",
      "new": false
     },
     {
@@ -1351,7 +1342,7 @@
      "new": false
     }
    ],
-   "news_count": 22,
+   "news_count": 20,
    "links": [
     {
      "label": "Site officiel",
@@ -1495,7 +1486,7 @@
      "new": false
     }
    ],
-   "news_count": 56,
+   "news_count": 57,
    "links": [
     {
      "label": "Site officiel",
@@ -1588,7 +1579,7 @@
      "new": false
     }
    ],
-   "news_count": 41,
+   "news_count": 42,
    "links": [
     {
      "label": "Site officiel",
@@ -1644,20 +1635,11 @@
     {
      "title": "Arch Linux-Inspired Devario OS Sees First Stable Release",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTGd6U3lZcGpIajc0VU1vRUpUUkdPekN1T0VfakV5OExEZ2NyS1psWHZ5Z20xUDgyY0JXVzdtNTN1eHNhVE56OUV5UUd1ZFMwQWkxQndYWjZ6ZDJGRUl4MFkxbF9JaXVXZDhSSnNMbEp5MVF2T2JUSERoUzZIZXNnUw?oc=5",
-     "date": "2026-11-18T13:05:49Z",
+     "date": "2026-11-18T08:00:00Z",
      "source": "9to5Linux",
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "News Posts matching #Arch Linux",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUV1hnU0J1bGRuNW9YdDJmSm5jcmtYU0xadUtsN0NVUUhDMkdfdmk3SUV0Q0tkMDREVVp0QmN1N01kTTNEcVM0Qkt0dzN6Zk9yQ0ZEUnkyZVVUWXloQTFR?oc=5",
-     "date": "2026-11-14T08:00:00Z",
-     "source": "TechPowerUp",
-     "summary": "",
-     "lang": "en",
-     "new": true
     },
     {
      "title": "Arch Linux November 2026 ISO Released with Kernel 7.2.11, systemd 262.1",
@@ -1669,14 +1651,14 @@
      "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 9,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://archlinux.org/news/"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -1774,7 +1756,7 @@
    "repo": "git-for-windows/git",
    "repo_meta": {
     "stars": 9532,
-    "pushed": "2026-11-26T01:47:20Z",
+    "pushed": "2026-11-26T17:02:42Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
    },
@@ -1968,6 +1950,15 @@
    "releases": [],
    "news": [
     {
+     "title": "Correctif : Une erreur s’est produite lors de la tentative d’exportation de la machine virtuelle dans Hyper-V",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmVmRjluZElJN3lwSjltMXJuQTRLbE5CMDBEWFZfUC1ELWZFbFNsZWJhbkRncnI4My0yVWMzTnZ2VVlDQWRpZFByWGpfT1ptSm1OZzhJX1BEM3RrdktsdF9TVXMxNVYwRTdza0hiS1dOcW15cElMTEFRWmdyeTAtWGJ4Y0d5NGNUUDEyU2FLUWFaVFR6OVozSXVUbng5c196OTRJR015MG1fb2dqNXR1ZEg0RlpDUkRRdEs0ejhoaFh0WjZ3Vl9GS1h5aEpNdzFE?oc=5",
+     "date": "2026-11-26T12:36:55Z",
+     "source": "Windows Report",
+     "summary": "",
+     "lang": "fr",
+     "new": true
+    },
+    {
      "title": "PowerShell Direct ne fonctionne pas dans Hyper-V ? 6 façons d’y remédier",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT1pBWmtCcVRXam1RZ2I4dFlVRGZkSEFBTWdGRW44NTZ4cmRLbmtuTUdYNFdMR252OC1FM0ZGaU02T1cwa2dDZjBHbDdGTU90VFNYQTRIZ0RqdXFvR2ZjNWtDUF9xOWh3cDg3N1dTaFgzdWhIbFlfNHI4WG1ZeTRYN2ZoT0RxTFE5eFJrbjU1M2lOd1puOGFrTWhZa2tkM3RSdVh1UQ?oc=5",
      "date": "2026-11-24T10:33:11Z",
@@ -1996,14 +1987,14 @@
      "new": false
     }
    ],
-   "news_count": 3,
+   "news_count": 5,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://learn.microsoft.com/virtualization/"
     }
    ],
-   "new_count": 1,
+   "new_count": 2,
    "cves": [
     {
      "status": "confirmed",
@@ -2202,8 +2193,8 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27588,
-    "pushed": "2026-11-26T10:04:44Z",
+    "stars": 27590,
+    "pushed": "2026-11-26T14:20:19Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
    },
@@ -2255,7 +2246,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11812,
+    "stars": 11813,
     "pushed": "2026-11-14T14:36:00Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -2368,12 +2359,19 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 46113,
-    "pushed": "2026-11-26T13:04:52Z",
+    "stars": 46125,
+    "pushed": "2026-11-26T16:00:05Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
    "releases": [
+    {
+     "version": "v0.29.8",
+     "tag": "v0.29.8",
+     "date": "2026-11-26T16:15:18Z",
+     "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.8",
+     "new": true
+    },
     {
      "version": "v0.29.7",
      "tag": "v0.29.7",
@@ -2387,13 +2385,6 @@
      "date": "2026-10-24T10:29:04Z",
      "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.6",
      "new": false
-    },
-    {
-     "version": "v0.29.5",
-     "tag": "v0.29.5",
-     "date": "2026-10-13T13:05:15Z",
-     "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.5",
-     "new": false
     }
    ],
    "news": [],
@@ -2404,7 +2395,7 @@
      "url": "https://github.com/juanfont/headscale"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2421,8 +2412,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39653,
-    "pushed": "2026-11-26T08:24:20Z",
+    "stars": 39667,
+    "pushed": "2026-11-26T18:12:30Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -2642,8 +2633,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24319,
-    "pushed": "2026-11-26T12:33:58Z",
+    "stars": 24324,
+    "pushed": "2026-11-26T16:04:00Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -2740,8 +2731,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7817,
-    "pushed": "2026-11-26T13:46:26Z",
+    "stars": 7818,
+    "pushed": "2026-11-26T17:33:33Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2894,21 +2885,21 @@
      "new": true
     },
     {
-     "title": "Steam Machine 512GB model drops reservation requirement",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CTHhkTUM5bXlKbnhFbnBuOURkNHJJNEltX1JRd3dTeHU0RFBMZy1kRnR6b2l4WXFJN19KakhqWXNLUWhramlqcGNwVVI0MkMzUjk3NlFSNmNUV0ZMbzA0cEtOTmFFLW9tVGtaYXNKVFlnSl8zSENOMGFfQQ?oc=5",
-     "date": "2026-11-22T12:30:17Z",
-     "source": "GameLuster",
+     "title": "Steam Frame : la bêta améliore le streaming et ajoute un réglage de netteté",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5",
+     "date": "2026-11-22T16:54:29Z",
+     "source": "jeu.video",
      "summary": "",
-     "lang": "en",
+     "lang": "fr",
      "new": true
     },
     {
-     "title": "Steam Achievement Sets And The New Achievements Page Are Now Available To Every Player",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbnc4WDdpUGVqMzFoajV4TjRDMVJwM3NMcDZjR1UyNm5uUWFIMFAteHk4bHNkYXcwbE85UGZzQzQ5bkhwai11cVk0OVBnT3hmbkZRVEJNdGdMS19LYmpCc21kQ05faHVEZXdVbTZFYWwzblJaSGw4ZHkxMDZXb3dlYWw3V0xwaDJpOWItN0QzaGNvZGhYaTYwOUZsc2V2U2pEZnJQa1k3ekd4dmVhcktzZ3pxNE9MNDZlMDl5V3QzbzM?oc=5",
-     "date": "2026-11-14T12:11:00Z",
-     "source": "GameFragger.com",
+     "title": "Black Mesa : patch Anomalous Improvements et Steam Deck",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG9Lck1FRTd5anZPZHpsc0VuZFpsQlVHYmF4bXl2RlRhSlpycTg2emF0R19WX0phSURsd19WMkptSElxWGFfNE5MbkltVkIyZEhGa1BGRTF2RW9pY1l2dXFtM1RzQ1Jkc0FtSzduTTVOSTlnUHVQOGxWQmVha1hvU3U5R29JRnowMTNRWE41TmZJOHFDSWZCTmMwc055YWJRWFVv?oc=5",
+     "date": "2026-11-17T09:00:57Z",
+     "source": "pro-gamer.fr",
      "summary": "",
-     "lang": "en",
+     "lang": "fr",
      "new": true
     },
     {
@@ -2921,7 +2912,7 @@
      "new": true
     }
    ],
-   "news_count": 14,
+   "news_count": 27,
    "links": [
     {
      "label": "Site officiel",
@@ -3000,9 +2991,9 @@
   "eol_ended": 0,
   "cves_affecting": 1,
   "cves_critical": 20,
-  "news": 90,
-  "new": 21,
-  "releases_week": 8
+  "news": 89,
+  "new": 22,
+  "releases_week": 9
  },
  "history": {
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tOFNBWFhYQXZqOXgybnhfa2FTU1h2aU5XdEVjX25wTkdEVTA1R3ZOWk1UNmFVSkNETlEtWkhzNUVtTFRaQnBLLUc1TzY2N2JvSENXVzhHMkVldw?oc=5": "2026-11-04",
@@ -3648,6 +3639,10 @@
   "https://github.com/apache/guacamole-server/releases/tag/1.6.0": "2026-11-26",
   "https://github.com/apache/guacamole-server/releases/tag/1.6.0-RC3": "2026-11-26",
   "https://github.com/apache/guacamole-server/releases/tag/1.6.0-RC2": "2026-11-26",
-  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFNldjh6NmJhbEFTX2dHbVM5Rk5Fdjg5UERHOEFiUnJnLVhzZjVXQ2luRUQtcndEQlRYZ2NiRmFRSFBRNlBkc1FHcGlEUDFQQ0Q2TzZPZ3dLMlFpX1Fhb05hRDdJMGIxVVJsaE45NWExSzJvVDdWRmlyZS14Sk1uYVd3TXpOdnltUEVrY1N2ZjRoMXFkVkNvZ0M1TWo0NTl4eWc?oc=5": "2026-11-26"
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFNldjh6NmJhbEFTX2dHbVM5Rk5Fdjg5UERHOEFiUnJnLVhzZjVXQ2luRUQtcndEQlRYZ2NiRmFRSFBRNlBkc1FHcGlEUDFQQ0Q2TzZPZ3dLMlFpX1Fhb05hRDdJMGIxVVJsaE45NWExSzJvVDdWRmlyZS14Sk1uYVd3TXpOdnltUEVrY1N2ZjRoMXFkVkNvZ0M1TWo0NTl4eWc?oc=5": "2026-11-26",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmVmRjluZElJN3lwSjltMXJuQTRLbE5CMDBEWFZfUC1ELWZFbFNsZWJhbkRncnI4My0yVWMzTnZ2VVlDQWRpZFByWGpfT1ptSm1OZzhJX1BEM3RrdktsdF9TVXMxNVYwRTdza0hiS1dOcW15cElMTEFRWmdyeTAtWGJ4Y0d5NGNUUDEyU2FLUWFaVFR6OVozSXVUbng5c196OTRJR015MG1fb2dqNXR1ZEg0RlpDUkRRdEs0ejhoaFh0WjZ3Vl9GS1h5aEpNdzFE?oc=5": "2026-11-26",
+  "https://github.com/juanfont/headscale/releases/tag/v0.29.8": "2026-11-26",
+  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5": "2026-11-26",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG9Lck1FRTd5anZPZHpsc0VuZFpsQlVHYmF4bXl2RlRhSlpycTg2emF0R19WX0phSURsd19WMkptSElxWGFfNE5MbkltVkIyZEhGa1BGRTF2RW9pY1l2dXFtM1RzQ1Jkc0FtSzduTTVOSTlnUHVQOGxWQmVha1hvU3U5R29JRnowMTNRWE41TmZJOHFDSWZCTmMwc055YWJRWFVv?oc=5": "2026-11-26"
  }
 }
