@@ -116,6 +116,13 @@
   .st-cve { color: var(--crit); font-weight: 600; }
   .tag-mine { font-size: 11px; font-weight: 700; color: #fff; background: var(--crit); padding: 1px 7px; border-radius: 5px; }
   .tag-pending { font-size: 11px; font-weight: 600; color: var(--muted); background: var(--surface-2); padding: 1px 7px; border-radius: 5px; }
+  .meta .off.ref { color: var(--new); background: var(--new-soft); }
+  .bar { display: grid; grid-template-columns: 110px 1fr 28px; align-items: center; gap: 8px; font-size: 13px; margin: 4px 0; }
+  .bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar i { display: block; height: 8px; border-radius: 4px; background: var(--crit); opacity: .75; }
+  .bar b { font-weight: 600; text-align: right; color: var(--muted); }
+  #threats .grid { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); }
+  @media (max-width: 720px) { #threats .grid { grid-template-columns: minmax(0, 1fr); } }
   .note { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
   .none { text-align: center; color: var(--muted); padding: 48px 0; display: none; }
   footer.wrap { border-top: 1px solid var(--border); color: var(--faint); font-size: 13px; padding-top: 24px; padding-bottom: 40px; }
@@ -142,6 +149,7 @@
     <div class="seg" role="tablist" aria-label="Vue">
       <button id="v-news" aria-pressed="true">Actualités</button>
       <button id="v-cve" aria-pressed="false">Failles CVE <span class="n" id="cve-n"></span></button>
+      <button id="v-threat" aria-pressed="false">Menaces</button>
     </div>
     <label class="search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -159,12 +167,13 @@
 <main class="wrap">
   <p class="note" id="note" hidden>CVE publiées sur les 30 derniers jours dans la base NVD (NIST), rattachées au produit par leurs identifiants CPE, ou à défaut par les données de l'éditeur publiées sur CVE.org. « À confirmer » = produit déduit de la description seulement. 5 plus récentes au maximum par technologie. « Exploitée » = présente au catalogue CISA KEV.</p>
   <div class="grid" id="grid"></div>
+  <div id="threats" hidden></div>
   <p class="none" id="none">Aucun résultat pour ce filtre.</p>
 </main>
 
 <footer class="wrap">
   Généré automatiquement par la tâche planifiée <b>veille</b> à partir de <a href="technologies.csv">technologies.csv</a>.
-  Sources : GitHub Releases, kernel.org, flux officiels, Google News, NVD (NIST), CVE.org, endoflife.date.
+  Sources : GitHub Releases, kernel.org, flux officiels, Google News, IT-Connect, Korben, Cyberattaque.org, CERT-FR, RansomLook, NVD (NIST), CVE.org, endoflife.date.
 </footer>
 
 <script>
@@ -202,17 +211,41 @@ const DATA = /*__DATA__*/null;
   DATA.results.forEach((r) => { r.cves = r.cves || []; });
   const cveCount = DATA.results.reduce((n, r) => n + r.cves.length, 0);
   $("cve-n").textContent = cveCount || "";
-  let view = location.hash === "#cve" ? "cve" : "news";
+  let view = location.hash === "#cve" ? "cve" : location.hash === "#menaces" ? "threat" : "news";
   const setView = (v) => {
     view = v;
     $("v-news").setAttribute("aria-pressed", v === "news");
     $("v-cve").setAttribute("aria-pressed", v === "cve");
+    $("v-threat").setAttribute("aria-pressed", v === "threat");
     $("note").hidden = v !== "cve";
-    history.replaceState(null, "", v === "cve" ? "#cve" : location.pathname + location.search);
+    document.querySelectorAll(".search, .sort, .chips").forEach((el) => { el.style.visibility = v === "threat" ? "hidden" : ""; });
+    history.replaceState(null, "", v === "cve" ? "#cve" : v === "threat" ? "#menaces" : location.pathname + location.search);
     draw();
   };
   $("v-news").addEventListener("click", () => setView("news"));
   $("v-cve").addEventListener("click", () => setView("cve"));
+  $("v-threat").addEventListener("click", () => setView("threat"));
+
+  const T = DATA.threats || {};
+  const threatsHtml = () => {
+    const groups = T.groups || [], max = Math.max(1, ...groups.map((g) => g.count));
+    const post = (p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">
+        <div class="t">${esc(p.title)}</div>
+        <div class="meta">${p.france ? '<span class="tag-mine">France</span>' : ""}<span>groupe ${esc(p.group || "?")}</span>${p.date ? `<span>· ${esc(ago(p.date))}</span>` : ""}</div></a></li>`;
+    const news = (n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
+        <div class="t">${esc(n.title)}</div>
+        <div class="meta"><span class="off">${esc(n.source)}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div></a></li>`;
+    return `<div class="grid">
+      <article class="card"><div class="card-head"><div><h2>Cyberattaques et alertes</h2><div class="cat">Cyberattaque.org · CERT-FR</div></div></div>
+        ${(T.news || []).length ? `<ul class="news">${T.news.map(news).join("")}</ul>` : '<p class="empty">Aucune alerte récente collectée.</p>'}</article>
+      <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · RansomLook</div></div>
+        ${T.week_total != null ? `<span class="badge-cve" style="cursor:default">${T.week_total} sur 7 j</span>` : ""}</div>
+        ${groups.length ? `<div><div class="label">Groupes les plus actifs (7 jours)</div>${groups.map((g) => `<div class="bar"><span>${esc(g.name)}</span><i style="width:${Math.round(g.count / max * 100)}%"></i><b>${g.count}</b></div>`).join("")}</div>` : ""}
+        ${(T.france || []).length ? `<div><div class="label">Victimes françaises</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
+        <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">RansomLook indisponible lors du dernier passage.</p>'}</div>
+        <div class="links"><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
+    </div>`;
+  };
   $("grid").addEventListener("click", (e) => {
     const b = e.target.closest(".badge-cve"); if (!b) return;
     $("q").value = b.dataset.name; setView("cve"); window.scrollTo({ top: $("grid").offsetTop - 140, behavior: "smooth" });
@@ -225,7 +258,7 @@ const DATA = /*__DATA__*/null;
         <div class="cve-top"><span class="cid">${esc(c.id)}</span>
           <span class="sev ${esc(c.severity || "NA")}">${esc(SEV_FR[c.severity] || "Non notée")}${c.score != null ? " " + esc(c.score) : ""}</span>
           ${c.exploited ? '<span class="kev">● Exploitée</span>' : ""}
-          ${c.affects ? `<span class="tag-mine">Ta version ${esc(r.installed)}</span>` : ""}
+          ${c.affects ? `<span class="tag-mine">Ta version ${esc(r.effective_version || r.installed)}</span>` : ""}
           ${c.status === "pending" ? '<span class="tag-pending" title="Pas encore analysée par la NVD : produit déduit de la description">À confirmer</span>' : ""}</div>
         <div class="cdesc">${esc(c.summary)}</div>
         <div class="meta">${c.new ? '<span class="nw">Nouvelle</span>·' : ""}<span>publiée ${esc(ago(c.date))}</span></div>
@@ -259,17 +292,23 @@ const DATA = /*__DATA__*/null;
       ? `<a class="eol ${e.ended ? "st-cve" : "st-ok"}" href="${esc(e.url)}" target="_blank" rel="noopener">Branche ${esc(e.cycle)}${e.lts ? " LTS" : ""} · ${
           e.ended ? `⚠ plus supportée${e.until ? " depuis " + esc(fmtMonth(e.until)) : ""}${e.current && e.current !== e.cycle ? " → passer à " + esc(e.current) : ""}` : e.until ? "supportée jusqu'à " + esc(fmtMonth(e.until)) : "supportée"}</a>`
       : "";
+    const vs = r.version_status;
+    const label = vs === "latest"
+      ? `Suivi : dernière version${r.effective_version ? ` <span class="iv">${esc(r.effective_version)}</span>` : ""}`
+      : vs === "branch"
+        ? `Ta version <span class="iv">${esc(r.installed)}</span> → ${esc(r.latest_version)}`
+        : `Ta version <span class="iv">${esc(r.installed)}</span>`;
     const mineHtml = r.installed
-      ? `<div class="mine"><span>Ta version <span class="iv">${esc(r.installed)}</span></span>
+      ? `<div class="mine"><span>${label}</span>
            <span>${cvm ? `<span class="st-cve">⚠ ${cvm} CVE la concerne${cvm > 1 ? "nt" : ""}</span>${up || r.version_status ? " · " : ""}` : ""}${up
              ? `<span class="st-up">Mise à jour → ${esc(r.latest_version)}</span>`
-             : r.version_status === "ok" ? '<span class="st-ok">✓ À jour</span>' : ""}</span>
+             : vs === "ok" || vs === "latest" || vs === "branch" ? '<span class="st-ok">✓ À jour</span>' : ""}</span>
            ${eolHtml}</div>`
       : "";
     const news = r.news.length
       ? `<ul class="news">${r.news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
            <div class="t">${esc(n.title)}</div>
-           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div>
+           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : n.reference ? '<span class="off ref">Référence</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div>
          </a></li>`).join("")}</ul>`
       : `<p class="empty">Pas d'actualité notable sur les 30 derniers jours.</p>`;
     const links = r.links.map((l) => l.url
@@ -287,6 +326,13 @@ const DATA = /*__DATA__*/null;
   };
 
   const draw = () => {
+    $("threats").hidden = view !== "threat";
+    $("grid").style.display = view === "threat" ? "none" : "";
+    if (view === "threat") {
+      $("threats").innerHTML = threatsHtml();
+      $("none").style.display = "none";
+      return;
+    }
     const q = $("q").value.trim().toLowerCase();
     const sort = $("sort").value;
     const text = (r) => view === "cve"

@@ -22,12 +22,23 @@ Ajoutez une ligne `Nom;Infos` dans `technologies.csv`. Si la colonne « Informat
 contient une URL GitHub, ses releases sont suivies automatiquement. Pour affiner (catégorie, dépôt,
 flux officiels, requête de recherche, lien officiel), ajoutez une entrée dans `scripts/sources.json`.
 
+## Sites de référence et menaces
+
+Les flux d'[IT-Connect](https://www.it-connect.fr), [Korben](https://korben.info),
+[Cyberattaque.org](https://cyberattaque.org) et du CERT-FR sont lus une fois par passage ; un article
+qui cite une technologie (titre ou résumé) est ajouté à sa carte avec la mention « Référence ».
+L'onglet **Menaces** regroupe les dernières cyberattaques et alertes (Cyberattaque.org, CERT-FR) et
+les revendications de rançongiciels publiées par [RansomLook](https://www.ransomlook.io) (groupes les
+plus actifs sur 7 jours, victimes françaises). Liste modifiable dans `_references` de `sources.json`.
+
 ## Filtrage des actualités
 
 Les articles Google News sont filtrés pour écarter publicités, promotions, comparatifs,
 tutoriels et billets hors sujet : le nom de la technologie (ou un terme de `match`) doit figurer
 dans le titre, et les filtres globaux de `_filtres` dans `scripts/sources.json`
-(titres exclus, médias exclus, mots exclus de la recherche) s'appliquent. Ajustez-les librement.
+(titres exclus, médias exclus, mots exclus de la recherche) s'appliquent. Les articles sont ensuite
+classés par pertinence (source officielle, site de référence, sujet sécurité/version, fraîcheur) avec
+au plus 2 articles par média. Ajustez-les librement.
 
 ## En local
 
@@ -41,6 +52,11 @@ La 3e colonne de `technologies.csv` (« Version installée ») est facultative. 
 d'afficher sur la carte « ✓ À jour » ou « Mise à jour → x.y.z » (comparaison avec la dernière release ;
 pour le noyau, dans la même branche, ex. 6.1.x) et de signaler les CVE dont la plage vulnérable
 contient ta version. Exemple : `Ollama;;0.12.3`.
+
+Valeurs spéciales : `latest` (ou `lastest`, `dernière`) = tu suis toujours la dernière version publiée :
+la carte l'affiche et les CVE sont comparées à cette version. Pour Debian/Ubuntu, un nom de code
+(`Trixie`, `Noble`…) désigne la branche correspondante. Les doublons du CSV (« Pi Hole » / « Pi-Hole »)
+sont fusionnés et une ligne saisie avec des virgules (`Steam,latest`) est corrigée à la lecture.
 
 Pour les produits suivis sur [endoflife.date](https://endoflife.date) (clé `eol` de `sources.json` :
 noyau Linux, Debian, Ubuntu, Alpine, Docker Engine, Proxmox VE, VirtualBox), la carte indique
