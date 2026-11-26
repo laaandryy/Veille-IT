@@ -258,7 +258,11 @@ def fetch_ransomware(cfg: dict) -> dict:
         groups[p["group"]] = groups.get(p["group"], 0) + 1
     top = sorted(groups.items(), key=lambda kv: -kv[1])[:8]
     log(f"  ransomlook : {len(posts)} revendications, {len(week)} sur 7 jours")
-    return {"posts": posts[: int(cfg.get("max", 30))], "week_total": len(week),
+    # L'API ne renvoie que les ~100 dernières revendications : si elles tiennent toutes sur 7 jours,
+    # le total réel de la semaine est supérieur (on l'affiche « 100+ »).
+    capped = len(week) == len(posts) and len(posts) >= 100
+    return {"posts": posts[: int(cfg.get("max", 30))], "week_total": len(week), "week_capped": capped,
+            "sample": len(week),
             "groups": [{"name": g, "count": c} for g, c in top],
             "france": [p for p in posts if p["france"]][:10]}
 

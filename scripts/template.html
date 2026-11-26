@@ -239,8 +239,8 @@ const DATA = /*__DATA__*/null;
       <article class="card"><div class="card-head"><div><h2>Cyberattaques et alertes</h2><div class="cat">Cyberattaque.org · CERT-FR</div></div></div>
         ${(T.news || []).length ? `<ul class="news">${T.news.map(news).join("")}</ul>` : '<p class="empty">Aucune alerte récente collectée.</p>'}</article>
       <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · RansomLook</div></div>
-        ${T.week_total != null ? `<span class="badge-cve" style="cursor:default">${T.week_total} sur 7 j</span>` : ""}</div>
-        ${groups.length ? `<div><div class="label">Groupes les plus actifs (7 jours)</div>${groups.map((g) => `<div class="bar"><span>${esc(g.name)}</span><i style="width:${Math.round(g.count / max * 100)}%"></i><b>${g.count}</b></div>`).join("")}</div>` : ""}
+        ${T.week_total != null ? `<span class="badge-cve" style="cursor:default">${T.week_total}${T.week_capped ? "+" : ""} sur 7 j</span>` : ""}</div>
+        ${groups.length ? `<div><div class="label">Groupes les plus actifs (${T.week_capped ? T.sample + " dernières revendications" : "7 jours"})</div>${groups.map((g) => `<div class="bar"><span>${esc(g.name)}</span><i style="width:${Math.round(g.count / max * 100)}%"></i><b>${g.count}</b></div>`).join("")}</div>` : ""}
         ${(T.france || []).length ? `<div><div class="label">Victimes françaises</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
         <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">RansomLook indisponible lors du dernier passage.</p>'}</div>
         <div class="links"><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
