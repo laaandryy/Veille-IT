@@ -1,7 +1,35 @@
 {
- "generated_at": "2026-11-26T10:35:55Z",
+ "generated_at": "2026-11-26T13:54:26Z",
  "threats": {
   "posts": [
+   {
+    "title": "Technology Investment Joint Stock CompanyTACORP",
+    "group": "orova",
+    "date": "2026-11-26T14:22:39Z",
+    "url": "https://www.ransomlook.io/group/orova",
+    "france": false
+   },
+   {
+    "title": "E Xing Precision Design",
+    "group": "orova",
+    "date": "2026-11-26T14:22:37Z",
+    "url": "https://www.ransomlook.io/group/orova",
+    "france": false
+   },
+   {
+    "title": "Visual Birds Studio",
+    "group": "orova",
+    "date": "2026-11-26T14:22:36Z",
+    "url": "https://www.ransomlook.io/group/orova",
+    "france": false
+   },
+   {
+    "title": "Jackson District Library",
+    "group": "rhysida",
+    "date": "2026-11-26T13:24:49Z",
+    "url": "archive.php?company=317",
+    "france": false
+   },
    {
     "title": "Groupe Antilles-Glaces",
     "group": "rhysida",
@@ -183,34 +211,6 @@
     "date": "2026-11-25T22:18:32Z",
     "url": "https://www.ransomlook.io/group/n0n",
     "france": false
-   },
-   {
-    "title": "Scanbuy",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:31Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "Primary Arms",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:30Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "PayClip",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:29Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
-   },
-   {
-    "title": "OSS Telco",
-    "group": "n0n",
-    "date": "2026-11-25T22:18:28Z",
-    "url": "https://www.ransomlook.io/group/n0n",
-    "france": false
    }
   ],
   "week_total": 100,
@@ -223,7 +223,7 @@
    },
    {
     "name": "the gentlemen",
-    "count": 23
+    "count": 19
    },
    {
     "name": "pixelleaks",
@@ -231,7 +231,7 @@
    },
    {
     "name": "rhysida",
-    "count": 4
+    "count": 5
    },
    {
     "name": "aurora",
@@ -242,16 +242,34 @@
     "count": 4
    },
    {
-    "name": "dark project",
+    "name": "orova",
     "count": 3
    },
    {
-    "name": "qilin",
+    "name": "dark project",
     "count": 3
    }
   ],
   "france": [],
   "news": [
+   {
+    "title": "Cyberattaque chez OPCO EP : l’organisme qui accompagne 442 700 entreprises françaises suspend ses services",
+    "url": "https://www.cyberattaque.org/cyberattaque-chez-opco-ep-lorganisme-qui-accompagne-442-700-entreprises-francaises-suspend-ses-services/",
+    "date": "2026-11-26T12:43:37Z",
+    "source": "Cyberattaque.org",
+    "summary": "OPCO EP, l’un des principaux acteurs du financement de la formation professionnelle et de l’apprentissage en France, confirme... L’article Cyberattaque chez OPCO EP : l’organisme qui accompagne 442 700 entreprises…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Todoist : une cyberattaque expose les données de milliers d’utilisateurs",
+    "url": "https://www.cyberattaque.org/todoist-une-cyberattaque-expose-les-donnees-de-milliers-dutilisateurs/",
+    "date": "2026-11-26T11:14:01Z",
+    "source": "Cyberattaque.org",
+    "summary": "Todoist confirme une cyberattaque ayant permis à un pirate de pénétrer dans ses infrastructures informatiques et de voler... L’article Todoist : une cyberattaque expose les données de milliers d’utilisateurs est apparu…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
    {
     "title": "La FIFA confirme une cyberattaque : plus de 12 Go de documents confidentiels revendiqués",
     "url": "https://www.cyberattaque.org/la-fifa-confirme-une-cyberattaque-plus-de-12-go-de-documents-confidentiels-revendiques/",
@@ -368,24 +386,6 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
     "reference": true,
     "ref_kind": "cyber"
-   },
-   {
-    "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
-    "date": "2026-11-25T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
-    "date": "2026-11-25T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
-    "reference": true,
-    "ref_kind": "cyber"
    }
   ]
  },
@@ -472,8 +472,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23640,
-    "pushed": "2026-11-26T10:21:45Z",
+    "stars": 23643,
+    "pushed": "2026-11-26T13:21:54Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -676,7 +676,7 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 188179,
+    "stars": 188201,
     "pushed": "2026-11-26T06:27:01Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
@@ -706,12 +706,30 @@
    ],
    "news": [
     {
+     "title": "gBench Tutorial: How to Benchmark Your vLLM or Ollama Endpoint",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wd1MwbXlfU2lzUnlTTWlwNTA4RnBqMm13a2gySXBnMGU1ZDZQRW4tLXo5end3dTJBU0NYSUhVVVh0OF9XejB0bDBXQy11Sldib2syY2dfcHQ3YWM?oc=5",
+     "date": "2026-11-23T16:00:00Z",
+     "source": "GitHub",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Ollama et llama.cpp accueillent les modèles décisionnels",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSUxTcThPbjNWbDBXTGVJMlRBdXhOREFmdXFvNldkd3h0cWRZdGtndnlJWWZvOHIxNlY4OG9WVFloMWtLOThaTHI0bkZWRUhuWEszVGVOeTJZbHhHVVVVLU9XdHZLY2tYeXFaYllJUFNUeGEtOTQ2aHVTa3d5WEtJMWJSWXlFODNjWUNxSWNwZXg?oc=5",
      "date": "2026-11-20T13:31:40Z",
      "source": "Brief IA",
      "summary": "",
      "lang": "fr",
+     "new": false
+    },
+    {
+     "title": "What I Did with Hermes Agent, Ollama & Local Models",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82T3ZSMkVrVHNvaGNYTXlIdGZ4ZU4wQ0w3WW5xdENJWGI4VkNzMy0wNVlqRU5oNV9XNW9NVGpxazFIY1V1b3hFOUdCWTVDN0V3VnRQQktLcEhiaDgyMURVNTVZRlRlTl9obW5mU2xyekJrUWlHS2o2R09zMHNYUHc?oc=5",
+     "date": "2026-11-05T08:00:00Z",
+     "source": "KDnuggets",
+     "summary": "",
+     "lang": "en",
      "new": false
     },
     {
@@ -724,7 +742,7 @@
      "new": false
     }
    ],
-   "news_count": 2,
+   "news_count": 4,
    "links": [
     {
      "label": "Site officiel",
@@ -765,8 +783,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156964,
-    "pushed": "2026-11-26T03:34:53Z",
+    "stars": 156969,
+    "pushed": "2026-11-26T13:17:34Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -916,7 +934,7 @@
    "repo": "moby/moby",
    "repo_meta": {
     "stars": 72321,
-    "pushed": "2026-11-25T21:26:44Z",
+    "pushed": "2026-11-26T12:29:53Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
    },
@@ -999,7 +1017,7 @@
      "new": false
     }
    ],
-   "news_count": 18,
+   "news_count": 15,
    "links": [
     {
      "label": "Site officiel",
@@ -1073,10 +1091,10 @@
      "new": false
     }
    ],
-   "cve_total": 14,
+   "cve_total": 13,
    "cves_affecting": 0,
    "cves_pending": 0,
-   "cves_cna": 14
+   "cves_cna": 13
   },
   {
    "name": "Kernel Linux",
@@ -1172,7 +1190,7 @@
      "new": false
     }
    ],
-   "news_count": 69,
+   "news_count": 67,
    "links": [
     {
      "label": "Site officiel",
@@ -1278,15 +1296,6 @@
    ],
    "news": [
     {
-     "title": "Debian 13.8 updates its ISOs with more than 150 security advisories fixed",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0tORGRVczVHdDViSTM3emdscF85SEJUYUwwTG5kUWpiQ0Q2S1lZRjVHNXZwc2ZCcFNjTHBwYmpsTk1OVzZvaks5V0tVUjB5M3JsMUxQX0xqY1NWOTgtNDNEc3lUd2Y1ZnRqU2taNVl2TGlmSnhzUHhXRXJvMjR2bE54bDkxeFAydEY4RlZiVUNrcWpBcDN4UkNmTGZ4UldtNHE4YTNMdm5uX0RFSUpCNTR3?oc=5",
-     "date": "2026-11-25T00:06:13Z",
-     "source": "Foro3D",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
      "title": "Debian 13.8 met à jour ses ISO avec plus de cent cinquante avis de sécurité corrigés",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5",
      "date": "2026-11-24T23:09:36Z",
@@ -1296,10 +1305,10 @@
      "new": false
     },
     {
-     "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nSDZYWVhSZmlyMURGWVI2NUdWdnhVdk1xMmpoZGQ2cFF0dnJ3TFE5RVoyaDY4ZmR2MnY4S3hLdjhzS0ViOXFyeno4NnNCOHlRMFBNbkt0OVlCeFE0Zm1HaHctQVNzSlJEMDI2aUlGb0owZw?oc=5",
-     "date": "2026-11-22T23:05:09Z",
-     "source": "Help Net Security",
+     "title": "Debian 13.8 Released with 150 Security Updates and 122 Bug Fixes",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5",
+     "date": "2026-11-21T11:12:50Z",
+     "source": "Linuxiac",
      "summary": "",
      "lang": "en",
      "new": false
@@ -1331,9 +1340,18 @@
      "reference": true,
      "ref_kind": "cyber",
      "new": true
+    },
+    {
+     "title": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb3NoM3dzU1paUHRQSnlUOWk2TzFFUFh5QnBEcXFFTzVFaTkweUZQOEd1NlVGMXV0eFl4NXoxTlB1RVRjcUtBSkRjY2F0dzZmSDZWLXB5R19MclRWTVkta2IyYl9VNUVNMkpVeV9maEFrVVRyUGZzNW1kQjBZWTdrNndzZDhOQ1RycXh1eXR6UQ?oc=5",
+     "date": "2026-11-18T19:02:15Z",
+     "source": "9to5Linux",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 23,
+   "news_count": 22,
    "links": [
     {
      "label": "Site officiel",
@@ -1477,7 +1495,7 @@
      "new": false
     }
    ],
-   "news_count": 71,
+   "news_count": 56,
    "links": [
     {
      "label": "Site officiel",
@@ -1923,7 +1941,7 @@
      "new": false
     }
    ],
-   "news_count": 11,
+   "news_count": 9,
    "links": [
     {
      "label": "Site officiel",
@@ -2184,7 +2202,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27586,
+    "stars": 27588,
     "pushed": "2026-11-26T10:04:44Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -2350,8 +2368,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 46108,
-    "pushed": "2026-11-26T08:37:48Z",
+    "stars": 46113,
+    "pushed": "2026-11-26T13:04:52Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -2403,7 +2421,7 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39641,
+    "stars": 39653,
     "pushed": "2026-11-26T08:24:20Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
@@ -2528,15 +2546,25 @@
      "new": false
     }
    ],
-   "news": [],
-   "news_count": 0,
+   "news": [
+    {
+     "title": "Windows .NET VirtualBox bypass and the PPL route",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFNldjh6NmJhbEFTX2dHbVM5Rk5Fdjg5UERHOEFiUnJnLVhzZjVXQ2luRUQtcndEQlRYZ2NiRmFRSFBRNlBkc1FHcGlEUDFQQ0Q2TzZPZ3dLMlFpX1Fhb05hRDdJMGIxVVJsaE45NWExSzJvVDdWRmlyZS14Sk1uYVd3TXpOdnltUEVrY1N2ZjRoMXFkVkNvZ0M1TWo0NTl4eWc?oc=5",
+     "date": "2026-11-26T09:43:01Z",
+     "source": "NeoTeo",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    }
+   ],
+   "news_count": 1,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.virtualbox.org/wiki/Changelog"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -2614,8 +2642,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24317,
-    "pushed": "2026-11-26T04:04:00Z",
+    "stars": 24319,
+    "pushed": "2026-11-26T12:33:58Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -2712,8 +2740,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7815,
-    "pushed": "2026-11-26T10:31:26Z",
+    "stars": 7817,
+    "pushed": "2026-11-26T13:46:26Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -2797,7 +2825,7 @@
    "category": "Navigateurs & vie privée",
    "repo": "donutbrowser/donutbrowser",
    "repo_meta": {
-    "stars": 4398,
+    "stars": 4399,
     "pushed": "2026-11-22T21:14:19Z",
     "url": "https://github.com/donutbrowser/donutbrowser",
     "description": "The Most Private Anti-Detect Browser 🍩"
@@ -2893,7 +2921,7 @@
      "new": true
     }
    ],
-   "news_count": 13,
+   "news_count": 14,
    "links": [
     {
      "label": "Site officiel",
@@ -2972,8 +3000,8 @@
   "eol_ended": 0,
   "cves_affecting": 1,
   "cves_critical": 20,
-  "news": 87,
-  "new": 20,
+  "news": 90,
+  "new": 21,
   "releases_week": 8
  },
  "history": {
@@ -3619,6 +3647,7 @@
   "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0dzYXRoQno0MkNwMmxRR0xZNDAtMVJONHBRVjlPUERlRTZkUE5iNjMtUjRjRHlaT3UzWWlqMWRja0JleFdBTTFhOEZmbXNvWjRvNzNwQkMyRm4zSXRNbWZzQTNXdU9pSEtKelM2c2ZWeVFZZ1hZTWR5NFEtU2NRM1hpakRPNUpabnZqWFRzX1hBTjU1ejdlTUpDQnJYWGxEQ0VrRzJn?oc=5": "2026-11-26",
   "https://github.com/apache/guacamole-server/releases/tag/1.6.0": "2026-11-26",
   "https://github.com/apache/guacamole-server/releases/tag/1.6.0-RC3": "2026-11-26",
-  "https://github.com/apache/guacamole-server/releases/tag/1.6.0-RC2": "2026-11-26"
+  "https://github.com/apache/guacamole-server/releases/tag/1.6.0-RC2": "2026-11-26",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFNldjh6NmJhbEFTX2dHbVM5Rk5Fdjg5UERHOEFiUnJnLVhzZjVXQ2luRUQtcndEQlRYZ2NiRmFRSFBRNlBkc1FHcGlEUDFQQ0Q2TzZPZ3dLMlFpX1Fhb05hRDdJMGIxVVJsaE45NWExSzJvVDdWRmlyZS14Sk1uYVd3TXpOdnltUEVrY1N2ZjRoMXFkVkNvZ0M1TWo0NTl4eWc?oc=5": "2026-11-26"
  }
 }
