@@ -92,20 +92,53 @@ def clean_text(s: str | None, limit: int = 220) -> str:
 def read_technologies() -> list[dict]:
     raw = CSV_PATH.read_bytes().decode("utf-8-sig", errors="replace")
     rows = list(csv.reader(raw.splitlines(), delimiter=";"))
-    techs = []
+    techs, by_key = [], {}
     for row in rows[1:]:
-        if not row or not row[0].strip():
+        row = [c.strip() for c in row]
+        if not row or not row[0]:
             continue
-        name = row[0].strip()
-        info = row[1].strip() if len(row) > 1 else ""
-        installed = row[2].strip() if len(row) > 2 else ""
-        techs.append({"name": name, "info": info, "installed": installed})
+        # Ligne saisie avec des virgules (« Steam,latest; ») : on la redécoupe.
+        if "," in row[0] and not any(row[1:]):
+            row = [c.strip() for c in row[0].split(",")]
+        name = row[0]
+        info = row[1] if len(row) > 1 else ""
+        installed = row[2] if len(row) > 2 else ""
+        if not installed and info and not info.startswith("http") and is_latest(info):
+            info, installed = "", info  # « Nom;latest » : version mise dans la 2e colonne
+        key = tech_key(name)
+        if key in by_key:  # doublon (« Pi Hole » / « Pi-Hole ») : on fusionne
+            t = by_key[key]
+            t["info"] = t["info"] or info
+            t["installed"] = t["installed"] or installed
+            log(f"  doublon ignoré dans le CSV : {name} (déjà suivi sous « {t['name']} »)")
+            continue
+        by_key[key] = {"name": name, "info": info, "installed": installed}
+        techs.append(by_key[key])
     return techs
+
+
+LATEST_WORDS = {"latest", "lastest", "last", "derniere", "dernière", "derniere version", "dernière version",
+                "current", "stable", "a jour", "à jour"}
+
+
+def is_latest(s: str | None) -> bool:
+    return (s or "").strip().lower() in LATEST_WORDS
+
+
+def tech_key(name: str) -> str:
+    """Clé de comparaison : « Pi-Hole », « Pi Hole » et « pihole » -> « pihole »."""
+    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "", s)
 
 
 def load_sources() -> tuple[dict, dict]:
     data = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
-    sources = {k.strip().lower(): v for k, v in data.items() if not k.startswith("_")}
+    sources = {}
+    for k, v in data.items():
+        if k.startswith("_"):
+            continue
+        for alias in [k, *v.get("aliases", [])]:
+            sources[tech_key(alias)] = v
     return sources, data.get("_filtres", {})
 
 
@@ -143,6 +176,95 @@ class NewsFilter:
 
 NEWS_FILTER: NewsFilter | None = None
 NEWS_FILTER_CFG: dict = {}
+REFERENCE_ITEMS: list[dict] = []   # articles des sites de référence (IT-Connect, Korben…)
+
+# Mots qui rendent un article plus utile pour une veille IT (sécurité, versions).
+SIGNAL_RE = re.compile(
+    r"\b(cve-\d{4}|faille|vuln\w*|patch\w*|correctif|mise à jour|update[sd]?|release[sd]?|version|"
+    r"sortie|disponible|available|security|sécurité|exploit\w*|zero[- ]day|0day|ransomware|rançongiciel|"
+    r"fin de support|end of life|eol|lts|deprecat\w*|breach|fuite|alerte|advisory|bulletin)\b", re.I)
+
+
+def fetch_references(refs: list[dict]) -> list[dict]:
+    """Flux des sites de référence, récupérés une seule fois pour toutes les technologies."""
+    out = []
+    cutoff = NOW - timedelta(days=NEWS_WINDOW_DAYS)
+    for ref in refs:
+        got = 0
+        for page in range(1, int(ref.get("pages", 1)) + 1):
+            url = ref["url"] if page == 1 else f"{ref['url']}{'&' if '?' in ref['url'] else '?'}paged={page}"
+            try:
+                items = parse_feed(fetch(url), ref["name"])
+            except Exception as e:  # noqa: BLE001
+                log(f"  ! référence {ref['name']} ({url}): {e}")
+                break
+            for i in items:
+                d = parse_date(i["date"])
+                if d and d < cutoff:
+                    continue
+                i.update(source=ref["name"], reference=True, ref_kind=ref.get("kind", "it"))
+                out.append(i)
+                got += 1
+            if not items:
+                break
+        log(f"  référence {ref['name']} : {got} articles")
+    return out
+
+
+def score_news(n: dict) -> int:
+    """Classement : officiel > référence > reste, bonus si l'article parle sécurité/version."""
+    sc = 0
+    if n.get("official"):
+        sc += 4
+    if n.get("reference"):
+        sc += 3
+    if SIGNAL_RE.search(n["title"]):
+        sc += 2
+    d = parse_date(n.get("date"))
+    if d and NOW - d < timedelta(days=3):
+        sc += 2
+    elif d and NOW - d < timedelta(days=10):
+        sc += 1
+    return sc
+
+
+def fetch_ransomware(cfg: dict) -> dict:
+    """Revendications récentes des groupes de rançongiciels (RansomLook)."""
+    if not cfg:
+        return {}
+    try:
+        data = json.loads(fetch(cfg.get("api", "https://www.ransomlook.io/api/recent")))
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! ransomlook: {e}")
+        return {}
+    posts = []
+    for p in data if isinstance(data, list) else []:
+        if p.get("private"):
+            continue
+        d = parse_date((p.get("discovered") or "").replace(" ", "T").split(".")[0] + "Z")
+        link = p.get("link") or ""
+        if link.startswith("/"):
+            link = "https://www.ransomlook.io" + link
+        title = clean_text(p.get("post_title"), 120)
+        posts.append({
+            "title": title, "group": p.get("group_name"), "date": iso(d),
+            "url": link or f"https://www.ransomlook.io/group/{urllib.parse.quote(p.get('group_name') or '')}",
+            "france": bool(re.search(r"(\.fr\b|\bfrance\b|\bfrench\b)", title, re.I)),
+        })
+    posts.sort(key=lambda x: x["date"] or "", reverse=True)
+    week = [p for p in posts if (d := parse_date(p["date"])) and NOW - d < timedelta(days=7)]
+    groups: dict[str, int] = {}
+    for p in week:
+        groups[p["group"]] = groups.get(p["group"], 0) + 1
+    top = sorted(groups.items(), key=lambda kv: -kv[1])[:8]
+    log(f"  ransomlook : {len(posts)} revendications, {len(week)} sur 7 jours")
+    # L'API ne renvoie que les ~100 dernières revendications : si elles tiennent toutes sur 7 jours,
+    # le total réel de la semaine est supérieur (on l'affiche « 100+ »).
+    capped = len(week) == len(posts) and len(posts) >= 100
+    return {"posts": posts[: int(cfg.get("max", 30))], "week_total": len(week), "week_capped": capped,
+            "sample": len(week),
+            "groups": [{"name": g, "count": c} for g, c in top],
+            "france": [p for p in posts if p["france"]][:10]}
 
 
 def github_repo_from(url: str) -> str | None:
@@ -151,6 +273,9 @@ def github_repo_from(url: str) -> str | None:
 
 
 # --------------------------------------------------------------------------- collectors
+PRERELEASE_RE = re.compile(r"\b(nightly|beta|alpha|dev|preview|canary|rc\d*|snapshot|insider)\b|-rc\.?\d", re.I)
+
+
 def gh_releases(repo: str) -> tuple[list[dict], dict | None]:
     headers = {"Accept": "application/vnd.github+json"}
     token = os.environ.get("GITHUB_TOKEN")
@@ -160,7 +285,8 @@ def gh_releases(repo: str) -> tuple[list[dict], dict | None]:
     try:
         data = json.loads(fetch(f"https://api.github.com/repos/{repo}/releases?per_page=30", headers))
         for r in data:
-            if r.get("draft") or r.get("prerelease"):
+            if r.get("draft") or r.get("prerelease") or PRERELEASE_RE.search(
+                    f"{r.get('name') or ''} {r.get('tag_name') or ''}"):
                 continue
             releases.append({
                 "version": r.get("name") or r.get("tag_name"),
@@ -287,7 +413,8 @@ def eol_cycles(product: str) -> list[dict]:
         for r in (data.get("result") or {}).get("releases", []):
             latest = r.get("latest") or {}
             eol = r.get("eolFrom") or r.get("isEol")
-            out.append({"cycle": str(r.get("name")), "release": r.get("releaseDate"), "eol": as_eol(eol),
+            out.append({"cycle": str(r.get("name")), "codename": r.get("codename"),
+                        "release": r.get("releaseDate"), "eol": as_eol(eol),
                         "lts": bool(r.get("isLts")), "latest": latest.get("name"),
                         "latest_date": latest.get("date"), "link": latest.get("link")})
         if out:
@@ -296,7 +423,7 @@ def eol_cycles(product: str) -> list[dict]:
         log(f"  ! endoflife v1 {product}: {e}")
     try:
         data = json.loads(fetch(f"https://endoflife.date/api/{product}.json"))
-        return [{"cycle": str(r.get("cycle")), "release": r.get("releaseDate"), "eol": as_eol(r.get("eol")),
+        return [{"cycle": str(r.get("cycle")), "codename": r.get("codename"), "release": r.get("releaseDate"), "eol": as_eol(r.get("eol")),
                  "lts": bool(r.get("lts")), "latest": r.get("latest"),
                  "latest_date": r.get("latestReleaseDate"), "link": r.get("link")} for r in data]
     except Exception as e:  # noqa: BLE001
@@ -311,6 +438,25 @@ def eol_status(cycle: dict) -> tuple[bool, str | None]:
         d = parse_date(eol + "T00:00:00Z") if len(eol) == 10 else parse_date(eol)
         return (bool(d and d <= NOW), eol[:10])
     return (bool(eol), None)
+
+
+CODENAMES = {  # repli si endoflife.date ne fournit pas les noms de code
+    "buster": "10", "bullseye": "11", "bookworm": "12", "trixie": "13", "forky": "14", "duke": "15",
+    "focal": "20.04", "jammy": "22.04", "noble": "24.04", "plucky": "25.04", "questing": "25.10",
+    "resolute": "26.04",
+}
+
+
+def eol_by_codename(cycles: list[dict], text: str) -> dict | None:
+    """Branche désignée par son nom de code (« Trixie » -> Debian 13)."""
+    word = (text or "").strip().lower()
+    if not word:
+        return None
+    for c in cycles:
+        if (c.get("codename") or "").lower().split(" ")[0] == word.split(" ")[0]:
+            return c
+    cycle = CODENAMES.get(word.split(" ")[0])
+    return next((c for c in cycles if c["cycle"] == cycle), None)
 
 
 def eol_match(cycles: list[dict], installed: tuple | None) -> dict | None:
@@ -528,18 +674,18 @@ def collect_cves(results: list[dict], sources: dict, previous: dict) -> None:
     prev = {r["name"]: r.get("cves", []) for r in previous.get("results", [])}
     pause = 0.8 if os.environ.get("NVD_API_KEY") else 6.5
     for i, r in enumerate(results):
-        cfg = sources.get(r["name"].lower(), {})
+        cfg = sources.get(tech_key(r["name"]), {})
         keyword = cfg.get("cve", r["name"])
         if not keyword:  # "cve": "" dans sources.json pour désactiver
             r["cves"], r["cve_total"] = [], 0
             continue
         if i:
             time.sleep(pause)
-        found = nvd_cves(keyword, cfg.get("cpe"), r.get("installed", ""))
+        found = nvd_cves(keyword, cfg.get("cpe"), r.get("effective_version") or "")
         if found and cfg.get("cpe"):
             # CVE pas encore analysées par la NVD : on complète avec CVE.org.
             pending = [c for c in found if c["status"] == "pending"][:CVEORG_MAX_PER_TECH]
-            iv = parse_version(r.get("installed", ""))
+            iv = parse_version(r.get("effective_version") or "")
             with ThreadPoolExecutor(max_workers=8) as pool:
                 checks = list(pool.map(lambda c: cveorg_check(c["id"], cfg["cpe"], r["name"], iv), pending))
             for c, res in zip(pending, checks):
@@ -588,6 +734,12 @@ def collect(tech: dict, cfg: dict) -> dict:
     terms = [" " + norm(t).strip() for t in cfg.get("match", [name])]
     extra = re.compile("|".join(cfg["exclure"]), re.I) if cfg.get("exclure") else None
     news = [n for n in news if NEWS_FILTER.ok(n, terms) and not (extra and extra.search(n["title"]))]
+    # Sites de référence : la techno peut être citée dans le titre ou le résumé.
+    for n in REFERENCE_ITEMS:
+        text = norm(n["title"] + " " + n.get("summary", ""))
+        if any(t in text for t in terms) and not NEWS_FILTER.title_re.search(n["title"]) \
+                and not (extra and extra.search(n["title"])):
+            news.append(dict(n))
 
     cutoff = NOW - timedelta(days=NEWS_WINDOW_DAYS)
     seen_urls, seen_titles, kept = set(), set(), []
@@ -600,11 +752,23 @@ def collect(tech: dict, cfg: dict) -> dict:
             continue
         seen_urls.add(n["url"]); seen_titles.add(key_t)
         kept.append(n)
-    # Les billets officiels d'abord s'ils sont récents, puis le reste par date.
-    kept.sort(key=lambda x: (x["date"] or ""), reverse=True)
-    official = [n for n in kept if n.get("official")][:2]
-    others = [n for n in kept if not n.get("official")]
-    final = sorted(official + others[: MAX_NEWS - len(official)], key=lambda x: x["date"] or "", reverse=True)
+    # Classement par pertinence (officiel, référence, sécurité/version, fraîcheur), puis par date.
+    # Au plus 2 articles par média, et 1 par média et par jour (évite les doublons FR/EN).
+    kept.sort(key=lambda x: (score_news(x), x["date"] or ""), reverse=True)
+    per_source: dict[str, int] = {}
+    per_day: set[tuple] = set()
+    final = []
+    for n in kept:
+        src = norm(n.get("source") or "").strip()
+        day = (src, (n.get("date") or "")[:10])
+        if not n.get("official") and (per_source.get(src, 0) >= 2 or day in per_day):
+            continue
+        per_source[src] = per_source.get(src, 0) + 1
+        per_day.add(day)
+        final.append(n)
+        if len(final) >= MAX_NEWS:
+            break
+    final.sort(key=lambda x: x["date"] or "", reverse=True)
 
     links = []
     if cfg.get("site"):
@@ -616,7 +780,9 @@ def collect(tech: dict, cfg: dict) -> dict:
 
     installed = tech.get("installed", "")
     latest, status = None, None
-    iv = parse_version(installed)
+    track_latest = is_latest(installed)
+    iv = None if track_latest else parse_version(installed)
+    effective = None  # version réellement comparée aux CVE
 
     # endoflife.date : branches, dernière version de chaque branche et fin de support.
     eol = None
@@ -629,17 +795,37 @@ def collect(tech: dict, cfg: dict) -> dict:
                              "date": iso(parse_date((current.get("latest_date") or "") + "T00:00:00Z"))
                              if current.get("latest_date") else None,
                              "url": current.get("link") or f"https://endoflife.date/{cfg['eol']}"}]
-            mine = eol_match(cycles, iv)
+            if track_latest:
+                mine = current
+            elif iv:
+                mine = eol_match(cycles, iv)
+            else:
+                mine = eol_by_codename(cycles, installed)  # ex. « Trixie »
+                if mine and mine.get("latest"):
+                    effective = mine["latest"]
             eol = {"product": cfg["eol"], "url": f"https://endoflife.date/{cfg['eol']}",
                    "current": current["cycle"]}
             if mine:
                 ended, until = eol_status(mine)
                 eol.update(cycle=mine["cycle"], ended=ended, until=until, lts=mine.get("lts"),
-                           cycle_latest=mine.get("latest"))
-                if mine.get("latest") and parse_version(mine["latest"]):
+                           codename=mine.get("codename"), cycle_latest=mine.get("latest"))
+                if effective and not iv:  # nom de code : on suit la dernière version de la branche
+                    latest, status = mine["latest"], "branch"
+                elif iv and mine.get("latest") and parse_version(mine["latest"]):
                     # mise à jour comparée dans la branche installée (ex. 6.1.x, Debian 12.x)
                     latest = mine["latest"]
                     status = "update" if vcmp(iv, parse_version(latest)) < 0 else "ok"
+
+    if track_latest:
+        # « latest » : on suit toujours la dernière version publiée.
+        cands = [(parse_version(x["tag"] or x["version"]), x) for x in releases]
+        cands = [(v, x) for v, x in cands if v]
+        if cands:
+            v, x = max(cands, key=lambda t: t[0] + (0,) * (6 - len(t[0])))
+            latest = effective = x["tag"] or x["version"]
+        status = "latest"
+    elif iv:
+        effective = installed
 
     if iv and releases and status is None:
         cands = [(parse_version(x["tag"] or x["version"]), x) for x in releases]
@@ -657,6 +843,7 @@ def collect(tech: dict, cfg: dict) -> dict:
         "installed": installed,
         "latest_version": latest,
         "version_status": status,
+        "effective_version": effective,
         "eol": eol,
         "category": cfg.get("category", "Autres"),
         "repo": repo,
@@ -698,9 +885,14 @@ def main() -> int:
     techs = read_technologies()
     sources, NEWS_FILTER_CFG = load_sources()
     NEWS_FILTER = NewsFilter(NEWS_FILTER_CFG)
+    raw_sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
+    REFERENCE_ITEMS.extend(fetch_references(raw_sources.get("_references", [])))
+    threats = fetch_ransomware(raw_sources.get("_ransomware", {}))
+    threats["news"] = sorted([i for i in REFERENCE_ITEMS if i.get("ref_kind") == "cyber"],
+                             key=lambda x: x["date"] or "", reverse=True)[:15]
     log(f"{len(techs)} technologies à suivre")
     with ThreadPoolExecutor(max_workers=6) as pool:
-        results = list(pool.map(lambda t: collect(t, sources.get(t["name"].lower(), {})), techs))
+        results = list(pool.map(lambda t: collect(t, sources.get(tech_key(t["name"]), {})), techs))
 
     previous = {}
     if DATA_PATH.exists():
@@ -719,6 +911,7 @@ def main() -> int:
 
     payload = {
         "generated_at": iso(NOW),
+        "threats": threats,
         "results": results,
         "stats": {
             "technologies": len(results),

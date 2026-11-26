@@ -1,5 +1,5 @@
 {
- "_doc": "Sources par technologie. Clé = nom exact (insensible à la casse) de technologies.csv. Champs : category, github (owner/repo, releases), feeds (RSS/Atom officiels), query (recherche actualités), site (lien officiel). Toute techno absente ici est suivie via la recherche d'actualités sur son nom. cve : mot-clé (expression exacte) cherché dans les CVE de la NVD ; chaîne vide pour désactiver. match : termes dont au moins un doit figurer dans le titre d'un article (défaut : le nom). exclure : expressions régulières de titres à écarter pour cette technologie. cpe : motifs 'éditeur:produit' (jokers *) des identifiants CPE NVD ; une CVE déjà analysée qui ne vise aucun de ces produits est écartée, et la version installée (3e colonne du CSV) est comparée aux plages vulnérables. eol : identifiant du produit sur endoflife.date (branches, dernière version, fin de support).",
+ "_doc": "Sources par technologie. Clé = nom exact (insensible à la casse) de technologies.csv. Champs : category, github (owner/repo, releases), feeds (RSS/Atom officiels), query (recherche actualités), site (lien officiel). Toute techno absente ici est suivie via la recherche d'actualités sur son nom. cve : mot-clé (expression exacte) cherché dans les CVE de la NVD ; chaîne vide pour désactiver. match : termes dont au moins un doit figurer dans le titre d'un article (défaut : le nom). exclure : expressions régulières de titres à écarter pour cette technologie. cpe : motifs 'éditeur:produit' (jokers *) des identifiants CPE NVD ; une CVE déjà analysée qui ne vise aucun de ces produits est écartée, et la version installée (3e colonne du CSV) est comparée aux plages vulnérables. eol : identifiant du produit sur endoflife.date (branches, dernière version, fin de support). aliases : autres noms acceptés dans le CSV. _references : flux des sites de référence (IT-Connect, Korben, Cyberattaque.org, CERT-FR) croisés avec chaque technologie (titre ou résumé) ; kind=cyber alimente aussi l'onglet Menaces. _ransomware : API RansomLook (revendications de rançongiciels).",
  "_filtres": {
   "_doc": "Filtres globaux appliqués aux actualités Google News. titres_exclus : expressions régulières (insensibles à la casse) écartant un article par son titre. sources_exclues : médias écartés. mots_exclus_recherche : termes exclus directement dans la requête Google News.",
   "mots_exclus_recherche": [
@@ -27,7 +27,16 @@
    "^\\s*(\\d+|cinq|six|sept|huit|neuf|dix|three|four|five|six|seven|eight|nine|ten)\\s+\\w+",
    "^\\s*(i|i'm|i've|my|here's|voici|j'ai)\\b",
    "\\bcodes?\\b.*\\((novembre|november|décembre|december|janvier|january|20\\d\\d)",
-   "\\b(horoscope|casino|betting|paris sportifs|crypto(currency)? price|stock price|cours de l'action|shares? (rise|fall|jump))\\b"
+   "\\b(horoscope|casino|betting|paris sportifs|crypto(currency)? price|stock price|cours de l'action|shares? (rise|fall|jump))\\b",
+   "^\\s*(why|pourquoi)\\b.*\\b(i|je|j'|my|mon|ma)\\b",
+   "\\b(these|ces) \\d+\\b",
+   "\\b(i|je|j'ai) (replaced|switched|tried|use|uses|recommend|stopped|ditched|built|remplacé|testé|arrêté)\\b",
+   "\\bmarket (size|share|report|trends|forecast|analysis)\\b|\\bCAGR\\b|\\btaille du marché\\b|\\bétude de marché\\b",
+   "^\\s*(télécharger|download)\\b",
+   "\\b(apk|mod apk)\\b",
+   "\\bwhat the tech\\b",
+   "\\b(podcast|webinar|webinaire|livestream)\\b",
+   "\\b(stock|action|shares|bourse|earnings|résultats financiers)\\b.*\\b(price|cours|rise|fall|chute|hausse)\\b"
   ],
   "sources_exclues": [
    "tech-insider.org",
@@ -47,8 +56,64 @@
    "orcarouter",
    "h2s media",
    "technobezz",
-   "jablickar"
+   "jablickar",
+   "filehippo",
+   "softonic",
+   "uptodown",
+   "future market insights",
+   "explainx",
+   "wisevoter",
+   "digg",
+   "gamegpu",
+   "la creme du gaming",
+   "achievement industry",
+   "gamehope",
+   "market research",
+   "openpr",
+   "einpresswire",
+   "globenewswire",
+   "prnewswire",
+   "businesswire",
+   "marketsandmarkets",
+   "kenresearch",
+   "coherent market",
+   "yahoo finance",
+   "benzinga",
+   "2news.com"
   ]
+ },
+ "_references": [
+  {
+   "name": "IT-Connect",
+   "url": "https://www.it-connect.fr/feed/",
+   "pages": 3,
+   "kind": "it",
+   "site": "https://www.it-connect.fr"
+  },
+  {
+   "name": "Korben",
+   "url": "https://korben.info/feed",
+   "kind": "it",
+   "site": "https://korben.info"
+  },
+  {
+   "name": "Cyberattaque.org",
+   "url": "https://cyberattaque.org/feed/",
+   "pages": 2,
+   "kind": "cyber",
+   "site": "https://cyberattaque.org"
+  },
+  {
+   "name": "CERT-FR",
+   "url": "https://cert.cyber.gouv.fr/feed/",
+   "kind": "cyber",
+   "site": "https://cert.cyber.gouv.fr"
+  }
+ ],
+ "_ransomware": {
+  "api": "https://www.ransomlook.io/api/recent",
+  "max": 30,
+  "site": "https://www.ransomlook.io"
  },
  "Discord": {
   "category": "Communication",
@@ -60,7 +125,13 @@
   ],
   "exclure": [
    "\\bnitro\\b.*(free|gratuit)",
-   "\\bserver\\b.*\\bjoin\\b"
+   "\\bserver\\b.*\\bjoin\\b",
+   "\\bGTA\\b",
+   "\\borbs?\\b",
+   "\\bqu[eê]te\\b",
+   "\\bquests?\\b",
+   "rockstar",
+   "\\bpilotes?\\b.*\\b(amd|nvidia|radeon)\\b"
   ],
   "cpe": [
    "discord:*"
@@ -332,20 +403,6 @@
    "microsoft:hyper-v*"
   ]
  },
- "Pfsens": {
-  "category": "Réseau & sécurité",
-  "query": "pfSense",
-  "site": "https://docs.netgate.com/pfsense/en/latest/releases/",
-  "cve": "pfSense",
-  "match": [
-   "pfsense"
-  ],
-  "cpe": [
-   "netgate:*",
-   "pfsense:*",
-   "*:pfsense*"
-  ]
- },
  "Wireguard": {
   "category": "Réseau & sécurité",
   "query": "WireGuard VPN",
@@ -386,6 +443,10 @@
    "pi-hole:*",
    "*:pi-hole",
    "*:pihole"
+  ],
+  "aliases": [
+   "Pi-Hole",
+   "PiHole"
   ]
  },
  "Headscale": {
@@ -448,6 +509,9 @@
    "brave:*",
    "*:brave_browser",
    "*:brave"
+  ],
+  "aliases": [
+   "Brave Browser"
   ]
  },
  "Mullvad": {
@@ -465,6 +529,83 @@
   "cpe": [
    "mullvad:*",
    "*:mullvad*"
+  ]
+ },
+ "Pfsense": {
+  "category": "Réseau & sécurité",
+  "query": "pfSense",
+  "site": "https://docs.netgate.com/pfsense/en/latest/releases/",
+  "cve": "pfSense",
+  "match": [
+   "pfsense"
+  ],
+  "cpe": [
+   "netgate:*",
+   "pfsense:*",
+   "*:pfsense*"
+  ],
+  "aliases": [
+   "Pfsens",
+   "pfSense"
+  ]
+ },
+ "Donut Web Browser": {
+  "category": "Navigateurs & vie privée",
+  "github": "donutbrowser/donutbrowser",
+  "query": "\"Donut Browser\"",
+  "match": [
+   "donut browser",
+   "donutbrowser"
+  ],
+  "cve": "Donut Browser",
+  "cpe": [
+   "donutbrowser:*",
+   "*:donut*browser"
+  ]
+ },
+ "Steam": {
+  "category": "Communication",
+  "query": "Steam Valve mise à jour OR update OR client",
+  "match": [
+   "steam"
+  ],
+  "cve": "Steam",
+  "cpe": [
+   "valvesoftware:steam*",
+   "valve:steam*",
+   "*:steam_client"
+  ],
+  "site": "https://store.steampowered.com/news/collection/steam",
+  "exclure": [
+   "\\bsoldes?\\b",
+   "\\bsale\\b",
+   "\\bjeux? gratuits?\\b",
+   "\\bfree games?\\b",
+   "\\bsteam deck\\b.*\\b(prix|price|deal)\\b",
+   "\\bsteam (next fest|summer|winter|autumn)\\b",
+   "\\bwishlist",
+   "\\bmeilleurs? jeux\\b",
+   "\\bbest games\\b",
+   "\\bavis\\b|\\breview\\b"
+  ]
+ },
+ "Apache Guacamole": {
+  "category": "Réseau & sécurité",
+  "github": "apache/guacamole-server",
+  "query": "\"Apache Guacamole\"",
+  "match": [
+   "guacamole"
+  ],
+  "cve": "Apache Guacamole",
+  "cpe": [
+   "apache:guacamole*"
+  ],
+  "site": "https://guacamole.apache.org/releases/",
+  "exclure": [
+   "\\brecette\\b",
+   "\\brecipe\\b",
+   "\\bavocado\\b",
+   "\\bavocat\\b"
   ]
  }
 }
