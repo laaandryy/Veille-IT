@@ -669,6 +669,86 @@ def cveorg_check(cve_id: str, patterns: list[str], name: str, installed: tuple |
     return ("cna", True if True in verdicts else False if False in verdicts else None)
 
 
+KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+KEV_WINDOW_DAYS = 90       # ajouts récents au catalogue KEV affichés par technologie
+EPSS_URL = "https://api.first.org/data/v1/epss"
+
+
+def fetch_kev() -> list[dict]:
+    """Catalogue CISA KEV : vulnérabilités exploitées dans la nature."""
+    try:
+        data = json.loads(fetch(KEV_URL))
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! CISA KEV: {e}")
+        return []
+    out = []
+    for v in data.get("vulnerabilities", []):
+        out.append({
+            "id": v.get("cveID"), "vendor": v.get("vendorProject"), "product": v.get("product"),
+            "name": v.get("vulnerabilityName"), "summary": clean_text(v.get("shortDescription"), 240),
+            "added": v.get("dateAdded"), "due": v.get("dueDate"),
+            "ransomware": (v.get("knownRansomwareCampaignUse") or "").lower() == "known",
+            "url": f"https://nvd.nist.gov/vuln/detail/{v.get('cveID')}",
+        })
+    out.sort(key=lambda x: x["added"] or "", reverse=True)
+    log(f"  CISA KEV : {len(out)} vulnérabilités au catalogue")
+    return out
+
+
+def kev_for(kev: list[dict], terms: list[str]) -> list[dict]:
+    """Entrées KEV récentes qui concernent une technologie (nom cité dans produit/titre/description)."""
+    limit = (NOW - timedelta(days=KEV_WINDOW_DAYS)).strftime("%Y-%m-%d")
+    out = []
+    for k in kev:
+        if (k["added"] or "") < limit:
+            break
+        text = norm(f"{k['vendor']} {k['product']} {k['name']} {k['summary']}")
+        if any(t in text for t in terms):
+            out.append(k)
+    return out
+
+
+def fetch_epss(ids: list[str]) -> dict[str, dict]:
+    """Scores EPSS (FIRST) : probabilité d'exploitation dans les 30 jours."""
+    scores: dict[str, dict] = {}
+    ids = sorted({i for i in ids if i})
+    for start in range(0, len(ids), 80):
+        chunk = ids[start:start + 80]
+        try:
+            data = json.loads(fetch(f"{EPSS_URL}?cve={','.join(chunk)}"))
+        except Exception as e:  # noqa: BLE001
+            log(f"  ! EPSS: {e}")
+            continue
+        for d in data.get("data", []):
+            try:
+                scores[d["cve"]] = {"epss": float(d["epss"]), "percentile": float(d["percentile"])}
+            except (KeyError, TypeError, ValueError):
+                pass
+    log(f"  EPSS : {len(scores)}/{len(ids)} scores")
+    return scores
+
+
+def enrich_exploitation(results: list[dict], kev: list[dict], sources: dict, threats: dict) -> None:
+    """Ajoute KEV (exploitée) et EPSS (probabilité) aux CVE, et les ajouts KEV récents par techno."""
+    kev_ids = {k["id"] for k in kev}
+    for r in results:
+        cfg = sources.get(tech_key(r["name"]), {})
+        terms = [" " + norm(t).strip() for t in cfg.get("match", [r["name"]])]
+        r["kev"] = kev_for(kev, terms)[:5]
+        for c in r["cves"]:
+            if c["id"] in kev_ids:
+                c["exploited"] = True
+    ids = [c["id"] for r in results for c in r["cves"]] + [k["id"] for r in results for k in r["kev"]]
+    ids += [k["id"] for k in kev[:15]]
+    scores = fetch_epss(ids)
+    for r in results:
+        for c in r["cves"] + r["kev"]:
+            if c["id"] in scores:
+                c.update(scores[c["id"]])
+    tracked = {k["id"]: r["name"] for r in results for k in r["kev"]}
+    threats["kev"] = [dict(k, **scores.get(k["id"], {}), tech=tracked.get(k["id"])) for k in kev[:15]]
+
+
 def collect_cves(results: list[dict], sources: dict, previous: dict) -> None:
     """Interroge la NVD séquentiellement (limite de débit) et remplit r['cves']."""
     prev = {r["name"]: r.get("cves", []) for r in previous.get("results", [])}
@@ -903,6 +983,7 @@ def main() -> int:
     log(f"Filtre actualités : {NEWS_FILTER.dropped} articles écartés")
     history = mark_new(results, previous.get("history", {}))
     collect_cves(results, sources, previous)
+    enrich_exploitation(results, fetch_kev(), sources, threats)
 
     total_items = sum(len(r["news"]) + len(r["releases"]) for r in results)
     if total_items == 0 and previous.get("results"):
@@ -919,6 +1000,8 @@ def main() -> int:
             "to_update": sum(1 for r in results if r.get("version_status") == "update"),
             "eol_ended": sum(1 for r in results if (r.get("eol") or {}).get("ended")),
             "cves_affecting": sum(r.get("cves_affecting", 0) for r in results),
+            "exploited": len({c["id"] for r in results for c in r["cves"] if c.get("exploited")}
+                             | {k["id"] for r in results for k in r.get("kev", [])}),
             "cves_critical": sum(1 for r in results for c in r["cves"] if c["severity"] in ("CRITICAL", "HIGH")),
             "news": sum(len(r["news"]) for r in results),
             "new": sum(r["new_count"] for r in results),

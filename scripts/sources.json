@@ -104,6 +104,13 @@
    "site": "https://cyberattaque.org"
   },
   {
+   "name": "Zataz",
+   "url": "https://www.zataz.com/feed/",
+   "pages": 2,
+   "kind": "cyber",
+   "site": "https://www.zataz.com"
+  },
+  {
    "name": "CERT-FR",
    "url": "https://cert.cyber.gouv.fr/feed/",
    "kind": "cyber",
@@ -253,7 +260,8 @@
   ],
   "cpe": [
    "linux:linux_kernel",
-   "linux:linux"
+   "linux:linux",
+   "linux:kernel"
   ],
   "eol": "linux"
  },

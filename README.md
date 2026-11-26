@@ -25,11 +25,21 @@ flux officiels, requête de recherche, lien officiel), ajoutez une entrée dans 
 ## Sites de référence et menaces
 
 Les flux d'[IT-Connect](https://www.it-connect.fr), [Korben](https://korben.info),
-[Cyberattaque.org](https://cyberattaque.org) et du CERT-FR sont lus une fois par passage ; un article
+[Cyberattaque.org](https://cyberattaque.org), [Zataz](https://www.zataz.com) et du CERT-FR sont lus une fois par passage ; un article
 qui cite une technologie (titre ou résumé) est ajouté à sa carte avec la mention « Référence ».
 L'onglet **Menaces** regroupe les dernières cyberattaques et alertes (Cyberattaque.org, CERT-FR) et
 les revendications de rançongiciels publiées par [RansomLook](https://www.ransomlook.io) (groupes les
 plus actifs sur 7 jours, victimes françaises). Liste modifiable dans `_references` de `sources.json`.
+
+## Exploitation : CISA KEV et EPSS
+
+- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) : catalogue des failles
+  exploitées dans la nature. Les CVE présentes sont marquées « Exploitée » ; chaque carte de l'onglet
+  Failles CVE liste aussi les ajouts au KEV des 90 derniers jours qui concernent la technologie
+  (avec mention « Rançongiciels » si la faille sert à des campagnes connues) ; l'onglet Menaces
+  affiche les 15 derniers ajouts.
+- [FIRST EPSS](https://www.first.org/epss/) : probabilité d'exploitation dans les 30 jours de chaque
+  CVE affichée (en rouge au-delà de 10 %). Le tri « Nouveautés / gravité » en tient compte.
 
 ## Filtrage des actualités
 
