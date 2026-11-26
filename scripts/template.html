@@ -175,7 +175,7 @@
 
 <footer class="wrap">
   Généré automatiquement par la tâche planifiée <b>veille</b> à partir de <a href="technologies.csv">technologies.csv</a>.
-  Sources : GitHub Releases, kernel.org, flux officiels, Google News, IT-Connect, Korben, Cyberattaque.org, Zataz, CERT-FR, RansomLook, CISA KEV, FIRST EPSS, NVD (NIST), CVE.org, endoflife.date.
+  Sources : GitHub Releases, kernel.org, flux officiels, Google News, IT-Connect, Korben, Cyberattaque.org, Zataz, CERT-FR, ransomware.live, RansomLook, CISA KEV, FIRST EPSS, NVD (NIST), CVE.org, endoflife.date.
 </footer>
 
 <script>
@@ -233,7 +233,7 @@ const DATA = /*__DATA__*/null;
     const groups = T.groups || [], max = Math.max(1, ...groups.map((g) => g.count));
     const post = (p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">
         <div class="t">${esc(p.title)}</div>
-        <div class="meta">${p.france ? '<span class="tag-mine">France</span>' : ""}<span>groupe ${esc(p.group || "?")}</span>${p.date ? `<span>· ${esc(ago(p.date))}</span>` : ""}</div></a></li>`;
+        <div class="meta">${p.france ? '<span class="tag-mine">France</span>' : p.country ? `<span class="tag-pending">${esc(p.country)}</span>` : ""}<span>groupe ${esc(p.group || "?")}</span>${p.sector ? `<span>· ${esc(p.sector)}</span>` : ""}${p.date ? `<span>· ${esc(ago(p.date))}</span>` : ""}</div></a></li>`;
     const news = (n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
         <div class="t">${esc(n.title)}</div>
         <div class="meta"><span class="off">${esc(n.source)}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div></a></li>`;
@@ -243,12 +243,12 @@ const DATA = /*__DATA__*/null;
       ${(T.kev || []).length ? `<article class="card"><div class="card-head"><div><h2>Failles activement exploitées</h2><div class="cat">Derniers ajouts au catalogue CISA KEV</div></div></div>
         <ul class="cves">${T.kev.map((k) => kevItem(k, true)).join("")}</ul>
         <div class="links"><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">Catalogue KEV ↗</a></div></article>` : ""}
-      <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · RansomLook</div></div>
+      <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · ransomware.live · RansomLook</div></div>
         ${T.week_total != null ? `<span class="badge-cve" style="cursor:default">${T.week_total}${T.week_capped ? "+" : ""} sur 7 j</span>` : ""}</div>
         ${groups.length ? `<div><div class="label">Groupes les plus actifs (${T.week_capped ? T.sample + " dernières revendications" : "7 jours"})</div>${groups.map((g) => `<div class="bar"><span>${esc(g.name)}</span><i style="width:${Math.round(g.count / max * 100)}%"></i><b>${g.count}</b></div>`).join("")}</div>` : ""}
-        ${(T.france || []).length ? `<div><div class="label">Victimes françaises</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
-        <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">RansomLook indisponible lors du dernier passage.</p>'}</div>
-        <div class="links"><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
+        ${(T.france || []).length ? `<div><div class="label">Victimes françaises${(T.france_sectors || []).length ? " · " + T.france_sectors.map(([s, n]) => esc(s) + " (" + n + ")").join(", ") : ""}</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
+        <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">Sources indisponibles lors du dernier passage.</p>'}</div>
+        <div class="links"><a href="https://www.ransomware.live" target="_blank" rel="noopener">ransomware.live ↗</a><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
     </div>`;
   };
   $("grid").addEventListener("click", (e) => {

@@ -28,7 +28,7 @@ Les flux d'[IT-Connect](https://www.it-connect.fr), [Korben](https://korben.info
 [Cyberattaque.org](https://cyberattaque.org), [Zataz](https://www.zataz.com) et du CERT-FR sont lus une fois par passage ; un article
 qui cite une technologie (titre ou résumé) est ajouté à sa carte avec la mention « Référence ».
 L'onglet **Menaces** regroupe les dernières cyberattaques et alertes (Cyberattaque.org, CERT-FR) et
-les revendications de rançongiciels publiées par [RansomLook](https://www.ransomlook.io) (groupes les
+les revendications de rançongiciels publiées par [ransomware.live](https://www.ransomware.live) et [RansomLook](https://www.ransomlook.io), fusionnées (groupes les
 plus actifs sur 7 jours, victimes françaises). Liste modifiable dans `_references` de `sources.json`.
 
 ## Exploitation : CISA KEV et EPSS

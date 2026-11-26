@@ -228,15 +228,15 @@ def score_news(n: dict) -> int:
     return sc
 
 
-def fetch_ransomware(cfg: dict) -> dict:
-    """Revendications récentes des groupes de rançongiciels (RansomLook)."""
-    if not cfg:
-        return {}
+FR_RE = re.compile(r"(\.fr\b|\bfrance\b|\bfrench\b)", re.I)
+
+
+def _ransomlook(cfg: dict) -> list[dict]:
     try:
         data = json.loads(fetch(cfg.get("api", "https://www.ransomlook.io/api/recent")))
     except Exception as e:  # noqa: BLE001
         log(f"  ! ransomlook: {e}")
-        return {}
+        return []
     posts = []
     for p in data if isinstance(data, list) else []:
         if p.get("private"):
@@ -247,24 +247,73 @@ def fetch_ransomware(cfg: dict) -> dict:
             link = "https://www.ransomlook.io" + link
         title = clean_text(p.get("post_title"), 120)
         posts.append({
-            "title": title, "group": p.get("group_name"), "date": iso(d),
+            "title": title, "group": p.get("group_name"), "date": iso(d), "country": None, "sector": None,
             "url": link or f"https://www.ransomlook.io/group/{urllib.parse.quote(p.get('group_name') or '')}",
-            "france": bool(re.search(r"(\.fr\b|\bfrance\b|\bfrench\b)", title, re.I)),
+            "france": bool(FR_RE.search(title)), "source": "RansomLook",
         })
+    log(f"  ransomlook : {len(posts)} revendications")
+    return posts
+
+
+def _ransomware_live(cfg: dict) -> list[dict]:
+    try:
+        data = json.loads(fetch(cfg.get("api", "https://api.ransomware.live/v2/recentvictims")))
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! ransomware.live: {e}")
+        return []
+    posts = []
+    for p in data if isinstance(data, list) else []:
+        raw = (p.get("discovered") or p.get("attackdate") or "").replace(" ", "T")
+        d = parse_date(re.sub(r"\.\d+", "", raw)) if raw else None
+        title = clean_text(p.get("victim") or p.get("domain"), 120)
+        country = (p.get("country") or "").upper() or None
+        posts.append({
+            "title": title, "group": p.get("group"), "date": iso(d), "country": country,
+            "sector": p.get("activity") or None, "domain": p.get("domain"),
+            "url": p.get("url") or "https://www.ransomware.live",
+            "france": country == "FR" or bool(FR_RE.search(f"{title} {p.get('domain') or ''}")),
+            "source": "ransomware.live",
+        })
+    log(f"  ransomware.live : {len(posts)} revendications")
+    return posts
+
+
+def fetch_ransomware(cfg: dict) -> dict:
+    """Revendications récentes des groupes de rançongiciels (RansomLook + ransomware.live)."""
+    if not cfg:
+        return {}
+    live = _ransomware_live(cfg.get("ransomware_live", {})) if cfg.get("ransomware_live", True) else []
+    look = _ransomlook(cfg)
+    # Fusion : ransomware.live d'abord (pays et secteur renseignés), doublons écartés.
+    seen, posts = set(), []
+    for p in live + look:
+        key = (re.sub(r"[^a-z0-9]", "", (p["title"] or "").lower())[:40], (p["group"] or "").lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        posts.append(p)
+    if not posts:
+        return {}
     posts.sort(key=lambda x: x["date"] or "", reverse=True)
     week = [p for p in posts if (d := parse_date(p["date"])) and NOW - d < timedelta(days=7)]
     groups: dict[str, int] = {}
     for p in week:
-        groups[p["group"]] = groups.get(p["group"], 0) + 1
+        g = (p["group"] or "?").lower()
+        groups[g] = groups.get(g, 0) + 1
     top = sorted(groups.items(), key=lambda kv: -kv[1])[:8]
-    log(f"  ransomlook : {len(posts)} revendications, {len(week)} sur 7 jours")
-    # L'API ne renvoie que les ~100 dernières revendications : si elles tiennent toutes sur 7 jours,
-    # le total réel de la semaine est supérieur (on l'affiche « 100+ »).
+    france = [p for p in posts if p["france"]]
+    sectors: dict[str, int] = {}
+    for p in france:
+        if p.get("sector"):
+            sectors[p["sector"]] = sectors.get(p["sector"], 0) + 1
+    log(f"  rançongiciels : {len(posts)} revendications fusionnées, {len(week)} sur 7 jours, {len(france)} en France")
+    # Les API ne renvoient que les dernières revendications (~100 chacune) : si tout tient sur 7 jours,
+    # le total réel de la semaine est supérieur (affiché « N+ »).
     capped = len(week) == len(posts) and len(posts) >= 100
     return {"posts": posts[: int(cfg.get("max", 30))], "week_total": len(week), "week_capped": capped,
-            "sample": len(week),
-            "groups": [{"name": g, "count": c} for g, c in top],
-            "france": [p for p in posts if p["france"]][:10]}
+            "sample": len(week), "groups": [{"name": g, "count": c} for g, c in top],
+            "france": france[:12], "france_sectors": sorted(sectors.items(), key=lambda kv: -kv[1])[:5],
+            "sources": sorted({p["source"] for p in posts})}
 
 
 def github_repo_from(url: str) -> str | None:
