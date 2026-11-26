@@ -189,6 +189,7 @@ def fetch_references(refs: list[dict]) -> list[dict]:
     """Flux des sites de référence, récupérés une seule fois pour toutes les technologies."""
     out = []
     cutoff = NOW - timedelta(days=NEWS_WINDOW_DAYS)
+    seen: set[str] = set()
     for ref in refs:
         got = 0
         for page in range(1, int(ref.get("pages", 1)) + 1):
@@ -200,8 +201,9 @@ def fetch_references(refs: list[dict]) -> list[dict]:
                 break
             for i in items:
                 d = parse_date(i["date"])
-                if d and d < cutoff:
+                if (d and d < cutoff) or i["url"] in seen:
                     continue
+                seen.add(i["url"])
                 i.update(source=ref["name"], reference=True, ref_kind=ref.get("kind", "it"))
                 out.append(i)
                 got += 1
@@ -226,6 +228,78 @@ def score_news(n: dict) -> int:
     elif d and NOW - d < timedelta(days=10):
         sc += 1
     return sc
+
+
+# --------------------------------------------------------------------------- doublons
+# Mots trop courants pour signer une information (FR/EN), comparés sur leurs 6 premières lettres.
+_GENERIC = set("""
+le la les un une des du de d l et ou en au aux a à sur pour par avec sans dans ce cet cette ces son sa ses
+leur leurs qui que quoi dont est sont plus moins tres tout tous toute votre vos notre nos vous nous il elle
+the an and or of to in on at for by with from into over your our its is are be has have can how what why
+new now just more this that these those you we it will not all out up
+nouvea nouvel nouvelle mise jour update updated releas sortie dispon availa versio securi linux
+patch fix fixes corrig correc faille vulner flaw secu critiq critic alert warnin avis
+""".split())
+_NUM_RE = re.compile(r"\b(?:cve-\d{4}-\d+|\d+(?:\.\d+)+|\d{3,})\b", re.I)
+
+
+def _story(n: dict, ignore: set[str]) -> dict:
+    """Empreinte d'un titre : mots signifiants (racines) et numéros (versions, CVE)."""
+    title = re.sub(r"\s+[-–|]\s+[^-–|]{2,40}$", "", n["title"])  # « Titre - Média »
+    txt = norm(title)
+    nums = {x.lower() for x in _NUM_RE.findall(txt) if not re.fullmatch(r"(19|20)\d\d", x)}  # sans les années
+    words = {w[:6] for w in re.findall(r"[a-z][a-z0-9+]{2,}", txt)}
+    words -= ignore
+    return {"nums": nums, "all": words, "key": words - _GENERIC, "date": parse_date(n.get("date"))}
+
+
+def same_story(a: dict, b: dict) -> bool:
+    """Deux articles racontent-ils la même information ?"""
+    gap = abs(a["date"] - b["date"]) if a["date"] and b["date"] else timedelta(days=3)
+    cves_a = {x for x in a["nums"] if x.startswith("cve")}
+    cves_b = {x for x in b["nums"] if x.startswith("cve")}
+    if cves_a and cves_b:
+        return bool(cves_a & cves_b)
+    if a["nums"] & b["nums"]:
+        return gap <= timedelta(days=7)
+    if a["nums"] and b["nums"]:  # versions différentes : informations différentes
+        return False
+    common = len(a["key"] & b["key"])
+    union = a["all"] | b["all"]
+    jaccard = len(a["all"] & b["all"]) / len(union) if union else 0
+    return (common >= 3 and gap <= timedelta(days=21)) or (common >= 2 and gap <= timedelta(days=14)) or (jaccard >= 0.4 and gap <= timedelta(days=7)) \
+        or (common == 1 and gap <= timedelta(days=2) and len(next(iter(a["key"] & b["key"]))) >= 4)
+
+
+def group_stories(items: list[dict], ignore_terms: list[str]) -> list[dict]:
+    """Regroupe les articles d'une même info (plusieurs médias, FR/EN) : le mieux classé est gardé,
+    les autres médias sont listés dans « also »."""
+    ignore = {w[:6] for t in ignore_terms for w in norm(t).split()}
+    ranked = sorted(items, key=lambda x: (score_news(x), x["date"] or ""), reverse=True)
+    fps = [_story(n, ignore) for n in ranked]
+    parent = list(range(len(ranked)))
+
+    def root(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(len(ranked)):
+        for j in range(i):
+            if ranked[i].get("official") and ranked[j].get("official"):
+                continue  # deux billets officiels sont deux informations
+            if same_story(fps[i], fps[j]):
+                a, b = root(i), root(j)
+                parent[max(a, b)] = min(a, b)  # la tête reste l'article le mieux classé
+    heads: dict[int, dict] = {}
+    for i, n in enumerate(ranked):
+        r = root(i)
+        if r == i:
+            heads[i] = n
+        else:
+            heads[r].setdefault("also", []).append({"source": n.get("source"), "url": n["url"]})
+    return list(heads.values())
 
 
 FR_RE = re.compile(r"(\.fr\b|\bfrance\b|\bfrench\b)", re.I)
@@ -287,10 +361,16 @@ def fetch_ransomware(cfg: dict) -> dict:
     # Fusion : ransomware.live d'abord (pays et secteur renseignés), doublons écartés.
     seen, posts = set(), []
     for p in live + look:
-        key = (re.sub(r"[^a-z0-9]", "", (p["title"] or "").lower())[:40], (p["group"] or "").lower())
-        if key in seen:
+        group = (p["group"] or "").lower()
+        name = re.sub(r"^(https?://)?(www\.)?", "", (p["title"] or "").lower())
+        name = re.sub(r"\.(com|net|org|fr|de|it|es|co\.uk|uk|io|eu|us|ca|au|br|in)(/.*)?$", "", name)
+        keys = {(re.sub(r"[^a-z0-9]", "", name)[:40], group)}
+        for dom in (p.get("domain"), p["title"]):
+            if dom and re.fullmatch(r"(https?://)?[\w.-]+\.[a-z]{2,}/?", dom.strip().lower()):
+                keys.add((re.sub(r"^(https?://)?(www\.)?", "", dom.strip().lower()).rstrip("/"), group))
+        if keys & seen:
             continue
-        seen.add(key)
+        seen |= keys
         posts.append(p)
     if not posts:
         return {}
@@ -881,6 +961,8 @@ def collect(tech: dict, cfg: dict) -> dict:
             continue
         seen_urls.add(n["url"]); seen_titles.add(key_t)
         kept.append(n)
+    # Même information reprise par plusieurs médias (ou en FR et en EN) : un seul article.
+    kept = group_stories(kept, cfg.get("match", []) + [name])
     # Classement par pertinence (officiel, référence, sécurité/version, fraîcheur), puis par date.
     # Au plus 2 articles par média, et 1 par média et par jour (évite les doublons FR/EN).
     kept.sort(key=lambda x: (score_news(x), x["date"] or ""), reverse=True)
@@ -898,6 +980,15 @@ def collect(tech: dict, cfg: dict) -> dict:
         if len(final) >= MAX_NEWS:
             break
     final.sort(key=lambda x: x["date"] or "", reverse=True)
+
+    seen_rel, uniq = set(), []
+    for x in releases:
+        k = norm(x.get("tag") or x.get("version") or "").strip().lstrip("v")
+        if k and k in seen_rel:
+            continue
+        seen_rel.add(k)
+        uniq.append(x)
+    releases = uniq
 
     links = []
     if cfg.get("site"):
@@ -984,6 +1075,62 @@ def collect(tech: dict, cfg: dict) -> dict:
     }
 
 
+def dedupe_across(results: list[dict], sources: dict) -> None:
+    """Un article, une CVE ou une faille KEV n'apparaît qu'une fois sur tout le site."""
+    def title_key(t: str) -> str:
+        return re.sub(r"\W+", "", re.sub(r"\s+[-–|]\s+[^-–|]{2,40}$", "", t).lower())[:80]
+
+    def where(r: dict, title: str) -> int:
+        """Position de la techno dans le titre (-1 si absente) : la plus à droite est la plus précise
+        (« noyau Linux de Debian » → Debian)."""
+        cfg = sources.get(tech_key(r["name"]), {})
+        t = norm(title)
+        return max((t.rfind(" " + norm(m).strip()) for m in cfg.get("match", []) + [r["name"]]), default=-1)
+
+    owners: dict[str, list[dict]] = {}
+    for r in results:
+        for n in r["news"]:
+            for k in {n["url"], title_key(n["title"])} | {a["url"] for a in n.get("also", [])}:
+                owners.setdefault(k, [])
+                if r not in owners[k]:
+                    owners[k].append(r)
+    removed = 0
+    for r in results:
+        keep = []
+        for n in r["news"]:
+            keys = {n["url"], title_key(n["title"])} | {a["url"] for a in n.get("also", [])}
+            rivals = list({id(o): o for k in keys for o in owners.get(k, [])}.values())
+            if len(rivals) > 1:
+                best = max(rivals, key=lambda o: (where(o, n["title"]), -len(o["news"]), -results.index(o)))
+                if best is not r:
+                    removed += 1
+                    continue
+            keep.append(n)
+        r["news"] = keep
+    # CVE : gardée là où elle touche la version installée, sinon dans la première techno.
+    owner: dict[str, dict] = {}
+    for r in results:
+        for c in r.get("cves", []):
+            cur = owner.get(c["id"])
+            if cur is None or (c.get("affects") and not any(
+                    x.get("affects") for x in cur.get("cves", []) if x["id"] == c["id"])):
+                owner[c["id"]] = r
+    for r in results:
+        before = len(r.get("cves", []))
+        r["cves"] = [c for c in r.get("cves", []) if owner.get(c["id"]) is r]
+        removed += before - len(r["cves"])
+    # KEV : inutile de répéter une CVE déjà affichée (elle porte déjà le badge « exploitée »).
+    shown = set(owner)
+    for r in results:
+        before = len(r.get("kev", []))
+        r["kev"] = [k for k in r.get("kev", []) if k["id"] not in shown]
+        shown |= {k["id"] for k in r["kev"]}
+        removed += before - len(r["kev"])
+    for r in results:
+        r["new_count"] = sum(1 for i in r["news"] + r["releases"] if i.get("new"))
+    log(f"Doublons entre technologies écartés : {removed}")
+
+
 def mark_new(results: list[dict], history: dict) -> dict:
     """Marque comme « nouveau » ce qui n'a jamais été vu lors des passages précédents."""
     today = NOW.strftime("%Y-%m-%d")
@@ -1033,6 +1180,7 @@ def main() -> int:
     history = mark_new(results, previous.get("history", {}))
     collect_cves(results, sources, previous)
     enrich_exploitation(results, fetch_kev(), sources, threats)
+    dedupe_across(results, sources)
 
     total_items = sum(len(r["news"]) + len(r["releases"]) for r in results)
     if total_items == 0 and previous.get("results"):

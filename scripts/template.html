@@ -118,6 +118,7 @@
   .st-cve { color: var(--crit); font-weight: 600; }
   .tag-mine { font-size: 11px; font-weight: 700; color: #fff; background: var(--crit); padding: 1px 7px; border-radius: 5px; }
   .tag-pending { font-size: 11px; font-weight: 600; color: var(--muted); background: var(--surface-2); padding: 1px 7px; border-radius: 5px; }
+  .meta .also { cursor: help; text-decoration: underline dotted; }
   .meta .off.ref { color: var(--new); background: var(--new-soft); }
   .bar { display: grid; grid-template-columns: 110px 1fr 28px; align-items: center; gap: 8px; font-size: 13px; margin: 4px 0; }
   .bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -257,6 +258,10 @@ const DATA = /*__DATA__*/null;
   });
 
   const pct = (x) => (x * 100 >= 10 ? Math.round(x * 100) : (x * 100).toFixed(x * 100 >= 1 ? 1 : 2)) + " %";
+  const alsoTag = (n) => {
+    const a = (n.also || []).filter((x, i, l) => x.source && l.findIndex((y) => y.source === x.source) === i && x.source !== n.source);
+    return a.length ? `<span>·</span><span class="also" title="Même info chez : ${esc(a.map((x) => x.source).join(", "))}">+${a.length} source${a.length > 1 ? "s" : ""}</span>` : "";
+  };
   const epssTag = (c) => c.epss != null
     ? `<span class="epss${c.epss >= 0.1 ? " hot" : ""}" title="EPSS (FIRST) : probabilité d'exploitation dans les 30 prochains jours${c.percentile != null ? " · plus risquée que " + Math.round(c.percentile * 100) + " % des CVE" : ""}">EPSS ${pct(c.epss)}</span>`
     : "";
@@ -325,7 +330,7 @@ const DATA = /*__DATA__*/null;
     const news = r.news.length
       ? `<ul class="news">${r.news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
            <div class="t">${esc(n.title)}</div>
-           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : n.reference ? '<span class="off ref">Référence</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div>
+           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : n.reference ? '<span class="off ref">Référence</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}${alsoTag(n)}</div>
          </a></li>`).join("")}</ul>`
       : `<p class="empty">Pas d'actualité notable sur les 30 derniers jours.</p>`;
     const links = r.links.map((l) => l.url

@@ -50,6 +50,13 @@ dans le titre, et les filtres globaux de `_filtres` dans `scripts/sources.json`
 classés par pertinence (source officielle, site de référence, sujet sécurité/version, fraîcheur) avec
 au plus 2 articles par média. Ajustez-les librement.
 
+**Pas de doublons.** Une même information reprise par plusieurs médias (ou en français et en
+anglais) n'apparaît qu'une fois : l'article le mieux classé est gardé et la carte indique « +N sources »
+(survol pour les voir). Les titres sont comparés sur leurs numéros (version, CVE) et leurs mots
+signifiants. Sur l'ensemble du site, un article, une CVE ou une faille KEV n'est affiché que dans une
+seule technologie (la plus précise d'après le titre), les releases, les pages des sites de référence
+et les revendications de rançongiciels (RansomLook + ransomware.live) sont aussi dédoublonnées.
+
 ## En local
 
 ```bash
