@@ -1,7 +1,47 @@
 {
- "generated_at": "2026-11-27T08:39:04Z",
+ "generated_at": "2026-11-27T13:52:36Z",
  "threats": {
   "posts": [
+   {
+    "title": "avispl",
+    "group": "iah647",
+    "date": "2026-11-27T14:21:54Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/avispl/",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "VC ERP Consulting Pvt. Ltd.",
+    "group": "rhysida",
+    "date": "2026-11-27T11:17:17Z",
+    "country": null,
+    "sector": null,
+    "url": "archive.php?company=319",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "NetX Inc.",
+    "group": "majinahanashi",
+    "date": "2026-11-27T10:17:47Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/group/majinahanashi",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "pregis",
+    "group": "iah647",
+    "date": "2026-11-27T10:17:27Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/pregis/",
+    "france": false,
+    "source": "RansomLook"
+   },
    {
     "title": "Chub Cay Resort & Marina",
     "group": "majinahanashi",
@@ -23,14 +63,48 @@
     "source": "RansomLook"
    },
    {
+    "title": "pregis",
+    "group": "iah6477",
+    "date": "2026-11-27T08:43:28Z",
+    "country": "US",
+    "sector": "Manufacturing",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/cHJlZ2lzQGlhaDY0Nzc=",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
+    "title": "dygav.es",
+    "group": "Puppeteer",
+    "date": "2026-11-27T07:05:42Z",
+    "country": "ES",
+    "sector": "Technology",
+    "domain": "dygav.es",
+    "url": "https://www.ransomware.live/id/ZHlnYXYuZXNAUHVwcGV0ZWVy",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
+    "title": "signaturelex.com",
+    "group": "Puppeteer",
+    "date": "2026-11-27T07:05:28Z",
+    "country": "US",
+    "sector": "Professional Services",
+    "domain": "signaturelex.com",
+    "url": "https://www.ransomware.live/id/c2lnbmF0dXJlbGV4LmNvbUBQdXBwZXRlZXI=",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
     "title": "Thomas More University",
     "group": "qilin",
-    "date": "2026-11-27T06:16:35Z",
-    "country": null,
-    "sector": null,
-    "url": "https://www.ransomlook.io/site/blog?uuid=3789ad26-0881-435b-b6c2-2bae9e0008e1",
+    "date": "2026-11-27T06:44:27Z",
+    "country": "BE",
+    "sector": "Education",
+    "domain": "www.thomasmore.edu",
+    "url": "https://www.ransomware.live/id/VGhvbWFzIE1vcmUgVW5pdmVyc2l0eUBxaWxpbg==",
     "france": false,
-    "source": "RansomLook"
+    "source": "ransomware.live"
    },
    {
     "title": "SternKlinik (medi-z Bremen GmbH)",
@@ -247,88 +321,11 @@
     "url": "https://www.ransomware.live/id/UGFyYW1vdW50QEluY2VwdGlvbg==",
     "france": false,
     "source": "ransomware.live"
-   },
-   {
-    "title": "Verisk",
-    "group": "Inception",
-    "date": "2026-11-26T15:23:41Z",
-    "country": "US",
-    "sector": "Financial Services",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/VmVyaXNrQEluY2VwdGlvbg==",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "McDonald's",
-    "group": "Inception",
-    "date": "2026-11-26T15:23:21Z",
-    "country": "US",
-    "sector": "Retail & E-Commerce",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/TWNEb25hbGQnc0BJbmNlcHRpb24=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Mattel",
-    "group": "Inception",
-    "date": "2026-11-26T15:23:02Z",
-    "country": "US",
-    "sector": "Manufacturing",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/TWF0dGVsQEluY2VwdGlvbg==",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Exceptional Healthcare Inc.",
-    "group": "metaencryptor",
-    "date": "2026-11-26T14:47:48Z",
-    "country": "US",
-    "sector": "Healthcare",
-    "domain": "www.ehc24.com",
-    "url": "https://www.ransomware.live/id/RXhjZXB0aW9uYWwgSGVhbHRoY2FyZSBJbmMuQG1ldGFlbmNyeXB0b3I=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Technology Investment Joint Stock CompanyTACORP",
-    "group": "Orova",
-    "date": "2026-11-26T13:54:51Z",
-    "country": "VN",
-    "sector": "Technology",
-    "domain": "tacorp.com.vn",
-    "url": "https://www.ransomware.live/id/VGVjaG5vbG9neSBJbnZlc3RtZW50IEpvaW50IFN0b2NrIENvbXBhbnlUQUNPUlBAT3JvdmE=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "E Xing Precision Design",
-    "group": "Orova",
-    "date": "2026-11-26T13:54:08Z",
-    "country": "SG",
-    "sector": "Manufacturing",
-    "domain": "exing.com.sg",
-    "url": "https://www.ransomware.live/id/RSBYaW5nIFByZWNpc2lvbiBEZXNpZ25AT3JvdmE=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Visual Birds Studio",
-    "group": "Orova",
-    "date": "2026-11-26T13:53:25Z",
-    "country": "IN",
-    "sector": "Technology",
-    "domain": "healthmetrics.com",
-    "url": "https://www.ransomware.live/id/VmlzdWFsIEJpcmRzIFN0dWRpb0BPcm92YQ==",
-    "france": false,
-    "source": "ransomware.live"
    }
   ],
-  "week_total": 140,
+  "week_total": 141,
   "week_capped": false,
-  "sample": 140,
+  "sample": 141,
   "groups": [
    {
     "name": "n0n",
@@ -340,7 +337,11 @@
    },
    {
     "name": "silentransomgroup",
-    "count": 9
+    "count": 8
+   },
+   {
+    "name": "rhysida",
+    "count": 7
    },
    {
     "name": "inception",
@@ -348,10 +349,6 @@
    },
    {
     "name": "aurora",
-    "count": 6
-   },
-   {
-    "name": "rhysida",
     "count": 6
    },
    {
@@ -370,6 +367,24 @@
    "ransomware.live"
   ],
   "news": [
+   {
+    "title": "ParuVendu : une cyberattaque expose les coordonnées et l’historique d’activité de ses utilisateurs",
+    "url": "https://www.cyberattaque.org/paruvendu-une-cyberattaque-expose-les-coordonnees-et-lhistorique-dactivite-de-ses-utilisateurs/",
+    "date": "2026-11-27T13:20:00Z",
+    "source": "Cyberattaque.org",
+    "summary": "ParuVendu.fr, l’un des principaux sites de petites annonces en France, confirme une cyberattaque ayant exposé les données personnelles... L’article ParuVendu : une cyberattaque expose les coordonnées et l’historique…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Microsoft Store : une application pirate disponible pendant cinq mois malgré les contrôles de sécurité",
+    "url": "https://www.cyberattaque.org/microsoft-store-une-application-pirate-disponible-pendant-cinq-mois-malgre-les-controles-de-securite/",
+    "date": "2026-11-27T13:08:34Z",
+    "source": "Cyberattaque.org",
+    "summary": "Pendant au moins cinq mois, une application malveillante a pu être distribuée depuis le Microsoft Store, la boutique... L’article Microsoft Store : une application pirate disponible pendant cinq mois malgré les…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
    {
     "title": "Cyberattaque chez SAP : le code source du géant allemand des logiciels volé et modifié",
     "url": "https://www.cyberattaque.org/cyberattaque-chez-sap-le-code-source-du-geant-allemand-des-logiciels-vole-et-modifie/",
@@ -484,24 +499,6 @@
     "date": "2026-11-26T00:00:00Z",
     "source": "CERT-FR",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
-    "date": "2026-11-26T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
-    "date": "2026-11-26T00:00:00Z",
-    "source": "CERT-FR",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
     "reference": true,
     "ref_kind": "cyber"
    }
@@ -733,19 +730,22 @@
    "releases": [],
    "news": [
     {
-     "title": "L’aventure commence dans World of Warcraft: Forever, gardez le contact sur Discord et voyez Taldramir prendre forme dans le résumé hebdomadaire de World of Warcraft",
-     "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxPZG00RUl3NWlKNWtWSWhheEY5ajZFMWtxNGRPOFIxV2lNeGtuUkJuMDVuc05hcDZRQjhxQWxEa2tIeV9jZXJYT1lWVkNFLTdubkhZVzFnZDFlM3hEcXUyazJiaDVhZkx6aTNYbHFuUDNNSE5RWU5ySDdxeFB5ekdPd0FlVmRrR3hRdGM2UWpEUWxVRUZnMFFwQkVBWUV4X0JESWZqallRTEpUV2JEQVdBcS1lMktlb3UtTGtfd0tDUm9pb1JPSU1lY3hSZVh3dW1RaHBWUkxIbEZnOUt4TzFOX0RBR1VqVmpzNmVtREpxbWRuMWtvdGc1M0otSzUyc242WlUtcV9ENWlWUWthYzIzV3ZCWTZJRmxhMDJfaTlWVW5MTGU3MVZTc19ZRGpkX21oQmpWdjVjMndQUEtrZk5GRzNsWDdiSmJMRmh6RG9vVU9tVmxxeTVocE03aVRNbkZRbVdfSjAxU2hyY3ZGSDhUQ1MyZFhZc29NcUJBazBKaDV3YUM3c1pndkREM1BBeWdscm5WZjY5TzVzeV9LMkM0TnNBQ3BpTVNkOUgwSlBpbW5YcEptMzl1b3FwN0JscGVnYVJIZlA2QXh6MGZYbm5mQUU2Ry1qaHNVRUpzZnlaVEVFT3RVLXpScnl0SmNmX3RxWnBnaEhvcXprSDRubllMXzNtQlY5V01YUHc2SWRZYnBhcTd2NnFQbEtlekNMZGs2UHNHRkZ2S0xHQ05YRlN6S3YxaVdFakJ4aWF0akh5MHM3dU1zaEFfd0UxQ3FjRDdhaklNQXdBbUhndTUwNm9ZUm92OC1YYm0wNm1KbUJhOWM5SmI3dVlJ?oc=5",
-     "date": "2026-11-06T18:10:00Z",
-     "source": "World of Warcraft",
+     "title": "«On doit parler aux jeunes avec leur code» : l’Armée de Terre se lance sur Discord pour recruter",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVzkwOWh0V2IzSjJaOEVlU21GM3VGWk9wQ1d5X0VGem5wWHZaOVJLeHJ1RW5aZDNGT0FmUlloYVVudEpxamdTSEtnUjdnWUl6czBJOEZSc2c3VWNUbm16QXJzQndPbl8yaU5EbVQwUFdqMFpTM3ZBQzV1b1ViRDZaRFE0MFBZRWlhWjhxeERXOGhLX1ViWkF3ckpaMGJ4R0RjMUpyaUl3a05pRmRHWk1vRFljNHMwY1JwaWfSAb8BQVVfeXFMT1Y2UWRrcXk4Ukp6dDNLbWluLWFOd1d0QVFKeE5aYWJ2TXEtLUtackdneXRQQ0lyaWpWRExzbUR0WlNZckVfX2FSSDRtNXQ5ZmdvLTk2X19acjNDcUo4RHQ5dlBVYk00WjJBa3JkSUdQREltTVc4dE9qdXM0V2JBbS04cXRNbm1VdW9MdDd2STVhQWR6c3ZrSS0tZEkxR0lWTXNqM1ZITmZjZ3h0ejdzOGhteWdaWEg1Mng0bWhNQzQ?oc=5",
+     "date": "2026-11-26T06:17:05Z",
+     "source": "CNews",
      "summary": "",
      "lang": "fr",
-     "also": [
-      {
-       "source": "Blizzard",
-       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ29QNDhuampZWEhiTkRfM2M1SlBuamRzZ212SEprQ2RKcUtOcmZNd2FGdFhrZE4tSzRidkc2dWQtR3JqQnNSYXlFMUpIcFY0WGxhV0oxNk5ZLWFXLTl6aHNwbmttSmo2U1hRWm4zRDh4Rzk4ekZvV09BQjV4djA5OW9HZFJaMjZCOHkyeWRXLVdTOEQ1VExYdUdoQVJrb2wzZzBQcVQtYUczYjVnMUE?oc=5"
-      }
-     ],
-     "new": false
+     "new": true
+    },
+    {
+     "title": "McDonald's débarque sur Discord pour livrer des burgers aux joueurs en pleine partie",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNITHY1MmpOZmViR1c2ZGRVUmRVam9XV0NmOWhvVzBuWDlBUXRac3VsRnRSY0xlWDZrTzYxbVltbnFwQTI2TnJRQ1ZoOVNFZEFwa2dzSEhlS1MxMzlXX1Axa3U1QmhldjRfWk55OGJyWGpEUzhDVmtNaUl1OVVFX1A4NHhzWThqaXQyM2xDczJkbWdKQ3oxR3prbGNoVXdNM3czTFo3S1NFanhHelJPaGFvM1ZxQQ?oc=5",
+     "date": "2026-11-21T08:02:00Z",
+     "source": "French Breaches",
+     "summary": "",
+     "lang": "fr",
+     "new": true
     },
     {
      "title": "Discord passe à Rust : une refonte majeure pour réduire la mémoire et accélérer le lancement",
@@ -765,16 +765,40 @@
       }
      ],
      "new": false
+    },
+    {
+     "title": "L’aventure commence dans World of Warcraft: Forever, gardez le contact sur Discord et voyez Taldramir prendre forme dans le résumé hebdomadaire de World of Warcraft",
+     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPMWNhdHlQMUt0dVNfSHBmaU5JNWFUY0EwMTlhX0RwZkxCdjd5bVVkV1djWmFFd3UtMHl1b2J6OTZYeTlYRDY2dW1FT3JYbzU0ZUFjd1NzOG9ORHBIVXB2d2gxSW50SERPbnhCUUNzcm9DM0UwUXVBVjRuQnV6ZVVvb190VVhvVzlfX2N2cjZvNk5JazFqTnZtUmx3MTVsaG5sYXVWckVjM1FRSGRfSV8yYTVvN3ZEdTlKcUZ1R1ZaYnJYeFhtdmhMOHVEc3N6bUpuNVhFZzVaMHhDbDE2MV8zaFdLVHpoYXlWT2dzQVRodEo1eTlaUkVobjVnZUlIU1dJQ2w4c2FtdFNLdU9QME51LTFTREdQWWExdG93cWx2ZHpObTlfM1NnbnRENFEzempsdE82Qw?oc=5",
+     "date": "2026-11-06T08:00:00Z",
+     "source": "Blizzard News",
+     "summary": "",
+     "lang": "fr",
+     "also": [
+      {
+       "source": "Blizzard",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ29QNDhuampZWEhiTkRfM2M1SlBuamRzZ212SEprQ2RKcUtOcmZNd2FGdFhrZE4tSzRidkc2dWQtR3JqQnNSYXlFMUpIcFY0WGxhV0oxNk5ZLWFXLTl6aHNwbmttSmo2U1hRWm4zRDh4Rzk4ekZvV09BQjV4djA5OW9HZFJaMjZCOHkyeWRXLVdTOEQ1VExYdUdoQVJrb2wzZzBQcVQtYUczYjVnMUE?oc=5"
+      }
+     ],
+     "new": false
+    },
+    {
+     "title": "Mélenchon cible les gamers : LFI mise sur Twitch et Discord pour 2027",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcW1sQ2xPUUpncHQyZVoyWEdNX3M0WEQ4R0JoUXhIOUdQbEhFUVZDdmNFWWNaTGR2ZDNpSWRnR25iR0d0Y3VzcFFzUE9odDhnOW9Fb0ctMjd1WnRnME9wTjF4UWhkZlBJT3JyY1NBX042ajdkRE5mTURmT2k5TnI0Qm9fOWExOUVrbWpjWjd6bHVUY3RYQmR3NXdjdEZkY3I0V181NUtrLThRVkd5Ylp3?oc=5",
+     "date": "2026-10-29T07:00:00Z",
+     "source": "20 Minuten",
+     "summary": "",
+     "lang": "fr",
+     "new": false
     }
    ],
-   "news_count": 2,
+   "news_count": 5,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://discord.com/blog"
     }
    ],
-   "new_count": 0,
+   "new_count": 2,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -792,8 +816,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23668,
-    "pushed": "2026-11-27T08:25:14Z",
+    "stars": 23674,
+    "pushed": "2026-11-27T13:20:51Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -822,6 +846,16 @@
    ],
    "news": [
     {
+     "title": "Obsidian Skills - Laissez votre agent IA ranger vos notes",
+     "url": "https://korben.info/obsidian-skills-agents-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+     "date": "2026-11-27T12:45:15Z",
+     "source": "Korben",
+     "summary": "Les skills de Steph Ango deviennent un plugin officiel d'Obsidian pour Claude, ChatGPT ou Cursor. Votre agent apprend wikiliens, Bases et Canvas, et pilote l'app via la CLI depuis un agent local. Ce qu'il faut, ce…",
+     "reference": true,
+     "ref_kind": "it",
+     "new": true
+    },
+    {
      "title": "Obsidian, le logiciel de prise de notes local en Markdown",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16dzY0d0tLUmFNazNfejZZM3FhQjFNbVJuSzZReUdXZzIwMWlxZzQtWFF0ZFBKYjgtZ21XaWVydS0wZlRteE5mSFBZNHpSU050WjE5LVVIWGVKWlFLdVNYcFlzZGNybU9xYk5hVnI2bXgyWUlsNFZRRA?oc=5",
      "date": "2026-11-22T16:35:22Z",
@@ -831,7 +865,7 @@
      "new": false
     }
    ],
-   "news_count": 1,
+   "news_count": 2,
    "links": [
     {
      "label": "Site officiel",
@@ -846,7 +880,7 @@
      "url": null
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -933,7 +967,7 @@
    "category": "IA locale",
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
-    "stars": 5451,
+    "stars": 5450,
     "pushed": "2026-11-26T20:13:30Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
@@ -994,8 +1028,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 188279,
-    "pushed": "2026-11-26T19:40:41Z",
+    "stars": 188296,
+    "pushed": "2026-11-27T10:05:28Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -1040,18 +1074,9 @@
      "summary": "",
      "lang": "fr",
      "new": false
-    },
-    {
-     "title": "What I Did with Hermes Agent, Ollama & Local Models",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82T3ZSMkVrVHNvaGNYTXlIdGZ4ZU4wQ0w3WW5xdENJWGI4VkNzMy0wNVlqRU5oNV9XNW9NVGpxazFIY1V1b3hFOUdCWTVDN0V3VnRQQktLcEhiaDgyMURVNTVZRlRlTl9obW5mU2xyekJrUWlHS2o2R09zMHNYUHc?oc=5",
-     "date": "2026-11-05T08:00:00Z",
-     "source": "KDnuggets",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 3,
+   "news_count": 2,
    "links": [
     {
      "label": "Site officiel",
@@ -1081,7 +1106,7 @@
    "repo": "langflow-ai/langflow",
    "repo_meta": {
     "stars": 156987,
-    "pushed": "2026-11-27T08:11:07Z",
+    "pushed": "2026-11-27T13:14:51Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -1238,7 +1263,7 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72324,
+    "stars": 72323,
     "pushed": "2026-11-26T21:21:21Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
@@ -1322,7 +1347,7 @@
      "new": false
     }
    ],
-   "news_count": 16,
+   "news_count": 18,
    "links": [
     {
      "label": "Site officiel",
@@ -1449,55 +1474,17 @@
    ],
    "news": [
     {
-     "title": "AMD : les GPU RDNA 5 GFX13 obtiennent un support initial sur Linux 7.5",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNGo0VHpkSnRKZ1RKZnZBYWlOdGJtb1ZTdDZKVlZMRWszZ3FsRmZEUmRHcHAzcXo2RW9QeWFnazB3T19PS0NOckdRM1pTUHNNOVlQNW5wcW12bVBzcFVFRXNodDM2SG9TaWlZU3BsMVZnSjdZdzhtQ1dSSXgyR2ZHa1pUTHdBOW5QbTZOMjZEczVyTWVVdVE?oc=5",
-     "date": "2026-11-27T07:28:38Z",
-     "source": "OMGPU",
+     "title": "Old vulnerability in Linux kernel grants attackers root privileges",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSy1nVVFoY0NzcUYxNzZPVlF4LWoxQW92YUVPNzdCMGpQdHZiYlNRVnkwdEtXYnRIcnhESEw0bnFTdU1EcjcxR0k5TkdMS2dLa242dl9OT1JGTTRNUVVocG5HbDdPR0RCdHI4eVd5bEhKM2hVRzRWU1FVV09ZVDJzaUl1c1NmTm9IcERWeWRDRkxVeUpvVDhEUWV4ZU1DOFZSYjN0SUVOMldUSWhvRHotWVRR?oc=5",
+     "date": "2026-11-27T09:44:47Z",
+     "source": "Techzine Global",
      "summary": "",
-     "lang": "fr",
+     "lang": "en",
      "also": [
       {
-       "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXc2SnRwcm82c21Pc01Ub1I1SnpaeG14bkE4WU9Ldy1RLXV5RGRHY21yT3doV05MUlhtWVBpS1BuWjZQTTA5SUx1aThDUVFTMHJmcXFEc3VCM2ducnZveDE4eDFkaVhNUzd5WkFJMGhFR2JrY2lRZTBJV20wYVU3REp5MGdzNElLUl9PV3JydWFsbDBodDJwUTRkWmNjR1lB?oc=5"
-      }
-     ],
-     "new": true
-    },
-    {
-     "title": "New Linux kernel patches unlock native resolution on 4K/5K iMacs",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1qUUhlb2tZdVAtR1pOVkw5TnpDUWI4ekExajJKMzVpa2FvVUYxcmlEUk9QOEZBTHYtdGduUU0tdmx3TW1kVGRTSGF5M0lCQjhPc2RnMWJlSDg1RXd5Qnd2RWswUmE0VU5PSEJKc2tKYlBaNGFMN2p3RE9sQ0p0edIBhgFBVV95cUxQdE9WRVloX0Yxdl9HekhVbWlWdUg5R0VRWjZGcGY5c3RFUTdOZmVySmlHSGtxMVhfeEZnRnFLeUROZVlDTzRBbnFvZksxSVVvVHVBcnpiMVVoNzlRLWVqczJQSEtlTEt6cUxJSmNHZEJiR0dLOWgtUy1hRDFfcjZZanVtR2pRUQ?oc=5",
-     "date": "2026-11-27T05:01:09Z",
-     "source": "OMG! Ubuntu",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
-     "title": "Un seul système, deux espaces utilisateur : xnulinux fait tourner le noyau de macOS dans Linux",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSmItU3BkVnFTU3VVaGNrWXZ5VUdvR1N4QTNLZVRSZ3ZsbERMYXFkV2dCb1JFbjgwUUpqTkVUMkYtb2NwX1hTQTV3SHVMcFlkdThyQkdaS0E0NWtBamEteDNfWWtVUGstOTFxb094Qmo1dk40?oc=5",
-     "date": "2026-11-27T03:44:47Z",
-     "source": "GoodTechInfo",
-     "summary": "",
-     "lang": "fr",
-     "new": true
-    },
-    {
-     "title": "Shirudo, an eBPF shield that protects the Linux kernel without patching it",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc242ZndycExzQTJ2WW1VeEZCMjBadll5UEcySzk4dF9hdVE2WXBQUlowZ1l2b2lTNW9QWEhOUk0wVmh5WDIzbzNMVWVSTjBHb1FxeWVSOXBPRE5fVHR1MVBVM2d1MjlaZUNuYVF0VUptUjFmOTJUTnQxWmd6akstbnI1TXZJdUYzR2lGLQ?oc=5",
-     "date": "2026-11-24T17:00:00Z",
-     "source": "Observatorio Blockchain",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "CVE-2026-99288 : NoisyTCP DoS du noyau Linux",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTEJVQTk3bEVydFZTMmhxLWVYTmxULWZJT3FITWI3bGM0eTRHbjBPRnFXNFVHN2RUVlJFTWp5ZE0yWlZXTkpfa1pUdnRxTTFOT09fdktrRE95STFNVE5makNadV92UjhLUXhPcE9RaVp1dnhhd0NBTzNHYUoxeG90bDkyc2pkVFBIUXF4WWxyWmY2cEM2azVvRXg1WHBwLUhkNlRGcV9vVmpzRXdpQVR6U2dnbjN2eVFOTVFFaFpLUQ?oc=5",
-     "date": "2026-11-18T03:09:59Z",
-     "source": "SOC Prime",
-     "summary": "",
-     "lang": "fr",
-     "also": [
+       "source": "SOC Prime",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTEJVQTk3bEVydFZTMmhxLWVYTmxULWZJT3FITWI3bGM0eTRHbjBPRnFXNFVHN2RUVlJFTWp5ZE0yWlZXTkpfa1pUdnRxTTFOT09fdktrRE95STFNVE5makNadV92UjhLUXhPcE9RaVp1dnhhd0NBTzNHYUoxeG90bDkyc2pkVFBIUXF4WWxyWmY2cEM2azVvRXg1WHBwLUhkNlRGcV9vVmpzRXdpQVR6U2dnbjN2eVFOTVFFaFpLUQ?oc=5"
+      },
       {
        "source": "SOC Prime",
        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDlxSDZwNENob3lmMkVVc19qZUc3VE8yVkwxZnN2RDk2NTkyVE1qOTk5ckU3SS03UEdlZnY2LUdlaHotT3dORnYzN1pGaVFFNDZUTUo3OHZCQmJPUXFabGZLTGpnMkR5bm1kYjBjSU9QUkY5MGVyUkZhYjl3ZDd5WEtEaUEwWUc4ckhSVXV6djhZdkx0SEZzWDg3aW8zTlU?oc=5"
@@ -1511,25 +1498,50 @@
        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYklYOU1YZHNCY2E2cXRRdzlvSWhaZmlZTk8zUXZoalYzWk96VWRrX01yczNqel9kallsLWh0WHlZeHozeTJNbE9kaXNibFloU3FfU1k0RTBCdEU0bzJ6MHNqVGpwcVZMVDIxeU40cFBIeHFZc1lTZXU0c2VmTlRHMWhibzRCQnQ3QlE4dE1aczkzbmVpQUItbUJ3RWowVnF6OGVwUFhPLXh5UkUw?oc=5"
       },
       {
-       "source": "ShiftDelete.Net",
-       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93ZkFHc2ZULThxT3RPSVg0dEd3NmRnWFBCNFJVOGh5X1ppNjhEeW5pbmdqZnZ5MlpWNUVrM1F1MWpocXFDUXJlS3dPcw?oc=5"
+       "source": "THE ELEC, Korea Electronics Industry Media",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSUNDWUs1NnJGaDVlcUh6aHk5SzVKOUtnMFAwQmJ6bFBMNlo1QzItUDd1dlFtc28ySnAwRzlXMGx6NVlyRmtWenJyWDJDdkhUV2c1U2szRGoydzVVS2pvME5fNDdHRDA?oc=5"
       },
       {
-       "source": "Observatorio Blockchain",
-       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQXpVbTRvV3M1Nm9xdzRyX293NEU2ajY0c0NRLW9IXzZNaWZPWUFmUG5zR3ZqZE5rYXlrZVNvZk90QXNnNDlyOEJMbUFBMzI2YURNS2I2WmdBQU1McEV3b2VkNHY5QXdTRm1TVXhjOU5pZW9hZFBFXzJ0UW03d1o0OU9YS29EODB2YlFWNGxNbw?oc=5"
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5"
       },
       {
        "source": "CyberSecurityNews",
-       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4MEpMcy01ZHZfVC1LeXo2cE1iVjBTbEE3eXdTMjhvQkpIbzlqSm9VQU0zdTl4elJtamFBMUNFV1hudFFncTB2OHAtV29sb2x2X3BQU2RQd0RYNFl0blBOR08yRVNBWUhO0gFuQVVfeXFMTUw3Wk9VWnhGR0JkOTdEVlVxUk1Wd2VjNDBkMFBNSVZ4SWFWaGZmd045bW1PX3owZ1dPOFZmWXFmQzI4X2loTzZfX2hXT3NRRDZ0aWNKY2xnWUNEb040anpJbjdXa0NCQnc4SWROM0E?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRlBzT0lmQW1SS29HUXEzOHRtaFZxZFk0TkEwNXhSTkdLaER4am5SNWN1ZThGcFBHV0RILXJ0UE9YLXdGVlVUSzhpalZGUWhwNXZ2UTdTeXV2eXBxWmVoWk1VMDFiMkJ2dFV0ZUhNQlR6MU0z0gF6QVVfeXFMUHJuTWhIYWlpRHk4NTN2NnlRWkVkM21FSFRnUFMxMVplQTVvb2ROS3VfQTJkOE53WFdqZ3Y2Z0QxWjVDQ0h6Zk5IZzloNkZUNzExVWVULTVUbFg2QTQ4VHJJNHVsa3JYWjFrSUo1QmpuWkxwWTR2TUNUMUE?oc=5"
       },
       {
-       "source": "The420",
-       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzNEa3gweHRxU0xscVIwTnBXc3VLMzRtTHdnMnNUckItaTNZMnFpSUNBRW8tR1dCT0o3VjdWRkZWN0lERzFKQ08xZjRLdm5WbnVaUWs5QzQ3VmpNTlBUcVU5ck5CbTZtZHQzYzNIbWE0dk9EVEw3ZksyNkV3enFkejRITDBrY2c2UHQxQjdWX1BTUzhCN0JIUWR6SDY?oc=5"
-      },
-      {
-       "source": "ForkLog",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFNLR1hHOUNrOUhfNExWQ3ZNM2hmazBKLU1Ka0FxMkxpcDgxS0M3Y0N6UWxiUXZiaXU3eFpKaTgwRUFUYmpOMFZlSWp6VTZJNVloMDRMSkRQY0RwVlF2eHdnN1lXX29CYUdpUUp1dEpTV3djMmhLVEhfMFo2TFhkZzVNaw?oc=5"
-      },
+       "source": "Foro3D",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVU12MGIzcjZfMHRPTVhiUFA3ek9mV0o4dHBfZi1aakowZWMwN1pDUXJjWlRrdlZSb2dfMUg5OG9JUl9DQkZyQWMzSC1SV0F0Y2VDUTMxaFNfb1lYbWhTLTlFWVgzaG9oQ0dBU05TdUVOMmRkb3V2SG1DLTZzZUZDTHZkdWVrVmNWWEU3NW85NkQ3c0QtMFh5eDVKU1RmeVRtaU1yMHF6eTNleDB3UEZqc0FR?oc=5"
+      }
+     ],
+     "new": true
+    },
+    {
+     "title": "New Linux kernel patches unlock native resolution on 4K/5K iMacs",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1qUUhlb2tZdVAtR1pOVkw5TnpDUWI4ekExajJKMzVpa2FvVUYxcmlEUk9QOEZBTHYtdGduUU0tdmx3TW1kVGRTSGF5M0lCQjhPc2RnMWJlSDg1RXd5Qnd2RWswUmE0VU5PSEJKc2tKYlBaNGFMN2p3RE9sQ0p0edIBhgFBVV95cUxQdE9WRVloX0Yxdl9HekhVbWlWdUg5R0VRWjZGcGY5c3RFUTdOZmVySmlHSGtxMVhfeEZnRnFLeUROZVlDTzRBbnFvZksxSVVvVHVBcnpiMVVoNzlRLWVqczJQSEtlTEt6cUxJSmNHZEJiR0dLOWgtUy1hRDFfcjZZanVtR2pRUQ?oc=5",
+     "date": "2026-11-27T05:41:11Z",
+     "source": "OMG! Ubuntu",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Shirudo, an eBPF shield that protects the Linux kernel without patching it",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc242ZndycExzQTJ2WW1VeEZCMjBadll5UEcySzk4dF9hdVE2WXBQUlowZ1l2b2lTNW9QWEhOUk0wVmh5WDIzbzNMVWVSTjBHb1FxeWVSOXBPRE5fVHR1MVBVM2d1MjlaZUNuYVF0VUptUjFmOTJUTnQxWmd6akstbnI1TXZJdUYzR2lGLQ?oc=5",
+     "date": "2026-11-24T17:00:00Z",
+     "source": "Observatorio Blockchain",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
+     "title": "Linus Torvalds stops announcing AI patches in the Linux kernel",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQXpVbTRvV3M1Nm9xdzRyX293NEU2ajY0c0NRLW9IXzZNaWZPWUFmUG5zR3ZqZE5rYXlrZVNvZk90QXNnNDlyOEJMbUFBMzI2YURNS2I2WmdBQU1McEV3b2VkNHY5QXdTRm1TVXhjOU5pZW9hZFBFXzJ0UW03d1o0OU9YS29EODB2YlFWNGxNbw?oc=5",
+     "date": "2026-11-14T08:00:00Z",
+     "source": "Observatorio Blockchain",
+     "summary": "",
+     "lang": "en",
+     "also": [
       {
        "source": "SOC Prime",
        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc2w4d01nVzVsRktDaC04Tk5VS0N3aFQxdVpOU0ZaSVp1LU9rSUhyS3daM3JnRkUyeEFxWTJ3bE9LLTRRaUVySDRKUEhPbXFsSVp4M3YwRHJ5TnlqWVNXVEhYeFhfS1VFckY1YzRjSFFKNGZZYTJEaHlIUzVRb3FISEo1SkZDdTJEd3ZuVjgtdUwybTEtUWszV0tGRkpaQTNKS3JJQkZ4Wk8?oc=5"
@@ -1543,20 +1555,20 @@
        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdXN0aHFxZlJLVXdkeGVIYVI3QWNMbEdMTHczZVB0eTQ3aDdzUk9xT2lLNVBoSktZY0E3amxDLUxYVUdNNkJubUIwZ1RvTEdmRW8zSHhpc1RvYlJKMG5CdklaMjRiQW5nWjh5V2w5NUR5SUhxZjBCQ2Q5SmZELVBYS0poVUZuclJKNUpEMVBlNUh6dVY4Wm8zcWp4MzJKLU9RMEhHRQ?oc=5"
       },
       {
+       "source": "ForkLog",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFNLR1hHOUNrOUhfNExWQ3ZNM2hmazBKLU1Ka0FxMkxpcDgxS0M3Y0N6UWxiUXZiaXU3eFpKaTgwRUFUYmpOMFZlSWp6VTZJNVloMDRMSkRQY0RwVlF2eHdnN1lXX29CYUdpUUp1dEpTV3djMmhLVEhfMFo2TFhkZzVNaw?oc=5"
+      },
+      {
        "source": "blockchain.news",
        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVBma2t6TXJBQUxsMkZwZlQ2dnpCZ3ZpbDU2aGFXMkhFV2hrSFVNWEhsODFoTERjUll6Y2k3Um1QRXUtdVpiT1RzcHUtVkNNWkY1aGpvaUhpeHU2YTNFNzlIbGRILUZvY3FaWlI1Z3MzcXA1UENVNzZvZlhvRUdtVm9MeWQ0dw?oc=5"
       },
       {
-       "source": "Next.ink",
+       "source": "next.ink",
        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm9Va3NzVlVLMXVWM1B1Q2VZV212NEh4Y1J0dTZ6cHpKcjVFbWxmVW9KSS03X0gwZE1RTHhRRkFZR1d6RzRyeVRTYzhRdlJqSUx0OGZId19Mc3l1NE9ud1B2SHdWaEFfQWozdHIxUmEyOUl4enBOSlJteHhNMHJ5aTZLcEo2eUNLUHN2YU9KTjdoVTZ1MEtlaURLQzhWd296NmlfcUZhMEJPR1E?oc=5"
       },
       {
-       "source": "Startup Fortune",
-       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaDJ1bFk2eWJxd2VRYkpLR2Mxck9kUjRJSkpKXzBNalhKdHRWcDQ2cDZkbXNJRUw3T3dEOUtlN2NJeVYzNGlZRVR0NWdjbXBWdHhvZVZxM2YyOUxia1RHTkkwTGpLS0VzTGV6cmtoOHZxcXlVS2ZDMGpqcGFFT3p4ZElmazBGVDZtcWZHWXhzU2xUZm9KOXplZHZxMFNWMkJhelE?oc=5"
-      },
-      {
-       "source": "Meteora Web",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVUtTlF6RmdrSVVBZ2JRYWxmMEVVbmkyZzdpZ1A1SVM5aGxJSFZiMGZza1AyQjlseHdJVWlJNHhkUWRoaGtPXzc0UmJOc0w2cjQwSjJrVU9WaTFGMUdiOVpMY0JrZ2YwVW5ZYm1KS0VDMjZYcXhxTlNMaEktZVVZaUNZdw?oc=5"
+       "source": "www.thestack.technology",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkRMVHRjeTJocGdGVVhLRFJ3WEo3em1zdko0WnYyRklJQ2dCQ0JqYUh5M3pJT2t4VGhOSHhVZ19CSTdlUVlQM2IxRnptSVRZQU1CVGxwOEpfSHRYNVNXMzJkZGpIcG1ZZ3BWMVkwUUxxRWFSRERjbExzQVExREFqN3JoZjdkdm9aclZueW5QWTRENDU1QmhjMjlBUlFoY3M2MkpDVjNtMzRiNlVXZW5Obw?oc=5"
       },
       {
        "source": "CyberSecurityNews",
@@ -1611,52 +1623,12 @@
        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYThVeUQtQkVuTWdKSWxDZHNPV0FEbkVOQkdnVG1fYmhYbDQ0MTlTYmpva0I4ZnVkOEFpWm1MUkJTR1pYbGVISXJRc29INmF6aTF4bmhFVXJJVmkwSjR6TFJpZms0eTJSZ3J2VkU5aXNrTG5pemtXQ3ZYX2dUdjZreEh6LVp2NjdId1UyWThyeS1jTGtnWFY5QUU2dl9HRW5KcXVrXzI5VQ?oc=5"
       },
       {
-       "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJLYklpeVU1dU0xZ0hOa0hxOVNRSkVVeThNVXUwV0MzRE5OSFd6X1J4YUxPXy10bk8za1dVUGpIR1d4OGlzN18wdmJBU3RkU0tNM1NudkY5LVc1OEdNYTRhNklLb09YcFR5X21NMXkzYThHMnp6Q0Jha3ZReDRJdnBTdndWa1dZZXVPYjJ5M0cxM00?oc=5"
-      },
-      {
-       "source": "Security Affairs",
-       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTVdoWER0cXdkYXZzZU9KX1k5MTNHcC0xQ3dJaE85TmFPeXdyVXNaNWFzeS1VaUJJdjdwRXk3NDJQRmthRG1BdnlGenpfczJXb2k4bDJtWjE3bnVQUUtVdzFFQWFYQ25XbXd6NzFQMEhWVVRZYXNhZDdxZjVoSTE2bUUtUEpiSHFiaHFtYzFPeTNTS0FrbVdKemJCSmN5Zkt5cUJYOENVUk9lVG56QVBiRFJTVW0yOVVXbFBnWVBXVGZHVjNLYVNQeVc2aFBMM25tbmdjSUtXMTMtNERIZW1zOWQwVzBjd9IB6wFBVV95cUxObU56Yjd4dWhDMG5rYmlXNWlKYm5SdzVaU3ZaQ21aLWE1c2g3ekVKczJRZFpLZF9TLTB3NlYwX0xvSmRnTTJwb3Fta2YyamNIZlBhcTZVVkFNQkx0eFQxakwxbkdiOTFCVWxtRHpQWVF2NDZVbzNhNmhTUThDZDI2bmdOZnN0dEx4Y1hNUmpiMEVmb1M2bk9xVWt1RXkwU2JzVUdtMzBXOXF0TWwwWnNUNEdRR0FmUWpuajdUWFBIb19janBQVHlhUUFLR05nZk1KbTRSNDhkRXFSSEI4MGs3dmFOSTQ0Y2RoMTk0?oc=5"
-      },
-      {
-       "source": "Pragativadi",
-       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeXVjd0dYSy1zYUZLVkI1cl8wYmF1SmJvRnhRQW1wNW1RVlpIQnV6Nm9LWG91ZEZhcFhoWHNKTWxyWjJrRnVxUkNkNHB1VnFPOHRIVzV6QlIzSjRyZUtrb0VqYzNMNWoyS2ljSVJNWHlET2E0d00xMGlyT0s0N3FUT0dFTk1mRkVvYUhkQ0ptUGY3LUxkYnphc2xkUFhsWDY2eEFoMGxDNVNWOFotNzlLcTlRNjYyQXlxNXU2bEZiMG5keTRlU2c5T29HdFdFems?oc=5"
-      },
-      {
-       "source": "THE ELEC, Korea Electronics Industry Media",
-       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSUNDWUs1NnJGaDVlcUh6aHk5SzVKOUtnMFAwQmJ6bFBMNlo1QzItUDd1dlFtc28ySnAwRzlXMGx6NVlyRmtWenJyWDJDdkhUV2c1U2szRGoydzVVS2pvME5fNDdHRDA?oc=5"
-      },
-      {
-       "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5"
-      },
-      {
-       "source": "CyberSecurityNews",
-       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRlBzT0lmQW1SS29HUXEzOHRtaFZxZFk0TkEwNXhSTkdLaER4am5SNWN1ZThGcFBHV0RILXJ0UE9YLXdGVlVUSzhpalZGUWhwNXZ2UTdTeXV2eXBxWmVoWk1VMDFiMkJ2dFV0ZUhNQlR6MU0z0gF6QVVfeXFMUHJuTWhIYWlpRHk4NTN2NnlRWkVkM21FSFRnUFMxMVplQTVvb2ROS3VfQTJkOE53WFdqZ3Y2Z0QxWjVDQ0h6Zk5IZzloNkZUNzExVWVULTVUbFg2QTQ4VHJJNHVsa3JYWjFrSUo1QmpuWkxwWTR2TUNUMUE?oc=5"
-      },
-      {
-       "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0doQ0syNGQzd1NhaGR2UFpneHo4eU9PbHFtV0xRVTlYbXgtTjdHekdRSVdHVzVRRkVLTXFPLWZhTEZpaFE2ZGJZcFNWTXFCXzVBeFptM0dLMDZfWVY4R0RVdFZsc29VN1R6SWpHekJ5aVFlUzI0eWpCdjBrbDc4UHN6SEZmakJDdUZEa2d5Q01OVHdsSXF3TXlDUTRVUW1tUm9LNmhUODBQQURWbjRyTjJR?oc=5"
-      },
-      {
-       "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVU12MGIzcjZfMHRPTVhiUFA3ek9mV0o4dHBfZi1aakowZWMwN1pDUXJjWlRrdlZSb2dfMUg5OG9JUl9DQkZyQWMzSC1SV0F0Y2VDUTMxaFNfb1lYbWhTLTlFWVgzaG9oQ0dBU05TdUVOMmRkb3V2SG1DLTZzZUZDTHZkdWVrVmNWWEU3NW85NkQ3c0QtMFh5eDVKU1RmeVRtaU1yMHF6eTNleDB3UEZqc0FR?oc=5"
+       "source": "Rescana",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWnFzNTkzSU1TWGtMMnQzT3dUMUlaMF9qN0hmdnlDejlhUjR0RFVGeTZZUDlzamU0akVEZ1ZhQURGT1dWTFVuM2ZEeFJUdEY3UjJDQUNWLXNzdjhBSVNXaHBKLVYzVFFJTEtVc1I5b0JCVldZX1JBWkNzUXc3YVJmNXJaaHZ3Qk5abVc5V21WMkc?oc=5"
       },
       {
        "source": "Linuxiac",
        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVhyREZLc2Y3Y1l2eVVzMXpybXRiTHpUbkMySHE0SjdiR0p6SmV5dEFBT2oxYlpPYi1lVC1nQldLc0c2dTlXWkd3S2FMTV9sZG9hOHFobWlUVFY5WGdDUHFfODZRZzlNYTlXM0dtUmtWWWdpd0dEZ3lVWXR0eENhLUtYaDZDY2VhZG50Qnd4bG1mZVh3Qmxoa3V3?oc=5"
-      },
-      {
-       "source": "The Hacker News",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0h5UzhuYjVYeDlyYmIzS2pKbnJ6cm1Ra3pTWnR5WnBIWEZXRkwxM25xQ1d5TGZkMHVWVFdTX0NjSG1kV282MEhWWDAyX0p0bUdZcFJHcS02Nm9RTWhXeXBEMUktbUxCbW9FdVVZV1VRYks3VUctS1NZckFmbXFVaklKYw?oc=5"
-      },
-      {
-       "source": "Cyber Press",
-       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VcHVhS1VqYVY0M0F3YWVUZ0ZGdjZmTXFEMU9MVDlYYm1NbGNNdDFoZ1l3bjVQcGt5cXMyU2JJRC1nNWphNW5Kd1FUbTBISENqSGJiMVBwOHp4cGZleWpDdlNNOGQxUdIBZkFVX3lxTE5VcHVhS1VqYVY0M0F3YWVUZ0ZGdjZmTXFEMU9MVDlYYm1NbGNNdDFoZ1l3bjVQcGt5cXMyU2JJRC1nNWphNW5Kd1FUbTBISENqSGJiMVBwOHp4cGZleWpDdlNNOGQxUQ?oc=5"
-      },
-      {
-       "source": "Dataconomy",
-       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RWS1U2d2hyREctdXctRHBhWDRuZUdOYXgyd2VNVUI3eFN6aE45ZGVmRTNmNEZGSzVXNmpCUjFJaDA2VmJ5WVFpUXpkVFFkdHdGNUlwSk1nQWluRWhNRHR3LTFEWGVSbkVDMkRMeHptbVktc2xFVjdlc1ozQzhBbFNuT2lJNzY0UjU3Wk5NU0hQdw?oc=5"
       },
       {
        "source": "IT Social",
@@ -1693,23 +1665,38 @@
       {
        "source": "BigGo Finance",
        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFRXloX1lUMkkyVmlyVmtsb2R4NGNJUkZCTlJtWk8yZXJiSkd0WnBPTlEyb3A2Yzd3cUNqRUhaZEowcVp1azZHWkFBQ2F3c3J2TnpUOXl1YzVTRGxpN1RqLWZkeGs4UjFOT3g5SFVfMHBaUGVzOVE?oc=5"
-      },
-      {
-       "source": "Homeland411",
-       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTUVxQXpNNzNQT2V3N25yQTktTjQ3SHhrREtXYWhRNzZvME1ZMHlGOTQ4UnUwSjZxLXRya3FfSnNLZDJGdXJFb1ZwQVcyeDgtb3k0RVlxX3VzVnp0eFhOM3doRnR0eVFhM0ItcW1hTUg2ZXZBYm5nOWtoUWlkam1ra3d2MFdiRGozdzJVeEhqUWpmaDBSXzVPQg?oc=5"
       }
      ],
-     "new": false
+     "new": true
+    },
+    {
+     "title": "Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4MEpMcy01ZHZfVC1LeXo2cE1iVjBTbEE3eXdTMjhvQkpIbzlqSm9VQU0zdTl4elJtamFBMUNFV1hudFFncTB2OHAtV29sb2x2X3BQU2RQd0RYNFl0blBOR08yRVNBWUhO0gFuQVVfeXFMTUw3Wk9VWnhGR0JkOTdEVlVxUk1Wd2VjNDBkMFBNSVZ4SWFWaGZmd045bW1PX3owZ1dPOFZmWXFmQzI4X2loTzZfX2hXT3NRRDZ0aWNKY2xnWUNEb040anpJbjdXa0NCQnc4SWROM0E?oc=5",
+     "date": "2026-11-12T07:24:12Z",
+     "source": "CyberSecurityNews",
+     "summary": "",
+     "lang": "en",
+     "also": [
+      {
+       "source": "The Hacker News",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0h5UzhuYjVYeDlyYmIzS2pKbnJ6cm1Ra3pTWnR5WnBIWEZXRkwxM25xQ1d5TGZkMHVWVFdTX0NjSG1kV282MEhWWDAyX0p0bUdZcFJHcS02Nm9RTWhXeXBEMUktbUxCbW9FdVVZV1VRYks3VUctS1NZckFmbXFVaklKYw?oc=5"
+      },
+      {
+       "source": "Dataconomy",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RWS1U2d2hyREctdXctRHBhWDRuZUdOYXgyd2VNVUI3eFN6aE45ZGVmRTNmNEZGSzVXNmpCUjFJaDA2VmJ5WVFpUXpkVFFkdHdGNUlwSk1nQWluRWhNRHR3LTFEWGVSbkVDMkRMeHptbVktc2xFVjdlc1ozQzhBbFNuT2lJNzY0UjU3Wk5NU0hQdw?oc=5"
+      }
+     ],
+     "new": true
     }
    ],
-   "news_count": 29,
+   "news_count": 22,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://www.kernel.org"
     }
    ],
-   "new_count": 3,
+   "new_count": 4,
    "cves": [
     {
      "status": "cna",
@@ -1782,9 +1769,9 @@
      "percentile": 0.14666
     }
    ],
-   "cve_total": 706,
+   "cve_total": 590,
    "cves_affecting": 0,
-   "cves_pending": 556,
+   "cves_pending": 440,
    "cves_cna": 150,
    "kev": [
     {
@@ -1881,11 +1868,11 @@
      "also": [
       {
        "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0tORGRVczVHdDViSTM3emdscF85SEJUYUwwTG5kUWpiQ0Q2S1lZRjVHNXZwc2ZCcFNjTHBwYmpsTk1OVzZvaks5V0tVUjB5M3JsMUxQX0xqY1NWOTgtNDNEc3lUd2Y1ZnRqU2taNVl2TGlmSnhzUHhXRXJvMjR2bE54bDkxeFAydEY4RlZiVUNrcWpBcDN4UkNmTGZ4UldtNHE4YTNMdm5uX0RFSUpCNTR3?oc=5"
       },
       {
-       "source": "Linuxiac",
-       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5"
+       "source": "Foro3D",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5"
       },
       {
        "source": "9to5Linux",
@@ -1944,7 +1931,7 @@
      "new": false
     }
    ],
-   "news_count": 8,
+   "news_count": 9,
    "links": [
     {
      "label": "Site officiel",
@@ -2079,7 +2066,7 @@
      "new": false
     }
    ],
-   "news_count": 29,
+   "news_count": 30,
    "links": [
     {
      "label": "Site officiel",
@@ -2138,14 +2125,6 @@
       {
        "source": "alpinelinux.org",
        "url": "https://alpinelinux.org/posts/gitlab-reopened-after-security-incident/"
-      },
-      {
-       "source": "CyberSecurityNews",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdU9oNkNkQy1mT1BmTHpvSUtSTW9wSS1BVWdZelhiQjN0bVZnNGJrRnV1OS1CQTdEODlxbkJsNTZMQm1kZzItVGNZN180Q1hwMEpwLXNteHhneEgtcWh6YW5oX0dBSmxXaHdkMDdVV1ZmUFJhR2MtNXRQbU5VcEZsQWhVZ9IBiAFBVV95cUxQQTFkbk1Odk5lZU94eTZNaEp0anZrX3hudVgxWkpodXBkdDhyTXZkdThtWVRqQlYxVEJ5cEFqRHZlaEluN21FWXZnQm12eTFlMV9mczR6dFhyTmdfNm9CX1l2YTl0STNXWGYwcUVNdWNSOVJfMTNJa0VkRmpYZEtlWWJhMkdHTl9H?oc=5"
-      },
-      {
-       "source": "news.lavx.hu",
-       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVFJrLU9tWFhpQmh2MnpEVGhWZnVBQlI2alBXbGd2emJXZjdjdGJ6ZUZhRlFlMTVZeUVaa3dYMm9BaWx4WDkxTW5WdW9tVElEM1ZJYi1iMy10QXk3eUlOeE1kMEJYNFlrYjcydlJsNWNTUnM3NkpJTTJnZzdDR1dIUzRWM2JmVXEyZnNLOWltQVBuOUJOZV9jdEx2ZXdDeFR4dTR1T0U3bk0wZkpYUTEtT0tBRkx2bldDTkdqMA?oc=5"
       },
       {
        "source": "news.lavx.hu",
@@ -2220,6 +2199,10 @@
        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLVZOTDVCZTNVUGtwTnV6SDZ2RGhZUEhIOGRjUHR1SEZtV05uNnVpNHg2WUFWMnZjWVNlVmlSZmxLQlYxdGFuRklPMWtOYkxfX0VvaEEyM0h4YlBucTZJNGtES2d5N1U2WFRhLUNtTnI5R19LUGdMbWVFRFlmaVllR1ZGUG0?oc=5"
       },
       {
+       "source": "CyberSecurityNews",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdU9oNkNkQy1mT1BmTHpvSUtSTW9wSS1BVWdZelhiQjN0bVZnNGJrRnV1OS1CQTdEODlxbkJsNTZMQm1kZzItVGNZN180Q1hwMEpwLXNteHhneEgtcWh6YW5oX0dBSmxXaHdkMDdVV1ZmUFJhR2MtNXRQbU5VcEZsQWhVZ9IBiAFBVV95cUxQQTFkbk1Odk5lZU94eTZNaEp0anZrX3hudVgxWkpodXBkdDhyTXZkdThtWVRqQlYxVEJ5cEFqRHZlaEluN21FWXZnQm12eTFlMV9mczR6dFhyTmdfNm9CX1l2YTl0STNXWGYwcUVNdWNSOVJfMTNJa0VkRmpYZEtlWWJhMkdHTl9H?oc=5"
+      },
+      {
        "source": "Korben",
        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXFVMm9RempaNEhvVDdEVzRnRUtBVTJBeWJtVkpjTTVwcnhDejlUVUJFQjNNNmVIMGxXRWNDV2ZpSzhTeTVFOGpKNzg2ZTRQMVVuaDNWWThzeV90MUlDSGVUT0VvWjRjVnd5akVIUklXTlFBcDNuek5FVnlEZks3YjJrYmMyOHM?oc=5"
       },
@@ -2256,12 +2239,12 @@
        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTV9tTmVieXJmOXoyTkNRUmEzT3hVcFRFZ0tBSmg5MU0xaC1DN01rTDFmS2p1eVdNRVdybVRvV0dWQndvWnFwaEtMcUVneWh5aEotQmdabzYwT3p2b0pNZjBFUlRXRWUzdDkyZlpkQ3drR2JPbVlBY1k3RWJIMU5DV3lIenVTYWQtU3BkazhrRQ?oc=5"
       },
       {
-       "source": "The Hacker News",
-       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGZIVGMxLVBKb1NRaGNvbmxHTXFVa3phVkZLWWtzQ3RqNHFuRmEtbnJLaUlaX2YxcXA2dWE2WGk2MWQtUXJiQ09iR2FWeGJ3c2ZZYUJjR1hYVFRvb3FDNnV0ZUJDNUZQVGZDYjBicXpRbVRscmQ5M2pyZ0FERWYycmZn?oc=5"
-      },
-      {
        "source": "NewsCord",
        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMzR0cUh4TmR3eDhTLUhhbXVoa1gzUWpTZ0daUVZEanJycXBSRlV0RHU4cnRwUjU1M1U4eTZQQXFYOHhNWEtpSks2YzYtTlAwWEFPUVN3RG5jQVpqOTRRZDdkRy1KY0VtcHRXYWNXc2F4ZzBjWGFTQVVMZl9oRUYwLUt6bkgtVnlENVQ2U0FhRG54aURFVnJnWWpPYktlUmZGNVo5YzZ1SHdVNDBkV3JDSV8zSzlZSUZ1azdYeC1rb0pkSnA2dnY5X2xMNHd4bURaNFU5UWVjclhTb1NPMWlyUXZBdE1sWWd3S2c?oc=5"
+      },
+      {
+       "source": "The Hacker News",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGZIVGMxLVBKb1NRaGNvbmxHTXFVa3phVkZLWWtzQ3RqNHFuRmEtbnJLaUlaX2YxcXA2dWE2WGk2MWQtUXJiQ09iR2FWeGJ3c2ZZYUJjR1hYVFRvb3FDNnV0ZUJDNUZQVGZDYjBicXpRbVRscmQ5M2pyZ0FERWYycmZn?oc=5"
       },
       {
        "source": "Meteora Web",
@@ -2270,10 +2253,6 @@
       {
        "source": "Pasquale Pillitteri",
        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVRNb3RvT2FYdjkzbGYwbXhPQ29WY2NHWUJPa2I1U1ZRVUVaN3BwdUoyc0ZGbFFsQTBDYnJ0UnpmVmt2bVdKYnVvUUJTeFRsU19XMW9FQlpBV1NOdXNhXzdhTDRHUUdWYXJPVGRVYWJPaEgwazBlX183cUhBcEJ3YU53OUF4VGZiQmtkV2ZYenRSOGI0V3BwNUN2Z1dyVFhxWkE?oc=5"
-      },
-      {
-       "source": "CyberSecurityNews",
-       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhamhlMXFfRkVyRExCQWNsa0dsMS1relJxdjNFQUlvUm9HdnNqS1hsWWZJVThhSlFfb3JNNmNSVzZFZVZ4NUhTckRLLU5pSUI5ajQ4Y240akxxRmlGLVIwWk1GS2VBSzY3SVBnbHRRX0RrOTFiNUlPYUNQRGF6MTjSAYQBQVVfeXFMTkEyV3ZYMHUxZGp0SW05cmptTlBrVi1MR0xBU0xBU08xaWpyd2dxVzdIXzUtNXFGQnFtU2dMR0l2WnZ0bC04RGRJVDJESUx4LVlrU0U5MkFvRFdFY3hQcjNvSG5kZUxvSWJZa0lPQmhndXVMRmxZUUdhMVhwV2lIYjRuU216?oc=5"
       },
       {
        "source": "Mezha.net",
@@ -2298,31 +2277,16 @@
      "summary": "Alpine 3.21.10, 3.22.8, 3.23.8 and 3.24.4 released",
      "official": true,
      "new": false
-    },
-    {
-     "title": "AlpineBSD announced – an AI-free FOSS OS",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTS03UFVMcVpYSmxNTl9TX2gtZ3ZsT1VFek5XaGI4X09yRHlkX3hlVHhpZ2VudlFjVHBDT3FkUm9uVUxHQy13cUdoUEJBWUZQQl9QLUQtNzhoSnpMX09DcGJ1Y19VS0xSczR3LWJnQlE5X2p1a1pvZHBFVHhKUU9SRW9kZDRFU2JsRWhiNEs4U0hxY3hqbDZGX2s0U0FiS0U?oc=5",
-     "date": "2026-10-30T07:00:00Z",
-     "source": "The Register",
-     "summary": "",
-     "lang": "en",
-     "also": [
-      {
-       "source": "news.lavx.hu",
-       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDhOeUN5bWJnRzBBWFNOd1V6VHlUaVdYU2IyXzBsWU04cWtqMmdNTTV4RC1JZU01aEZ6Y2hnczJuZmZkNko4dlBKQTdTd2RCYWI4VjAzSVlZbmNvcTdJdkcwNjFKdXpBREs1QVRBY1VqV2tTTFdOc25aMGpiR0VGdGoyOVdqZnBF?oc=5"
-      }
-     ],
-     "new": true
     }
    ],
-   "news_count": 4,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://alpinelinux.org/posts/"
     }
    ],
-   "new_count": 1,
+   "new_count": 0,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -2389,7 +2353,7 @@
      "new": false
     }
    ],
-   "news_count": 7,
+   "news_count": 8,
    "links": [
     {
      "label": "Site officiel",
@@ -2427,9 +2391,9 @@
     },
     {
      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGhnUUU1cE5yWlFCVXg2NC1CdXNxQzlVeW84X1ZobWFKX0FTYndKZVdVdzZuQXJzV1JtT0JRS0VON0czVndqQ1pEM2hlbDVsNHFGMllzOXVqMDhRNlFMOFVLUkxIeVdIanlNWXRrRm5IZHRnMkhNUTcwbWRyR2ljVkxjSkVlR25QNXllZWZzcms1RDdsYW9rQ0JqT191MG4tY1pmWkliWFVjckNRZ1BzeEhTYm9lUnNyU3NnNQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY3prUFRfaTM4dDYtSGtkaWdmbXZURzM5TDFfZnJScGtXaDhaVzV0MlZiR3YyVi1NaE9wSnQwRmYtSjZLQUJFc3YzbzREY3VpN3FMYlZwb0NuWVRDTkVqc2c1VEJtMF83WTF3SVIycThFRmdDdk5Dd0huUzE0VE0wU3B3SmJjN0lWb2JNTGJDSXgtakFoc2hEWmQwc2hCUDhiUmpzbF9HV3Ywcm1sbEhOampWNVhBWWlya09FMzg1OWw4RHZfYWdtdXFVZVhLY0V5dHBvRE9KVdIB3AFBVV95cUxORjNUeUJIM00xT3NZejM0ay03V0tvaTI4X1ZlWTZtRUYxLXl6Z29QQ1k0eldReXhMUXRkQ2FrQjlNd19nVTJ3bHotcDl3RHUtaWNMU3cwUkNEYU9WMzR6UjZONlF1c1lfb2Z3SmpYckRZbDB1LWVsWlVtdGE3NHdneFhJaEpNLTRHZXZBZ18td3BvQnJ0cllEQmVKdTBBeU5PRzdaTW5Ea3FkbEJWdHUzVHZOUUN0b2UtckZBNU5reWFIeHNVLVI0U0RBMkYzRmxVTXdsSzY0eGxXWDhj?oc=5",
      "date": "2026-11-10T08:00:00Z",
-     "source": "Hackread",
+     "source": "Latest Hacking News - Exploits, Vulnerabilities, Tech and Tutorials",
      "summary": "",
      "lang": "en",
      "new": false
@@ -2526,12 +2490,12 @@
    ],
    "news": [
     {
-     "title": "Git 2.56.1 corrige six failles de sécurité",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWhlUk1CYTFRSkFQMWdSSGRFU3NSMFpvN3lSSVF2eUN1aDJ3YV8yX1A5WkZXQmlqRkVfQXp6WXBfOERKU3BldWo3TXkxTXR1b3padkJvZDZOSFVuWVlxUzVfQ0pOcndMdjBtRHE3eXJsdzZmLTgwZlFzYVJ0Nnl3VEJmTEkzU0hyWlJWQm5WX1Z1YUctWWp3cnp4a2h6TnAtNjhqOGt3?oc=5",
+     "title": "Git 2.56.1 fixes six security vulnerabilities",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMGMtMElHc3RNMkJUSzgtSHlueUxVLVZZWDc5S3FoM1dod0c1X2hJV2dweXVUMjlXUzE4d21PWmdaS3ZCQWhPd1ZNQTFlYkNwc3BIWHo1QVh3OGtUZUNiVFU4QjVJM2h1R19PMVZSSlN1QTNJdURtTjNRa0RWRXFSZ3RzTzdlU2gxVmZVRzVNQWg2LWhCUFJ2Rg?oc=5",
      "date": "2026-11-11T08:00:00Z",
      "source": "Meteora Web",
      "summary": "",
-     "lang": "fr",
+     "lang": "en",
      "new": false
     },
     {
@@ -2633,11 +2597,11 @@
      "also": [
       {
        "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFJkcV9wLXpUTnNqa1cxTS1lOXUyb2FiNFAzQ2RjODMtMlE3VlR4ZkhIQmlCM05kUzJlbzE1WmZUb1pfQWFEdl9vdk9SZ0dHTldWcUJoYnlibEUyVUxPNTZod09UWHhkM0hxQ0lpTFlJQXdNdng5c09Eb2NpdEVkVF9lTjJ6RTlMT2VPVzln?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQll3eFFmMF9IaWxMOU0tNVp5MGoxZG1teXBhRWkzNC1sVEk1dFFRX25VTW53anV5ZmYzeGVINmhUMWxnRW9zSEVmRndYa0F0b1JwLUFvTmhhejU5OVREMlZuZHdNcU5lWEFVSm1pY19jODdETFVSdExYcmxmQmRHMXc1ZVI0bzQ?oc=5"
       },
       {
        "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQll3eFFmMF9IaWxMOU0tNVp5MGoxZG1teXBhRWkzNC1sVEk1dFFRX25VTW53anV5ZmYzeGVINmhUMWxnRW9zSEVmRndYa0F0b1JwLUFvTmhhejU5OVREMlZuZHdNcU5lWEFVSm1pY19jODdETFVSdExYcmxmQmRHMXc1ZVI0bzQ?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFJkcV9wLXpUTnNqa1cxTS1lOXUyb2FiNFAzQ2RjODMtMlE3VlR4ZkhIQmlCM05kUzJlbzE1WmZUb1pfQWFEdl9vdk9SZ0dHTldWcUJoYnlibEUyVUxPNTZod09UWHhkM0hxQ0lpTFlJQXdNdng5c09Eb2NpdEVkVF9lTjJ6RTlMT2VPVzln?oc=5"
       },
       {
        "source": "StorageReview.com",
@@ -2646,10 +2610,6 @@
       {
        "source": "StorageReview.com",
        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHhUYkVRZTNwVkVpS3hfX3lGMjQtd3RXd1llNW1VRTJyS0FfOEtNRnZTUjYwUld1clVTUEJJOUlDeVFXaEppc1haNkFuWEtaS3Z6SnU5eVU4UDNlLVhfV1U5OGJYb3dPNVoydVhDVnZSZ0xvZlJxX2RXOXRwd0tFeXlqTGFLMFZkblZYbHdmeUprUWg0M2fSAZsBQVVfeXFMUHVKTXlhanZLampzWTVzTkNOeFRnNVpEdHBkQXM2c3Z2WWh3Y1FWU2pCeWNWWExtcm9KNDdPcDJQSDExOE1mdHd5VF9fSllMNkR5Q1d5emhkUFNweGV6UDB6cGpwYTNzYWJRT3hmS1U4NWZhQ1hzQ3Byck1VUkpMZjRqbHJfQUdhMWxtejB0WVhQdGtUVzlQX3N0QjQ?oc=5"
-      },
-      {
-       "source": "Linuxiac",
-       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTW5qSmItMmQ4YXBGMjJOVTFnRmhVV2tzVS1kTTUybzRVQUZtM1BYNUwzbGtScUVuUVZlYnFZSkV2WjBpYllJSVkzWTd5bk5vV1YxLWVKa3pELS1hQ1VZaEpJSWFqcTF0cURDZXRGRDRmLXZGR2tNclAzdktQSTF4X2dYTmluVnhoVWc?oc=5"
       }
      ],
      "new": false
@@ -2710,19 +2670,13 @@
    "releases": [],
    "news": [
     {
-     "title": "Correctif : Une erreur s’est produite lors de la tentative d’exportation de la machine virtuelle dans Hyper-V",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmVmRjluZElJN3lwSjltMXJuQTRLbE5CMDBEWFZfUC1ELWZFbFNsZWJhbkRncnI4My0yVWMzTnZ2VVlDQWRpZFByWGpfT1ptSm1OZzhJX1BEM3RrdktsdF9TVXMxNVYwRTdza0hiS1dOcW15cElMTEFRWmdyeTAtWGJ4Y0d5NGNUUDEyU2FLUWFaVFR6OVozSXVUbng5c196OTRJR015MG1fb2dqNXR1ZEg0RlpDUkRRdEs0ejhoaFh0WjZ3Vl9GS1h5aEpNdzFE?oc=5",
-     "date": "2026-11-26T12:36:55Z",
+     "title": "Fix: An Error Occurred While Attempting to Export the Virtual Machine in Hyper-V",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0VRR3BGYXJUQ3k1SnVDS1p1ZVoxYzVQY2NTb0Z2Q0hqaklHVnVCMWt0dXlTZ2lRVlBleVNMeENGX3B2cHdfS1ZfMTlXLWpPQWtEbVpVbTdoSXRrRkJ5RnBXOEgza1JsZTR4OFVqcHlobENYXy03YlpLU01EODlrZy1FNzJkUlROd0hQa1BpZi1TdTNsR2JxU3ZvX1dpd3dk?oc=5",
+     "date": "2026-11-26T14:29:29Z",
      "source": "Windows Report",
      "summary": "",
-     "lang": "fr",
-     "also": [
-      {
-       "source": "Windows Report",
-       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0VRR3BGYXJUQ3k1SnVDS1p1ZVoxYzVQY2NTb0Z2Q0hqaklHVnVCMWt0dXlTZ2lRVlBleVNMeENGX3B2cHdfS1ZfMTlXLWpPQWtEbVpVbTdoSXRrRkJ5RnBXOEgza1JsZTR4OFVqcHlobENYXy03YlpLU01EODlrZy1FNzJkUlROd0hQa1BpZi1TdTNsR2JxU3ZvX1dpd3dk?oc=5"
-      }
-     ],
-     "new": false
+     "lang": "en",
+     "new": true
     },
     {
      "title": "PowerShell Direct ne fonctionne pas dans Hyper-V ? 6 façons d’y remédier",
@@ -2751,7 +2705,7 @@
      "url": "https://learn.microsoft.com/virtualization/"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "confirmed",
@@ -2885,15 +2839,6 @@
    "releases": [],
    "news": [
     {
-     "title": "Why VPN Protocols Behave Differently: WireGuard, OpenVPN, IKEv2 and the Rest",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmVFU0ZESndJQTFTYU43N3o5LUtybjJKSE8zdFQyQ0pleHd1RkVpRGR0YTZ3S0lYLXFaSVBwc00wRDNvOXZySDMzN0ZmcWdiNjZucDRIeTBWdGRWbG1Oa29tRGFzNHdnWVhUVncwN2w0bFVZbUlVMl9ycnBPeXpHOHZ6cVFRVU5KVE1oX0tZeEE5SmZqQ0RVZ1JIRzVMWUMzcVFrTUpZQ01DYU1ad3lHdXhB?oc=5",
-     "date": "2026-11-23T06:19:55Z",
-     "source": "Technology Org",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
      "title": "Nylon - The WireGuard VPN that finds its own way",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaGoxRlBuT2pnSkR2Z212elZnZmNNc0Z3MHczZU5NQkNPOXIyZEE0SGgzN2hMOVRSZ21yWlpkNXppWDF1VFExbjRSdGxjdFhrVEN2UDZ5eWtQY1pIVUxMbWVDTjA3bGNyYlpoMUphMWxqTGM?oc=5",
      "date": "2026-11-10T08:00:00Z",
@@ -2903,7 +2848,7 @@
      "new": false
     }
    ],
-   "news_count": 2,
+   "news_count": 1,
    "links": [
     {
      "label": "Site officiel",
@@ -2971,7 +2916,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27594,
+    "stars": 27595,
     "pushed": "2026-11-27T07:04:46Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -3025,7 +2970,7 @@
    "category": "Réseau & sécurité",
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
-    "stars": 11813,
+    "stars": 11815,
     "pushed": "2026-11-14T14:36:00Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
@@ -3055,6 +3000,15 @@
    ],
    "news": [
     {
+     "title": "Your Pi-hole might be ignoring all the IPv6 devices on your network, so do a quick sanity check now",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzBMUXZOaDJuSURFNVk0RGdiamFOSU9kNVo5b1JoUFFtVF9TOU1pVWk4ZWxVYWgzQkNEUDg3VWF0ZG9NcWFSZXVQdkQ0N3pScmVIcTRlWlFtUk53RHJueFRuelAyMnVpelNORmNUc2lBMXhCVEJ6Y2hrNGhFRm1oMDYwMWl0TG9lSndUMm1HcGdsN0FuMUhkb3VSWURqaGRidXhsRXJmVk5zWXlCTUlkYVB1MHpYQllVdFhQOGwyaw?oc=5",
+     "date": "2026-11-27T12:30:15Z",
+     "source": "How-To Geek",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
      "title": "A dual Pi-hole setup keeps ads off my network, and this tool makes it easy to manage",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2lOQjBaVjFoVTdPNE1tLVZsX1hqUmpmOVc2YUtzOFpUbmkyaDFrYXhiaFFPVmpIZnRRN0JUbkNuM3BqVC04YzM4d2ZOb2IxQjYxSGR2SlNNT0JNRk5hM1NmeVlpeUhPU0ZzdGEzNW51Sk5PZmd4MV9rUEs4U0l6VFFhQWdwdmVPem04VGJBaTBsSDVqQ1NUMzl0RDBwUWM?oc=5",
      "date": "2026-11-09T08:00:00Z",
@@ -3062,18 +3016,9 @@
      "summary": "",
      "lang": "en",
      "new": false
-    },
-    {
-     "title": "Docker Compose turned my fragile Pi-hole setup into a rock-solid DNS fortress",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmsxSDhFbmJBWng3ZUlFQXM3YVkzdmJQbzVhaTZKejlMMGdnc0xmQ3ZIWm1MMmRXTTl2X3phTVl4eGVCT1RzYWwzYUJkNFFLQl96RGpLRjN4TFpMeUNwcFIyMTQ2c2NQUjBYWlcyQ2Q5emx6OFpjMUJJZU8xaVYyY2R5SUJwMjNVQlJjZGxyZXBhdGRQNGZGOHRxNzJDVVJBNTZPZkNqRQ?oc=5",
-     "date": "2026-11-02T08:00:00Z",
-     "source": "How-To Geek",
-     "summary": "",
-     "lang": "en",
-     "new": false
     }
    ],
-   "news_count": 2,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
@@ -3084,7 +3029,7 @@
      "url": "https://github.com/pi-hole/docker-pi-hole"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -3145,8 +3090,8 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 46142,
-    "pushed": "2026-11-27T04:46:21Z",
+    "stars": 46151,
+    "pushed": "2026-11-27T13:46:34Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
    },
@@ -3199,7 +3144,7 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39697,
+    "stars": 39715,
     "pushed": "2026-11-26T21:10:08Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
@@ -3438,8 +3383,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "brave/brave-browser",
    "repo_meta": {
-    "stars": 24329,
-    "pushed": "2026-11-27T04:04:11Z",
+    "stars": 24331,
+    "pushed": "2026-11-27T12:33:58Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -3469,13 +3414,13 @@
      "new": false
     },
     {
-     "title": "Brave’s New Crypto Rewards Card Attracts 232,000 Waitlist",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VaVFuWkpQVFVra2N5UHZNY042V3VKUktmZ0RTLWNKVWFMMnpKQ3VQTjdFMEZRVGlCaFg4VFhENzNvMDlsSUpmZ0Y5TTA1aXl3c0lLcEJWck5TZw?oc=5",
-     "date": "2026-11-03T08:00:00Z",
-     "source": "Cryptonews.net",
+     "title": "Brendan Eich: Brave CEO and JavaScript Creator",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UOEpiNnM2bUxUZzJDT3BzcGFtSGZRckowRmxSSVBUUnBZT2dlMUxPWjdpa25EYWpiNnZtWm56M0pnVVgwUjNqd1RSVWE4Y1dGSDN2WnBUbw?oc=5",
+     "date": "2026-11-13T08:00:00Z",
+     "source": "CryptoSlate",
      "summary": "",
      "lang": "en",
-     "new": false
+     "new": true
     },
     {
      "title": "NY Times Accuses Brave Of Scraping And Exploiting Content",
@@ -3516,7 +3461,7 @@
      "url": "https://github.com/brave/brave-browser"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -3534,8 +3479,8 @@
    "category": "Navigateurs & vie privée",
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
-    "stars": 7821,
-    "pushed": "2026-11-27T08:36:43Z",
+    "stars": 7823,
+    "pushed": "2026-11-27T13:51:08Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -3660,6 +3605,49 @@
    "releases": [],
    "news": [
     {
+     "title": "SteamVR 2.19.4 : Valve chouchoute les joueurs Meta Quest et booste le streaming PC VR",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUV5SThJVmNHeUpCcnZMcHdNWWZ4VS0zZzNJS0dYRlRROGdBbThNU2c5eE00N0Z3WmVMMFVDZnVMbUFHX0hKeHFCVzVjVWR4RUlJVU5NSlFRM00yTkMtWUJCY1ZMdFBUNWpXSXlPZmEzc3QyVHZJVk1wdXUyVFIxX3cxZXVuSVc0bzdpUGZ1UmtZLU5keUdBRlE0TEg1OThwTkRxTWllcnZLT0ExZ2JXbGVBc0JTRWI1VUE?oc=5",
+     "date": "2026-11-27T11:06:48Z",
+     "source": "realite-virtuelle.com",
+     "summary": "",
+     "lang": "fr",
+     "also": [
+      {
+       "source": "realite-virtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0dzYXRoQno0MkNwMmxRR0xZNDAtMVJONHBRVjlPUERlRTZkUE5iNjMtUjRjRHlaT3UzWWlqMWRja0JleFdBTTFhOEZmbXNvWjRvNzNwQkMyRm4zSXRNbWZzQTNXdU9pSEtKelM2c2ZWeVFZZ1hZTWR5NFEtU2NRM1hpakRPNUpabnZqWFRzX1hBTjU1ejdlTUpDQnJYWGxEQ0VrRzJn?oc=5"
+      },
+      {
+       "source": "jeu.video",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5"
+      },
+      {
+       "source": "RealiteVirtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qSHd4cWZlT0hJMm1ueXNsaUFzYUlscUN0azJKMjRjcG5rUWVMWlp2eFFKdWdvZHdoNEp1c3NhR0dWTEozT0Mxc2lpQjBpVVk3d2RBeEVDX3k3bWVF?oc=5"
+      },
+      {
+       "source": "games.gg",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWIwRlJfa19jTUhSb1BvNEo0NzJBalp4bXNYM0twaVNBWTB3Z2pGZXhWTGQ1cjFLUGp0OUF2NWhobVd1em1jcDB6bmUwSTA2Q1NMUzdHQXcyZ2FrQkhLUHYydnZNczRQT3NqNmFzRnlUZHhWTWJ6eVNvTUs4SVFmbDUwM1lEdF9kXzRYSFdIQ3pEMDNfdkdaeHFFNF9mazluMVFBWA?oc=5"
+      },
+      {
+       "source": "realite-virtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU24wbWR3VTY4TjUzaDdIUG5iWVVTUUlPcENUSG96RmZLTjFxOTgzRjFvMkRoRmt1MTBHTUZhYjdtenVQRVFtVi1NRFFGeXhUYldVQV94VXNuM0V3VVBkSURZMXRNZXp0cUJaaF8xTjhKODMyX09sTEZ5dk85QlozazhGQVIxWGJWMVMyLXpJYU90eDNhRzNrOWVyZjZPVUJzbG1NSTdzS1pSMndOaWFkRWVPUGpVa0hCclNOczJyQi1Ha0E?oc=5"
+      },
+      {
+       "source": "pro-gamer.fr",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYldKMkNaMkhUU2dRZ3NJVFpoSnhQMmctYmNDMzd0aGpEeXBKTHNhUDYzSTd0NUMwWkl2cC1SczE4RktDeW1XODQ3Q29kRHRfVEU2VzYwMGdvX2s4eEN1LWQteVhlb1RLM0tnWFAwdHRjOHk3M1NUamVKNkdYeEU5QmdOMEhDeXlNaFVEeHc2NEVhZko2dVE?oc=5"
+      },
+      {
+       "source": "NeoTeo",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYk5tQnpMNGVKd2JKZTMydnlvZm5BYXNXX18xbW5uOVNMamo0WUI2cW52YWxIRzZsLWhhNlgxcUxFMUFRVFhPYkJRNWlNaDRNOTZ2UXYyMzhwdHhYbi1NNWtkV3BRNUNnUE9CaTE5eVJidUo2cFVCZFBYdi1ERkUyZjloUkVxZDhSTWc?oc=5"
+      },
+      {
+       "source": "RealiteVirtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR3ZnbkNmNkhtc0ExYXFOMzcyRmw1TDFPQVhJSVV5dmN0Vm1GS0lkZ19hNG1Dc2ZZNGNsLWE4YTN5OWp2ckZJZUZsY25xY1cxM1lQZldDaW4yaENpSlNxcG5ZTUdGVnUyb2lpdXg1SEFKbWk3X29iY2VDbkRvWEJZdFItQzhJT1ByeG82TXJ1b0RUSmxtYnE4QnVzSlYzRVhlUFdwNzFUX1BsOUxOZXJ5UVFGY3ZUS1ZhTTBCc3lUTXFnbkttR3YxZw?oc=5"
+      }
+     ],
+     "new": true
+    },
+    {
      "title": "Steam Deck : SteamOS 3.9.7 corrige le rétroéclairage en bêta",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeENXN3NCZ2lTcTVqUEVGRzFpMkl1MUV1S25LeGY0Wnc0T3pwN0pPRDljcDQ0UFZwNmR6OUxEYWJCdm9EMk1Rc0kzVVg0TE1OYTBxejBaMUZUSVpPbWtIRkdRSQ?oc=5",
      "date": "2026-11-27T07:28:15Z",
@@ -3696,50 +3684,41 @@
      "new": false
     },
     {
-     "title": "Steam Machine 512GB model drops reservation requirement",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CTHhkTUM5bXlKbnhFbnBuOURkNHJJNEltX1JRd3dTeHU0RFBMZy1kRnR6b2l4WXFJN19KakhqWXNLUWhramlqcGNwVVI0MkMzUjk3NlFSNmNUV0ZMbzA0cEtOTmFFLW9tVGtaYXNKVFlnSl8zSENOMGFfQQ?oc=5",
-     "date": "2026-11-22T12:30:17Z",
-     "source": "GameLuster",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "Casques VR : cette mise à jour Steam Link rend vos jeux plus beaux que jamais",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0dzYXRoQno0MkNwMmxRR0xZNDAtMVJONHBRVjlPUERlRTZkUE5iNjMtUjRjRHlaT3UzWWlqMWRja0JleFdBTTFhOEZmbXNvWjRvNzNwQkMyRm4zSXRNbWZzQTNXdU9pSEtKelM2c2ZWeVFZZ1hZTWR5NFEtU2NRM1hpakRPNUpabnZqWFRzX1hBTjU1ejdlTUpDQnJYWGxEQ0VrRzJn?oc=5",
-     "date": "2026-11-06T08:00:00Z",
-     "source": "realite-virtuelle.com",
+     "title": "Black Mesa : patch Anomalous Improvements et Steam Deck",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG9Lck1FRTd5anZPZHpsc0VuZFpsQlVHYmF4bXl2RlRhSlpycTg2emF0R19WX0phSURsd19WMkptSElxWGFfNE5MbkltVkIyZEhGa1BGRTF2RW9pY1l2dXFtM1RzQ1Jkc0FtSzduTTVOSTlnUHVQOGxWQmVha1hvU3U5R29JRnowMTNRWE41TmZJOHFDSWZCTmMwc055YWJRWFVv?oc=5",
+     "date": "2026-11-17T09:00:57Z",
+     "source": "pro-gamer.fr",
      "summary": "",
      "lang": "fr",
      "also": [
       {
-       "source": "jeu.video",
-       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5"
-      },
-      {
-       "source": "RealiteVirtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qSHd4cWZlT0hJMm1ueXNsaUFzYUlscUN0azJKMjRjcG5rUWVMWlp2eFFKdWdvZHdoNEp1c3NhR0dWTEozT0Mxc2lpQjBpVVk3d2RBeEVDX3k3bWVF?oc=5"
-      },
-      {
        "source": "NeoTeo",
-       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYk5tQnpMNGVKd2JKZTMydnlvZm5BYXNXX18xbW5uOVNMamo0WUI2cW52YWxIRzZsLWhhNlgxcUxFMUFRVFhPYkJRNWlNaDRNOTZ2UXYyMzhwdHhYbi1NNWtkV3BRNUNnUE9CaTE5eVJidUo2cFVCZFBYdi1ERkUyZjloUkVxZDhSTWc?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYlpUOG96OXZKSjJYRFZDZjBUMGRrUVhnT1pfbEZ0Sm9YQkk4cFlJYzFaeEZaVGNLWFNQWWp5dnR2UG90MmVid1lqdjA4UnI3d3dRaGdDZFc0R19ZNTdVc2phZ2hBZTY3QUNBREd3SUVLUXY0WUZTdGxsTDYyY1p0cl9nR0d2UGM?oc=5"
       },
       {
-       "source": "RealiteVirtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR3ZnbkNmNkhtc0ExYXFOMzcyRmw1TDFPQVhJSVV5dmN0Vm1GS0lkZ19hNG1Dc2ZZNGNsLWE4YTN5OWp2ckZJZUZsY25xY1cxM1lQZldDaW4yaENpSlNxcG5ZTUdGVnUyb2lpdXg1SEFKbWk3X29iY2VDbkRvWEJZdFItQzhJT1ByeG82TXJ1b0RUSmxtYnE4QnVzSlYzRVhlUFdwNzFUX1BsOUxOZXJ5UVFGY3ZUS1ZhTTBCc3lUTXFnbkttR3YxZw?oc=5"
+       "source": "jeu.video",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tbnhVbW5nc1oxWlNDandmeFdSai1Ib05xUktLSGttUE9uN2t0YWNTMXB4SFBxLXBLcTdmdm43eDVlQmNvN29HZVlNNmZUaEJVMl9UckpWZ0dBVzJjRkY5d1VRZEhUN3Qt?oc=5"
+      },
+      {
+       "source": "jeu.video",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0taERzaWw2SE0yLTJKOFRXQk1SQWNUN0MtLS1GN2dOdXU0dWhMTXdldEloUVdLUXZzQkE0UjRaM3NhN25fRjRDVmVzNkRheHktRzJBMzFFTjJodmxhbkZHTHRXZw?oc=5"
+      },
+      {
+       "source": "games.gg",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3lLYXp6TThMLVByeFNXeGs4NEx5NTYwbnliVmltWExUQjdHb05xTnJPRVAzdk0zVkJZNkpUd3JkVDVuQVR5OGcxcngwNnZDZ2hzY3NERzUxZTBkZEpReE1aZngzenU2Qm9DMEJxSnAzSDdpa0hIX2tfNjBEdE1QZ01NMXNZaWhlbms1Mk1INWVrVEVHUUlmeDFiOG1sRjRzN0w4LVlmVk5qdw?oc=5"
       }
      ],
      "new": false
     }
    ],
-   "news_count": 10,
+   "news_count": 14,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://store.steampowered.com/news/collection/steam"
     }
    ],
-   "new_count": 1,
+   "new_count": 2,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -3814,8 +3793,8 @@
   "cves_affecting": 1,
   "exploited": 4,
   "cves_critical": 18,
-  "news": 71,
-  "new": 5,
+  "news": 72,
+  "new": 12,
   "releases_week": 9
  },
  "history": {
@@ -4471,6 +4450,16 @@
   "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1qUUhlb2tZdVAtR1pOVkw5TnpDUWI4ekExajJKMzVpa2FvVUYxcmlEUk9QOEZBTHYtdGduUU0tdmx3TW1kVGRTSGF5M0lCQjhPc2RnMWJlSDg1RXd5Qnd2RWswUmE0VU5PSEJKc2tKYlBaNGFMN2p3RE9sQ0p0edIBhgFBVV95cUxQdE9WRVloX0Yxdl9HekhVbWlWdUg5R0VRWjZGcGY5c3RFUTdOZmVySmlHSGtxMVhfeEZnRnFLeUROZVlDTzRBbnFvZksxSVVvVHVBcnpiMVVoNzlRLWVqczJQSEtlTEt6cUxJSmNHZEJiR0dLOWgtUy1hRDFfcjZZanVtR2pRUQ?oc=5": "2026-11-27",
   "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSmItU3BkVnFTU3VVaGNrWXZ5VUdvR1N4QTNLZVRSZ3ZsbERMYXFkV2dCb1JFbjgwUUpqTkVUMkYtb2NwX1hTQTV3SHVMcFlkdThyQkdaS0E0NWtBamEteDNfWWtVUGstOTFxb094Qmo1dk40?oc=5": "2026-11-27",
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTS03UFVMcVpYSmxNTl9TX2gtZ3ZsT1VFek5XaGI4X09yRHlkX3hlVHhpZ2VudlFjVHBDT3FkUm9uVUxHQy13cUdoUEJBWUZQQl9QLUQtNzhoSnpMX09DcGJ1Y19VS0xSczR3LWJnQlE5X2p1a1pvZHBFVHhKUU9SRW9kZDRFU2JsRWhiNEs4U0hxY3hqbDZGX2s0U0FiS0U?oc=5": "2026-11-27",
-  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeENXN3NCZ2lTcTVqUEVGRzFpMkl1MUV1S25LeGY0Wnc0T3pwN0pPRDljcDQ0UFZwNmR6OUxEYWJCdm9EMk1Rc0kzVVg0TE1OYTBxejBaMUZUSVpPbWtIRkdRSQ?oc=5": "2026-11-27"
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeENXN3NCZ2lTcTVqUEVGRzFpMkl1MUV1S25LeGY0Wnc0T3pwN0pPRDljcDQ0UFZwNmR6OUxEYWJCdm9EMk1Rc0kzVVg0TE1OYTBxejBaMUZUSVpPbWtIRkdRSQ?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVzkwOWh0V2IzSjJaOEVlU21GM3VGWk9wQ1d5X0VGem5wWHZaOVJLeHJ1RW5aZDNGT0FmUlloYVVudEpxamdTSEtnUjdnWUl6czBJOEZSc2c3VWNUbm16QXJzQndPbl8yaU5EbVQwUFdqMFpTM3ZBQzV1b1ViRDZaRFE0MFBZRWlhWjhxeERXOGhLX1ViWkF3ckpaMGJ4R0RjMUpyaUl3a05pRmRHWk1vRFljNHMwY1JwaWfSAb8BQVVfeXFMT1Y2UWRrcXk4Ukp6dDNLbWluLWFOd1d0QVFKeE5aYWJ2TXEtLUtackdneXRQQ0lyaWpWRExzbUR0WlNZckVfX2FSSDRtNXQ5ZmdvLTk2X19acjNDcUo4RHQ5dlBVYk00WjJBa3JkSUdQREltTVc4dE9qdXM0V2JBbS04cXRNbm1VdW9MdDd2STVhQWR6c3ZrSS0tZEkxR0lWTXNqM1ZITmZjZ3h0ejdzOGhteWdaWEg1Mng0bWhNQzQ?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNITHY1MmpOZmViR1c2ZGRVUmRVam9XV0NmOWhvVzBuWDlBUXRac3VsRnRSY0xlWDZrTzYxbVltbnFwQTI2TnJRQ1ZoOVNFZEFwa2dzSEhlS1MxMzlXX1Axa3U1QmhldjRfWk55OGJyWGpEUzhDVmtNaUl1OVVFX1A4NHhzWThqaXQyM2xDczJkbWdKQ3oxR3prbGNoVXdNM3czTFo3S1NFanhHelJPaGFvM1ZxQQ?oc=5": "2026-11-27",
+  "https://korben.info/obsidian-skills-agents-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSy1nVVFoY0NzcUYxNzZPVlF4LWoxQW92YUVPNzdCMGpQdHZiYlNRVnkwdEtXYnRIcnhESEw0bnFTdU1EcjcxR0k5TkdMS2dLa242dl9OT1JGTTRNUVVocG5HbDdPR0RCdHI4eVd5bEhKM2hVRzRWU1FVV09ZVDJzaUl1c1NmTm9IcERWeWRDRkxVeUpvVDhEUWV4ZU1DOFZSYjN0SUVOMldUSWhvRHotWVRR?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQXpVbTRvV3M1Nm9xdzRyX293NEU2ajY0c0NRLW9IXzZNaWZPWUFmUG5zR3ZqZE5rYXlrZVNvZk90QXNnNDlyOEJMbUFBMzI2YURNS2I2WmdBQU1McEV3b2VkNHY5QXdTRm1TVXhjOU5pZW9hZFBFXzJ0UW03d1o0OU9YS29EODB2YlFWNGxNbw?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4MEpMcy01ZHZfVC1LeXo2cE1iVjBTbEE3eXdTMjhvQkpIbzlqSm9VQU0zdTl4elJtamFBMUNFV1hudFFncTB2OHAtV29sb2x2X3BQU2RQd0RYNFl0blBOR08yRVNBWUhO0gFuQVVfeXFMTUw3Wk9VWnhGR0JkOTdEVlVxUk1Wd2VjNDBkMFBNSVZ4SWFWaGZmd045bW1PX3owZ1dPOFZmWXFmQzI4X2loTzZfX2hXT3NRRDZ0aWNKY2xnWUNEb040anpJbjdXa0NCQnc4SWROM0E?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0VRR3BGYXJUQ3k1SnVDS1p1ZVoxYzVQY2NTb0Z2Q0hqaklHVnVCMWt0dXlTZ2lRVlBleVNMeENGX3B2cHdfS1ZfMTlXLWpPQWtEbVpVbTdoSXRrRkJ5RnBXOEgza1JsZTR4OFVqcHlobENYXy03YlpLU01EODlrZy1FNzJkUlROd0hQa1BpZi1TdTNsR2JxU3ZvX1dpd3dk?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzBMUXZOaDJuSURFNVk0RGdiamFOSU9kNVo5b1JoUFFtVF9TOU1pVWk4ZWxVYWgzQkNEUDg3VWF0ZG9NcWFSZXVQdkQ0N3pScmVIcTRlWlFtUk53RHJueFRuelAyMnVpelNORmNUc2lBMXhCVEJ6Y2hrNGhFRm1oMDYwMWl0TG9lSndUMm1HcGdsN0FuMUhkb3VSWURqaGRidXhsRXJmVk5zWXlCTUlkYVB1MHpYQllVdFhQOGwyaw?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UOEpiNnM2bUxUZzJDT3BzcGFtSGZRckowRmxSSVBUUnBZT2dlMUxPWjdpa25EYWpiNnZtWm56M0pnVVgwUjNqd1RSVWE4Y1dGSDN2WnBUbw?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUV5SThJVmNHeUpCcnZMcHdNWWZ4VS0zZzNJS0dYRlRROGdBbThNU2c5eE00N0Z3WmVMMFVDZnVMbUFHX0hKeHFCVzVjVWR4RUlJVU5NSlFRM00yTkMtWUJCY1ZMdFBUNWpXSXlPZmEzc3QyVHZJVk1wdXUyVFIxX3cxZXVuSVc0bzdpUGZ1UmtZLU5keUdBRlE0TEg1OThwTkRxTWllcnZLT0ExZ2JXbGVBc0JTRWI1VUE?oc=5": "2026-11-27"
  }
 }
