@@ -1,7 +1,119 @@
 {
- "generated_at": "2026-11-27T13:52:36Z",
+ "generated_at": "2026-11-27T19:09:34Z",
  "threats": {
   "posts": [
+   {
+    "title": "Brit Ltd / Brit Insurance (britinsurance.com)",
+    "group": "inc ransom",
+    "date": "2026-11-27T17:26:22Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/post/?id=bd59a418-daad-4af4-8b6f-bbbfeef6b368",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "Friedl Richardson",
+    "group": "the gentlemen",
+    "date": "2026-11-27T17:24:19Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/group/the%20gentlemen",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "Ferrometalco (FMC)",
+    "group": "soul",
+    "date": "2026-11-27T16:27:27Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/group/soul",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "US CNC Machine Company",
+    "group": "soul",
+    "date": "2026-11-27T16:27:26Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/group/soul",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "rogers-group",
+    "group": "iah647",
+    "date": "2026-11-27T16:27:01Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/rogers-group/",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "blackstone-consulting",
+    "group": "iah647",
+    "date": "2026-11-27T16:27:00Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/blackstone-consulting/",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "supplyone",
+    "group": "iah647",
+    "date": "2026-11-27T16:26:59Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/supplyone/",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "MedMira Inc",
+    "group": "deadlock",
+    "date": "2026-11-27T16:26:56Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/group/deadlock",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "resers",
+    "group": "iah647",
+    "date": "2026-11-27T15:16:17Z",
+    "country": null,
+    "sector": null,
+    "url": "https://www.ransomlook.io/a/resers/",
+    "france": false,
+    "source": "RansomLook"
+   },
+   {
+    "title": "Ferrometalco (FMC)",
+    "group": "SoulGroup",
+    "date": "2026-11-27T14:58:55Z",
+    "country": "CO",
+    "sector": "Manufacturing",
+    "domain": "ferrometalco.com",
+    "url": "https://www.ransomware.live/id/RmVycm9tZXRhbGNvIChGTUMpQFNvdWxHcm91cA==",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
+    "title": "US CNC Machine Company",
+    "group": "SoulGroup",
+    "date": "2026-11-27T14:58:16Z",
+    "country": "US",
+    "sector": "Manufacturing",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/VVMgQ05DIE1hY2hpbmUgQ29tcGFueUBTb3VsR3JvdXA=",
+    "france": false,
+    "source": "ransomware.live"
+   },
    {
     "title": "avispl",
     "group": "iah647",
@@ -13,14 +125,48 @@
     "source": "RansomLook"
    },
    {
+    "title": "avispl",
+    "group": "iah6477",
+    "date": "2026-11-27T14:13:22Z",
+    "country": "US",
+    "sector": "Technology",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/YXZpc3BsQGlhaDY0Nzc=",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
+    "title": "resers",
+    "group": "iah6477",
+    "date": "2026-11-27T14:12:55Z",
+    "country": null,
+    "sector": "Agriculture and Food Production",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/cmVzZXJzQGlhaDY0Nzc=",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
+    "title": "RHRS Law Firm",
+    "group": "Barracuda",
+    "date": "2026-11-27T13:50:52Z",
+    "country": null,
+    "sector": "Professional Services",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/UkhSUyBMYXcgRmlybUBCYXJyYWN1ZGE=",
+    "france": false,
+    "source": "ransomware.live"
+   },
+   {
     "title": "VC ERP Consulting Pvt. Ltd.",
     "group": "rhysida",
-    "date": "2026-11-27T11:17:17Z",
-    "country": null,
-    "sector": null,
-    "url": "archive.php?company=319",
+    "date": "2026-11-27T11:32:52Z",
+    "country": "IN",
+    "sector": "Professional Services",
+    "domain": "",
+    "url": "https://www.ransomware.live/id/VkMgRVJQIENvbnN1bHRpbmcgUHZ0LiBMdGQuQHJoeXNpZGE=",
     "france": false,
-    "source": "RansomLook"
+    "source": "ransomware.live"
    },
    {
     "title": "NetX Inc.",
@@ -170,162 +316,11 @@
     "url": "https://www.ransomware.live/id/TW9ub2xpdGhpYyBQb3dlciBTeXN0ZW1zIChOQVNEQVE6IE1QV1IsIG1wcy5jb20pQFBpeGVsTGVha3M=",
     "france": false,
     "source": "ransomware.live"
-   },
-   {
-    "title": "Keyes Financial Strategies Inc.",
-    "group": "PixelLeaks",
-    "date": "2026-11-26T23:31:41Z",
-    "country": null,
-    "sector": "Financial Services",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/S2V5ZXMgRmluYW5jaWFsIFN0cmF0ZWdpZXMgSW5jLkBQaXhlbExlYWtz",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "The Law Firm of Kavesh, Minor & Otis, Inc.",
-    "group": "PixelLeaks",
-    "date": "2026-11-26T23:31:21Z",
-    "country": "CA",
-    "sector": "Professional Services",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/VGhlIExhdyBGaXJtIG9mIEthdmVzaCwgTWlub3IgJiBPdGlzLCBJbmMuQFBpeGVsTGVha3M=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "MHC Financial Inc",
-    "group": "PixelLeaks",
-    "date": "2026-11-26T23:31:01Z",
-    "country": "US",
-    "sector": "Financial Services",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/TUhDIEZpbmFuY2lhbCBJbmNAUGl4ZWxMZWFrcw==",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "LockeBridge Capital Partners",
-    "group": "PixelLeaks",
-    "date": "2026-11-26T23:30:41Z",
-    "country": null,
-    "sector": "Financial Services",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/TG9ja2VCcmlkZ2UgQ2FwaXRhbCBQYXJ0bmVyc0BQaXhlbExlYWtz",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "babaiai",
-    "group": "medusalocker",
-    "date": "2026-11-26T22:54:41Z",
-    "country": null,
-    "sector": "Technology",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/YmFiYWlhaUBtZWR1c2Fsb2NrZXI=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "FYE",
-    "group": "anubis",
-    "date": "2026-11-26T21:22:20Z",
-    "country": "US",
-    "sector": "Retail & E-Commerce",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/RllFQGFudWJpcw==",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "SynCardia Systems",
-    "group": "the gentlemen",
-    "date": "2026-11-26T21:12:32Z",
-    "country": null,
-    "sector": null,
-    "url": "https://www.ransomlook.io/group/the%20gentlemen",
-    "france": false,
-    "source": "RansomLook"
-   },
-   {
-    "title": "Aptean",
-    "group": "the gentlemen",
-    "date": "2026-11-26T21:00:42Z",
-    "country": null,
-    "sector": null,
-    "url": "https://www.ransomlook.io/group/the%20gentlemen",
-    "france": false,
-    "source": "RansomLook"
-   },
-   {
-    "title": "GoDaddy",
-    "group": "Inception",
-    "date": "2026-11-26T18:22:01Z",
-    "country": "US",
-    "sector": "Technology",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/R29EYWRkeUBJbmNlcHRpb24=",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "HealthMetrics Sdn Bhd",
-    "group": "orova",
-    "date": "2026-11-26T16:23:40Z",
-    "country": null,
-    "sector": null,
-    "url": "https://www.ransomlook.io/group/orova",
-    "france": false,
-    "source": "RansomLook"
-   },
-   {
-    "title": "Sweet Darling Sales",
-    "group": "qilin",
-    "date": "2026-11-26T16:20:17Z",
-    "country": "US",
-    "sector": "Retail & E-Commerce",
-    "domain": "www.sweetdarling.com",
-    "url": "https://www.ransomware.live/id/U3dlZXQgRGFybGluZyBTYWxlc0BxaWxpbg==",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Arlberger Bergbahnen AG",
-    "group": "aurora",
-    "date": "2026-11-26T15:55:38Z",
-    "country": "AT",
-    "sector": "Hospitality",
-    "domain": "Arlberger Bergbahnen AG",
-    "url": "https://www.ransomware.live/id/QXJsYmVyZ2VyIEJlcmdiYWhuZW4gQUdAYXVyb3Jh",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "AIM Consulting SA",
-    "group": "aurora",
-    "date": "2026-11-26T15:54:52Z",
-    "country": null,
-    "sector": "Professional Services",
-    "domain": "AIM Consulting SA",
-    "url": "https://www.ransomware.live/id/QUlNIENvbnN1bHRpbmcgU0FAYXVyb3Jh",
-    "france": false,
-    "source": "ransomware.live"
-   },
-   {
-    "title": "Paramount",
-    "group": "Inception",
-    "date": "2026-11-26T15:24:01Z",
-    "country": "US",
-    "sector": "Other",
-    "domain": "",
-    "url": "https://www.ransomware.live/id/UGFyYW1vdW50QEluY2VwdGlvbg==",
-    "france": false,
-    "source": "ransomware.live"
    }
   ],
-  "week_total": 141,
+  "week_total": 149,
   "week_capped": false,
-  "sample": 141,
+  "sample": 149,
   "groups": [
    {
     "name": "n0n",
@@ -336,12 +331,12 @@
     "count": 12
    },
    {
-    "name": "silentransomgroup",
-    "count": 8
-   },
-   {
     "name": "rhysida",
     "count": 7
+   },
+   {
+    "name": "iah647",
+    "count": 6
    },
    {
     "name": "inception",
@@ -356,7 +351,7 @@
     "count": 6
    },
    {
-    "name": "qilin",
+    "name": "the gentlemen",
     "count": 5
    }
   ],
@@ -367,6 +362,24 @@
    "ransomware.live"
   ],
   "news": [
+   {
+    "title": "pCloud confirme une cyberattaque contre son gestionnaire de mots de passe",
+    "url": "https://www.cyberattaque.org/pcloud-confirme-une-cyberattaque-contre-son-gestionnaire-de-mots-de-passe/",
+    "date": "2026-11-27T15:06:23Z",
+    "source": "Cyberattaque.org",
+    "summary": "pCloud, le spécialiste suisse du stockage en ligne qui revendique plus de 24 millions d’utilisateurs dans le monde,... L’article pCloud confirme une cyberattaque contre son gestionnaire de mots de passe est apparu en…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Infflux : le géant français des logiciels de logistique visé par un ransomware",
+    "url": "https://www.cyberattaque.org/cyberattaque-infflux-bext-ws-ransomware/",
+    "date": "2026-11-27T14:04:46Z",
+    "source": "Cyberattaque.org",
+    "summary": "Infflux, l’un des principaux éditeurs français de logiciels de gestion logistique, figure désormais parmi les victimes revendiquées par... L’article Infflux : le géant français des logiciels de logistique visé par un…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
    {
     "title": "ParuVendu : une cyberattaque expose les coordonnées et l’historique d’activité de ses utilisateurs",
     "url": "https://www.cyberattaque.org/paruvendu-une-cyberattaque-expose-les-coordonnees-et-lhistorique-dactivite-de-ses-utilisateurs/",
@@ -395,115 +408,135 @@
     "ref_kind": "cyber"
    },
    {
-    "title": "L’AFP frappée par une cyberattaque : son portail d’information mis hors service",
-    "url": "https://www.cyberattaque.org/cyberattaque-afp-agence-france-presse/",
-    "date": "2026-11-26T22:37:19Z",
-    "source": "Cyberattaque.org",
-    "summary": "L’Agence France-Presse (AFP), l’une des trois plus grandes agences de presse au monde, confirme avoir été victime d’une... L’article L’AFP frappée par une cyberattaque : son portail d’information mis hors service est…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Cyberattaque chez Interservices : des milliers de personnes touchées par une fuite de données",
-    "url": "https://www.cyberattaque.org/cyberattaque-chez-interservices-des-milliers-de-personnes-touchees-par-une-fuite-de-donnees/",
-    "date": "2026-11-26T21:29:19Z",
-    "source": "Cyberattaque.org",
-    "summary": "Interservices, l’une des principales coopératives françaises de services à la personne, confirme être victime d’une cyberattaque ayant potentiellement... L’article Cyberattaque chez Interservices : des milliers de…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Pagès : une cyberattaque expose les données clients et menace les paiements en ligne",
-    "url": "https://www.cyberattaque.org/pages-une-cyberattaque-expose-les-donnees-clients-et-menace-les-paiements-en-ligne/",
-    "date": "2026-11-26T21:04:02Z",
-    "source": "Cyberattaque.org",
-    "summary": "Pagès, la célèbre maison française de thés et d’infusions, confirme une cyberattaque ayant touché sa boutique en ligne... L’article Pagès : une cyberattaque expose les données clients et menace les paiements en ligne…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Buffalo Grill : la cyberattaque chez Brevo pousse l’enseigne à alerter tous ses clients",
-    "url": "https://www.cyberattaque.org/buffalo-grill-la-cyberattaque-chez-brevo-pousse-lenseigne-a-alerter-tous-ses-clients/",
-    "date": "2026-11-26T20:30:10Z",
-    "source": "Cyberattaque.org",
-    "summary": "Buffalo Grill confirme un incident de sécurité ayant exposé des données personnelles de clients à la suite d’un... L’article Buffalo Grill : la cyberattaque chez Brevo pousse l’enseigne à alerter tous ses clients est…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Cyberattaque chez OPCO EP : l’organisme qui accompagne 442 700 entreprises françaises suspend ses services",
-    "url": "https://www.cyberattaque.org/cyberattaque-chez-opco-ep-lorganisme-qui-accompagne-442-700-entreprises-francaises-suspend-ses-services/",
-    "date": "2026-11-26T12:43:37Z",
-    "source": "Cyberattaque.org",
-    "summary": "OPCO EP, l’un des principaux acteurs du financement de la formation professionnelle et de l’apprentissage en France, confirme... L’article Cyberattaque chez OPCO EP : l’organisme qui accompagne 442 700 entreprises…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Todoist : une cyberattaque expose les données de milliers d’utilisateurs",
-    "url": "https://www.cyberattaque.org/todoist-une-cyberattaque-expose-les-donnees-de-milliers-dutilisateurs/",
-    "date": "2026-11-26T11:14:01Z",
-    "source": "Cyberattaque.org",
-    "summary": "Todoist confirme une cyberattaque ayant permis à un pirate de pénétrer dans ses infrastructures informatiques et de voler... L’article Todoist : une cyberattaque expose les données de milliers d’utilisateurs est apparu…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "La FIFA confirme une cyberattaque : plus de 12 Go de documents confidentiels revendiqués",
-    "url": "https://www.cyberattaque.org/la-fifa-confirme-une-cyberattaque-plus-de-12-go-de-documents-confidentiels-revendiques/",
-    "date": "2026-11-26T08:26:45Z",
-    "source": "Cyberattaque.org",
-    "summary": "La Fédération internationale de football association (FIFA) a confirmé, le 25 novembre 2026, avoir été victime d’une cyberattaque... L’article La FIFA confirme une cyberattaque : plus de 12 Go de documents…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "2 milliards d’identifiants exposés : un chercheur découvre une fuite de données sans précédent",
-    "url": "https://www.cyberattaque.org/2-milliards-identifiants-exposes-un-chercheur-decouvre-une-fuite-de-donnees-sans-precedent/",
-    "date": "2026-11-26T07:08:55Z",
-    "source": "Cyberattaque.org",
-    "summary": "Près de deux milliards d’identifiants ont été découverts dans une gigantesque base de données accessible librement sur Internet,... L’article 2 milliards d’identifiants exposés : un chercheur découvre une fuite de…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Alexandre de Paris : 90 000 emails et 21 000 mots de passe en fuite",
-    "url": "https://www.cyberattaque.org/cyberattque-alexandre-de-paris-90-000-emails-et-21-000-mots-de-passe-en-fuite/",
-    "date": "2026-11-26T04:59:22Z",
-    "source": "Cyberattaque.org",
-    "summary": "Alexandre de Paris, maison française d’accessoires de luxe pour cheveux, est visée par une importante fuite de données... L’article Alexandre de Paris : 90 000 emails et 21 000 mots de passe en fuite est apparu en…",
-    "reference": true,
-    "ref_kind": "cyber"
-   },
-   {
-    "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
-    "date": "2026-11-26T00:00:00Z",
+    "title": "Multiples vulnérabilités dans Xen (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1631/",
+    "date": "2026-11-27T00:00:00Z",
     "source": "CERT-FR",
-    "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité…",
     "reference": true,
     "ref_kind": "cyber"
    },
    {
-    "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
-    "date": "2026-11-26T00:00:00Z",
+    "title": "Multiples vulnérabilités dans les produits IBM (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1640/",
+    "date": "2026-11-27T00:00:00Z",
     "source": "CERT-FR",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un…",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
     "reference": true,
     "ref_kind": "cyber"
    },
    {
-    "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
-    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
-    "date": "2026-11-26T00:00:00Z",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+    "date": "2026-11-27T00:00:00Z",
     "source": "CERT-FR",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans FreeRADIUS (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1632/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans FreeRADIUS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1636/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1630/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM et DSM Enterprise. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans MongoDB (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1633/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1637/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
+    "reference": true,
+    "ref_kind": "cyber"
+   },
+   {
+    "title": "Multiples vulnérabilités dans SPIP (27 novembre 2026)",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1635/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "CERT-FR",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et…",
     "reference": true,
     "ref_kind": "cyber"
    }
   ],
   "kev": [
+   {
+    "id": "CVE-2026-120705",
+    "vendor": "OSGeo",
+    "product": "GeoServer",
+    "name": "OSGeo GeoServer XML Injection Vulnerability",
+    "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a…",
+    "added": "2026-11-27",
+    "due": "2026-11-30",
+    "ransomware": false,
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+    "tech": null
+   },
+   {
+    "id": "CVE-2026-129243",
+    "vendor": "OSGeo",
+    "product": "GeoServer",
+    "name": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+    "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service…",
+    "added": "2026-11-27",
+    "due": "2026-11-30",
+    "ransomware": false,
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+    "tech": null
+   },
+   {
+    "id": "CVE-2026-136716",
+    "vendor": "Drupal",
+    "product": "Core",
+    "name": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+    "summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual…",
+    "added": "2026-11-27",
+    "due": "2026-11-30",
+    "ransomware": false,
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+    "epss": 0.01212,
+    "percentile": 0.68449,
+    "tech": null
+   },
    {
     "id": "CVE-2026-103406",
     "vendor": "Hewlett Packard Enterprise (HPE)",
@@ -515,7 +548,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
     "epss": 0.01535,
-    "percentile": 0.75157,
+    "percentile": 0.75183,
     "tech": null
    },
    {
@@ -529,7 +562,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
     "epss": 0.31768,
-    "percentile": 0.987,
+    "percentile": 0.98701,
     "tech": null
    },
    {
@@ -543,7 +576,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
     "epss": 0.04271,
-    "percentile": 0.91857,
+    "percentile": 0.91866,
     "tech": null
    },
    {
@@ -557,7 +590,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
     "epss": 0.01845,
-    "percentile": 0.79569,
+    "percentile": 0.79594,
     "tech": null
    },
    {
@@ -571,7 +604,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
     "epss": 0.02485,
-    "percentile": 0.85331,
+    "percentile": 0.85348,
     "tech": null
    },
    {
@@ -585,7 +618,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
     "epss": 0.00832,
-    "percentile": 0.54808,
+    "percentile": 0.54848,
     "tech": null
    },
    {
@@ -599,7 +632,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
     "epss": 0.00771,
-    "percentile": 0.52058,
+    "percentile": 0.52094,
     "tech": null
    },
    {
@@ -613,7 +646,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
     "epss": 0.00985,
-    "percentile": 0.61187,
+    "percentile": 0.6122,
     "tech": null
    },
    {
@@ -627,7 +660,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
     "epss": 0.01326,
-    "percentile": 0.71078,
+    "percentile": 0.71112,
     "tech": null
    },
    {
@@ -641,7 +674,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
     "epss": 0.05628,
-    "percentile": 0.93713,
+    "percentile": 0.9372,
     "tech": null
    },
    {
@@ -655,7 +688,7 @@
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
     "epss": 0.01055,
-    "percentile": 0.63822,
+    "percentile": 0.63854,
     "tech": null
    },
    {
@@ -668,50 +701,8 @@
     "due": "2026-11-27",
     "ransomware": false,
     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
-    "epss": 0.04292,
-    "percentile": 0.91897,
-    "tech": null
-   },
-   {
-    "id": "CVE-2026-132165",
-    "vendor": "Drupal",
-    "product": "Core",
-    "name": "Drupal Core Remote Code Execution Vulnerability",
-    "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use…",
-    "added": "2026-11-24",
-    "due": "2026-11-27",
-    "ransomware": false,
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-    "epss": 0.11053,
-    "percentile": 0.96627,
-    "tech": null
-   },
-   {
-    "id": "CVE-2026-133968",
-    "vendor": "Project MONAI",
-    "product": "MONAI Label",
-    "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
-    "summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
-    "added": "2026-11-23",
-    "due": "2026-11-26",
-    "ransomware": false,
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
-    "epss": 0.27157,
-    "percentile": 0.98498,
-    "tech": null
-   },
-   {
-    "id": "CVE-2026-134624",
-    "vendor": "N-able",
-    "product": "MailAssure",
-    "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-    "summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are…",
-    "added": "2026-11-23",
-    "due": "2026-11-26",
-    "ransomware": false,
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-    "epss": 0.01793,
-    "percentile": 0.78906,
+    "epss": 0.04238,
+    "percentile": 0.91803,
     "tech": null
    }
   ]
@@ -730,15 +721,6 @@
    "releases": [],
    "news": [
     {
-     "title": "«On doit parler aux jeunes avec leur code» : l’Armée de Terre se lance sur Discord pour recruter",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVzkwOWh0V2IzSjJaOEVlU21GM3VGWk9wQ1d5X0VGem5wWHZaOVJLeHJ1RW5aZDNGT0FmUlloYVVudEpxamdTSEtnUjdnWUl6czBJOEZSc2c3VWNUbm16QXJzQndPbl8yaU5EbVQwUFdqMFpTM3ZBQzV1b1ViRDZaRFE0MFBZRWlhWjhxeERXOGhLX1ViWkF3ckpaMGJ4R0RjMUpyaUl3a05pRmRHWk1vRFljNHMwY1JwaWfSAb8BQVVfeXFMT1Y2UWRrcXk4Ukp6dDNLbWluLWFOd1d0QVFKeE5aYWJ2TXEtLUtackdneXRQQ0lyaWpWRExzbUR0WlNZckVfX2FSSDRtNXQ5ZmdvLTk2X19acjNDcUo4RHQ5dlBVYk00WjJBa3JkSUdQREltTVc4dE9qdXM0V2JBbS04cXRNbm1VdW9MdDd2STVhQWR6c3ZrSS0tZEkxR0lWTXNqM1ZITmZjZ3h0ejdzOGhteWdaWEg1Mng0bWhNQzQ?oc=5",
-     "date": "2026-11-26T06:17:05Z",
-     "source": "CNews",
-     "summary": "",
-     "lang": "fr",
-     "new": true
-    },
-    {
      "title": "McDonald's débarque sur Discord pour livrer des burgers aux joueurs en pleine partie",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNITHY1MmpOZmViR1c2ZGRVUmRVam9XV0NmOWhvVzBuWDlBUXRac3VsRnRSY0xlWDZrTzYxbVltbnFwQTI2TnJRQ1ZoOVNFZEFwa2dzSEhlS1MxMzlXX1Axa3U1QmhldjRfWk55OGJyWGpEUzhDVmtNaUl1OVVFX1A4NHhzWThqaXQyM2xDczJkbWdKQ3oxR3prbGNoVXdNM3czTFo3S1NFanhHelJPaGFvM1ZxQQ?oc=5",
      "date": "2026-11-21T08:02:00Z",
@@ -746,6 +728,21 @@
      "summary": "",
      "lang": "fr",
      "new": true
+    },
+    {
+     "title": "L’aventure commence dans World of Warcraft: Forever, gardez le contact sur Discord et voyez Taldramir prendre forme dans le résumé hebdomadaire de World of Warcraft",
+     "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxPZG00RUl3NWlKNWtWSWhheEY5ajZFMWtxNGRPOFIxV2lNeGtuUkJuMDVuc05hcDZRQjhxQWxEa2tIeV9jZXJYT1lWVkNFLTdubkhZVzFnZDFlM3hEcXUyazJiaDVhZkx6aTNYbHFuUDNNSE5RWU5ySDdxeFB5ekdPd0FlVmRrR3hRdGM2UWpEUWxVRUZnMFFwQkVBWUV4X0JESWZqallRTEpUV2JEQVdBcS1lMktlb3UtTGtfd0tDUm9pb1JPSU1lY3hSZVh3dW1RaHBWUkxIbEZnOUt4TzFOX0RBR1VqVmpzNmVtREpxbWRuMWtvdGc1M0otSzUyc242WlUtcV9ENWlWUWthYzIzV3ZCWTZJRmxhMDJfaTlWVW5MTGU3MVZTc19ZRGpkX21oQmpWdjVjMndQUEtrZk5GRzNsWDdiSmJMRmh6RG9vVU9tVmxxeTVocE03aVRNbkZRbVdfSjAxU2hyY3ZGSDhUQ1MyZFhZc29NcUJBazBKaDV3YUM3c1pndkREM1BBeWdscm5WZjY5TzVzeV9LMkM0TnNBQ3BpTVNkOUgwSlBpbW5YcEptMzl1b3FwN0JscGVnYVJIZlA2QXh6MGZYbm5mQUU2Ry1qaHNVRUpzZnlaVEVFT3RVLXpScnl0SmNmX3RxWnBnaEhvcXprSDRubllMXzNtQlY5V01YUHc2SWRZYnBhcTd2NnFQbEtlekNMZGs2UHNHRkZ2S0xHQ05YRlN6S3YxaVdFakJ4aWF0akh5MHM3dU1zaEFfd0UxQ3FjRDdhaklNQXdBbUhndTUwNm9ZUm92OC1YYm0wNm1KbUJhOWM5SmI3dVlJ?oc=5",
+     "date": "2026-11-06T18:10:00Z",
+     "source": "World of Warcraft",
+     "summary": "",
+     "lang": "fr",
+     "also": [
+      {
+       "source": "Blizzard",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ29QNDhuampZWEhiTkRfM2M1SlBuamRzZ212SEprQ2RKcUtOcmZNd2FGdFhrZE4tSzRidkc2dWQtR3JqQnNSYXlFMUpIcFY0WGxhV0oxNk5ZLWFXLTl6aHNwbmttSmo2U1hRWm4zRDh4Rzk4ekZvV09BQjV4djA5OW9HZFJaMjZCOHkyeWRXLVdTOEQ1VExYdUdoQVJrb2wzZzBQcVQtYUczYjVnMUE?oc=5"
+      }
+     ],
+     "new": false
     },
     {
      "title": "Discord passe à Rust : une refonte majeure pour réduire la mémoire et accélérer le lancement",
@@ -765,40 +762,16 @@
       }
      ],
      "new": false
-    },
-    {
-     "title": "L’aventure commence dans World of Warcraft: Forever, gardez le contact sur Discord et voyez Taldramir prendre forme dans le résumé hebdomadaire de World of Warcraft",
-     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPMWNhdHlQMUt0dVNfSHBmaU5JNWFUY0EwMTlhX0RwZkxCdjd5bVVkV1djWmFFd3UtMHl1b2J6OTZYeTlYRDY2dW1FT3JYbzU0ZUFjd1NzOG9ORHBIVXB2d2gxSW50SERPbnhCUUNzcm9DM0UwUXVBVjRuQnV6ZVVvb190VVhvVzlfX2N2cjZvNk5JazFqTnZtUmx3MTVsaG5sYXVWckVjM1FRSGRfSV8yYTVvN3ZEdTlKcUZ1R1ZaYnJYeFhtdmhMOHVEc3N6bUpuNVhFZzVaMHhDbDE2MV8zaFdLVHpoYXlWT2dzQVRodEo1eTlaUkVobjVnZUlIU1dJQ2w4c2FtdFNLdU9QME51LTFTREdQWWExdG93cWx2ZHpObTlfM1NnbnRENFEzempsdE82Qw?oc=5",
-     "date": "2026-11-06T08:00:00Z",
-     "source": "Blizzard News",
-     "summary": "",
-     "lang": "fr",
-     "also": [
-      {
-       "source": "Blizzard",
-       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ29QNDhuampZWEhiTkRfM2M1SlBuamRzZ212SEprQ2RKcUtOcmZNd2FGdFhrZE4tSzRidkc2dWQtR3JqQnNSYXlFMUpIcFY0WGxhV0oxNk5ZLWFXLTl6aHNwbmttSmo2U1hRWm4zRDh4Rzk4ekZvV09BQjV4djA5OW9HZFJaMjZCOHkyeWRXLVdTOEQ1VExYdUdoQVJrb2wzZzBQcVQtYUczYjVnMUE?oc=5"
-      }
-     ],
-     "new": false
-    },
-    {
-     "title": "Mélenchon cible les gamers : LFI mise sur Twitch et Discord pour 2027",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcW1sQ2xPUUpncHQyZVoyWEdNX3M0WEQ4R0JoUXhIOUdQbEhFUVZDdmNFWWNaTGR2ZDNpSWRnR25iR0d0Y3VzcFFzUE9odDhnOW9Fb0ctMjd1WnRnME9wTjF4UWhkZlBJT3JyY1NBX042ajdkRE5mTURmT2k5TnI0Qm9fOWExOUVrbWpjWjd6bHVUY3RYQmR3NXdjdEZkY3I0V181NUtrLThRVkd5Ylp3?oc=5",
-     "date": "2026-10-29T07:00:00Z",
-     "source": "20 Minuten",
-     "summary": "",
-     "lang": "fr",
-     "new": false
     }
    ],
-   "news_count": 5,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://discord.com/blog"
     }
    ],
-   "new_count": 2,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -816,8 +789,8 @@
    "category": "Productivité",
    "repo": "obsidianmd/obsidian-releases",
    "repo_meta": {
-    "stars": 23674,
-    "pushed": "2026-11-27T13:20:51Z",
+    "stars": 23666,
+    "pushed": "2026-11-27T17:21:15Z",
     "url": "https://github.com/obsidianmd/obsidian-releases",
     "description": "Community plugins list, theme list, and releases of Obsidian."
    },
@@ -853,6 +826,12 @@
      "summary": "Les skills de Steph Ango deviennent un plugin officiel d'Obsidian pour Claude, ChatGPT ou Cursor. Votre agent apprend wikiliens, Bases et Canvas, et pilote l'app via la CLI depuis un agent local. Ce qu'il faut, ce…",
      "reference": true,
      "ref_kind": "it",
+     "also": [
+      {
+       "source": "Korben",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tUEpQYVlIbzBzSTE2bFdUZlM2bUdhWXdGblctRFR4UkIwUG1mOXF4OEMxRVJBSTZncUZHS2k1QlhnbnBkSVp4dXVTcmQwZFdVdmpEYnloQzh3Y3FpOFhTQllDSEJkY2ZNX240TlRJQk0?oc=5"
+      }
+     ],
      "new": true
     },
     {
@@ -894,7 +873,7 @@
      "summary": "obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults. Prior to 0.5.7, deployments running without MCP_AUTH_TOKEN install no serverOptions.authenticate check for the HTTP /mcp endpoint, so requests are dispatched without…",
      "new": false,
      "epss": 0.00526,
-     "percentile": 0.3798
+     "percentile": 0.38017
     }
    ],
    "cve_total": 1,
@@ -968,7 +947,7 @@
    "repo": "lmstudio-ai/lms",
    "repo_meta": {
     "stars": 5450,
-    "pushed": "2026-11-26T20:13:30Z",
+    "pushed": "2026-11-27T18:11:18Z",
     "url": "https://github.com/lmstudio-ai/lms",
     "description": "LM Studio CLI"
    },
@@ -1009,7 +988,7 @@
      "summary": "LM Studio before 0.4.22+1 contains a path traversal vulnerability in the model downloader's resolveDownloadRequest that allows attackers to write files outside the models directory using backslash-separated traversal filenames. Attackers can trick users into…",
      "new": false,
      "epss": 0.00517,
-     "percentile": 0.37236
+     "percentile": 0.37269
     }
    ],
    "cve_total": 1,
@@ -1028,8 +1007,8 @@
    "category": "IA locale",
    "repo": "ollama/ollama",
    "repo_meta": {
-    "stars": 188296,
-    "pushed": "2026-11-27T10:05:28Z",
+    "stars": 188309,
+    "pushed": "2026-11-27T19:01:30Z",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
    },
@@ -1074,9 +1053,18 @@
      "summary": "",
      "lang": "fr",
      "new": false
+    },
+    {
+     "title": "What I Did with Hermes Agent, Ollama & Local Models",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82T3ZSMkVrVHNvaGNYTXlIdGZ4ZU4wQ0w3WW5xdENJWGI4VkNzMy0wNVlqRU5oNV9XNW9NVGpxazFIY1V1b3hFOUdCWTVDN0V3VnRQQktLcEhiaDgyMURVNTVZRlRlTl9obW5mU2xyekJrUWlHS2o2R09zMHNYUHc?oc=5",
+     "date": "2026-11-05T08:00:00Z",
+     "source": "KDnuggets",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 2,
+   "news_count": 3,
    "links": [
     {
      "label": "Site officiel",
@@ -1105,8 +1093,8 @@
    "category": "IA locale",
    "repo": "langflow-ai/langflow",
    "repo_meta": {
-    "stars": 156987,
-    "pushed": "2026-11-27T13:14:51Z",
+    "stars": 156989,
+    "pushed": "2026-11-27T18:53:37Z",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
    },
@@ -1184,7 +1172,7 @@
      "summary": "IBM Langflow OSS 1.0.0 through 1.12.2 An authenticated flow author could write attacker-controlled file content into any directory writable by the service account, bypassing the platform's local file access isolation safeguard. Via a crafted on-disk index,…",
      "new": false,
      "epss": 0.00571,
-     "percentile": 0.41055
+     "percentile": 0.411
     },
     {
      "status": "confirmed",
@@ -1198,7 +1186,7 @@
      "summary": "IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to bypass security restrictions due to improper authentication.",
      "new": false,
      "epss": 0.01853,
-     "percentile": 0.79675
+     "percentile": 0.79699
     },
     {
      "status": "confirmed",
@@ -1212,7 +1200,7 @@
      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to cause a denial of service due to allocation of resources without limits or throttling.",
      "new": false,
      "epss": 0.00501,
-     "percentile": 0.35878
+     "percentile": 0.3591
     },
     {
      "status": "confirmed",
@@ -1226,7 +1214,7 @@
      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to obtain sensitive information due to improper sanitization of secrets during flow and project exports.",
      "new": false,
      "epss": 0.0047,
-     "percentile": 0.32794
+     "percentile": 0.3281
     },
     {
      "status": "confirmed",
@@ -1240,7 +1228,7 @@
      "summary": "IBM Langflow OSS 1.0.0 through 1.12.3 could allow a remote authenticated attacker to overwrite arbitrary files due to improper limitation of a pathname to a restricted directory.",
      "new": false,
      "epss": 0.00507,
-     "percentile": 0.36482
+     "percentile": 0.36515
     }
    ],
    "cve_total": 34,
@@ -1263,8 +1251,8 @@
    "category": "Conteneurs",
    "repo": "moby/moby",
    "repo_meta": {
-    "stars": 72323,
-    "pushed": "2026-11-26T21:21:21Z",
+    "stars": 72321,
+    "pushed": "2026-11-27T18:40:29Z",
     "url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
    },
@@ -1347,7 +1335,7 @@
      "new": false
     }
    ],
-   "news_count": 18,
+   "news_count": 19,
    "links": [
     {
      "label": "Site officiel",
@@ -1370,7 +1358,9 @@
      "score": 5.3,
      "exploited": false,
      "summary": "Docker Sandboxes re-resolves saved mount paths when replacing a sandbox container during kit changes or restarting a sandbox. An attacker able to replace a source ancestor in a shared writable workspace with a symlink can redirect another sandbox's mount to…",
-     "new": true
+     "new": true,
+     "epss": 0.00201,
+     "percentile": 0.05712
     },
     {
      "status": "cna",
@@ -1382,9 +1372,9 @@
      "score": 5.6,
      "exploited": false,
      "summary": "The fix for CVE-2026-61801 added file type and size checks when parsing user and group files in github.com/moby/sys/user, but did not apply them consistently across all parsing and lookup functions. ParsePasswdFile, ParsePasswdFileFilter,…",
-     "new": true,
+     "new": false,
      "epss": 0.00287,
-     "percentile": 0.13838
+     "percentile": 0.13855
     },
     {
      "status": "cna",
@@ -1396,9 +1386,9 @@
      "score": 4.1,
      "exploited": false,
      "summary": "A race condition during docker cp mount setup in Docker Engine allows a malicious container to leave a read-only bind mount writable while an archive is extracted into the container. When copying files into a container, the daemon bind-mounts the container's…",
-     "new": true,
+     "new": false,
      "epss": 0.00201,
-     "percentile": 0.05719
+     "percentile": 0.05726
     },
     {
      "status": "cna",
@@ -1412,7 +1402,7 @@
      "summary": "Docker Sandboxes reuses existing state and configuration directories without verifying their ownership. If sbx or sandboxd is run as root with HOME or, on Linux, XDG_STATE_HOME pointing to an attacker-controlled location, a local unprivileged user can…",
      "new": false,
      "epss": 0.00137,
-     "percentile": 0.0153
+     "percentile": 0.01534
     },
     {
      "status": "cna",
@@ -1426,7 +1416,7 @@
      "summary": "Docker Sandboxes can silently republish a sandbox service after an operator removes its automatically assigned host-port mapping. The daemon removes the active binding but retains the original publication request, allowing a later port change or sandbox…",
      "new": false,
      "epss": 0.00306,
-     "percentile": 0.15849
+     "percentile": 0.15882
     }
    ],
    "cve_total": 14,
@@ -1474,13 +1464,35 @@
    ],
    "news": [
     {
-     "title": "Old vulnerability in Linux kernel grants attackers root privileges",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSy1nVVFoY0NzcUYxNzZPVlF4LWoxQW92YUVPNzdCMGpQdHZiYlNRVnkwdEtXYnRIcnhESEw0bnFTdU1EcjcxR0k5TkdMS2dLa242dl9OT1JGTTRNUVVocG5HbDdPR0RCdHI4eVd5bEhKM2hVRzRWU1FVV09ZVDJzaUl1c1NmTm9IcERWeWRDRkxVeUpvVDhEUWV4ZU1DOFZSYjN0SUVOMldUSWhvRHotWVRR?oc=5",
-     "date": "2026-11-27T09:44:47Z",
-     "source": "Techzine Global",
+     "title": "New Linux kernel patches unlock native resolution on 4K/5K iMacs",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1qUUhlb2tZdVAtR1pOVkw5TnpDUWI4ekExajJKMzVpa2FvVUYxcmlEUk9QOEZBTHYtdGduUU0tdmx3TW1kVGRTSGF5M0lCQjhPc2RnMWJlSDg1RXd5Qnd2RWswUmE0VU5PSEJKc2tKYlBaNGFMN2p3RE9sQ0p0edIBhgFBVV95cUxQdE9WRVloX0Yxdl9HekhVbWlWdUg5R0VRWjZGcGY5c3RFUTdOZmVySmlHSGtxMVhfeEZnRnFLeUROZVlDTzRBbnFvZksxSVVvVHVBcnpiMVVoNzlRLWVqczJQSEtlTEt6cUxJSmNHZEJiR0dLOWgtUy1hRDFfcjZZanVtR2pRUQ?oc=5",
+     "date": "2026-11-27T18:59:45Z",
+     "source": "OMG! Ubuntu",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "NFS2ROOT CVE-2026-99362 – Update Your Linux Kernel Now",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQV9RcWtVM0Q3ZUVjNXpFRUk0VGRuMjZodVFxMXRmNkppX1lZWll6RG85VUl3Um1KT3dYNmdWeW1NOF83QnRaT3p1SEZENGNpaF9tYVExcDNpVDRiUHFNcGk2MWV0YnM5WXprbUlILWw3S0s5cGs1d1NFOU5jUUxJbHh5SE44ZDB3a1VmX3UwMnVLMWNZdTdSYVRhbko2c1haWldWRWhOTQ?oc=5",
+     "date": "2026-11-27T15:47:11Z",
+     "source": "Meteora Web",
+     "summary": "",
+     "lang": "en",
+     "new": true
+    },
+    {
+     "title": "Critical Linux kernel vulnerability allows remote root access",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaS1lTm5sM0d1R2czeFFmVkpLcGZoNFRjZkNTQmJSNUNUR2R2bUt2Vml1TGl6NHhEN3JuNUNLbkhtYzl2RU1pMWdSLXhnOTRERlFYdEhMdVJkM2JDdFZkTmdBME8wQ2diVFgtS1NGUzFLWWdPVm9vbmpsUGt5LURHLWhOdTQ1M3pnUVhCWFBwQ1FiT1h5eVE?oc=5",
+     "date": "2026-11-27T13:51:27Z",
+     "source": "SC Media",
      "summary": "",
      "lang": "en",
      "also": [
+      {
+       "source": "Techzine Global",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSy1nVVFoY0NzcUYxNzZPVlF4LWoxQW92YUVPNzdCMGpQdHZiYlNRVnkwdEtXYnRIcnhESEw0bnFTdU1EcjcxR0k5TkdMS2dLa242dl9OT1JGTTRNUVVocG5HbDdPR0RCdHI4eVd5bEhKM2hVRzRWU1FVV09ZVDJzaUl1c1NmTm9IcERWeWRDRkxVeUpvVDhEUWV4ZU1DOFZSYjN0SUVOMldUSWhvRHotWVRR?oc=5"
+      },
       {
        "source": "SOC Prime",
        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTEJVQTk3bEVydFZTMmhxLWVYTmxULWZJT3FITWI3bGM0eTRHbjBPRnFXNFVHN2RUVlJFTWp5ZE0yWlZXTkpfa1pUdnRxTTFOT09fdktrRE95STFNVE5makNadV92UjhLUXhPcE9RaVp1dnhhd0NBTzNHYUoxeG90bDkyc2pkVFBIUXF4WWxyWmY2cEM2azVvRXg1WHBwLUhkNlRGcV9vVmpzRXdpQVR6U2dnbjN2eVFOTVFFaFpLUQ?oc=5"
@@ -1498,50 +1510,21 @@
        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYklYOU1YZHNCY2E2cXRRdzlvSWhaZmlZTk8zUXZoalYzWk96VWRrX01yczNqel9kallsLWh0WHlZeHozeTJNbE9kaXNibFloU3FfU1k0RTBCdEU0bzJ6MHNqVGpwcVZMVDIxeU40cFBIeHFZc1lTZXU0c2VmTlRHMWhibzRCQnQ3QlE4dE1aczkzbmVpQUItbUJ3RWowVnF6OGVwUFhPLXh5UkUw?oc=5"
       },
       {
-       "source": "THE ELEC, Korea Electronics Industry Media",
-       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSUNDWUs1NnJGaDVlcUh6aHk5SzVKOUtnMFAwQmJ6bFBMNlo1QzItUDd1dlFtc28ySnAwRzlXMGx6NVlyRmtWenJyWDJDdkhUV2c1U2szRGoydzVVS2pvME5fNDdHRDA?oc=5"
+       "source": "ShiftDelete.Net",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93ZkFHc2ZULThxT3RPSVg0dEd3NmRnWFBCNFJVOGh5X1ppNjhEeW5pbmdqZnZ5MlpWNUVrM1F1MWpocXFDUXJlS3dPcw?oc=5"
       },
       {
-       "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5"
+       "source": "Observatorio Blockchain",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQXpVbTRvV3M1Nm9xdzRyX293NEU2ajY0c0NRLW9IXzZNaWZPWUFmUG5zR3ZqZE5rYXlrZVNvZk90QXNnNDlyOEJMbUFBMzI2YURNS2I2WmdBQU1McEV3b2VkNHY5QXdTRm1TVXhjOU5pZW9hZFBFXzJ0UW03d1o0OU9YS29EODB2YlFWNGxNbw?oc=5"
       },
       {
        "source": "CyberSecurityNews",
-       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRlBzT0lmQW1SS29HUXEzOHRtaFZxZFk0TkEwNXhSTkdLaER4am5SNWN1ZThGcFBHV0RILXJ0UE9YLXdGVlVUSzhpalZGUWhwNXZ2UTdTeXV2eXBxWmVoWk1VMDFiMkJ2dFV0ZUhNQlR6MU0z0gF6QVVfeXFMUHJuTWhIYWlpRHk4NTN2NnlRWkVkM21FSFRnUFMxMVplQTVvb2ROS3VfQTJkOE53WFdqZ3Y2Z0QxWjVDQ0h6Zk5IZzloNkZUNzExVWVULTVUbFg2QTQ4VHJJNHVsa3JYWjFrSUo1QmpuWkxwWTR2TUNUMUE?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4MEpMcy01ZHZfVC1LeXo2cE1iVjBTbEE3eXdTMjhvQkpIbzlqSm9VQU0zdTl4elJtamFBMUNFV1hudFFncTB2OHAtV29sb2x2X3BQU2RQd0RYNFl0blBOR08yRVNBWUhO0gFuQVVfeXFMTUw3Wk9VWnhGR0JkOTdEVlVxUk1Wd2VjNDBkMFBNSVZ4SWFWaGZmd045bW1PX3owZ1dPOFZmWXFmQzI4X2loTzZfX2hXT3NRRDZ0aWNKY2xnWUNEb040anpJbjdXa0NCQnc4SWROM0E?oc=5"
       },
       {
-       "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVU12MGIzcjZfMHRPTVhiUFA3ek9mV0o4dHBfZi1aakowZWMwN1pDUXJjWlRrdlZSb2dfMUg5OG9JUl9DQkZyQWMzSC1SV0F0Y2VDUTMxaFNfb1lYbWhTLTlFWVgzaG9oQ0dBU05TdUVOMmRkb3V2SG1DLTZzZUZDTHZkdWVrVmNWWEU3NW85NkQ3c0QtMFh5eDVKU1RmeVRtaU1yMHF6eTNleDB3UEZqc0FR?oc=5"
-      }
-     ],
-     "new": true
-    },
-    {
-     "title": "New Linux kernel patches unlock native resolution on 4K/5K iMacs",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1qUUhlb2tZdVAtR1pOVkw5TnpDUWI4ekExajJKMzVpa2FvVUYxcmlEUk9QOEZBTHYtdGduUU0tdmx3TW1kVGRTSGF5M0lCQjhPc2RnMWJlSDg1RXd5Qnd2RWswUmE0VU5PSEJKc2tKYlBaNGFMN2p3RE9sQ0p0edIBhgFBVV95cUxQdE9WRVloX0Yxdl9HekhVbWlWdUg5R0VRWjZGcGY5c3RFUTdOZmVySmlHSGtxMVhfeEZnRnFLeUROZVlDTzRBbnFvZksxSVVvVHVBcnpiMVVoNzlRLWVqczJQSEtlTEt6cUxJSmNHZEJiR0dLOWgtUy1hRDFfcjZZanVtR2pRUQ?oc=5",
-     "date": "2026-11-27T05:41:11Z",
-     "source": "OMG! Ubuntu",
-     "summary": "",
-     "lang": "en",
-     "new": true
-    },
-    {
-     "title": "Shirudo, an eBPF shield that protects the Linux kernel without patching it",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc242ZndycExzQTJ2WW1VeEZCMjBadll5UEcySzk4dF9hdVE2WXBQUlowZ1l2b2lTNW9QWEhOUk0wVmh5WDIzbzNMVWVSTjBHb1FxeWVSOXBPRE5fVHR1MVBVM2d1MjlaZUNuYVF0VUptUjFmOTJUTnQxWmd6akstbnI1TXZJdUYzR2lGLQ?oc=5",
-     "date": "2026-11-24T17:00:00Z",
-     "source": "Observatorio Blockchain",
-     "summary": "",
-     "lang": "en",
-     "new": false
-    },
-    {
-     "title": "Linus Torvalds stops announcing AI patches in the Linux kernel",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQXpVbTRvV3M1Nm9xdzRyX293NEU2ajY0c0NRLW9IXzZNaWZPWUFmUG5zR3ZqZE5rYXlrZVNvZk90QXNnNDlyOEJMbUFBMzI2YURNS2I2WmdBQU1McEV3b2VkNHY5QXdTRm1TVXhjOU5pZW9hZFBFXzJ0UW03d1o0OU9YS29EODB2YlFWNGxNbw?oc=5",
-     "date": "2026-11-14T08:00:00Z",
-     "source": "Observatorio Blockchain",
-     "summary": "",
-     "lang": "en",
-     "also": [
+       "source": "The420",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzNEa3gweHRxU0xscVIwTnBXc3VLMzRtTHdnMnNUckItaTNZMnFpSUNBRW8tR1dCT0o3VjdWRkZWN0lERzFKQ08xZjRLdm5WbnVaUWs5QzQ3VmpNTlBUcVU5ck5CbTZtZHQzYzNIbWE0dk9EVEw3ZksyNkV3enFkejRITDBrY2c2UHQxQjdWX1BTUzhCN0JIUWR6SDY?oc=5"
+      },
       {
        "source": "SOC Prime",
        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc2w4d01nVzVsRktDaC04Tk5VS0N3aFQxdVpOU0ZaSVp1LU9rSUhyS3daM3JnRkUyeEFxWTJ3bE9LLTRRaUVySDRKUEhPbXFsSVp4M3YwRHJ5TnlqWVNXVEhYeFhfS1VFckY1YzRjSFFKNGZZYTJEaHlIUzVRb3FISEo1SkZDdTJEd3ZuVjgtdUwybTEtUWszV0tGRkpaQTNKS3JJQkZ4Wk8?oc=5"
@@ -1559,16 +1542,12 @@
        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFNLR1hHOUNrOUhfNExWQ3ZNM2hmazBKLU1Ka0FxMkxpcDgxS0M3Y0N6UWxiUXZiaXU3eFpKaTgwRUFUYmpOMFZlSWp6VTZJNVloMDRMSkRQY0RwVlF2eHdnN1lXX29CYUdpUUp1dEpTV3djMmhLVEhfMFo2TFhkZzVNaw?oc=5"
       },
       {
-       "source": "blockchain.news",
-       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVBma2t6TXJBQUxsMkZwZlQ2dnpCZ3ZpbDU2aGFXMkhFV2hrSFVNWEhsODFoTERjUll6Y2k3Um1QRXUtdVpiT1RzcHUtVkNNWkY1aGpvaUhpeHU2YTNFNzlIbGRILUZvY3FaWlI1Z3MzcXA1UENVNzZvZlhvRUdtVm9MeWQ0dw?oc=5"
-      },
-      {
        "source": "next.ink",
        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm9Va3NzVlVLMXVWM1B1Q2VZV212NEh4Y1J0dTZ6cHpKcjVFbWxmVW9KSS03X0gwZE1RTHhRRkFZR1d6RzRyeVRTYzhRdlJqSUx0OGZId19Mc3l1NE9ud1B2SHdWaEFfQWozdHIxUmEyOUl4enBOSlJteHhNMHJ5aTZLcEo2eUNLUHN2YU9KTjdoVTZ1MEtlaURLQzhWd296NmlfcUZhMEJPR1E?oc=5"
       },
       {
-       "source": "www.thestack.technology",
-       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkRMVHRjeTJocGdGVVhLRFJ3WEo3em1zdko0WnYyRklJQ2dCQ0JqYUh5M3pJT2t4VGhOSHhVZ19CSTdlUVlQM2IxRnptSVRZQU1CVGxwOEpfSHRYNVNXMzJkZGpIcG1ZZ3BWMVkwUUxxRWFSRERjbExzQVExREFqN3JoZjdkdm9aclZueW5QWTRENDU1QmhjMjlBUlFoY3M2MkpDVjNtMzRiNlVXZW5Obw?oc=5"
+       "source": "Meteora Web",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVUtTlF6RmdrSVVBZ2JRYWxmMEVVbmkyZzdpZ1A1SVM5aGxJSFZiMGZza1AyQjlseHdJVWlJNHhkUWRoaGtPXzc0UmJOc0w2cjQwSjJrVU9WaTFGMUdiOVpMY0JrZ2YwVW5ZYm1KS0VDMjZYcXhxTlNMaEktZVVZaUNZdw?oc=5"
       },
       {
        "source": "CyberSecurityNews",
@@ -1585,10 +1564,6 @@
       {
        "source": "Wazatech",
        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaUoyV1BhakRwMjBpdVBUenpmZENGTFpqV2J4czFXcHM0M3RCN0tXc0RWbjVhTFNFZ2k3YUUtSklYVWE4T1llQXhoZG9WRHFfamxqTDBlZjFqenpwaHE4aXJLQUR1cTByMmlTM0xGbTZWVTR6eDNBUUlDZXdzZDNUek12ZG0yYzhOZFNYamtpZTBuNjU1U1lKdTVLdTEyQXk3WG1DZjNMaXhJdVFyUkkxRDZmOEhjVWtmNlRvU2c5UQ?oc=5"
-      },
-      {
-       "source": "Akamai",
-       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWI2NHo0cjBRc3lyTlhrbnZmMVp2c0wwbjdPNF8yeWtzbUtHMk5qU0VCdFREOGhWd05lampOTDluM2dOSGpvcnRJamtUSU5xa1NaN2Q1Z1pTQkNLNW1zQUpWdUM5YWN4YS1fUXNybnZWZXdsUHhIbU94UWdXWmlaSFgtQTlYQ3BHT095Z3VZWjhTdlVHbUpxc1VsYw?oc=5"
       },
       {
        "source": "Dealroom",
@@ -1619,16 +1594,48 @@
        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOel9VMzB5SXN0RjF0TmNVVUVKOFY5UWZPdmE5cjlVc2tlQmNHRE9Eb1pwdXpVUWJsM1owMUdzVE9HZTRUMXVWSUQyYzJtWlZRVktqalJyR052bG1aY0pUQWEwdU5MNGJnVmV1OFBfM0FDWElHdUJLVDBJSjZHRDBXa0d2cVBDb1lVUEZ3azcwVjR0U2NC?oc=5"
       },
       {
-       "source": "Rescana",
-       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYThVeUQtQkVuTWdKSWxDZHNPV0FEbkVOQkdnVG1fYmhYbDQ0MTlTYmpva0I4ZnVkOEFpWm1MUkJTR1pYbGVISXJRc29INmF6aTF4bmhFVXJJVmkwSjR6TFJpZms0eTJSZ3J2VkU5aXNrTG5pemtXQ3ZYX2dUdjZreEh6LVp2NjdId1UyWThyeS1jTGtnWFY5QUU2dl9HRW5KcXVrXzI5VQ?oc=5"
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJLYklpeVU1dU0xZ0hOa0hxOVNRSkVVeThNVXUwV0MzRE5OSFd6X1J4YUxPXy10bk8za1dVUGpIR1d4OGlzN18wdmJBU3RkU0tNM1NudkY5LVc1OEdNYTRhNklLb09YcFR5X21NMXkzYThHMnp6Q0Jha3ZReDRJdnBTdndWa1dZZXVPYjJ5M0cxM00?oc=5"
       },
       {
-       "source": "Rescana",
-       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWnFzNTkzSU1TWGtMMnQzT3dUMUlaMF9qN0hmdnlDejlhUjR0RFVGeTZZUDlzamU0akVEZ1ZhQURGT1dWTFVuM2ZEeFJUdEY3UjJDQUNWLXNzdjhBSVNXaHBKLVYzVFFJTEtVc1I5b0JCVldZX1JBWkNzUXc3YVJmNXJaaHZ3Qk5abVc5V21WMkc?oc=5"
+       "source": "Security Affairs",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTVdoWER0cXdkYXZzZU9KX1k5MTNHcC0xQ3dJaE85TmFPeXdyVXNaNWFzeS1VaUJJdjdwRXk3NDJQRmthRG1BdnlGenpfczJXb2k4bDJtWjE3bnVQUUtVdzFFQWFYQ25XbXd6NzFQMEhWVVRZYXNhZDdxZjVoSTE2bUUtUEpiSHFiaHFtYzFPeTNTS0FrbVdKemJCSmN5Zkt5cUJYOENVUk9lVG56QVBiRFJTVW0yOVVXbFBnWVBXVGZHVjNLYVNQeVc2aFBMM25tbmdjSUtXMTMtNERIZW1zOWQwVzBjd9IB6wFBVV95cUxObU56Yjd4dWhDMG5rYmlXNWlKYm5SdzVaU3ZaQ21aLWE1c2g3ekVKczJRZFpLZF9TLTB3NlYwX0xvSmRnTTJwb3Fta2YyamNIZlBhcTZVVkFNQkx0eFQxakwxbkdiOTFCVWxtRHpQWVF2NDZVbzNhNmhTUThDZDI2bmdOZnN0dEx4Y1hNUmpiMEVmb1M2bk9xVWt1RXkwU2JzVUdtMzBXOXF0TWwwWnNUNEdRR0FmUWpuajdUWFBIb19janBQVHlhUUFLR05nZk1KbTRSNDhkRXFSSEI4MGs3dmFOSTQ0Y2RoMTk0?oc=5"
+      },
+      {
+       "source": "Pragativadi",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeXVjd0dYSy1zYUZLVkI1cl8wYmF1SmJvRnhRQW1wNW1RVlpIQnV6Nm9LWG91ZEZhcFhoWHNKTWxyWjJrRnVxUkNkNHB1VnFPOHRIVzV6QlIzSjRyZUtrb0VqYzNMNWoyS2ljSVJNWHlET2E0d00xMGlyT0s0N3FUT0dFTk1mRkVvYUhkQ0ptUGY3LUxkYnphc2xkUFhsWDY2eEFoMGxDNVNWOFotNzlLcTlRNjYyQXlxNXU2bEZiMG5keTRlU2c5T29HdFdFems?oc=5"
+      },
+      {
+       "source": "THE ELEC, Korea Electronics Industry Media",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSUNDWUs1NnJGaDVlcUh6aHk5SzVKOUtnMFAwQmJ6bFBMNlo1QzItUDd1dlFtc28ySnAwRzlXMGx6NVlyRmtWenJyWDJDdkhUV2c1U2szRGoydzVVS2pvME5fNDdHRDA?oc=5"
+      },
+      {
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnhDazRCWVNWOTNVWVJ0U1A2azRBaEs1YzR2cmpRNTFNQmItVUZ5cXF3S1hyOFFYaDRzTXphOUxYN3lUT2kzcFZqc3JoeklyTVFoOG5YclEtQTAzdm13NXB1X2pib3FZdTZPYXp3bU1QWmZON0x5VzlpTG1zQVllRmF4eUQxU2VaN3NlOG8tMHNvdFloaXo4?oc=5"
+      },
+      {
+       "source": "CyberSecurityNews",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRlBzT0lmQW1SS29HUXEzOHRtaFZxZFk0TkEwNXhSTkdLaER4am5SNWN1ZThGcFBHV0RILXJ0UE9YLXdGVlVUSzhpalZGUWhwNXZ2UTdTeXV2eXBxWmVoWk1VMDFiMkJ2dFV0ZUhNQlR6MU0z0gF6QVVfeXFMUHJuTWhIYWlpRHk4NTN2NnlRWkVkM21FSFRnUFMxMVplQTVvb2ROS3VfQTJkOE53WFdqZ3Y2Z0QxWjVDQ0h6Zk5IZzloNkZUNzExVWVULTVUbFg2QTQ4VHJJNHVsa3JYWjFrSUo1QmpuWkxwWTR2TUNUMUE?oc=5"
+      },
+      {
+       "source": "Foro3D",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0doQ0syNGQzd1NhaGR2UFpneHo4eU9PbHFtV0xRVTlYbXgtTjdHekdRSVdHVzVRRkVLTXFPLWZhTEZpaFE2ZGJZcFNWTXFCXzVBeFptM0dLMDZfWVY4R0RVdFZsc29VN1R6SWpHekJ5aVFlUzI0eWpCdjBrbDc4UHN6SEZmakJDdUZEa2d5Q01OVHdsSXF3TXlDUTRVUW1tUm9LNmhUODBQQURWbjRyTjJR?oc=5"
       },
       {
        "source": "Linuxiac",
        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVhyREZLc2Y3Y1l2eVVzMXpybXRiTHpUbkMySHE0SjdiR0p6SmV5dEFBT2oxYlpPYi1lVC1nQldLc0c2dTlXWkd3S2FMTV9sZG9hOHFobWlUVFY5WGdDUHFfODZRZzlNYTlXM0dtUmtWWWdpd0dEZ3lVWXR0eENhLUtYaDZDY2VhZG50Qnd4bG1mZVh3Qmxoa3V3?oc=5"
+      },
+      {
+       "source": "The Hacker News",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0h5UzhuYjVYeDlyYmIzS2pKbnJ6cm1Ra3pTWnR5WnBIWEZXRkwxM25xQ1d5TGZkMHVWVFdTX0NjSG1kV282MEhWWDAyX0p0bUdZcFJHcS02Nm9RTWhXeXBEMUktbUxCbW9FdVVZV1VRYks3VUctS1NZckFmbXFVaklKYw?oc=5"
+      },
+      {
+       "source": "Cyber Press",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VcHVhS1VqYVY0M0F3YWVUZ0ZGdjZmTXFEMU9MVDlYYm1NbGNNdDFoZ1l3bjVQcGt5cXMyU2JJRC1nNWphNW5Kd1FUbTBISENqSGJiMVBwOHp4cGZleWpDdlNNOGQxUdIBZkFVX3lxTE5VcHVhS1VqYVY0M0F3YWVUZ0ZGdjZmTXFEMU9MVDlYYm1NbGNNdDFoZ1l3bjVQcGt5cXMyU2JJRC1nNWphNW5Kd1FUbTBISENqSGJiMVBwOHp4cGZleWpDdlNNOGQxUQ?oc=5"
+      },
+      {
+       "source": "Dataconomy",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RWS1U2d2hyREctdXctRHBhWDRuZUdOYXgyd2VNVUI3eFN6aE45ZGVmRTNmNEZGSzVXNmpCUjFJaDA2VmJ5WVFpUXpkVFFkdHdGNUlwSk1nQWluRWhNRHR3LTFEWGVSbkVDMkRMeHptbVktc2xFVjdlc1ozQzhBbFNuT2lJNzY0UjU3Wk5NU0hQdw?oc=5"
       },
       {
        "source": "IT Social",
@@ -1665,31 +1672,44 @@
       {
        "source": "BigGo Finance",
        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFRXloX1lUMkkyVmlyVmtsb2R4NGNJUkZCTlJtWk8yZXJiSkd0WnBPTlEyb3A2Yzd3cUNqRUhaZEowcVp1azZHWkFBQ2F3c3J2TnpUOXl1YzVTRGxpN1RqLWZkeGs4UjFOT3g5SFVfMHBaUGVzOVE?oc=5"
+      },
+      {
+       "source": "Homeland411",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTUVxQXpNNzNQT2V3N25yQTktTjQ3SHhrREtXYWhRNzZvME1ZMHlGOTQ4UnUwSjZxLXRya3FfSnNLZDJGdXJFb1ZwQVcyeDgtb3k0RVlxX3VzVnp0eFhOM3doRnR0eVFhM0ItcW1hTUg2ZXZBYm5nOWtoUWlkam1ra3d2MFdiRGozdzJVeEhqUWpmaDBSXzVPQg?oc=5"
       }
      ],
      "new": true
     },
     {
-     "title": "Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4MEpMcy01ZHZfVC1LeXo2cE1iVjBTbEE3eXdTMjhvQkpIbzlqSm9VQU0zdTl4elJtamFBMUNFV1hudFFncTB2OHAtV29sb2x2X3BQU2RQd0RYNFl0blBOR08yRVNBWUhO0gFuQVVfeXFMTUw3Wk9VWnhGR0JkOTdEVlVxUk1Wd2VjNDBkMFBNSVZ4SWFWaGZmd045bW1PX3owZ1dPOFZmWXFmQzI4X2loTzZfX2hXT3NRRDZ0aWNKY2xnWUNEb040anpJbjdXa0NCQnc4SWROM0E?oc=5",
-     "date": "2026-11-12T07:24:12Z",
-     "source": "CyberSecurityNews",
+     "title": "AMD's RDNA 5 Set for Linux Kernel 7.5 Support",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYlp3ZVhreWNQOWROelNsUGM2WldnMGNURHo4c0JiY0dOV3djYkVPU0FQWXR3bWlMeGZqemdRbmpBUzBiYWhmMWdRY0duN1E1UHlQRnR2X3JSSDF1TXZQdFZOUHBxeGl2Ul82aWY2Y2g2WUZleEJwbzZjd2huOTEybmRfTFM0U1k2WXZB0gGLAUFVX3lxTE1iWndlWGt5Y1A5ZE56U2xQYzZaV2cwY1REejhzQmJjR05Xd2NiRU9TQVBZdHdtaUx4Zmp6Z1FuakFTMGJhaGYxZ1FjR243UTVQeVBGdHZfclJIMXVNdlB0Vk5QcHF4aXZSXzZpZjZjaDZZRmV4QnBvNmN3aG45MTJuZF9MUzRTWTZZdkE?oc=5",
+     "date": "2026-11-27T10:35:35Z",
+     "source": "TechPowerUp",
      "summary": "",
      "lang": "en",
      "also": [
       {
-       "source": "The Hacker News",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0h5UzhuYjVYeDlyYmIzS2pKbnJ6cm1Ra3pTWnR5WnBIWEZXRkwxM25xQ1d5TGZkMHVWVFdTX0NjSG1kV282MEhWWDAyX0p0bUdZcFJHcS02Nm9RTWhXeXBEMUktbUxCbW9FdVVZV1VRYks3VUctS1NZckFmbXFVaklKYw?oc=5"
+       "source": "OMGPU",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNGo0VHpkSnRKZ1RKZnZBYWlOdGJtb1ZTdDZKVlZMRWszZ3FsRmZEUmRHcHAzcXo2RW9QeWFnazB3T19PS0NOckdRM1pTUHNNOVlQNW5wcW12bVBzcFVFRXNodDM2SG9TaWlZU3BsMVZnSjdZdzhtQ1dSSXgyR2ZHa1pUTHdBOW5QbTZOMjZEczVyTWVVdVE?oc=5"
       },
       {
-       "source": "Dataconomy",
-       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RWS1U2d2hyREctdXctRHBhWDRuZUdOYXgyd2VNVUI3eFN6aE45ZGVmRTNmNEZGSzVXNmpCUjFJaDA2VmJ5WVFpUXpkVFFkdHdGNUlwSk1nQWluRWhNRHR3LTFEWGVSbkVDMkRMeHptbVktc2xFVjdlc1ozQzhBbFNuT2lJNzY0UjU3Wk5NU0hQdw?oc=5"
+       "source": "Foro3D",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXc2SnRwcm82c21Pc01Ub1I1SnpaeG14bkE4WU9Ldy1RLXV5RGRHY21yT3doV05MUlhtWVBpS1BuWjZQTTA5SUx1aThDUVFTMHJmcXFEc3VCM2ducnZveDE4eDFkaVhNUzd5WkFJMGhFR2JrY2lRZTBJV20wYVU3REp5MGdzNElLUl9PV3JydWFsbDBodDJwUTRkWmNjR1lB?oc=5"
       }
      ],
      "new": true
+    },
+    {
+     "title": "Shirudo, an eBPF shield that protects the Linux kernel without patching it",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc242ZndycExzQTJ2WW1VeEZCMjBadll5UEcySzk4dF9hdVE2WXBQUlowZ1l2b2lTNW9QWEhOUk0wVmh5WDIzbzNMVWVSTjBHb1FxeWVSOXBPRE5fVHR1MVBVM2d1MjlaZUNuYVF0VUptUjFmOTJUTnQxWmd6akstbnI1TXZJdUYzR2lGLQ?oc=5",
+     "date": "2026-11-24T17:00:00Z",
+     "source": "Observatorio Blockchain",
+     "summary": "",
+     "lang": "en",
+     "new": false
     }
    ],
-   "news_count": 22,
+   "news_count": 31,
    "links": [
     {
      "label": "Site officiel",
@@ -1710,7 +1730,7 @@
      "summary": "In the Linux kernel, the following vulnerability has been resolved: Bluetooth: L2CAP: Reject mode changes on connected channels A peer can send a configuration response with an RFC option for another mode to a connected channel, for example to switch it from…",
      "new": true,
      "epss": 0.00311,
-     "percentile": 0.16466
+     "percentile": 0.16492
     },
     {
      "status": "cna",
@@ -1724,7 +1744,7 @@
      "summary": "In the Linux kernel, the following vulnerability has been resolved: Bluetooth: L2CAP: Reject invalid TxWindow in configuration requests A peer can send an ERTM RFC option with a TxWindow of zero, which is out of spec. It is stored in remote_tx_win unchanged…",
      "new": true,
      "epss": 0.00311,
-     "percentile": 0.16466
+     "percentile": 0.16493
     },
     {
      "status": "cna",
@@ -1738,7 +1758,7 @@
      "summary": "In the Linux kernel, the following vulnerability has been resolved: Bluetooth: L2CAP: Use default TxWindow for zero socket option L2CAP_OPTIONS accepts a txwin_size of zero and stores it in tx_win. The zero is then sent to the peer in our configuration…",
      "new": true,
      "epss": 0.00311,
-     "percentile": 0.16465
+     "percentile": 0.16493
     },
     {
      "status": "cna",
@@ -1752,7 +1772,7 @@
      "summary": "In the Linux kernel, the following vulnerability has been resolved: vfio/platform: prevent read-only region mappings from becoming writable vfio_platform_mmap() rejects writable mappings of regions without the WRITE flag, but leaves VM_MAYWRITE set.…",
      "new": true,
      "epss": 0.00296,
-     "percentile": 0.14666
+     "percentile": 0.14687
     },
     {
      "status": "cna",
@@ -1766,7 +1786,7 @@
      "summary": "In the Linux kernel, the following vulnerability has been resolved: vfio/fsl-mc: prevent read-only region mappings from becoming writable vfio_fsl_mc_mmap() rejects writable mappings of regions without the WRITE flag, but leaves VM_MAYWRITE set. Userspace…",
      "new": true,
      "epss": 0.00296,
-     "percentile": 0.14666
+     "percentile": 0.14687
     }
    ],
    "cve_total": 590,
@@ -1785,7 +1805,7 @@
      "ransomware": false,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
      "epss": 0.02959,
-     "percentile": 0.8794
+     "percentile": 0.87954
     },
     {
      "id": "CVE-2025-39964",
@@ -1798,7 +1818,7 @@
      "ransomware": false,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
      "epss": 0.00581,
-     "percentile": 0.417
+     "percentile": 0.41742
     },
     {
      "id": "CVE-2026-53266",
@@ -1811,7 +1831,7 @@
      "ransomware": false,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
      "epss": 0.00518,
-     "percentile": 0.37367
+     "percentile": 0.37401
     },
     {
      "id": "CVE-2025-39682",
@@ -1824,7 +1844,7 @@
      "ransomware": false,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
      "epss": 0.02193,
-     "percentile": 0.83171
+     "percentile": 0.8319
     }
    ]
   },
@@ -1859,6 +1879,22 @@
    ],
    "news": [
     {
+     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (27 novembre 2026)",
+     "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+     "date": "2026-11-27T00:00:00Z",
+     "source": "CERT-FR",
+     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à…",
+     "reference": true,
+     "ref_kind": "cyber",
+     "also": [
+      {
+       "source": "CERT-FR",
+       "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/"
+      }
+     ],
+     "new": true
+    },
+    {
      "title": "Updated Debian 13: 13.8 released",
      "url": "https://www.debian.org/News/2026/20261121",
      "date": "2026-11-21T00:00:00Z",
@@ -1868,31 +1904,15 @@
      "also": [
       {
        "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0tORGRVczVHdDViSTM3emdscF85SEJUYUwwTG5kUWpiQ0Q2S1lZRjVHNXZwc2ZCcFNjTHBwYmpsTk1OVzZvaks5V0tVUjB5M3JsMUxQX0xqY1NWOTgtNDNEc3lUd2Y1ZnRqU2taNVl2TGlmSnhzUHhXRXJvMjR2bE54bDkxeFAydEY4RlZiVUNrcWpBcDN4UkNmTGZ4UldtNHE4YTNMdm5uX0RFSUpCNTR3?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5"
       },
       {
-       "source": "Foro3D",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdYUW5IbnExVXVTSGFMOXpDSzhtSmVWTVptQkp1bG9uZEZpb1hZVmRhQjNfRWNtcDB2QWJaR2trNmdpMnJ3QzZsZm02SjJ2Q19aVkIyTGJXQ0dJUFV0aFVEUmFhbWlsUkg4MzdVN0NvVGxEZzFIVWh1WFNpWGNjVjF3cWs2aU40RnRGZGtuUUFhSTdYYnJrM0hRdGNWUWZNRXFXMnZ5Y1l6V0tLWEx5aUR3?oc=5"
+       "source": "Linuxiac",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTJtQlliQjNEdC1FVXdRNmxkc1p2WGtHY1FqMk1IYjdOTUFfRVhxcUtoMm1kS1J1cjA5ZDhVeVo5T2ZPYWNrUUVnNEVTUEZJNERiZEZQVWdCV2ZMT09qUFNJVk04cTBQSmk1dDFJdUlqTFdvQmZDaXpRb09xb1QwbU5oN3dQT0FNM1VhQzBLZw?oc=5"
       },
       {
        "source": "9to5Linux",
        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVBCaTA5QzRqVmFnSzNNaHlVckU4MUtKV2RtMG5KNWkyMFVVWHNPZ0V5aFM5d1d5SDN1YW5RRW9yLU9oTlpKQ0tZSENQYjd2TTdKWmhsSnpYWWN6TjFmVVlvWElmOHV1cGIzWGVvZmxnZmM5blJNbTRYbkVjSnlid2IwNXZDVzg1YkVLa2VvWE5rTV9icG0tWg?oc=5"
-      }
-     ],
-     "new": false
-    },
-    {
-     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
-     "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
-     "date": "2026-11-20T00:00:00Z",
-     "source": "CERT-FR",
-     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de…",
-     "reference": true,
-     "ref_kind": "cyber",
-     "also": [
-      {
-       "source": "CERT-FR",
-       "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/"
       }
      ],
      "new": false
@@ -1938,7 +1958,7 @@
      "url": "https://www.debian.org/News/"
     }
    ],
-   "new_count": 0,
+   "new_count": 1,
    "cves": [
     {
      "status": "cna",
@@ -1952,7 +1972,7 @@
      "summary": "An arbitrary file read vulnerability was discovered in debbugs, a bug tracking system based on the active Debian BTS. versions.cgi failed to correctly sanitize package name inputs in found and fixed query parameters. Crafted query parameters could cause…",
      "new": false,
      "epss": 0.00503,
-     "percentile": 0.3601
+     "percentile": 0.36034
     },
     {
      "status": "cna",
@@ -1966,7 +1986,7 @@
      "summary": "Due to a Debian-specific patch, the directory used to share data between the LightDM and the users logging in was writable by the lightdm user of the unprivileged greeter process. A process running under the lightdm identity could leverage write access to…",
      "new": false,
      "epss": 0.00178,
-     "percentile": 0.04373
+     "percentile": 0.04374
     },
     {
      "status": "cna",
@@ -1980,7 +2000,7 @@
      "summary": "In FreedomBox before 26.15, unprivileged user accounts can read/write files for which they lack permissions by setting the authorized_keys file to be a symlink. NOTE: FreedomBox is a Debian Pure Blend, which means that it distributes its software through…",
      "new": false,
      "epss": 0.00204,
-     "percentile": 0.05887
+     "percentile": 0.05894
     },
     {
      "status": "cna",
@@ -1994,7 +2014,7 @@
      "summary": "On Debian, Ubuntu, and derivative Linux distributions, an on-path attacker who can manipulate the HTTP traffic (including a malicious mirror or proxy) between an APT client and an archive server triggered by a package install can trick the client into…",
      "new": false,
      "epss": 0.00697,
-     "percentile": 0.48515
+     "percentile": 0.48556
     }
    ],
    "cve_total": 4,
@@ -2047,13 +2067,12 @@
      "new": false
     },
     {
-     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
-     "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
-     "date": "2026-11-20T00:00:00Z",
-     "source": "CERT-FR",
-     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et…",
-     "reference": true,
-     "ref_kind": "cyber",
+     "title": "Automating bare metal infrastructure in FIPS-regulated environments with MAAS",
+     "url": "https://ubuntu.com//blog/automating-bare-metal-infrastructure-in-fips-regulated-environments-with-maas",
+     "date": "2026-11-18T22:26:26Z",
+     "source": "ubuntu.com",
+     "summary": "Organizations operating sensitive infrastructure, particularly in the government, defense, and financial services sectors, often face strict security and compliance requirements. These requirements extend beyond…",
+     "official": true,
      "new": false
     },
     {
@@ -2066,7 +2085,7 @@
      "new": false
     }
    ],
-   "news_count": 30,
+   "news_count": 29,
    "links": [
     {
      "label": "Site officiel",
@@ -2231,12 +2250,12 @@
        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZUnAwWVhKLV9LU1YxSFZhek50V0o5M2pLSV9lcEhWeFhqa0E4N3JlemlvMDFjdFR6Z2dDNDloUFc1a3VWMXkxbWMyQV9pTElZMEY0cWVIeFlsYTJDVGQ0cVYwbHNlaF9Hcmh2ay15N2Q?oc=5"
       },
       {
-       "source": "Rescana",
-       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN20ydmZJVktUS0YtNkNVdnRtX3JQaGNHRk03TUVmRUVFbnpMdk9ySElwLUFqTmlKWTBNUkI4cXBYUFZ6QnRWY3hqdXpFZVVhdUdXalU4dFRVRWdUdXd6Tlhud2wzbGIyeFNtYjE1RUN3SXdSdkxwdWtfSlhWaWNTV3RwdDRSRU5PQ2FiU25KaWptQQ?oc=5"
-      },
-      {
        "source": "Meteora Web",
        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTV9tTmVieXJmOXoyTkNRUmEzT3hVcFRFZ0tBSmg5MU0xaC1DN01rTDFmS2p1eVdNRVdybVRvV0dWQndvWnFwaEtMcUVneWh5aEotQmdabzYwT3p2b0pNZjBFUlRXRWUzdDkyZlpkQ3drR2JPbVlBY1k3RWJIMU5DV3lIenVTYWQtU3BkazhrRQ?oc=5"
+      },
+      {
+       "source": "Rescana",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN20ydmZJVktUS0YtNkNVdnRtX3JQaGNHRk03TUVmRUVFbnpMdk9ySElwLUFqTmlKWTBNUkI4cXBYUFZ6QnRWY3hqdXpFZVVhdUdXalU4dFRVRWdUdXd6Tlhud2wzbGIyeFNtYjE1RUN3SXdSdkxwdWtfSlhWaWNTV3RwdDRSRU5PQ2FiU25KaWptQQ?oc=5"
       },
       {
        "source": "NewsCord",
@@ -2460,8 +2479,8 @@
    "category": "Outils",
    "repo": "git-for-windows/git",
    "repo_meta": {
-    "stars": 9533,
-    "pushed": "2026-11-26T17:02:42Z",
+    "stars": 9534,
+    "pushed": "2026-11-27T16:14:48Z",
     "url": "https://github.com/git-for-windows/git",
     "description": "A fork of Git containing Windows-specific patches."
    },
@@ -2533,7 +2552,7 @@
      "summary": "Git for Windows is the Windows port of Git. From 2.44.0.windows.1 until 2.55.0.windows.3, the git-credential-wincred store operation in contrib/credential/wincred/git-credential-wincred.c uses _scwprintf() to size a formatted wide-character credential buffer…",
      "new": false,
      "epss": 0.00166,
-     "percentile": 0.03264
+     "percentile": 0.03269
     },
     {
      "status": "cna",
@@ -2547,7 +2566,7 @@
      "summary": "Git for Windows is the Windows port of Git. From 2.43.0.windows.1 until 2.55.0.windows.3, when a matching git:* credential exists in Windows Credential Manager and a git-credential-wincred erase input includes a password field, the operation in…",
      "new": false,
      "epss": 0.00166,
-     "percentile": 0.03264
+     "percentile": 0.0327
     }
    ],
    "cve_total": 2,
@@ -2719,7 +2738,7 @@
      "summary": "Null pointer dereference in Windows Hyper-V allows an authorized attacker to deny service locally.",
      "new": false,
      "epss": 0.0032,
-     "percentile": 0.17451
+     "percentile": 0.17482
     },
     {
      "status": "confirmed",
@@ -2733,7 +2752,7 @@
      "summary": "Improper certificate validation in Windows Hyper-V allows an authorized attacker to bypass a security feature locally.",
      "new": false,
      "epss": 0.0033,
-     "percentile": 0.18646
+     "percentile": 0.18675
     },
     {
      "status": "confirmed",
@@ -2747,7 +2766,7 @@
      "summary": "Use after free in Windows Hyper-V allows an unauthorized attacker to deny service over a network.",
      "new": false,
      "epss": 0.00855,
-     "percentile": 0.55823
+     "percentile": 0.55861
     },
     {
      "status": "cna",
@@ -2761,7 +2780,7 @@
      "summary": "Improper access control in Windows Hyper-V allows an authorized attacker to perform spoofing locally.",
      "new": false,
      "epss": 0.00305,
-     "percentile": 0.15618
+     "percentile": 0.15649
     },
     {
      "status": "cna",
@@ -2775,7 +2794,7 @@
      "summary": "Use of uninitialized resource in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
      "new": false,
      "epss": 0.00282,
-     "percentile": 0.13293
+     "percentile": 0.13305
     }
    ],
    "cve_total": 16,
@@ -2817,7 +2836,7 @@
      "summary": "Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this…",
      "new": false,
      "epss": 0.03272,
-     "percentile": 0.89178
+     "percentile": 0.8919
     }
    ],
    "cve_total": 1,
@@ -2839,6 +2858,15 @@
    "releases": [],
    "news": [
     {
+     "title": "Why VPN Protocols Behave Differently: WireGuard, OpenVPN, IKEv2 and the Rest",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmVFU0ZESndJQTFTYU43N3o5LUtybjJKSE8zdFQyQ0pleHd1RkVpRGR0YTZ3S0lYLXFaSVBwc00wRDNvOXZySDMzN0ZmcWdiNjZucDRIeTBWdGRWbG1Oa29tRGFzNHdnWVhUVncwN2w0bFVZbUlVMl9ycnBPeXpHOHZ6cVFRVU5KVE1oX0tZeEE5SmZqQ0RVZ1JIRzVMWUMzcVFrTUpZQ01DYU1ad3lHdXhB?oc=5",
+     "date": "2026-11-23T06:19:55Z",
+     "source": "Technology Org",
+     "summary": "",
+     "lang": "en",
+     "new": false
+    },
+    {
      "title": "Nylon - The WireGuard VPN that finds its own way",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaGoxRlBuT2pnSkR2Z212elZnZmNNc0Z3MHczZU5NQkNPOXIyZEE0SGgzN2hMOVRSZ21yWlpkNXppWDF1VFExbjRSdGxjdFhrVEN2UDZ5eWtQY1pIVUxMbWVDTjA3bGNyYlpoMUphMWxqTGM?oc=5",
      "date": "2026-11-10T08:00:00Z",
@@ -2848,7 +2876,7 @@
      "new": false
     }
    ],
-   "news_count": 1,
+   "news_count": 2,
    "links": [
     {
      "label": "Site officiel",
@@ -2869,7 +2897,7 @@
      "summary": "A vulnerability was detected in smartalock wireguard-lwip up to cfba91666590e86bd67842c71cedf9a423be823a. This affects the function wireguard_generate_unique_index of the file src/wireguard.c of the component Session Index Allocator. The manipulation of the…",
      "new": false,
      "epss": 0.00168,
-     "percentile": 0.03445
+     "percentile": 0.03451
     },
     {
      "status": "cna",
@@ -2883,7 +2911,7 @@
      "summary": "A vulnerability was determined in smartalock wireguard-lwip up to cfba91666590e86bd67842c71cedf9a423be823a. Impacted is the function mul of the file src/crypto/refc/x25519.c of the component X25519 Ladder. Executing a manipulation can lead to out-of-bounds…",
      "new": false,
      "epss": 0.00841,
-     "percentile": 0.55236
+     "percentile": 0.55274
     },
     {
      "status": "cna",
@@ -2897,7 +2925,7 @@
      "summary": "wireguard_webadmin before 0.9981 contains a missing authorization vulnerability in scheduler/views.py that allows low-privilege authenticated users to manage peer schedules without Peer Manager level. View Only or Debugging Analyst users can create, modify,…",
      "new": false,
      "epss": 0.00413,
-     "percentile": 0.27188
+     "percentile": 0.27213
     }
    ],
    "cve_total": 3,
@@ -2916,7 +2944,7 @@
    "category": "Réseau & sécurité",
    "repo": "wg-easy/wg-easy",
    "repo_meta": {
-    "stars": 27595,
+    "stars": 27601,
     "pushed": "2026-11-27T07:04:46Z",
     "url": "https://github.com/wg-easy/wg-easy",
     "description": "The easiest way to run WireGuard VPN + Web-based Admin UI."
@@ -2971,7 +2999,7 @@
    "repo": "pi-hole/docker-pi-hole",
    "repo_meta": {
     "stars": 11815,
-    "pushed": "2026-11-14T14:36:00Z",
+    "pushed": "2026-11-27T15:42:45Z",
     "url": "https://github.com/pi-hole/docker-pi-hole",
     "description": "The official Pi-hole Docker image from pi-hole.net"
    },
@@ -3043,7 +3071,7 @@
      "summary": "Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side software. Prior to 6.5, advanced/Scripts/utils.sh getFTLPID() attempts to validate the pihole-owned /run/pihole-FTL.pid file with expr \"${FTL_PID}\" :…",
      "new": false,
      "epss": 0.00221,
-     "percentile": 0.07477
+     "percentile": 0.07481
     },
     {
      "status": "cna",
@@ -3057,7 +3085,7 @@
      "summary": "Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side software. From 6.4.2 until 6.5, the root-run advanced/Scripts/updatecheck.sh cron job applies truncate -s 0 and chmod 644 to /etc/pihole/versions while…",
      "new": false,
      "epss": 0.00181,
-     "percentile": 0.04519
+     "percentile": 0.04518
     },
     {
      "status": "cna",
@@ -3071,7 +3099,7 @@
      "summary": "Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side software. Prior to 6.5, gravity.sh checks file:// adlist readability with sudo -u pihole test -r but then allows curl, sometimes running as root, to…",
      "new": false,
      "epss": 0.00415,
-     "percentile": 0.27415
+     "percentile": 0.27447
     }
    ],
    "cve_total": 3,
@@ -3090,7 +3118,7 @@
    "category": "Réseau & sécurité",
    "repo": "juanfont/headscale",
    "repo_meta": {
-    "stars": 46151,
+    "stars": 46164,
     "pushed": "2026-11-27T13:46:34Z",
     "url": "https://github.com/juanfont/headscale",
     "description": "An open source, self-hosted implementation of the Tailscale control server"
@@ -3144,8 +3172,8 @@
    "category": "Réseau & sécurité",
    "repo": "tailscale/tailscale",
    "repo_meta": {
-    "stars": 39715,
-    "pushed": "2026-11-26T21:10:08Z",
+    "stars": 39729,
+    "pushed": "2026-11-27T18:18:54Z",
     "url": "https://github.com/tailscale/tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA."
    },
@@ -3308,7 +3336,7 @@
      "summary": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.22. Easily exploitable vulnerability allows unauthenticated attacker with access to the physical communication segment…",
      "new": false,
      "epss": 0.00242,
-     "percentile": 0.09288
+     "percentile": 0.09305
     },
     {
      "status": "cna",
@@ -3322,7 +3350,7 @@
      "summary": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.22. Easily exploitable vulnerability allows unauthenticated attacker with network access via RDP to compromise Oracle…",
      "new": false,
      "epss": 0.0046,
-     "percentile": 0.3187
+     "percentile": 0.31856
     },
     {
      "status": "cna",
@@ -3336,7 +3364,7 @@
      "summary": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.22. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM…",
      "new": false,
      "epss": 0.00142,
-     "percentile": 0.01771
+     "percentile": 0.01773
     },
     {
      "status": "cna",
@@ -3350,7 +3378,7 @@
      "summary": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.22. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM…",
      "new": false,
      "epss": 0.00161,
-     "percentile": 0.02829
+     "percentile": 0.02835
     },
     {
      "status": "cna",
@@ -3364,7 +3392,7 @@
      "summary": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.22. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM…",
      "new": false,
      "epss": 0.00148,
-     "percentile": 0.02035
+     "percentile": 0.0204
     }
    ],
    "cve_total": 11,
@@ -3384,7 +3412,7 @@
    "repo": "brave/brave-browser",
    "repo_meta": {
     "stars": 24331,
-    "pushed": "2026-11-27T12:33:58Z",
+    "pushed": "2026-11-27T16:03:56Z",
     "url": "https://github.com/brave/brave-browser",
     "description": "Brave browser for Android, iOS, Linux, macOS, Windows."
    },
@@ -3480,7 +3508,7 @@
    "repo": "mullvad/mullvadvpn-app",
    "repo_meta": {
     "stars": 7823,
-    "pushed": "2026-11-27T13:51:08Z",
+    "pushed": "2026-11-27T18:41:38Z",
     "url": "https://github.com/mullvad/mullvadvpn-app",
     "description": "The Mullvad VPN client app for desktop and mobile"
    },
@@ -3562,7 +3590,7 @@
    "category": "Navigateurs & vie privée",
    "repo": "donutbrowser/donutbrowser",
    "repo_meta": {
-    "stars": 4405,
+    "stars": 4406,
     "pushed": "2026-11-22T21:14:19Z",
     "url": "https://github.com/donutbrowser/donutbrowser",
     "description": "The Most Private Anti-Detect Browser 🍩"
@@ -3605,49 +3633,6 @@
    "releases": [],
    "news": [
     {
-     "title": "SteamVR 2.19.4 : Valve chouchoute les joueurs Meta Quest et booste le streaming PC VR",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUV5SThJVmNHeUpCcnZMcHdNWWZ4VS0zZzNJS0dYRlRROGdBbThNU2c5eE00N0Z3WmVMMFVDZnVMbUFHX0hKeHFCVzVjVWR4RUlJVU5NSlFRM00yTkMtWUJCY1ZMdFBUNWpXSXlPZmEzc3QyVHZJVk1wdXUyVFIxX3cxZXVuSVc0bzdpUGZ1UmtZLU5keUdBRlE0TEg1OThwTkRxTWllcnZLT0ExZ2JXbGVBc0JTRWI1VUE?oc=5",
-     "date": "2026-11-27T11:06:48Z",
-     "source": "realite-virtuelle.com",
-     "summary": "",
-     "lang": "fr",
-     "also": [
-      {
-       "source": "realite-virtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0dzYXRoQno0MkNwMmxRR0xZNDAtMVJONHBRVjlPUERlRTZkUE5iNjMtUjRjRHlaT3UzWWlqMWRja0JleFdBTTFhOEZmbXNvWjRvNzNwQkMyRm4zSXRNbWZzQTNXdU9pSEtKelM2c2ZWeVFZZ1hZTWR5NFEtU2NRM1hpakRPNUpabnZqWFRzX1hBTjU1ejdlTUpDQnJYWGxEQ0VrRzJn?oc=5"
-      },
-      {
-       "source": "jeu.video",
-       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5"
-      },
-      {
-       "source": "RealiteVirtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qSHd4cWZlT0hJMm1ueXNsaUFzYUlscUN0azJKMjRjcG5rUWVMWlp2eFFKdWdvZHdoNEp1c3NhR0dWTEozT0Mxc2lpQjBpVVk3d2RBeEVDX3k3bWVF?oc=5"
-      },
-      {
-       "source": "games.gg",
-       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWIwRlJfa19jTUhSb1BvNEo0NzJBalp4bXNYM0twaVNBWTB3Z2pGZXhWTGQ1cjFLUGp0OUF2NWhobVd1em1jcDB6bmUwSTA2Q1NMUzdHQXcyZ2FrQkhLUHYydnZNczRQT3NqNmFzRnlUZHhWTWJ6eVNvTUs4SVFmbDUwM1lEdF9kXzRYSFdIQ3pEMDNfdkdaeHFFNF9mazluMVFBWA?oc=5"
-      },
-      {
-       "source": "realite-virtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU24wbWR3VTY4TjUzaDdIUG5iWVVTUUlPcENUSG96RmZLTjFxOTgzRjFvMkRoRmt1MTBHTUZhYjdtenVQRVFtVi1NRFFGeXhUYldVQV94VXNuM0V3VVBkSURZMXRNZXp0cUJaaF8xTjhKODMyX09sTEZ5dk85QlozazhGQVIxWGJWMVMyLXpJYU90eDNhRzNrOWVyZjZPVUJzbG1NSTdzS1pSMndOaWFkRWVPUGpVa0hCclNOczJyQi1Ha0E?oc=5"
-      },
-      {
-       "source": "pro-gamer.fr",
-       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYldKMkNaMkhUU2dRZ3NJVFpoSnhQMmctYmNDMzd0aGpEeXBKTHNhUDYzSTd0NUMwWkl2cC1SczE4RktDeW1XODQ3Q29kRHRfVEU2VzYwMGdvX2s4eEN1LWQteVhlb1RLM0tnWFAwdHRjOHk3M1NUamVKNkdYeEU5QmdOMEhDeXlNaFVEeHc2NEVhZko2dVE?oc=5"
-      },
-      {
-       "source": "NeoTeo",
-       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYk5tQnpMNGVKd2JKZTMydnlvZm5BYXNXX18xbW5uOVNMamo0WUI2cW52YWxIRzZsLWhhNlgxcUxFMUFRVFhPYkJRNWlNaDRNOTZ2UXYyMzhwdHhYbi1NNWtkV3BRNUNnUE9CaTE5eVJidUo2cFVCZFBYdi1ERkUyZjloUkVxZDhSTWc?oc=5"
-      },
-      {
-       "source": "RealiteVirtuelle.com",
-       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR3ZnbkNmNkhtc0ExYXFOMzcyRmw1TDFPQVhJSVV5dmN0Vm1GS0lkZ19hNG1Dc2ZZNGNsLWE4YTN5OWp2ckZJZUZsY25xY1cxM1lQZldDaW4yaENpSlNxcG5ZTUdGVnUyb2lpdXg1SEFKbWk3X29iY2VDbkRvWEJZdFItQzhJT1ByeG82TXJ1b0RUSmxtYnE4QnVzSlYzRVhlUFdwNzFUX1BsOUxOZXJ5UVFGY3ZUS1ZhTTBCc3lUTXFnbkttR3YxZw?oc=5"
-      }
-     ],
-     "new": true
-    },
-    {
      "title": "Steam Deck : SteamOS 3.9.7 corrige le rétroéclairage en bêta",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeENXN3NCZ2lTcTVqUEVGRzFpMkl1MUV1S25LeGY0Wnc0T3pwN0pPRDljcDQ0UFZwNmR6OUxEYWJCdm9EMk1Rc0kzVVg0TE1OYTBxejBaMUZUSVpPbWtIRkdRSQ?oc=5",
      "date": "2026-11-27T07:28:15Z",
@@ -3684,41 +3669,42 @@
      "new": false
     },
     {
-     "title": "Black Mesa : patch Anomalous Improvements et Steam Deck",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG9Lck1FRTd5anZPZHpsc0VuZFpsQlVHYmF4bXl2RlRhSlpycTg2emF0R19WX0phSURsd19WMkptSElxWGFfNE5MbkltVkIyZEhGa1BGRTF2RW9pY1l2dXFtM1RzQ1Jkc0FtSzduTTVOSTlnUHVQOGxWQmVha1hvU3U5R29JRnowMTNRWE41TmZJOHFDSWZCTmMwc055YWJRWFVv?oc=5",
-     "date": "2026-11-17T09:00:57Z",
-     "source": "pro-gamer.fr",
+     "title": "Steam Frame : la bêta améliore le streaming et ajoute un réglage de netteté",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51Z2hvQ3IyUkZRY1JGcHpPWGxrZkxZTmc5cWN5cTlxRGtTZDdPRVZjM3Q2VkR4SzUtTkxXb29BZXNEclZPMWxJal9UYi13ZFF0ZVFPUktGa1UtR1dsVExmdXV1UnB0UQ?oc=5",
+     "date": "2026-11-22T16:54:29Z",
+     "source": "jeu.video",
+     "summary": "",
+     "lang": "fr",
+     "new": false
+    },
+    {
+     "title": "Casques VR : cette mise à jour Steam Link rend vos jeux plus beaux que jamais",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0dzYXRoQno0MkNwMmxRR0xZNDAtMVJONHBRVjlPUERlRTZkUE5iNjMtUjRjRHlaT3UzWWlqMWRja0JleFdBTTFhOEZmbXNvWjRvNzNwQkMyRm4zSXRNbWZzQTNXdU9pSEtKelM2c2ZWeVFZZ1hZTWR5NFEtU2NRM1hpakRPNUpabnZqWFRzX1hBTjU1ejdlTUpDQnJYWGxEQ0VrRzJn?oc=5",
+     "date": "2026-11-06T08:00:00Z",
+     "source": "realite-virtuelle.com",
      "summary": "",
      "lang": "fr",
      "also": [
       {
-       "source": "NeoTeo",
-       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYlpUOG96OXZKSjJYRFZDZjBUMGRrUVhnT1pfbEZ0Sm9YQkk4cFlJYzFaeEZaVGNLWFNQWWp5dnR2UG90MmVid1lqdjA4UnI3d3dRaGdDZFc0R19ZNTdVc2phZ2hBZTY3QUNBREd3SUVLUXY0WUZTdGxsTDYyY1p0cl9nR0d2UGM?oc=5"
+       "source": "RealiteVirtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qSHd4cWZlT0hJMm1ueXNsaUFzYUlscUN0azJKMjRjcG5rUWVMWlp2eFFKdWdvZHdoNEp1c3NhR0dWTEozT0Mxc2lpQjBpVVk3d2RBeEVDX3k3bWVF?oc=5"
       },
       {
-       "source": "jeu.video",
-       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tbnhVbW5nc1oxWlNDandmeFdSai1Ib05xUktLSGttUE9uN2t0YWNTMXB4SFBxLXBLcTdmdm43eDVlQmNvN29HZVlNNmZUaEJVMl9UckpWZ0dBVzJjRkY5d1VRZEhUN3Qt?oc=5"
-      },
-      {
-       "source": "jeu.video",
-       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0taERzaWw2SE0yLTJKOFRXQk1SQWNUN0MtLS1GN2dOdXU0dWhMTXdldEloUVdLUXZzQkE0UjRaM3NhN25fRjRDVmVzNkRheHktRzJBMzFFTjJodmxhbkZHTHRXZw?oc=5"
-      },
-      {
-       "source": "games.gg",
-       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3lLYXp6TThMLVByeFNXeGs4NEx5NTYwbnliVmltWExUQjdHb05xTnJPRVAzdk0zVkJZNkpUd3JkVDVuQVR5OGcxcngwNnZDZ2hzY3NERzUxZTBkZEpReE1aZngzenU2Qm9DMEJxSnAzSDdpa0hIX2tfNjBEdE1QZ01NMXNZaWhlbms1Mk1INWVrVEVHUUlmeDFiOG1sRjRzN0w4LVlmVk5qdw?oc=5"
+       "source": "RealiteVirtuelle.com",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR3ZnbkNmNkhtc0ExYXFOMzcyRmw1TDFPQVhJSVV5dmN0Vm1GS0lkZ19hNG1Dc2ZZNGNsLWE4YTN5OWp2ckZJZUZsY25xY1cxM1lQZldDaW4yaENpSlNxcG5ZTUdGVnUyb2lpdXg1SEFKbWk3X29iY2VDbkRvWEJZdFItQzhJT1ByeG82TXJ1b0RUSmxtYnE4QnVzSlYzRVhlUFdwNzFUX1BsOUxOZXJ5UVFGY3ZUS1ZhTTBCc3lUTXFnbkttR3YxZw?oc=5"
       }
      ],
      "new": false
     }
    ],
-   "news_count": 14,
+   "news_count": 12,
    "links": [
     {
      "label": "Site officiel",
      "url": "https://store.steampowered.com/news/collection/steam"
     }
    ],
-   "new_count": 2,
+   "new_count": 1,
    "cves": [],
    "cve_total": 0,
    "cves_affecting": 0,
@@ -3794,7 +3780,7 @@
   "exploited": 4,
   "cves_critical": 18,
   "news": 72,
-  "new": 12,
+  "new": 11,
   "releases_week": 9
  },
  "history": {
@@ -4460,6 +4446,10 @@
   "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0VRR3BGYXJUQ3k1SnVDS1p1ZVoxYzVQY2NTb0Z2Q0hqaklHVnVCMWt0dXlTZ2lRVlBleVNMeENGX3B2cHdfS1ZfMTlXLWpPQWtEbVpVbTdoSXRrRkJ5RnBXOEgza1JsZTR4OFVqcHlobENYXy03YlpLU01EODlrZy1FNzJkUlROd0hQa1BpZi1TdTNsR2JxU3ZvX1dpd3dk?oc=5": "2026-11-27",
   "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzBMUXZOaDJuSURFNVk0RGdiamFOSU9kNVo5b1JoUFFtVF9TOU1pVWk4ZWxVYWgzQkNEUDg3VWF0ZG9NcWFSZXVQdkQ0N3pScmVIcTRlWlFtUk53RHJueFRuelAyMnVpelNORmNUc2lBMXhCVEJ6Y2hrNGhFRm1oMDYwMWl0TG9lSndUMm1HcGdsN0FuMUhkb3VSWURqaGRidXhsRXJmVk5zWXlCTUlkYVB1MHpYQllVdFhQOGwyaw?oc=5": "2026-11-27",
   "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UOEpiNnM2bUxUZzJDT3BzcGFtSGZRckowRmxSSVBUUnBZT2dlMUxPWjdpa25EYWpiNnZtWm56M0pnVVgwUjNqd1RSVWE4Y1dGSDN2WnBUbw?oc=5": "2026-11-27",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUV5SThJVmNHeUpCcnZMcHdNWWZ4VS0zZzNJS0dYRlRROGdBbThNU2c5eE00N0Z3WmVMMFVDZnVMbUFHX0hKeHFCVzVjVWR4RUlJVU5NSlFRM00yTkMtWUJCY1ZMdFBUNWpXSXlPZmEzc3QyVHZJVk1wdXUyVFIxX3cxZXVuSVc0bzdpUGZ1UmtZLU5keUdBRlE0TEg1OThwTkRxTWllcnZLT0ExZ2JXbGVBc0JTRWI1VUE?oc=5": "2026-11-27"
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUV5SThJVmNHeUpCcnZMcHdNWWZ4VS0zZzNJS0dYRlRROGdBbThNU2c5eE00N0Z3WmVMMFVDZnVMbUFHX0hKeHFCVzVjVWR4RUlJVU5NSlFRM00yTkMtWUJCY1ZMdFBUNWpXSXlPZmEzc3QyVHZJVk1wdXUyVFIxX3cxZXVuSVc0bzdpUGZ1UmtZLU5keUdBRlE0TEg1OThwTkRxTWllcnZLT0ExZ2JXbGVBc0JTRWI1VUE?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQV9RcWtVM0Q3ZUVjNXpFRUk0VGRuMjZodVFxMXRmNkppX1lZWll6RG85VUl3Um1KT3dYNmdWeW1NOF83QnRaT3p1SEZENGNpaF9tYVExcDNpVDRiUHFNcGk2MWV0YnM5WXprbUlILWw3S0s5cGs1d1NFOU5jUUxJbHh5SE44ZDB3a1VmX3UwMnVLMWNZdTdSYVRhbko2c1haWldWRWhOTQ?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaS1lTm5sM0d1R2czeFFmVkpLcGZoNFRjZkNTQmJSNUNUR2R2bUt2Vml1TGl6NHhEN3JuNUNLbkhtYzl2RU1pMWdSLXhnOTRERlFYdEhMdVJkM2JDdFZkTmdBME8wQ2diVFgtS1NGUzFLWWdPVm9vbmpsUGt5LURHLWhOdTQ1M3pnUVhCWFBwQ1FiT1h5eVE?oc=5": "2026-11-27",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYlp3ZVhreWNQOWROelNsUGM2WldnMGNURHo4c0JiY0dOV3djYkVPU0FQWXR3bWlMeGZqemdRbmpBUzBiYWhmMWdRY0duN1E1UHlQRnR2X3JSSDF1TXZQdFZOUHBxeGl2Ul82aWY2Y2g2WUZleEJwbzZjd2huOTEybmRfTFM0U1k2WXZB0gGLAUFVX3lxTE1iWndlWGt5Y1A5ZE56U2xQYzZaV2cwY1REejhzQmJjR05Xd2NiRU9TQVBZdHdtaUx4Zmp6Z1FuakFTMGJhaGYxZ1FjR243UTVQeVBGdHZfclJIMXVNdlB0Vk5QcHF4aXZSXzZpZjZjaDZZRmV4QnBvNmN3aG45MTJuZF9MUzRTWTZZdkE?oc=5": "2026-11-27",
+  "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/": "2026-11-27"
  }
 }
