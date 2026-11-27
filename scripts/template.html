@@ -105,6 +105,8 @@
   .sev.HIGH { background: var(--crit-soft); color: var(--crit); }
   .sev.MEDIUM { background: var(--warn-soft); color: var(--warn); }
   .sev.LOW, .sev.NA { background: var(--surface-2); color: var(--muted); }
+  .epss { font-size: 11px; font-weight: 600; color: var(--muted); background: var(--surface-2); padding: 1px 7px; border-radius: 5px; }
+  .epss.hot { color: var(--crit); background: var(--crit-soft); }
   .kev { font-size: 11px; font-weight: 700; color: var(--crit); }
   .cdesc { font-size: 13px; color: var(--muted); margin-top: 3px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .mine { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 13px; border: 1px dashed var(--border); border-radius: 10px; padding: 8px 12px; }
@@ -116,6 +118,7 @@
   .st-cve { color: var(--crit); font-weight: 600; }
   .tag-mine { font-size: 11px; font-weight: 700; color: #fff; background: var(--crit); padding: 1px 7px; border-radius: 5px; }
   .tag-pending { font-size: 11px; font-weight: 600; color: var(--muted); background: var(--surface-2); padding: 1px 7px; border-radius: 5px; }
+  .meta .also { cursor: help; text-decoration: underline dotted; }
   .meta .off.ref { color: var(--new); background: var(--new-soft); }
   .bar { display: grid; grid-template-columns: 110px 1fr 28px; align-items: center; gap: 8px; font-size: 13px; margin: 4px 0; }
   .bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -165,7 +168,7 @@
 </div>
 
 <main class="wrap">
-  <p class="note" id="note" hidden>CVE publiées sur les 30 derniers jours dans la base NVD (NIST), rattachées au produit par leurs identifiants CPE, ou à défaut par les données de l'éditeur publiées sur CVE.org. « À confirmer » = produit déduit de la description seulement. 5 plus récentes au maximum par technologie. « Exploitée » = présente au catalogue CISA KEV.</p>
+  <p class="note" id="note" hidden>CVE publiées sur les 30 derniers jours dans la base NVD (NIST), rattachées au produit par leurs identifiants CPE, ou à défaut par les données de l'éditeur publiées sur CVE.org. « À confirmer » = produit déduit de la description seulement. 5 plus récentes au maximum par technologie. « Exploitée » = présente au catalogue CISA KEV. EPSS = probabilité d'exploitation dans les 30 jours (FIRST), en rouge au-delà de 10 %.</p>
   <div class="grid" id="grid"></div>
   <div id="threats" hidden></div>
   <p class="none" id="none">Aucun résultat pour ce filtre.</p>
@@ -173,7 +176,7 @@
 
 <footer class="wrap">
   Généré automatiquement par la tâche planifiée <b>veille</b> à partir de <a href="technologies.csv">technologies.csv</a>.
-  Sources : GitHub Releases, kernel.org, flux officiels, Google News, IT-Connect, Korben, Cyberattaque.org, CERT-FR, RansomLook, NVD (NIST), CVE.org, endoflife.date.
+  Sources : GitHub Releases, kernel.org, flux officiels, Google News, IT-Connect, Korben, Cyberattaque.org, Zataz, CERT-FR, ransomware.live, RansomLook, CISA KEV, FIRST EPSS, NVD (NIST), CVE.org, endoflife.date.
 </footer>
 
 <script>
@@ -202,7 +205,7 @@ const DATA = /*__DATA__*/null;
     [st.new, "nouveautés depuis hier"],
     [st.releases_week, "versions cette semaine"],
     [st.news, "articles retenus"],
-    [st.cves ?? 0, "CVE récentes" + (st.cves_critical ? ` · ${st.cves_critical} élevées/critiques` : "")],
+    [st.cves ?? 0, "CVE récentes" + (st.cves_critical ? ` · ${st.cves_critical} élevées/critiques` : "") + (st.exploited ? ` · ${st.exploited} exploitées` : "")],
     ...(DATA.results.some((r) => r.installed) ? [[st.to_update ?? 0, "à mettre à jour" + (st.eol_ended ? ` · ${st.eol_ended} hors support` : "") + (st.cves_affecting ? ` · ${st.cves_affecting} CVE sur tes versions` : "")]] : []),
   ].map(([n, l]) => `<div class="stat"><b>${n}</b><small>${l}</small></div>`).join("");
 
@@ -231,19 +234,22 @@ const DATA = /*__DATA__*/null;
     const groups = T.groups || [], max = Math.max(1, ...groups.map((g) => g.count));
     const post = (p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">
         <div class="t">${esc(p.title)}</div>
-        <div class="meta">${p.france ? '<span class="tag-mine">France</span>' : ""}<span>groupe ${esc(p.group || "?")}</span>${p.date ? `<span>· ${esc(ago(p.date))}</span>` : ""}</div></a></li>`;
+        <div class="meta">${p.france ? '<span class="tag-mine">France</span>' : p.country ? `<span class="tag-pending">${esc(p.country)}</span>` : ""}<span>groupe ${esc(p.group || "?")}</span>${p.sector ? `<span>· ${esc(p.sector)}</span>` : ""}${p.date ? `<span>· ${esc(ago(p.date))}</span>` : ""}</div></a></li>`;
     const news = (n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
         <div class="t">${esc(n.title)}</div>
         <div class="meta"><span class="off">${esc(n.source)}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div></a></li>`;
     return `<div class="grid">
-      <article class="card"><div class="card-head"><div><h2>Cyberattaques et alertes</h2><div class="cat">Cyberattaque.org · CERT-FR</div></div></div>
+      <article class="card"><div class="card-head"><div><h2>Cyberattaques et alertes</h2><div class="cat">Cyberattaque.org · Zataz · CERT-FR</div></div></div>
         ${(T.news || []).length ? `<ul class="news">${T.news.map(news).join("")}</ul>` : '<p class="empty">Aucune alerte récente collectée.</p>'}</article>
-      <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · RansomLook</div></div>
+      ${(T.kev || []).length ? `<article class="card"><div class="card-head"><div><h2>Failles activement exploitées</h2><div class="cat">Derniers ajouts au catalogue CISA KEV</div></div></div>
+        <ul class="cves">${T.kev.map((k) => kevItem(k, true)).join("")}</ul>
+        <div class="links"><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">Catalogue KEV ↗</a></div></article>` : ""}
+      <article class="card"><div class="card-head"><div><h2>Rançongiciels</h2><div class="cat">Revendications publiées · ransomware.live · RansomLook</div></div>
         ${T.week_total != null ? `<span class="badge-cve" style="cursor:default">${T.week_total}${T.week_capped ? "+" : ""} sur 7 j</span>` : ""}</div>
         ${groups.length ? `<div><div class="label">Groupes les plus actifs (${T.week_capped ? T.sample + " dernières revendications" : "7 jours"})</div>${groups.map((g) => `<div class="bar"><span>${esc(g.name)}</span><i style="width:${Math.round(g.count / max * 100)}%"></i><b>${g.count}</b></div>`).join("")}</div>` : ""}
-        ${(T.france || []).length ? `<div><div class="label">Victimes françaises</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
-        <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">RansomLook indisponible lors du dernier passage.</p>'}</div>
-        <div class="links"><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
+        ${(T.france || []).length ? `<div><div class="label">Victimes françaises${(T.france_sectors || []).length ? " · " + T.france_sectors.map(([s, n]) => esc(s) + " (" + n + ")").join(", ") : ""}</div><ul class="news">${T.france.map(post).join("")}</ul></div>` : ""}
+        <div><div class="label">Dernières revendications</div>${(T.posts || []).length ? `<ul class="news">${T.posts.slice(0, 15).map(post).join("")}</ul>` : '<p class="empty">Sources indisponibles lors du dernier passage.</p>'}</div>
+        <div class="links"><a href="https://www.ransomware.live" target="_blank" rel="noopener">ransomware.live ↗</a><a href="https://www.ransomlook.io" target="_blank" rel="noopener">RansomLook ↗</a></div></article>
     </div>`;
   };
   $("grid").addEventListener("click", (e) => {
@@ -251,21 +257,37 @@ const DATA = /*__DATA__*/null;
     $("q").value = b.dataset.name; setView("cve"); window.scrollTo({ top: $("grid").offsetTop - 140, behavior: "smooth" });
   });
 
+  const pct = (x) => (x * 100 >= 10 ? Math.round(x * 100) : (x * 100).toFixed(x * 100 >= 1 ? 1 : 2)) + " %";
+  const alsoTag = (n) => {
+    const a = (n.also || []).filter((x, i, l) => x.source && l.findIndex((y) => y.source === x.source) === i && x.source !== n.source);
+    return a.length ? `<span>·</span><span class="also" title="Même info chez : ${esc(a.map((x) => x.source).join(", "))}">+${a.length} source${a.length > 1 ? "s" : ""}</span>` : "";
+  };
+  const epssTag = (c) => c.epss != null
+    ? `<span class="epss${c.epss >= 0.1 ? " hot" : ""}" title="EPSS (FIRST) : probabilité d'exploitation dans les 30 prochains jours${c.percentile != null ? " · plus risquée que " + Math.round(c.percentile * 100) + " % des CVE" : ""}">EPSS ${pct(c.epss)}</span>`
+    : "";
+  const kevItem = (k, showTech) => `<li><a href="${esc(k.url)}" target="_blank" rel="noopener">
+        <div class="cve-top"><span class="cid">${esc(k.id)}</span><span class="kev">● Exploitée</span>${epssTag(k)}
+          ${k.ransomware ? '<span class="tag-mine">Rançongiciels</span>' : ""}${showTech && k.tech ? `<span class="tag-pending">${esc(k.tech)}</span>` : ""}</div>
+        <div class="cdesc">${esc(k.name || "")}${k.summary ? " — " + esc(k.summary) : ""}</div>
+        <div class="meta"><span>${esc(k.vendor || "")} ${esc(k.product || "")}</span><span>· ajoutée au KEV ${esc(ago(k.added + "T00:00:00Z"))}</span>${k.due ? `<span>· correctif exigé avant le ${esc(new Date(k.due + "T00:00:00Z").toLocaleDateString("fr-FR"))}</span>` : ""}</div>
+      </a></li>`;
   const cveCard = (r) => `<article class="card">
       <div class="card-head"><div><h2>${esc(r.name)}</h2><div class="cat">${esc(r.category)}</div></div>
         <div class="head-badges">${r.cve_total > r.cves.length ? `<span class="badge-new" style="color:var(--muted);background:var(--surface-2)">${r.cve_total} sur 30 j</span>` : ""}</div></div>
       <ul class="cves">${r.cves.map((c) => `<li><a href="${esc(c.url)}" target="_blank" rel="noopener">
         <div class="cve-top"><span class="cid">${esc(c.id)}</span>
           <span class="sev ${esc(c.severity || "NA")}">${esc(SEV_FR[c.severity] || "Non notée")}${c.score != null ? " " + esc(c.score) : ""}</span>
-          ${c.exploited ? '<span class="kev">● Exploitée</span>' : ""}
+          ${c.exploited ? '<span class="kev">● Exploitée</span>' : ""}${epssTag(c)}
           ${c.affects ? `<span class="tag-mine">Ta version ${esc(r.effective_version || r.installed)}</span>` : ""}
           ${c.status === "pending" ? '<span class="tag-pending" title="Pas encore analysée par la NVD : produit déduit de la description">À confirmer</span>' : ""}</div>
         <div class="cdesc">${esc(c.summary)}</div>
         <div class="meta">${c.new ? '<span class="nw">Nouvelle</span>·' : ""}<span>publiée ${esc(ago(c.date))}</span></div>
       </a></li>`).join("")}</ul>
+      ${(r.kev || []).length ? `<div><div class="label">Exploitées récemment (CISA KEV, 90 j)</div><ul class="cves">${r.kev.map((k) => kevItem(k, false)).join("")}</ul></div>` : ""}
       ${r.cve_stale ? '<p class="empty">NVD indisponible lors du dernier passage : données de la veille précédente.</p>' : ""}
     </article>`;
-  const maxSev = (r) => Math.max(0, ...r.cves.map((c) => SEV_RANK[c.severity] || 0));
+  const maxSev = (r) => Math.max(0, ...r.cves.map((c) => (SEV_RANK[c.severity] || 0) + (c.exploited ? 5 : 0) + (c.epss || 0)),
+    ...(r.kev || []).map(() => 9));
   const lastCve = (r) => Math.max(0, ...r.cves.map((c) => c.date ? Date.parse(c.date) : 0));
 
   const cats = ["Toutes", ...[...new Set(DATA.results.map((r) => r.category))].sort((a, b) => a.localeCompare(b, "fr"))];
@@ -308,7 +330,7 @@ const DATA = /*__DATA__*/null;
     const news = r.news.length
       ? `<ul class="news">${r.news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">
            <div class="t">${esc(n.title)}</div>
-           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : n.reference ? '<span class="off ref">Référence</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}</div>
+           <div class="meta">${n.new ? '<span class="nw">Nouveau</span>·' : ""}${n.official ? '<span class="off">Officiel</span>' : n.reference ? '<span class="off ref">Référence</span>' : ""}<span>${esc(n.source || "")}</span>${n.date ? `<span>· ${esc(ago(n.date))}</span>` : ""}${alsoTag(n)}</div>
          </a></li>`).join("")}</ul>`
       : `<p class="empty">Pas d'actualité notable sur les 30 derniers jours.</p>`;
     const links = r.links.map((l) => l.url
@@ -339,7 +361,7 @@ const DATA = /*__DATA__*/null;
       ? r.name + " " + r.category + " " + r.cves.map((c) => c.id + " " + c.summary).join(" ")
       : r.name + " " + r.category + " " + r.news.map((n) => n.title).join(" ");
     let list = DATA.results.filter((r) => (cat === "Toutes" || r.category === cat) &&
-      (view !== "cve" || r.cves.length) && (!q || text(r).toLowerCase().includes(q)));
+      (view !== "cve" || r.cves.length || (r.kev || []).length) && (!q || text(r).toLowerCase().includes(q)));
     if (view === "cve") {
       list.sort(sort === "name" ? (a, b) => a.name.localeCompare(b.name, "fr")
         : sort === "new" ? (a, b) => maxSev(b) - maxSev(a) || lastCve(b) - lastCve(a)
